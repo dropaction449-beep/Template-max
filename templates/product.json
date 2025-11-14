@@ -12,14 +12,28 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
+        "liquid_4Atpnn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div style=\"text-align: left;\">\n  <span style=\"\n    display: inline-block;\n    padding: 3px 3px;\n    border: 1px solid #c4c4c4;\n    color: #8c8c8c;\n    font-size: 9px;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    margin-right: 3px;\nmargin-bottom:10px;\n  \">\n    ANTI-ÂGE\n  </span>\n\n  <span style=\"\n    display: inline-block;\n    padding: 3px 3px;\n    border: 1px solid #c4c4c4;\n    color: #8c8c8c;\n    font-size: 9px;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    margin-right: 3px;\n  \">\n    RIDES / RIDULES\n  </span>\n\n  <span style=\"\n    display: inline-block;\n    padding: 3px 3px;\n    border: 1px solid #c4c4c4;\n    color: #8c8c8c;\n    font-size: 9px;\n    text-transform: uppercase;\n    letter-spacing: 0.9px;\n  \">\n   KOREAN BEAUTY 🇰🇷\n  </span>\n</div>\n            </div></div>"
+          }
+        },
+        "liquid_AzFhkM": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_e4Wf7d\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div style=\"display: flex; align-items: center; margin-bottom: -15px; margin-top: -25px; justify-content: left;\">\n  <!-- Image des étoiles -->\n  <img src=\"https://cdn.shopify.com/s/files/1/0828/6457/0634/files/Untitled_design_19.png?v=1752572317\" alt=\"Rating Stars\" style=\"margin-right: 10px; max-width: 65px;\">\n\n  <!-- Texte de la note et des avis -->\n  <div style=\"font-size: 13px;\">\n    <span style=\"font-weight: bold;\"></span>\n    <span style=\"font-weight: regular;\"><b>4.8/5</b> - 34,231 avis vérifiés</span>\n  </div>\n</div>\n            </div></div>"
+          }
         },
         "title": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "h3"
+          }
+        },
+        "liquid_cgD8EP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_nb9UFF\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n  .product-features {\n   margin-bottom:20px;\n   margin-top: -15px;\n  }\n  .product-features__grid {\n    display: grid;\n    gap: 20px;\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n  .product-features__item {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n  }\n  .product-features__icon {\n    width: 16px;\n    height: 16px;\n    background-color: #000000;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-shrink: 0;\n  }\n  .product-features__icon svg {\n    width: 10px;\n    height: 10px;\n    fill: white;\n  }\n  .product-features__text {\n    color: #000000;\n    font-size: 12px;\n    font-weight: 400;\n    margin: 0;\n    white-space: nowrap;\n  }\n  /* Desktop: 4 colonnes sur une ligne */\n  @media (min-width: 769px) {\n    .product-features__grid {\n      grid-template-columns: repeat(4, 1fr);\n      text-align: center;\n    }\n    \n    .product-features__item {\n      justify-content: center;\n    }\n  }\n  /* Mobile: 2 colonnes, aligné à gauche */\n  @media (max-width: 768px) {\n    .product-features__grid {\n      grid-template-columns: repeat(2, 1fr);\n      gap: 15px;\n    }\n    \n    .product-features__item {\n      justify-content: flex-start;\n    }\n  }\n</style>\n<section class=\"product-features\">\n  <div class=\"product-features__grid\">\n    <div class=\"product-features__item\">\n      <div class=\"product-features__icon\">\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\"></path>\n        </svg>\n      </div>\n      <span class=\"product-features__text\">Hydratation Intense</span>\n    </div>\n    \n    <div class=\"product-features__item\">\n      <div class=\"product-features__icon\">\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\"></path>\n        </svg>\n      </div>\n      <span class=\"product-features__text\">+98% naturel</span>\n    </div>\n    \n    <div class=\"product-features__item\">\n      <div class=\"product-features__icon\">\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\"></path>\n        </svg>\n      </div>\n      <span class=\"product-features__text\">Rides &amp; Ridules</span>\n    </div>\n    \n    <div class=\"product-features__item\">\n      <div class=\"product-features__icon\">\n        <svg viewBox=\"0 0 24 24\">\n          <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\"></path>\n        </svg>\n      </div>\n      <span class=\"product-features__text\">Tâches Pigmentaires</span>\n    </div>\n  </div>\n</section>\n            </div></div>"
           }
         },
         "badges": {
@@ -82,8 +96,10 @@
         }
       },
       "block_order": [
-        "vendor",
+        "liquid_4Atpnn",
+        "liquid_AzFhkM",
         "title",
+        "liquid_cgD8EP",
         "badges",
         "price",
         "rating",
