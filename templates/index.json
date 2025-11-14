@@ -78,11 +78,51 @@
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
+        "remove_horizontal_spacing": true,
         "liquid": "<section id=\"shopify-section-template--23527923843338__press_qmAArq\" class=\"shopify-section shopify-section--press\"><style>\n  #shopify-section-template--23527923843338__press_qmAArq {\n    --section-background-hash: 000085030117076601710009907090000;\n  }\n\n  #shopify-section-template--23527923843338__press_qmAArq + * {\n    --previous-section-background-hash: 000085030117076601710009907090000;\n  }</style><style>\n    #shopify-section-template--23527923843338__press_qmAArq {\n      --press-items-border:  / ;\n      --press-max-width: 1000px;\n    }\n  </style><div class=\"section   section-full bg-custom text-custom\"  style=\"--background: 248 248 248; --text-color: 29 29 29;\">\n    <div class=\"section-stack\">\n      <div class=\"press\">\n        <press-carousel id=\"carousel-template--23527923843338__press_qmAArq\" class=\"press__list full-bleed text-center sm:unbleed\" role=\"region\"><div id=\"block-template--23527923843338__press_qmAArq-quote_B8UF3P\" class=\"press__list-item snap-center is-selected\" role=\"group\" aria-label=\"Elément 1 de 3\"><blockquote class=\"blockquote h3\" reveal-on-scroll=\"true\" style=\"opacity: 1; transform: translateY(0px);\">Tout internet pense que ces Masques au Collagène sont une alternative abordable au Botox. Et oui : comme par miracle, [la] peau paraît plus lisse. Plus rebondie. Plus serrée.</blockquote><div class=\"v-stack gap-2\"><div class=\"press__logo rounded\" style=\"\"><img src=\"//leaf-cosmetics.com/cdn/shop/files/elle_8f537aab-c668-429a-bc19-e409721dc3a0.svg?v=1720539424&amp;width=737\" alt=\"\" srcset=\"//leaf-cosmetics.com/cdn/shop/files/elle_8f537aab-c668-429a-bc19-e409721dc3a0.svg?v=1720539424&amp;width=100 100w, //leaf-cosmetics.com/cdn/shop/files/elle_8f537aab-c668-429a-bc19-e409721dc3a0.svg?v=1720539424&amp;width=200 200w\" width=\"737\" height=\"266\" loading=\"lazy\" style=\"--press-image-max-width: 100px\" class=\"press__image\" sizes=\"100px\"></div></div></div><div id=\"block-template--23527923843338__press_qmAArq-quote_8VfcM3\" class=\"press__list-item snap-center \" role=\"group\" aria-label=\"Elément 2 de 3\"><blockquote class=\"blockquote h3\" reveal-on-scroll=\"true\">Si vous avez déjà vu des plaques de rides, il y a de fortes chances que ce soit grâce aux incroyables vidéos avant et après de Leaf</blockquote><div class=\"v-stack gap-2\"><div class=\"press__logo rounded\" style=\"\"><img src=\"//leaf-cosmetics.com/cdn/shop/files/grazia_903e2915-484b-4095-8aa6-308e604c5f36.svg?v=1720539441&amp;width=215\" alt=\"\" srcset=\"//leaf-cosmetics.com/cdn/shop/files/grazia_903e2915-484b-4095-8aa6-308e604c5f36.svg?v=1720539441&amp;width=100 100w, //leaf-cosmetics.com/cdn/shop/files/grazia_903e2915-484b-4095-8aa6-308e604c5f36.svg?v=1720539441&amp;width=200 200w\" width=\"215\" height=\"68\" style=\"--press-image-max-width: 100px\" class=\"press__image\" sizes=\"100px\"></div></div></div><div id=\"block-template--23527923843338__press_qmAArq-quote_kF9mmg\" class=\"press__list-item snap-center \" role=\"group\" aria-label=\"Elément 3 de 3\"><blockquote class=\"blockquote h3\" reveal-on-scroll=\"true\">Les Internautes sont toujours à la recherche de moyens d'obtenir des résultats en cabinet avec des produits à domicile. Il est donc logique que le masque Leaf Cosmetics au Collagène soit devenu viral sur l'application.</blockquote><div class=\"v-stack gap-2\"><div class=\"press__logo rounded\" style=\"\"><img src=\"//leaf-cosmetics.com/cdn/shop/files/vogue_0d2782bd-1d73-47bd-89bd-334df51924d2.svg?v=1720539452&amp;width=375\" alt=\"\" srcset=\"//leaf-cosmetics.com/cdn/shop/files/vogue_0d2782bd-1d73-47bd-89bd-334df51924d2.svg?v=1720539452&amp;width=100 100w, //leaf-cosmetics.com/cdn/shop/files/vogue_0d2782bd-1d73-47bd-89bd-334df51924d2.svg?v=1720539452&amp;width=200 200w\" width=\"375\" height=\"79\" style=\"--press-image-max-width: 100px\" class=\"press__image\" sizes=\"100px\"></div></div></div></press-carousel><div class=\"press__controls\">\n            <button class=\"circle-button ring group\" is=\"prev-button\" aria-controls=\"carousel-template--23527923843338__press_qmAArq\">\n              <span class=\"sr-only\">Précédent</span>\n              <span class=\"animated-arrow animated-arrow--reverse\"></span>\n            </button>\n\n            <page-dots aria-controls=\"carousel-template--23527923843338__press_qmAArq\" class=\"page-dots\"><button type=\"button\" class=\"tap-area\" aria-current=\"true\">\n                  <span class=\"sr-only\">Aller à l'élément 1</span>\n                </button><button type=\"button\" class=\"tap-area\" aria-current=\"false\">\n                  <span class=\"sr-only\">Aller à l'élément 2</span>\n                </button><button type=\"button\" class=\"tap-area\" aria-current=\"false\">\n                  <span class=\"sr-only\">Aller à l'élément 3</span>\n                </button></page-dots>\n\n            <button class=\"circle-button ring group\" is=\"next-button\" aria-controls=\"carousel-template--23527923843338__press_qmAArq\">\n              <span class=\"sr-only\">Suivant</span>\n              <span class=\"animated-arrow\"></span>\n            </button>\n          </div></div>\n    </div>\n  </div></section>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "press": {
+      "type": "press",
+      "blocks": {
+        "16644243327ba53d2a-0": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Tout internet pense que ces Masques au Collagène sont une alternative abordable au Botox. Et oui : comme par miracle, [la] peau paraît plus lisse. Plus rebondie. Plus serrée.",
+            "show_rating": false,
+            "rating": 4
+          }
+        },
+        "16644243327ba53d2a-1": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Or share content about your promotion, offers...",
+            "show_rating": false,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "16644243327ba53d2a-0",
+        "16644243327ba53d2a-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     },
     "image-link-blocks": {
@@ -90,6 +130,7 @@
       "blocks": {
         "1664424046b00c932c-0": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "stretch_image": true,
             "link_text": "",
@@ -156,6 +197,7 @@
         "1664424046b00c932c-3",
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "block_size": "medium",
@@ -173,6 +215,7 @@
     },
     "scrolling-text": {
       "type": "scrolling-text",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "text": "Promotion text",
@@ -237,6 +280,7 @@
         "collection-2",
         "collection-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": false,
@@ -257,6 +301,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "",
         "products": [],
@@ -299,6 +344,7 @@
       "block_order": [
         "1664424181b38582d5-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -343,6 +389,7 @@
         "1664424230c4756b0e-1",
         "1664424230c4756b0e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -449,6 +496,7 @@
         "item-3",
         "29246d34-c6e0-4373-84f6-b15e57736a00"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
@@ -478,46 +526,6 @@
         "after_text_color": "#ffffff",
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#000000"
-      }
-    },
-    "press": {
-      "type": "press",
-      "blocks": {
-        "16644243327ba53d2a-0": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Share info about what your customers say about your products.",
-            "show_rating": false,
-            "rating": 4
-          }
-        },
-        "16644243327ba53d2a-1": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Or share content about your promotion, offers...",
-            "show_rating": false,
-            "rating": 4
-          }
-        }
-      },
-      "block_order": [
-        "16644243327ba53d2a-0",
-        "16644243327ba53d2a-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
       }
     },
     "hot-spots": {
@@ -785,6 +793,7 @@
     "custom_liquid_d7fepy",
     "custom_liquid_HzWdX8",
     "custom_liquid_xwaaJb",
+    "press",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
@@ -793,7 +802,6 @@
     "image-with-text-overlay",
     "media-grid",
     "before-after-image",
-    "press",
     "hot-spots",
     "multiple-images-with-text",
     "featured-product",
