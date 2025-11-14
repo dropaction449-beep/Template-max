@@ -78,9 +78,20 @@
           "disabled": true,
           "settings": {}
         },
+        "liquid_eH9Pc9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"moonbundleCustomLoader\"></div>"
+          }
+        },
+        "liquid_gfdgFj": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_yyb8Lw\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div class=\"custom-stock-container\">\n  <div class=\"custom-stock-bounce\">\n    <div class=\"custom-stock-circle\"></div>\n  </div>\n  <p class=\"custom-stock-text\">Plus que quelques boîtes en stock</p>\n</div>\n\n<style>\n  .custom-stock-container {\n    display: flex;\n    align-items: center;\n    margin-top: -10px;\nmargin-bottom:-10px;\n  }\n  \n  .custom-stock-bounce {\n    width: 50px;\n    height: auto;\n    margin-right: 10px;\n  }\n  \n  .custom-stock-circle {\n    width: 10px;\n    height: 10px;\n    background-color: #FF7F00;\n    border-radius: 50%;\n    animation: custom-stock-bounce 1s infinite alternate;\n  }\n  \n  @keyframes custom-stock-bounce {\n    0% {\n      transform: scale(1);\n    }\n    100% {\n      transform: scale(1.2);\n    }\n  }\n  \n  .custom-stock-text {\n    font-size: 14px;\n  }\n\n  /* Media Query pour les écrans de taille inférieure à 600px */\n  @media only screen and (max-width: 600px) {\n    .custom-stock-bounce {\n      width: 30px;\n      margin-right: 0px;\n    }\n    .custom-stock-text {\n      font-size: 12px;\n    }\n  }\n</style>\n            </div></div>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
@@ -88,12 +99,6 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
-          }
-        },
-        "liquid_gfdgFj": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_yyb8Lw\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div class=\"custom-stock-container\">\n  <div class=\"custom-stock-bounce\">\n    <div class=\"custom-stock-circle\"></div>\n  </div>\n  <p class=\"custom-stock-text\">Plus que quelques boîtes en stock</p>\n</div>\n\n<style>\n  .custom-stock-container {\n    display: flex;\n    align-items: center;\n    margin-top: -10px;\nmargin-bottom:-10px;\n  }\n  \n  .custom-stock-bounce {\n    width: 50px;\n    height: auto;\n    margin-right: 10px;\n  }\n  \n  .custom-stock-circle {\n    width: 10px;\n    height: 10px;\n    background-color: #FF7F00;\n    border-radius: 50%;\n    animation: custom-stock-bounce 1s infinite alternate;\n  }\n  \n  @keyframes custom-stock-bounce {\n    0% {\n      transform: scale(1);\n    }\n    100% {\n      transform: scale(1.2);\n    }\n  }\n  \n  .custom-stock-text {\n    font-size: 14px;\n  }\n\n  /* Media Query pour les écrans de taille inférieure à 600px */\n  @media only screen and (max-width: 600px) {\n    .custom-stock-bounce {\n      width: 30px;\n      margin-right: 0px;\n    }\n    .custom-stock-text {\n      font-size: 12px;\n    }\n  }\n</style>\n            </div></div>"
           }
         }
       },
@@ -109,8 +114,9 @@
         "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "liquid_gfdgFj"
+        "liquid_eH9Pc9",
+        "liquid_gfdgFj",
+        "buy_buttons"
       ],
       "settings": {
         "full_width": true,
