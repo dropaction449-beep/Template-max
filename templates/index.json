@@ -72,6 +72,41 @@
         "text_color": ""
       }
     },
+    "blog_posts_WiDcKG": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_BDNTAE": {
+          "type": "blog",
+          "settings": {
+            "blog": "infos",
+            "posts_count": 2,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_BDNTAE"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "LISEZ NOS ARTICLES",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "before-after-image": {
       "type": "before-after-image",
       "settings": {
@@ -793,6 +828,7 @@
     "custom_liquid_YaTHhc",
     "custom_liquid_d7fepy",
     "custom_liquid_HzWdX8",
+    "blog_posts_WiDcKG",
     "before-after-image",
     "press",
     "image-link-blocks",
