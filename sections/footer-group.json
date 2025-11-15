@@ -92,7 +92,7 @@
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "main-menu",
             "show_menu_title": true,
             "menu_title": ""
           }
@@ -100,15 +100,24 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "Korean Co",
+            "content": "<p>🇰🇷 <strong>Inspired by Korean Beauty Excellence, Crafted for Global Skin</strong></p><p>At <strong>Korean Co</strong>, we blend authentic Korean skincare rituals with modern, high-performance formulations.<br/><br/>Our products deliver visible hydration, anti-aging benefits, and the signature Korean <strong>“glass skin” glow</strong>.<br/><br/>Trusted by thousands of women worldwide.</p>",
             "enable_follow_on_shop": true
+          }
+        },
+        "links_kMBczw": {
+          "type": "links",
+          "settings": {
+            "menu": "customer-account-main-menu",
+            "show_menu_title": true,
+            "menu_title": ""
           }
         }
       },
       "block_order": [
         "links",
-        "text"
+        "text",
+        "links_kMBczw"
       ],
       "settings": {
         "show_social_media": true,

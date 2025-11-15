@@ -1,1 +1,80 @@
-{"sections":{"banner":{"type":"collection-banner","settings":{}},"main":{"type":"main-collection","settings":{}}},"order":["banner","main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "custom_html_9KMwjc": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<section id=\"shopify-section-template--23527923581194__rich_text_QCKGye\" class=\"shopify-section shopify-section--rich-text\"><style>\n  #shopify-section-template--23527923581194__rich_text_QCKGye {\n    --section-background-hash: 0;\n  }\n\n  #shopify-section-template--23527923581194__rich_text_QCKGye + * {\n    --previous-section-background-hash: 0;\n  }</style>\n<style>\n    #shopify-section-template--23527923581194__rich_text_QCKGye {\n      --rich-text-max-width: 650px\n    }\n  </style>\n\n  <div class=\"section   section-blends section-full\">\n<div class=\"rich-text justify-start \">\n      <div class=\"rich-text__wrapper\">\n        <div class=\"prose justify-items-start text-start\">\n<p class=\"h3 hyphenate\">BLACK NOVEMBER</p>\n<div>\n<p>Jusqu'à <strong>-66% de réduction </strong>sur tout le site ainsi que des<strong> cadeaux offerts.</strong></p>\n<p>Profitez de <strong>20% de réduction supplémentaire </strong>avec le code <strong>FLASH20</strong></p>\n<p><em>Attention : Offre a Durée Limitée &amp; dans la limite des stocks disponibles.</em></p>\n</div>\n</div>\n      </div>\n    </div>\n  </div></section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_DCbTXA": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<section id=\"shopify-section-template--23527923581194__custom_liquid_g8JC34\" class=\"shopify-section shopify-section--custom-liquid\"><style>\n  #shopify-section-template--23527923581194__custom_liquid_g8JC34 {\n    --section-background-hash: 0;\n  }\n\n  #shopify-section-template--23527923581194__custom_liquid_g8JC34 + * {\n    --previous-section-background-hash: 0;\n  }</style>\n<style>\n    #shopify-section-template--23527923581194__custom_liquid_g8JC34 {\n      \n      \n    }\n  </style>\n\n  <div class=\"section   section-blends section-full\">\n    <div style=\"display: flex; align-items: center; margin-bottom: -15px; margin-top: -15px; justify-content: left;\">\n  <!-- Image des étoiles -->\n  <img src=\"https://cdn.shopify.com/s/files/1/0828/6457/0634/files/Untitled_design_19.png?v=1752572317\" alt=\"Rating Stars\" style=\"margin-right: 10px; max-width: 65px;\">\n\n  <!-- Texte de la note et des avis -->\n  <div style=\"font-size: 13px;\">\n    <span style=\"font-weight: bold;\"></span>\n    <span style=\"font-weight: regular;\"><b>Noté 4,7/5</b> - 34,231 avis clients</span>\n  </div>\n</div>\n  </div>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "custom_html_9KMwjc",
+    "custom_html_DCbTXA",
+    "main"
+  ]
+}
