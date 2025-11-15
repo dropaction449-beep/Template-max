@@ -14,23 +14,9 @@
       "settings": {
         "content_width": "120ch"
       }
-    },
-    "custom_html_e93qJp": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "html": "<div class=\"shopify-policy__container\">\n  <div class=\"shopify-policy__title h1\">\n  </div>\n\n  <div class=\"shopify-policy__body\">\n    <div class=\"rte prose\">\n\n      <h2>Éditeur du site / Website Publisher</h2>\n      <p>\n        Ce site est édité par / This website is published by:<br>\n        <strong>KOREAN CO INTERNATIONAL LTD</strong><br>\n        45 Harbor View Plaza, Suite 210<br>\n        Belmore District, New Sealandia 48210 (adresse fictive)<br>\n        Numéro de téléphone / Phone: +44 20 3936 1742<br>\n        Email : <a rel=\"noopener\" class=\"decorated-link cursor-pointer\">contact@korean-co.com<span class=\"ms-0.5 inline-block align-middle leading-none\"></span></a><br>\n        Forme juridique / Legal form: International Limited Company<br>\n        Immatriculée dans la juridiction de New Sealandia International Trade Zone (fictif)\n      </p>\n\n      <h2>Hébergeur / Hosting Provider</h2>\n      <p>\n        <strong>ShopSphere Global Hosting</strong> (hébergeur fictif)<br>\n        128 Cloudline Avenue, Digital District<br>\n        Vancouver Bay, CA 90514<br>\n        Site web / Website: <a href=\"#\" class=\"decorated-link\" rel=\"noopener\">www.shopsphere-hosting.com<span class=\"ms-0.5 inline-block align-middle leading-none\"></span></a>\n      </p>\n\n      <h2>Propriété intellectuelle / Intellectual Property</h2>\n      <p>\n        Tous les éléments présents sur ce site (textes, images, vidéos, graphismes, logos, icônes, etc.) sont la propriété exclusive de KOREAN CO INTERNATIONAL LTD ou de ses partenaires licenciés.<br>\n        Toute reproduction ou utilisation sans autorisation écrite est strictement interdite.\n      </p>\n      <p>\n        All content on this site (text, images, videos, graphics, logos, icons, etc.) is the exclusive property of KOREAN CO INTERNATIONAL LTD or its licensed partners.<br>\n        Any reproduction or use without prior written consent is strictly prohibited.\n      </p>\n\n      <h2>Données personnelles / Personal Data</h2>\n      <p>\n        Les données collectées sont traitées conformément à notre \n        <a class=\"decorated-link cursor-pointer\" rel=\"noopener\">Politique de confidentialité<span class=\"ms-0.5 inline-block align-middle leading-none\"></span></a>.<br>\n        Chaque utilisateur dispose d’un droit d’accès, de rectification et de suppression de ses données.\n      </p>\n      <p>\n        Collected data is processed in accordance with our \n        <a class=\"decorated-link cursor-pointer\" rel=\"noopener\">Privacy Policy<span class=\"ms-0.5 inline-block align-middle leading-none\"></span></a>.<br>\n        Each user has the right to access, rectify, or delete their data.\n      </p>\n\n      <h2>Responsabilité / Liability</h2>\n      <p>\n        KOREAN CO INTERNATIONAL LTD ne peut être tenue responsable d’éventuelles erreurs ou interruptions du service. L'utilisation du site est sous la seule responsabilité de l'utilisateur.\n      </p>\n      <p>\n        KOREAN CO INTERNATIONAL LTD cannot be held liable for any errors or service interruptions. The use of the website is under the sole responsibility of the user.\n      </p>\n\n      <h2>Droit applicable / Governing Law</h2>\n      <p>\n        Les présentes mentions légales sont régies par la législation commerciale internationale en vigueur dans la New Sealandia International Trade Zone (fictif).<br>\n        This legal notice is governed by the international trade laws applicable in the New Sealandia International Trade Zone.\n      </p>\n\n    </div>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
-    "main",
-    "custom_html_e93qJp"
+    "main"
   ]
 }
