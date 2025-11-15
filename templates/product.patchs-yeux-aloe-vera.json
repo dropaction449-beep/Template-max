@@ -172,8 +172,36 @@
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
+        "remove_horizontal_spacing": false,
         "html": "<section id=\"shopify-section-template--25603814129930__rich_text_CQjXyf\" class=\"shopify-section shopify-section--rich-text\"><style>\n  #shopify-section-template--25603814129930__rich_text_CQjXyf {\n    --section-background-hash: 0;\n  }\n\n  #shopify-section-template--25603814129930__rich_text_CQjXyf + * {\n    --previous-section-background-hash: 0;\n  }</style>\n<style>\n    #shopify-section-template--25603814129930__rich_text_CQjXyf {\n      --rich-text-max-width: 650px\n    }\n  </style>\n\n  <div class=\"section   section-blends section-full\">\n<div class=\"rich-text justify-start \">\n      <div class=\"rich-text__wrapper\">\n        <div class=\"prose justify-items-start text-start\">\n<p class=\"h2 hyphenate\">Pourquoi ces patchs sont différents</p>\n<div style=\"margin-block-start: 0\"><img src=\"//leaf-cosmetics.com/cdn/shop/files/3_f95eeaae-ff36-4ea9-9d56-ed0e7df0ea42.png?v=1750929957&amp;width=1080\" alt=\"\" srcset=\"//leaf-cosmetics.com/cdn/shop/files/3_f95eeaae-ff36-4ea9-9d56-ed0e7df0ea42.png?v=1750929957&amp;width=200 200w, //leaf-cosmetics.com/cdn/shop/files/3_f95eeaae-ff36-4ea9-9d56-ed0e7df0ea42.png?v=1750929957&amp;width=300 300w, //leaf-cosmetics.com/cdn/shop/files/3_f95eeaae-ff36-4ea9-9d56-ed0e7df0ea42.png?v=1750929957&amp;width=400 400w, //leaf-cosmetics.com/cdn/shop/files/3_f95eeaae-ff36-4ea9-9d56-ed0e7df0ea42.png?v=1750929957&amp;width=500 500w, //leaf-cosmetics.com/cdn/shop/files/3_f95eeaae-ff36-4ea9-9d56-ed0e7df0ea42.png?v=1750929957&amp;width=600 600w, //leaf-cosmetics.com/cdn/shop/files/3_f95eeaae-ff36-4ea9-9d56-ed0e7df0ea42.png?v=1750929957&amp;width=800 800w, //leaf-cosmetics.com/cdn/shop/files/3_f95eeaae-ff36-4ea9-9d56-ed0e7df0ea42.png?v=1750929957&amp;width=1000 1000w\" width=\"1080\" height=\"1080\" loading=\"lazy\" sizes=\"min(100vw, var(--page-width))\" style=\"\"></div>\n<div><p>Contrairement aux patchs classiques, notre formule à base de collagène à bas poids moléculaire pénètre en profondeur pour lisser les ridules et décongestionner le regard en un temps record. À utiliser au réveil ou avant une soirée pour un effet \"yeux neufs\" instantané.</p></div>\n</div>\n      </div>\n    </div>\n  </div></section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_CwEkeM": {
+      "type": "rich-text",
+      "blocks": {
+        "button_eFjUdi": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "JE SOUHAITE EN ACHETER",
+            "url": "shopify://products/patchs-yeux-aloe-vera-collagene",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_eFjUdi"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -197,6 +225,7 @@
     "main",
     "custom_liquid_3cYXhQ",
     "custom_html_QjMJJP",
+    "rich_text_CwEkeM",
     "custom_html_7cFR3p"
   ]
 }
