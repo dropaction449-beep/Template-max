@@ -108,7 +108,7 @@
         "links_kMBczw": {
           "type": "links",
           "settings": {
-            "menu": "customer-account-main-menu",
+            "menu": "nos-politiques",
             "show_menu_title": true,
             "menu_title": ""
           }
