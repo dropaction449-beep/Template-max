@@ -226,6 +226,36 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "featured_collection_JfiWG6": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "masque-bio-collagene",
+          "patchs-yeux-aloe-vera-collagene",
+          "instant-face-lift"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -233,6 +263,7 @@
     "custom_liquid_HHh89t",
     "custom_liquid_nh4rTF",
     "custom_liquid_WfHGkk",
-    "custom_liquid_dbLVaF"
+    "custom_liquid_dbLVaF",
+    "featured_collection_JfiWG6"
   ]
 }
