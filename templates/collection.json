@@ -48,7 +48,7 @@
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
         "html": "<section id=\"shopify-section-template--23527923581194__custom_liquid_g8JC34\" class=\"shopify-section shopify-section--custom-liquid\"><style>\n  #shopify-section-template--23527923581194__custom_liquid_g8JC34 {\n    --section-background-hash: 0;\n  }\n\n  #shopify-section-template--23527923581194__custom_liquid_g8JC34 + * {\n    --previous-section-background-hash: 0;\n  }</style>\n<style>\n    #shopify-section-template--23527923581194__custom_liquid_g8JC34 {\n      \n      \n    }\n  </style>\n\n  <div class=\"section   section-blends section-full\">\n    <div style=\"display: flex; align-items: center; margin-bottom: -15px; margin-top: -15px; justify-content: left;\">\n  <!-- Image des étoiles -->\n  <img src=\"https://cdn.shopify.com/s/files/1/0828/6457/0634/files/Untitled_design_19.png?v=1752572317\" alt=\"Rating Stars\" style=\"margin-right: 10px; max-width: 65px;\">\n\n  <!-- Texte de la note et des avis -->\n  <div style=\"font-size: 13px;\">\n    <span style=\"font-weight: bold;\"></span>\n    <span style=\"font-weight: regular;\"><b>Noté 4,7/5</b> - 34,231 avis clients</span>\n  </div>\n</div>\n  </div>\n</section>",
         "background": "",
