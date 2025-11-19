@@ -209,6 +209,16 @@
         "text_color": ""
       }
     },
+    "video_qFawMP": {
+      "type": "video",
+      "name": "Video Slider",
+      "settings": {
+        "heading": "ELLES L'ADORENT",
+        "video_1": "shopify://files/videos/cb2237915add4f359c99b1beefbd25a1.HD-1080p-7.2Mbps-51136975.mp4",
+        "video_2": "shopify://files/videos/bf1b0014085e433ab60511097520156f.HD-1080p-7.2Mbps-51136908.mp4",
+        "video_3": "shopify://files/videos/5fa61f2d966e4ce58b4bbb48be85cbb6.HD-1080p-3.3Mbps-57909367_46d168e6-7e4f-4037-83ee-ea9f429e4ff9.mp4"
+      }
+    },
     "custom_html_QjMJJP": {
       "type": "custom-html",
       "name": "Custom HTML",
@@ -344,6 +354,7 @@
   "order": [
     "main",
     "custom_liquid_3cYXhQ",
+    "video_qFawMP",
     "custom_html_QjMJJP",
     "custom_html_7cFR3p",
     "custom_html_qrVMB8",
