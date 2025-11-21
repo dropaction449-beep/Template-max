@@ -58,7 +58,7 @@
         "liquid_tEiaHi": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div style=\"display: flex; align-items: center; margin-bottom: -15px; margin-top: -15px; justify-content: left;\">\n\n  <!-- Texte de la note et des avis -->\n  <div style=\"font-size: 13px;\">\n    <span style=\"font-weight: bold;\"></span>\n    <span style=\"font-weight: regular;\">🇫🇷   Marque française – Livraison rapide</span>\n  </div>\n</div>\n            </div></div>"
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div style=\"display: flex; align-items: center; margin-bottom: -15px; margin-top: -15px; justify-content: left;\">\n\n  <!-- Texte de la note et des avis -->\n  <div style=\"font-size: 13px;\">\n    <span style=\"font-weight: bold;\"></span>\n    <span style=\"font-weight: regular;\">🇫🇷   Marque française – Livraison rapide <br> +34 000 clientes satisfaites </span>\n  </div>\n</div>\n            </div></div>"
           }
         },
         "badges": {
@@ -122,6 +122,12 @@
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_yyb8Lw\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div class=\"custom-stock-container\">\n  <div class=\"custom-stock-bounce\">\n    <div class=\"custom-stock-circle\"></div>\n  </div>\n  <p class=\"custom-stock-text\">Plus que quelques boîtes en stock</p>\n</div>\n\n<style>\n  .custom-stock-container {\n    display: flex;\n    align-items: center;\n    margin-top: -10px;\nmargin-bottom:-10px;\n  }\n  \n  .custom-stock-bounce {\n    width: 50px;\n    height: auto;\n    margin-right: 10px;\n  }\n  \n  .custom-stock-circle {\n    width: 10px;\n    height: 10px;\n    background-color: #FF7F00;\n    border-radius: 50%;\n    animation: custom-stock-bounce 1s infinite alternate;\n  }\n  \n  @keyframes custom-stock-bounce {\n    0% {\n      transform: scale(1);\n    }\n    100% {\n      transform: scale(1.2);\n    }\n  }\n  \n  .custom-stock-text {\n    font-size: 14px;\n  }\n\n  /* Media Query pour les écrans de taille inférieure à 600px */\n  @media only screen and (max-width: 600px) {\n    .custom-stock-bounce {\n      width: 30px;\n      margin-right: 0px;\n    }\n    .custom-stock-text {\n      font-size: 12px;\n    }\n  }\n</style>\n            </div></div>"
+          }
+        },
+        "liquid_7UCdFX": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Product Badges</title>\n    <style>\n        .badge-container {\n            display: flex;\n            gap: 5px;\n        }\n\n        .badge {\n            display: flex;\n            align-items: center;\n            padding: 3px 7px;\n            border-radius: 12px;\n            font-size: 10px;\n            font-weight: bold;\n            color: #000; /* Siyah metin rengi */\n            background-color: rgba(0, 0, 0, 0.05); /* Çok açık siyah ton arka plan %5 transparan */\n        }\n\n        .badge img {\n            margin-right: 3px;\n            filter: brightness(0.5); /* Daha yumuşak siyah ikon rengi */\n        }\n    </style>\n</head>\n<body>\n    <div class=\"badge-container\">\n        <div class=\"badge\">\n            <img src=\"https://www.svgrepo.com/show/474295/plane.svg\" alt=\"Fast Shipping\" width=\"12\" height=\"12\">\n            Fast Shipping\n        </div>\n        <div class=\"badge\">\n            <img src=\"https://www.svgrepo.com/show/486865/support.svg\" alt=\"24/7 Support\" width=\"12\" height=\"12\">\n            24/7 Support\n        </div>\n        <div class=\"badge\">\n            <img src=\"https://www.svgrepo.com/show/457232/return.svg\" alt=\"30 Days Return\" width=\"12\" height=\"12\">\n            30 Days Return\n        </div>\n    </div>\n</body>\n</html>"
           }
         },
         "buy_buttons": {
@@ -222,6 +228,7 @@
         "quantity_selector",
         "liquid_eH9Pc9",
         "liquid_gfdgFj",
+        "liquid_7UCdFX",
         "buy_buttons",
         "liquid_bdRg8E",
         "liquid_xQ4fz8",
