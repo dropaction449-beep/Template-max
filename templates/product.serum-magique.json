@@ -40,7 +40,7 @@
         "liquid_PPKBYG": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div style=\"display: flex; align-items: center; margin-bottom: -15px; margin-top: -15px; justify-content: left;\">\n\n  <!-- Texte de la note et des avis -->\n  <div style=\"font-size: 13px;\">\n    <span style=\"font-weight: bold;\"></span>\n    <span style=\"font-weight: regular;\"><b>Effet lifting visible en 2 minutes pour lisser rides et cernes.</b> </span>\n  </div>\n</div>\n            </div></div>"
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div style=\"display: flex; align-items: center; margin-bottom: -15px; margin-top: -15px; justify-content: left;\">\n\n  <!-- Texte de la note et des avis -->\n  <div style=\"font-size: 13px;\">\n    <span style=\"font-weight: bold;\"></span>\n    <span style=\"font-weight: regular;\">Effet lifting visible en <b>2 minutes</b>  pour lisser rides et cernes.</span>\n  </div>\n</div>\n            </div></div>"
           }
         },
         "liquid_cgD8EP": {
