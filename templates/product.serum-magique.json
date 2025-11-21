@@ -58,7 +58,7 @@
         "liquid_tEiaHi": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div style=\"display: flex; align-items: center; margin-bottom: -15px; margin-top: -15px; justify-content: left;\">\n\n  <!-- Texte de la note et des avis -->\n  <div style=\"font-size: 13px;\">\n    <span style=\"font-weight: bold;\"></span>\n    <span style=\"font-weight: regular;\">🇫🇷   Marque française – Livraison rapide <br> +34 000 clientes satisfaites </span>\n  </div>\n</div>\n            </div></div>"
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div style=\"display: flex; align-items: center; margin-bottom: -15px; margin-top: -15px; justify-content: left;\">\n\n  <!-- Texte de la note et des avis -->\n  <div style=\"font-size: 13px;\">\n    <span style=\"font-weight: bold;\"></span>\n    <span style=\"font-weight: regular;\">✅ +34 000 clientes satisfaites | 🇫🇷 Livraison 5–8 jours</span>\n  </div>\n</div>\n            </div></div>"
           }
         },
         "badges": {
