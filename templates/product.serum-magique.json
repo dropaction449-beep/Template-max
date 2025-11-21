@@ -40,7 +40,7 @@
         "liquid_PPKBYG": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"loved-by-customers\">\n  <span>Effet lifting visible en 2 minutes pour lisser rides et cernes.</span>\n</div>\n\n<style>\n  .loved-by-customers {\n    background: linear-gradient(#dddddd, #d8d8d8);\n    color: #121212;\n    text-align: center;\n    padding: 6px;\n    margin-top: 20px; /* Adjust as needed */\n    border-radius: 20px; /* Adjust to desired pill shape */\n    width: 300px; /* Adjust width as needed */\n    margin-left: auto;\n    margin-right: auto;\n    font-size: 14px;\n    font-weight: \n  }\n</style>"
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_GnVqWa\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n  .limited-offer-banner {\n    background-color: #eaf7f2; /* fond noir */\n    color: #5f887a;            /* texte blanc */\n    padding: 18px 24px;\n    border-radius: 12px;\n    text-align: center;\n    max-width: 900px;\n    margin: 0 auto 20px auto;\n    font-size: 16px;\n    line-height: 1.4;\n  }\n\n  .limited-offer-banner b {\n    font-weight: 700;\n  }\n</style>\n\n<div class=\"limited-offer-banner\">\n  Effet lifting visible en <b> 2 minutes </b> pour lisser rides et cernes.\n</div>\n            </div></div>"
           }
         },
         "liquid_cgD8EP": {
