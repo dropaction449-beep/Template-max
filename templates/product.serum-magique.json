@@ -141,6 +141,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_mCxY4H": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<section id=\"shopify-section-template--24940377080074__custom_liquid_fHhgGg\" class=\"shopify-section shopify-section--custom-liquid\"><style>\n  #shopify-section-template--24940377080074__custom_liquid_fHhgGg {\n    --section-background-hash: 0;\n  }\n\n  #shopify-section-template--24940377080074__custom_liquid_fHhgGg + * {\n    --previous-section-background-hash: 0;\n  }</style><style>\n    #shopify-section-template--24940377080074__custom_liquid_fHhgGg {\n      --section-spacing-block: 0px;\n      --section-spacing-inline: 0px;\n    }\n  </style>\n\n  <div class=\"section   section-blends section-full\">\n    <style>\n  .product-badges {\n    background-color: #f8f8f8;\n    padding: 30px;\n    text-align: center;\n    line-height: 1.4;\nmargin-top:-20px;\nmargin-bottom:20px;\n  }\n\n  .product-badges__text {\n    font-size: 16px;\n    margin: 0;\n  }\n\n  .product-badges__intro {\n    color: #999999;\n    font-weight: 600;\n\n  }\n\n  .product-badges__features {\n    color: #000000;\n    font-weight: 700;\n  }\n\n  /* Desktop: texte en une ligne */\n  @media (min-width: 769px) {\n    .product-badges__text {\n      display: inline;\n    }\n    \n    .product-badges__intro::after {\n      content: \" \";\n    }\n  }\n\n  /* Mobile: texte sur 2 lignes avec retour naturel */\n  @media (max-width: 768px) {\n    .product-badges__text {\n      display: block;\n      text-align: left;\n    }\n    \n    .product-badges__intro {\n      display: inline;\n    }\n    \n    .product-badges__intro::after {\n      content: \" \";\n    }\n    \n    .product-badges__features {\n      display: inline;\n    }\n  }\n</style>\n\n<section class=\"product-badges\">\n  <p class=\"product-badges__text\">\n    <span class=\"product-badges__intro\">Korean Skin Care</span>\n    <span class=\"product-badges__features\">Vegan . Cruelty Free . Sans Parfum . Sans Allergènes</span>\n  </p>\n</section>\n  </div>\n</section>"
+          }
+        },
         "liquid_bdRg8E": {
           "type": "liquid",
           "settings": {
@@ -230,6 +236,7 @@
         "liquid_gfdgFj",
         "liquid_7UCdFX",
         "buy_buttons",
+        "liquid_mCxY4H",
         "liquid_bdRg8E",
         "liquid_xQ4fz8",
         "liquid_twT9Tc",
