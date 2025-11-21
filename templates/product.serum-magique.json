@@ -331,6 +331,11 @@
         "text_color": ""
       }
     },
+    "video_3igEC3": {
+      "type": "video",
+      "name": "Video Slider",
+      "settings": {}
+    },
     "custom_html_LdDiF8": {
       "type": "custom-html",
       "name": "Custom HTML",
@@ -354,6 +359,7 @@
     "custom_html_qrVMB8",
     "custom_html_LVJRrK",
     "custom_html_F3P8AX",
+    "video_3igEC3",
     "custom_html_LdDiF8"
   ]
 }
