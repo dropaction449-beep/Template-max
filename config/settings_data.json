@@ -26,7 +26,7 @@
     "dialog_background": "#ffffff",
     "primary_button_background": "#1a1a1a",
     "primary_button_text_color": "#ffffff",
-    "secondary_button_background": "#020202",
+    "secondary_button_background": "#1a1a1a",
     "secondary_button_text_color": "#ffffff",
     "product_card_text_color": "#1a1a1a",
     "product_on_sale_accent": "#000000",
