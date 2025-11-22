@@ -48,14 +48,9 @@
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [],
     "blocks": {
-      "7054877461618660028": {
-        "type": "shopify://apps/moon-bundles-upsell-free-gifts/blocks/app-embed/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
+      "9696655121035291526": {
+        "type": "shopify://apps/rapi/blocks/app-embed/99617c17-a32b-4e70-a883-7a155610d032",
         "disabled": false,
-        "settings": {}
-      },
-      "14458903502463230934": {
-        "type": "shopify://apps/moon-bundles-upsell-free-gifts/blocks/cart-drawer/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
-        "disabled": true,
         "settings": {}
       }
     }
