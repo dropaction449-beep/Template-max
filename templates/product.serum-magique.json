@@ -171,6 +171,110 @@
         "background_gradient": ""
       }
     },
+    "rich_text_8atdt6": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_GeafnP": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_c8rjaN": {
+          "type": "heading",
+          "settings": {
+            "text": "Résultat avant après",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ExQFGp": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_GeafnP",
+        "heading_c8rjaN",
+        "richtext_ExQFGp"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_jJNxT8": {
+      "type": "slideshow",
+      "blocks": {
+        "image_nghEPb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_e5a84725-2851-4a40-9ca7-0eda3cf770ed.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_cgXNbz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sanstitre_1500x1500px.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nghEPb",
+        "image_cgXNbz"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "custom_liquid_wAACwC": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -554,6 +658,8 @@
     "custom_liquid_KMDTCF",
     "rich_text_P94xUH",
     "slideshow_bEqtRk",
+    "rich_text_8atdt6",
+    "slideshow_jJNxT8",
     "custom_liquid_wAACwC",
     "custom_html_LVJRrK",
     "custom_html_F3P8AX",
