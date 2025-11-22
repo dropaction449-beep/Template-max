@@ -119,6 +119,7 @@
         "heading_GfCyAd",
         "richtext_DBwQ8b"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -157,6 +158,7 @@
       "block_order": [
         "image_WJPdJU"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -201,6 +203,7 @@
         "heading_c8rjaN",
         "richtext_ExQFGp"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -261,6 +264,7 @@
         "image_nghEPb",
         "image_cgXNbz"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -305,6 +309,7 @@
         "heading_d4BfDc",
         "richtext_KLCcFy"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -317,6 +322,7 @@
     },
     "custom_liquid_wAACwC": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -333,12 +339,14 @@
       "blocks": {
         "liquid_4Atpnn": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div style=\"text-align: left;\">\n  <span style=\"\n    display: inline-block;\n    padding: 3px 3px;\n    border: 1px solid #c4c4c4;\n    color: #8c8c8c;\n    font-size: 9px;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    margin-right: 3px;\nmargin-bottom:10px;\n  \">\n    ANTI-ÂGE INSTANTANÉ\n  </span>\n\n  <span style=\"\n    display: inline-block;\n    padding: 3px 3px;\n    border: 1px solid #c4c4c4;\n    color: #8c8c8c;\n    font-size: 9px;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    margin-right: 3px;\n  \">\n    RIDES / RIDULES\n  </span>\n\n  <span style=\"\n    display: inline-block;\n    padding: 3px 3px;\n    border: 1px solid #c4c4c4;\n    color: #8c8c8c;\n    font-size: 9px;\n    text-transform: uppercase;\n    letter-spacing: 0.9px;\n  \">\n   KOREAN BEAUTY 🇰🇷\n  </span>\n</div>\n            </div></div>"
           }
         },
         "liquid_w4LhVH": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div\n  style=\"\n    background-color:#ffffff;\n    border-bottom:1px solid #EAEAEA;\n    display:flex;\n    justify-content:space-between;\n    padding:12px 16px;\n    margin-top:-10px;\n    margin-left:-20px;\n    margin-right:-20px;\n  \"\n>\n  <!-- Colonne 1 -->\n  <div style=\"flex:1; text-align:center;\">\n    <div style=\"display:flex; flex-direction:column; align-items:center;\">\n      <img\n        src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/ChatGPT_Image_16_nov._2025_17_24_18.png?v=1763310268\"\n        alt=\"Lifting\"\n        style=\"width:52px; height:auto; margin-bottom:8px;\"\n      >\n      <p style=\"font-size:12px; line-height:1.25; color:#000; margin:0;\">\n        Effet liftant<br>immédiat\n      </p>\n    </div>\n  </div>\n\n  <!-- Colonne 2 -->\n  <div style=\"flex:1; text-align:center;\">\n    <div style=\"display:flex; flex-direction:column; align-items:center;\">\n      <img\n        src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/ChatGPT_Image_16_nov._2025_17_28_20.png?v=1763310512\"\n        alt=\"Anti-rides\"\n        style=\"width:52px; height:auto; margin-bottom:8px;\"\n      >\n      <p style=\"font-size:12px; line-height:1.25; color:#000; margin:0;\">\n        Réduit poches<br>& ridules\n      </p>\n    </div>\n  </div>\n\n  <!-- Colonne 3 -->\n  <div style=\"flex:1; text-align:center;\">\n    <div style=\"display:flex; flex-direction:column; align-items:center;\">\n      <img\n        src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/ChatGPT_Image_16_nov._2025_17_29_51.png?v=1763310603\"\n        alt=\"Korean skincare\"\n        style=\"width:52px; height:auto; margin-bottom:8px;\"\n      >\n      <p style=\"font-size:12px; line-height:1.25; color:#000; margin:0;\">\n        Inspiré des rituels<br>coréens\n      </p>\n    </div>\n  </div>\n</div>"
           }
@@ -352,6 +360,7 @@
         },
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h3"
           }
@@ -365,18 +374,21 @@
         },
         "liquid_cgD8EP": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": ""
           }
         },
         "liquid_P7gUrF": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n\n    <div class=\"korean-rating\">\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/0828/6457/0634/files/Untitled_design_19.png?v=1752572317\" \n        alt=\"Rating Stars\" \n        class=\"korean-rating-stars\"\n      >\n      <p class=\"korean-rating-text\">\n        <strong>Noté 4,8/5</strong> — 34 231 avis clients\n      </p>\n    </div>\n\n    <style>\n      /* Police globale */\n      .korean-rating,\n      .korean-rating * {\n        font-family: 'Bricolage Grotesque', sans-serif !important;\n      }\n\n      .korean-rating {\n        display: flex;\n        align-items: center;\n        gap: 8px;\n        margin: -12px 0 -12px 0;\n      }\n\n      .korean-rating-stars {\n        width: 70px;\n        height: auto;\n        display: block;\n      }\n\n      .korean-rating-text {\n        font-size: 13px;\n        margin: 0;\n        color: #000;\n      }\n\n      @media (max-width: 600px) {\n        .korean-rating-stars {\n          width: 60px;\n        }\n        .korean-rating-text {\n          font-size: 12.5px;\n        }\n      }\n    </style>\n\n  </div>\n</div>"
           }
         },
         "liquid_tEiaHi": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n\n    <div class=\"korean-topline\">\n      <p class=\"korean-topline-text\">\n        ✅ +34 000 clientes satisfaites&nbsp;|&nbsp; Livraison gratuite\n      </p>\n    </div>\n\n    <style>\n      .korean-topline,\n      .korean-topline * {\n        font-family: 'Bricolage Grotesque', sans-serif !important;\n      }\n\n      .korean-topline {\n        display: flex;\n        align-items: center;\n        margin: -12px 0 -12px 0;\n      }\n\n      .korean-topline-text {\n        font-size: 13px;\n        margin: 0;\n        color: #000;\n      }\n\n      @media (max-width: 600px) {\n        .korean-topline-text {\n          font-size: 12.5px;\n        }\n      }\n    </style>\n\n  </div>\n</div>"
           }
@@ -440,6 +452,7 @@
         },
         "liquid_gfdgFj": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_yyb8Lw\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n\n    <div class=\"custom-stock-container\">\n      <div class=\"custom-stock-bounce\">\n        <div class=\"custom-stock-circle\"></div>\n      </div>\n      <p class=\"custom-stock-text\">Attention ! Plus que 5 en stock</p>\n    </div>\n\n    <style>\n      /* Police globale */\n      .custom-stock-container,\n      .custom-stock-container * {\n        font-family: 'Bricolage Grotesque', sans-serif !important;\n      }\n\n      .custom-stock-container {\n        display: flex;\n        align-items: center;\n        gap: 8px;\n        margin-top: -8px;\n        margin-bottom: -8px;\n      }\n      \n      .custom-stock-bounce {\n        width: 20px;\n        display: flex;\n        justify-content: center;\n      }\n      \n      .custom-stock-circle {\n        width: 10px;\n        height: 10px;\n        background-color: #FF7F00;\n        border-radius: 50%;\n        animation: custom-stock-bounce 0.9s infinite alternate ease-in-out;\n      }\n      \n      @keyframes custom-stock-bounce {\n        0%   { transform: scale(1);   opacity: 1; }\n        100% { transform: scale(1.4); opacity: 0.75; }\n      }\n      \n      .custom-stock-text {\n        font-size: 14px;\n        margin: 0;\n        color: #000;\n      }\n\n      /* Mobile */\n      @media only screen and (max-width: 600px) {\n        .custom-stock-bounce {\n          width: 16px;\n        }\n        .custom-stock-circle {\n          width: 9px;\n          height: 9px;\n        }\n        .custom-stock-text {\n          font-size: 12.5px;\n        }\n      }\n    </style>\n\n  </div>\n</div>"
           }
@@ -453,6 +466,7 @@
         },
         "payment_terms": {
           "type": "payment_terms",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
@@ -468,18 +482,21 @@
         },
         "liquid_cmQENa": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Product Badges</title>\n    <style>\n        .badge-container {\n            display: flex;\n            gap: 5px;\n        }\n\n        .badge {\n            display: flex;\n            align-items: center;\n            padding: 3px 7px;\n            border-radius: 12px;\n            font-size: 10px;\n            font-weight: bold;\n            color: #000; /* Siyah metin rengi */\n            background-color: rgba(0, 0, 0, 0.05); /* Çok açık siyah ton arka plan %5 transparan */\n        }\n\n        .badge img {\n            margin-right: 3px;\n            filter: brightness(0.5); /* Daha yumuşak siyah ikon rengi */\n        }\n    </style>\n</head>\n<body>\n    <div class=\"badge-container\">\n        <div class=\"badge\">\n            <img src=\"https://www.svgrepo.com/show/474295/plane.svg\" alt=\"Fast Shipping\" width=\"12\" height=\"12\">\n            Livraison gratuite\n        </div>\n        <div class=\"badge\">\n            <img src=\"https://www.svgrepo.com/show/486865/support.svg\" alt=\"24/7 Support\" width=\"12\" height=\"12\">\n            Paiement sécurisé </div>\n        <div class=\"badge\">\n            <img src=\"https://www.svgrepo.com/show/457232/return.svg\" alt=\"30 Days Return\" width=\"12\" height=\"12\">\n            Retours/Garantie 30 jours\n        </div>\n    </div>\n</body>\n</html>"
           }
         },
         "liquid_bdRg8E": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_purchases\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n\n    <div class=\"korean-purchase-widget\">\n      <div class=\"korean-purchase-avatars\">\n        <img src=\"https://randomuser.me/api/portraits/women/3.jpg\" alt=\"Cliente 1\">\n        <img src=\"https://randomuser.me/api/portraits/women/2.jpg\" alt=\"Cliente 2\">\n        <img src=\"https://randomuser.me/api/portraits/women/10.jpg\" alt=\"Cliente 3\">\n      </div>\n      <p class=\"korean-purchase-text\">\n        Nathalie et <span id=\"purchase-count\">1840</span> personnes ont acheté aujourd'hui\n      </p>\n    </div>\n\n    <style>\n      .korean-purchase-widget,\n      .korean-purchase-widget * {\n        font-family: 'Bricolage Grotesque', sans-serif !important;\n      }\n\n      .korean-purchase-widget {\n        display: flex;\n        align-items: center;\n        gap: 10px;\n        margin: -6px 0 -6px 0;\n      }\n\n      .korean-purchase-avatars {\n        display: flex;\n        align-items: center;\n      }\n\n      .korean-purchase-avatars img {\n        width: 28px;\n        height: 28px;\n        border-radius: 50%;\n        border: 2px solid #fff;\n        margin-right: -8px;\n        box-shadow: 0 0 0 1px #ddd;\n      }\n\n      .korean-purchase-text {\n        margin: 0;\n        font-size: 13px;\n        color: #000;\n      }\n\n      #purchase-count {\n        font-weight: 700;\n      }\n\n      @media (max-width: 600px) {\n        .korean-purchase-widget {\n          gap: 8px;\n        }\n        .korean-purchase-avatars img {\n          width: 24px;\n          height: 24px;\n        }\n        .korean-purchase-text {\n          font-size: 12.5px;\n        }\n      }\n    </style>\n\n    <script>\n      (function() {\n        var purchaseCount = 1840;\n        var purchaseCountElement = document.getElementById(\"purchase-count\");\n        if (!purchaseCountElement) return;\n\n        function updatePurchaseCount() {\n          var incrementAmount = Math.floor(Math.random() * 3) + 1;\n          purchaseCount += incrementAmount;\n          purchaseCountElement.textContent = purchaseCount;\n\n          var nextUpdateDelay = Math.floor(Math.random() * 6000) + 2000;\n          setTimeout(updatePurchaseCount, nextUpdateDelay);\n        }\n\n        updatePurchaseCount();\n      })();\n    </script>\n\n  </div>\n</div>"
           }
         },
         "liquid_xQ4fz8": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_zUWCA7\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n    .secure-pay-image {\n        width: 100%;\n        margin-top: 15px;\n        margin-bottom: 30px;\n        display: block;\n        margin-left: auto;\n        margin-right: auto;\n    }\n</style>\n\n<img class=\"secure-pay-image media-download-handled\" src=\"https://getheyshape.com/cdn/shop/files/heyshape-payments.svg?v=1694631432&amp;width=350\" alt=\"Secure Pay Image\" data-media-download-modified=\"true\" data-original-position=\"static\" style=\"position: relative;\">\n            </div></div>"
           }
@@ -493,24 +510,28 @@
         },
         "liquid_pKMWXe": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_dkE6ht\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <div id=\"leaf-bf-card\">\n      <div class=\"leaf-bf-wrapper\" data-target-percent=\"89\" data-last-updated=\"Il y a 30 secondes.\" data-value-text=\"RECEVEZ 100€ DE CADEAUX\" data-title-text=\"Offre Spéciale Black Friday\" data-subtitle-text=\"Recevez jusqu'à 3 cadeaux avec votre commande\">\n\n        <div class=\"leaf-bf-value-chip\">\n          <span class=\"leaf-bf-value-text\">RECEVEZ 100€ DE CADEAUX</span>\n        </div>\n\n        <h2 class=\"leaf-bf-title\">Offre Spéciale Black Friday</h2>\n        <p class=\"leaf-bf-subtitle\">Recevez jusqu'à 4 cadeaux avec votre commande</p>\n\n        <p class=\"leaf-bf-percent\">\n          <span class=\"leaf-bf-percent-number\">89</span>% du stock déjà écoulé\n        </p>\n\n        <div class=\"leaf-bf-progress-container\">\n          <div class=\"leaf-bf-progress-bar\">\n            <div class=\"leaf-bf-progress-fill\" style=\"width: 89%;\"></div>\n          </div>\n        </div>\n\n        <p class=\"leaf-bf-updated\">\n          Dernière mise à jour: <span class=\"leaf-bf-updated-text\">Il y a 30 secondes.</span>\n        </p>\n      </div>\n    </div>\n\n    <style>\n      /* Police globale pour la carte */\n      #leaf-bf-card,\n      #leaf-bf-card * {\n        font-family: 'Bricolage Grotesque', sans-serif !important;\n      }\n\n      /* Conteneur global : pas de gros fond noir, juste centrage */\n      #leaf-bf-card {\n        width: 100%;\n        padding: 10px 0;\n      }\n\n      /* Carte */\n      #leaf-bf-card .leaf-bf-wrapper {\n        max-width: 900px;\n        margin: 0 auto;\n        text-align: center;\n        padding: 28px 16px 24px;\n        background: #262626;\n        color: #ffffff;\n      }\n\n      /* Chip */\n      #leaf-bf-card .leaf-bf-value-chip {\n        display: inline-flex;\n        align-items: center;\n        justify-content: center;\n        padding: 6px 20px;\n        border-radius: 999px;\n        background: #ffffff;\n        color: #111111;\n        font-size: 14px;\n        font-weight: 600;\n        margin-bottom: 16px;\n      }\n\n      #leaf-bf-card .leaf-bf-title {\n        margin: 0 0 8px;\n        font-size: 30px;\n        line-height: 1.2;\n        font-weight: 800;\n      }\n\n      #leaf-bf-card .leaf-bf-subtitle {\n        margin: 0 0 18px;\n        font-size: 15px;\n        line-height: 1.4;\n        color: #f5f5f5;\n      }\n\n      #leaf-bf-card .leaf-bf-percent {\n        margin: 0 0 10px;\n        font-size: 18px;\n        font-weight: 600;\n        color: #ff4d4d;\n      }\n\n      #leaf-bf-card .leaf-bf-progress-container {\n        width: 100%;\n        max-width: 720px;\n        margin: 0 auto 10px;\n      }\n\n      #leaf-bf-card .leaf-bf-progress-bar {\n        width: 100%;\n        height: 16px;\n        border-radius: 999px;\n        background: #505050;\n        overflow: hidden;\n      }\n\n      #leaf-bf-card .leaf-bf-progress-fill {\n        height: 100%;\n        width: 0;\n        border-radius: 999px;\n        background-image: repeating-linear-gradient(\n          to right,\n          #ffb3b3 0,\n          #ffb3b3 10px,\n          #ff8787 10px,\n          #ff8787 20px\n        );\n        position: relative;\n      }\n\n      #leaf-bf-card .leaf-bf-progress-fill::after {\n        content: \"\";\n        position: absolute;\n        inset: 0;\n        background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.25) 100%);\n        mix-blend-mode: multiply;\n      }\n\n      #leaf-bf-card .leaf-bf-updated {\n        margin: 0;\n        margin-top: 4px;\n        font-size: 12px;\n        color: #b3b3b3;\n      }\n\n      @media (max-width: 600px) {\n        #leaf-bf-card .leaf-bf-wrapper {\n          padding: 22px 12px 18px;\n        }\n        #leaf-bf-card .leaf-bf-title {\n          font-size: 24px;\n        }\n        #leaf-bf-card .leaf-bf-subtitle {\n          font-size: 14px;\n        }\n        #leaf-bf-card .leaf-bf-percent {\n          font-size: 16px;\n        }\n      }\n    </style>\n\n    <script>\n      (function() {\n        var wrapper = document.querySelector('#leaf-bf-card .leaf-bf-wrapper');\n        if (!wrapper) return;\n\n        var targetPercent = parseInt(wrapper.getAttribute('data-target-percent'), 10) || 0;\n        var valueText = wrapper.getAttribute('data-value-text') || '$115 VALUE';\n        var titleText = wrapper.getAttribute('data-title-text') || 'Black Friday Sale';\n        var subtitleText = wrapper.getAttribute('data-subtitle-text') || 'Get 4 Free Gifts When You Order Today';\n        var updatedText = wrapper.getAttribute('data-last-updated') || '';\n\n        wrapper.querySelector('.leaf-bf-value-text').textContent = valueText;\n        wrapper.querySelector('.leaf-bf-title').textContent = titleText;\n        wrapper.querySelector('.leaf-bf-subtitle').textContent = subtitleText;\n        wrapper.querySelector('.leaf-bf-updated-text').textContent = updatedText;\n\n        var percentEl = wrapper.querySelector('.leaf-bf-percent-number');\n        var fillEl = wrapper.querySelector('.leaf-bf-progress-fill');\n\n        var current = 0;\n        var duration = 1200;\n        var startTime = null;\n\n        function animate(timestamp) {\n          if (!startTime) startTime = timestamp;\n          var progress = Math.min((timestamp - startTime) / duration, 1);\n          var value = Math.floor(progress * targetPercent);\n\n          percentEl.textContent = value;\n          fillEl.style.width = value + '%';\n\n          if (progress < 1) {\n            window.requestAnimationFrame(animate);\n          } else {\n            percentEl.textContent = targetPercent;\n            fillEl.style.width = targetPercent + '%';\n          }\n        }\n\n        window.requestAnimationFrame(animate);\n      })();\n    </script>\n  </div>\n</div>"
           }
         },
         "liquid_khH6Pk": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"text_3MKtM6\" data-block-type=\"text\">\n  <div class=\"product-info__text\">\n    <div class=\"korean-simple-block\">\n      <p>\n        <strong>Lift instantané du contour des yeux</strong> pour un regard plus lisse et reposé en quelques minutes.<br><br>\n        Formulé avec de l’<strong>acide hyaluronique</strong>, des <strong>peptides</strong> et du <strong>bio-collagène</strong>, il atténue\n        <strong>cernes, poches et ridules</strong> tout en raffermissant la peau.<br><br>\n        <em>Convient à toutes les peaux • Vegan • Testé dermatologiquement</em>\n      </p>\n    </div>\n  </div>\n</div>\n\n<style>\n.korean-simple-block,\n.korean-simple-block p,\n.korean-simple-block strong,\n.korean-simple-block em {\n  font-family: 'Bricolage Grotesque', sans-serif !important;\n}\n\n</style>"
           }
         },
         "liquid_XAYAQJ": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": ""
           }
         },
         "liquid_DDwpEf": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": ""
           }
@@ -524,6 +545,7 @@
         },
         "liquid_RFiQTh": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-group accordion-group korean-accordion\">\n\n  <style>\n    /* Police globale Bricolage */\n    .korean-accordion,\n    .korean-accordion * {\n      font-family: 'Bricolage Grotesque', sans-serif !important;\n    }\n\n    /* Titres accordéons */\n    .korean-accordion .accordion__toggle span:first-child {\n      font-size: 13px;\n      letter-spacing: 0.06em;\n      font-weight: 600;\n    }\n\n    /* Texte interne */\n    .korean-accordion .accordion__content p,\n    .korean-accordion .accordion__content li {\n      font-size: 13px;\n      line-height: 1.5;\n      margin-bottom: 6px;\n      color: #111;\n    }\n\n    .korean-accordion .accordion__content ul,\n    .korean-accordion .accordion__content ol {\n      margin: 6px 0 12px;\n      padding-left: 18px;\n    }\n\n    @media (max-width: 768px) {\n      .korean-accordion .accordion__toggle span:first-child {\n        font-size: 13px;\n      }\n      .korean-accordion .accordion__content p,\n      .korean-accordion .accordion__content li {\n        font-size: 13px;\n      }\n    }\n  </style>\n\n\n  <!-- ACCORDÉON 1 : DESCRIPTION -->\n  <div class=\"product-info__block-item\" data-block-id=\"collapsible_text_description\" data-block-type=\"collapsible-text\">\n    <details class=\"product-info__accordion accordion group\" is=\"accordion-disclosure\">\n      <summary>\n        <div class=\"accordion__toggle bold\">\n          <span>DESCRIPTION</span>\n          <span class=\"circle-chevron group-expanded:rotate\">\n            <svg width=\"8\" height=\"6\" viewBox=\"0 0 8 6\"><path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>\n          </span>\n        </div>\n      </summary>\n\n      <div class=\"accordion__content\">\n        <p>\n          En <strong>90 secondes</strong>, cette crème anti-rides d’inspiration coréenne\n          <strong>atténue cernes, poches et ridules</strong> pour un regard plus lisse et reposé.\n        </p>\n        <ul>\n          <li>⭐ <strong>Réduit cernes, poches & rides d’expression</strong></li>\n          <li>💄 <strong>Invisible sous le maquillage</strong>, sans pelucher</li>\n          <li>🌱 <strong>Ingrédients d’origine naturelle</strong></li>\n          <li>⏱️ <strong>Effet tenseur immédiat</strong></li>\n        </ul>\n        <p>\n          Lisse les traits, défatigue le regard et améliore l’élasticité de la peau autour des yeux.\n        </p>\n      </div>\n    </details>\n  </div>\n\n\n  <!-- ACCORDÉON 2 : MODE D'EMPLOI -->\n  <div class=\"product-info__block-item\" data-block-id=\"collapsible_text_mode\" data-block-type=\"collapsible-text\">\n    <details class=\"product-info__accordion accordion group\" is=\"accordion-disclosure\">\n      <summary>\n        <div class=\"accordion__toggle bold\">\n          <span>MODE D'EMPLOI</span>\n          <span class=\"circle-chevron group-expanded:rotate\">\n            <svg width=\"8\" height=\"6\" viewBox=\"0 0 8 6\"><path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>\n          </span>\n        </div>\n      </summary>\n\n      <div class=\"accordion__content\">\n        <ol>\n          <li><strong>Nettoyez</strong> délicatement le contour des yeux.</li>\n          <li><strong>Appliquez</strong> une petite quantité sur rides, poches et cernes.</li>\n          <li><strong>Patientez ~90s</strong> sans bouger : le film tenseur se forme.</li>\n        </ol>\n        <p><em>Idéal le matin, avant le maquillage.</em></p>\n      </div>\n    </details>\n  </div>\n\n\n  <!-- ACCORDÉON 3 : INGRÉDIENTS -->\n  <div class=\"product-info__block-item\" data-block-id=\"collapsible_text_ingredients\" data-block-type=\"collapsible-text\">\n    <details class=\"product-info__accordion accordion group\" is=\"accordion-disclosure\">\n      <summary>\n        <div class=\"accordion__toggle bold\">\n          <span>INGRÉDIENTS</span>\n          <span class=\"circle-chevron group-expanded:rotate\">\n            <svg width=\"8\" height=\"6\" viewBox=\"0 0 8 6\"><path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>\n          </span>\n        </div>\n      </summary>\n\n      <div class=\"accordion__content\">\n        <p><strong>Actifs principaux :</strong></p>\n        <ul>\n          <li><strong>Thé Vert :</strong> apaise et revitalise.</li>\n          <li><strong>Acide Hyaluronique :</strong> hydrate & repulpe.</li>\n          <li><strong>Camomille :</strong> calme et réduit la fatigue.</li>\n          <li><strong>Peptides :</strong> raffermissent la peau.</li>\n        </ul>\n\n        <p><em><strong>INCI simplifié :</strong></em></p>\n        <p>\n          AQUA, SODIUM HYALURONATE, HYDROLYZED COLLAGEN, TOCOPHEROL, GLYCERIN,\n          CHAMOMILLA RECUTITA FLOWER EXTRACT, CAMELLIA SINENSIS LEAF EXTRACT.\n        </p>\n      </div>\n    </details>\n  </div>\n\n\n  <!-- ACCORDÉON 4 : LIVRAISON & RETOURS -->\n  <div class=\"product-info__block-item\" data-block-id=\"collapsible_text_livraison\" data-block-type=\"collapsible-text\">\n    <details class=\"product-info__accordion accordion group\" is=\"accordion-disclosure\">\n      <summary>\n        <div class=\"accordion__toggle bold\">\n          <span>LIVRAISON & RETOURS</span>\n          <span class=\"circle-chevron group-expanded:rotate\">\n            <svg width=\"8\" height=\"6\" viewBox=\"0 0 8 6\"><path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>\n          </span>\n        </div>\n      </summary>\n\n      <div class=\"accordion__content\">\n        <p>\n          Livraison en <strong>5 à 10 jours ouvrés</strong> selon votre pays.\n          Suivi fourni dès l’expédition.\n        </p>\n        <p>\n          Retours possibles sous <strong>30 jours</strong> pour remboursement ou échange\n          (produit non ouvert).\n        </p>\n        <p><em>Support client réactif & prioritaire.</em></p>\n      </div>\n    </details>\n  </div>\n\n</div>"
           }
@@ -537,12 +559,14 @@
         },
         "liquid_A6Cnxx": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": ""
           }
         },
         "image_qPca79": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "alignment": "center",
             "max_width": 150
@@ -584,6 +608,7 @@
         "liquid_A6Cnxx",
         "image_qPca79"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
@@ -604,6 +629,7 @@
     },
     "custom_html_LVJRrK": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -617,6 +643,7 @@
     },
     "custom_html_QjMJJP": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -644,6 +671,7 @@
     },
     "custom_html_7cFR3p": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -657,6 +685,7 @@
     },
     "custom_html_qrVMB8": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -670,6 +699,7 @@
     },
     "custom_html_LdDiF8": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
