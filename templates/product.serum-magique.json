@@ -453,12 +453,10 @@
         },
         "payment_terms": {
           "type": "payment_terms",
-          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
