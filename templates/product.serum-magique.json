@@ -383,7 +383,6 @@
         },
         "rating": {
           "type": "rating",
-          "disabled": true,
           "settings": {
             "show_empty": false
           }
@@ -409,7 +408,6 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {}
         },
         "liquid_eH9Pc9": {
