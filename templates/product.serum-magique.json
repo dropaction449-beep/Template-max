@@ -89,40 +89,44 @@
         "text_color": ""
       }
     },
-    "impact_text_cAVpXT": {
-      "type": "impact-text",
+    "rich_text_P94xUH": {
+      "type": "rich-text",
       "blocks": {
-        "item_cd7CTa": {
-          "type": "item",
+        "subheading_xUPUap": {
+          "type": "subheading",
           "settings": {
-            "title": "",
-            "subheading": "",
-            "content": "<h1>Pourquoi choisir la Crème Liftante Korean Co ?</h1>",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
+            "text": ""
+          }
+        },
+        "heading_GfCyAd": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir la Crème Liftante Korean Co ?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_DBwQ8b": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
           }
         }
       },
       "block_order": [
-        "item_cd7CTa"
+        "subheading_xUPUap",
+        "heading_GfCyAd",
+        "richtext_DBwQ8b"
       ],
-      "name": "Impact text",
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "text_color": ""
       }
     },
     "slideshow_bEqtRk": {
@@ -548,7 +552,7 @@
     "1763812243d67206e3",
     "slideshow_V6ng47",
     "custom_liquid_KMDTCF",
-    "impact_text_cAVpXT",
+    "rich_text_P94xUH",
     "slideshow_bEqtRk",
     "custom_liquid_wAACwC",
     "custom_html_LVJRrK",
