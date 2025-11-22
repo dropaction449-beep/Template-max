@@ -387,26 +387,11 @@
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n\n    <div class=\"korean-topline\">\n      <p class=\"korean-topline-text\">\n        ✅ +34 000 clientes satisfaites&nbsp;|&nbsp; Livraison gratuite\n      </p>\n    </div>\n\n    <style>\n      .korean-topline,\n      .korean-topline * {\n        font-family: 'Bricolage Grotesque', sans-serif !important;\n      }\n\n      .korean-topline {\n        display: flex;\n        align-items: center;\n        margin: -12px 0 -12px 0;\n      }\n\n      .korean-topline-text {\n        font-size: 13px;\n        margin: 0;\n        color: #000;\n      }\n\n      @media (max-width: 600px) {\n        .korean-topline-text {\n          font-size: 12.5px;\n        }\n      }\n    </style>\n\n  </div>\n</div>"
           }
         },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
         "rating": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": false
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
           }
         },
         "price_QcwQEJ": {
@@ -471,6 +456,7 @@
         },
         "liquid_twT9Tc": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_GnVqWa\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n  .limited-offer-banner {\n    background-color: #eaf7f2; /* fond noir */\n    color: #5f887a;            /* texte blanc */\n    padding: 18px 24px;\n    border-radius: 12px;\n    text-align: center;\n    max-width: 900px;\n    margin: 0 auto 20px auto;\n    font-size: 16px;\n    line-height: 1.4;\n  }\n\n  .limited-offer-banner b {\n    font-weight: 700;\n  }\n</style>\n\n<div class=\"limited-offer-banner\">\n  <b>🎁 Offre Black November</b><br>Jusqu'à -66% + jusqu'à 4 cadeaux offerts par commande.\n</div>\n            </div></div>"
           }
@@ -489,12 +475,14 @@
         },
         "liquid_XAYAQJ": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": ""
           }
         },
         "liquid_DDwpEf": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": ""
           }
@@ -535,10 +523,7 @@
         "liquid_cgD8EP",
         "liquid_P7gUrF",
         "liquid_tEiaHi",
-        "badges",
         "rating",
-        "separator",
-        "description",
         "price_QcwQEJ",
         "variant_picker",
         "quantity_selector",
