@@ -143,6 +143,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_cmQENa": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Product Badges</title>\n    <style>\n        .badge-container {\n            display: flex;\n            gap: 5px;\n        }\n\n        .badge {\n            display: flex;\n            align-items: center;\n            padding: 3px 7px;\n            border-radius: 12px;\n            font-size: 10px;\n            font-weight: bold;\n            color: #000; /* Siyah metin rengi */\n            background-color: rgba(0, 0, 0, 0.05); /* Çok açık siyah ton arka plan %5 transparan */\n        }\n\n        .badge img {\n            margin-right: 3px;\n            filter: brightness(0.5); /* Daha yumuşak siyah ikon rengi */\n        }\n    </style>\n</head>\n<body>\n    <div class=\"badge-container\">\n        <div class=\"badge\">\n            <img src=\"https://www.svgrepo.com/show/474295/plane.svg\" alt=\"Fast Shipping\" width=\"12\" height=\"12\">\n            Livraison gratuite\n        </div>\n        <div class=\"badge\">\n            <img src=\"https://www.svgrepo.com/show/486865/support.svg\" alt=\"24/7 Support\" width=\"12\" height=\"12\">\n            Paiement sécurisé </div>\n        <div class=\"badge\">\n            <img src=\"https://www.svgrepo.com/show/457232/return.svg\" alt=\"30 Days Return\" width=\"12\" height=\"12\">\n            Retours/Garantie 30 jours\n        </div>\n    </div>\n</body>\n</html>"
+          }
+        },
         "liquid_bdRg8E": {
           "type": "liquid",
           "settings": {
@@ -239,6 +245,7 @@
         "liquid_gfdgFj",
         "liquid_7UCdFX",
         "buy_buttons",
+        "liquid_cmQENa",
         "liquid_bdRg8E",
         "liquid_xQ4fz8",
         "liquid_twT9Tc",
