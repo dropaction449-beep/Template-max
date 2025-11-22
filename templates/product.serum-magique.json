@@ -400,6 +400,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "icon_width": 20,
@@ -408,6 +409,7 @@
         },
         "price_QcwQEJ": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
