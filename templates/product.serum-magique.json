@@ -408,10 +408,12 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "liquid_eH9Pc9": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"moonbundleCustomLoader\"></div>"
           }
@@ -431,6 +433,7 @@
         },
         "buy_buttons_GK7tdV": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": false,
