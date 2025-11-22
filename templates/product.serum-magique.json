@@ -370,6 +370,7 @@
         },
         "liquid_cgD8EP": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": ""
           }
