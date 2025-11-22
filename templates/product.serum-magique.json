@@ -292,17 +292,6 @@
     },
     "1763812243d67206e3": {
       "type": "apps",
-      "blocks": {
-        "kaching_bundles_app_block_RGCXwD": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "kaching_bundles_app_block_RGCXwD"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
