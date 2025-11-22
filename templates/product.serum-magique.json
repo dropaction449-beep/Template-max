@@ -519,15 +519,9 @@
         },
         "liquid_A6Cnxx": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": ""
-          }
-        },
-        "image_qPca79": {
-          "type": "image",
-          "settings": {
-            "alignment": "center",
-            "max_width": 150
           }
         }
       },
@@ -561,8 +555,7 @@
         "liquid_iaJLx6",
         "liquid_RFiQTh",
         "liquid_NNDyrT",
-        "liquid_A6Cnxx",
-        "image_qPca79"
+        "liquid_A6Cnxx"
       ],
       "settings": {
         "full_width": true,
