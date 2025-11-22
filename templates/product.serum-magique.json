@@ -432,6 +432,7 @@
         },
         "buy_buttons_GK7tdV": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": false,
