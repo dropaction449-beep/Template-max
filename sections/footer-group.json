@@ -101,7 +101,7 @@
           "type": "text",
           "settings": {
             "title": "Korean Co",
-            "content": "<p>🇰🇷 <strong>Inspired by Korean Beauty Excellence, Crafted for Global Skin</strong></p><p>At <strong>Korean Co</strong>, we blend authentic Korean skincare rituals with modern, high-performance formulations.<br/><br/>Our products deliver visible hydration, anti-aging benefits, and the signature Korean <strong>“glass skin” glow</strong>.<br/><br/>Trusted by thousands of women worldwide.</p>",
+            "content": "<p><br/>🇰🇷 <strong>Inspiré par l’excellence de la beauté coréenne, pensé pour toutes les peaux.</strong><br/><br/>Chez Korean Co, nous associons les rituels authentiques du skincare coréen à des formulations modernes et performantes.<br/><br/>Nos soins offrent une hydratation visible, des effets anti-âge immédiats et l’éclat “glass skin” typique de la Corée.<br/><br/>Déjà adoptés par des milliers de femmes dans le monde.<br/><br/></p>",
             "enable_follow_on_shop": true
           }
         },
