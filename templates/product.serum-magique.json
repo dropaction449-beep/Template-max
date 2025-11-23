@@ -388,7 +388,7 @@
         "liquid_tEiaHi": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin-bottom: -30px; margin-top: -10px;padding: 10px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0921/8903/2794/files/Tenue_2448H_2.png?v=1743948198\" alt=\"Description de l'image\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n</div>\n          </div><br>"
+            "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin-bottom: -30px; margin-top: -10px;padding: 10px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/4_benefices_3.png?v=1763909806\" alt=\"Description de l'image\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n</div>\n          </div><br>"
           }
         },
         "rating": {
