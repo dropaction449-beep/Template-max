@@ -576,7 +576,6 @@
     },
     "custom_html_LVJRrK": {
       "type": "custom-html",
-      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -590,7 +589,6 @@
     },
     "custom_html_QjMJJP": {
       "type": "custom-html",
-      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -618,7 +616,6 @@
     },
     "custom_html_7cFR3p": {
       "type": "custom-html",
-      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -632,7 +629,6 @@
     },
     "custom_html_qrVMB8": {
       "type": "custom-html",
-      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -646,7 +642,6 @@
     },
     "custom_html_LdDiF8": {
       "type": "custom-html",
-      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -672,10 +667,10 @@
     "custom_liquid_wAACwC",
     "main",
     "custom_html_LVJRrK",
-    "custom_html_QjMJJP",
-    "custom_html_PMyMNd",
-    "custom_html_7cFR3p",
     "custom_html_qrVMB8",
+    "custom_html_QjMJJP",
+    "custom_html_7cFR3p",
+    "custom_html_PMyMNd",
     "custom_html_LdDiF8"
   ]
 }
