@@ -75,59 +75,6 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
   </head>
 
-  <style>
-.floating-bundle-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s, visibility 0.3s;
-  z-index: 999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-}
-
-.floating-bundle-btn.visible {
-  opacity: 1;
-  visibility: visible;
-}
-</style>
-
-<button class="floating-bundle-btn" id="bundleBtn">🎁</button>
-
-<script>
-  const bundleBtn = document.getElementById('bundleBtn');
-  const buyButton = document.querySelector('[name="add"]'); // Ajustez le sélecteur selon votre thème
-  
-  // Détecte le défilement
-  window.addEventListener('scroll', function() {
-    if (buyButton) {
-      const buttonRect = buyButton.getBoundingClientRect();
-      if (buttonRect.bottom < 0) {
-        bundleBtn.classList.add('visible');
-      } else {
-        bundleBtn.classList.remove('visible');
-      }
-    }
-  });
-  
-  // Redirige vers la page bundles
-  bundleBtn.addEventListener('click', function() {
-    window.location.href = '/collections/bundles'; // Modifiez l'URL selon votre page bundles
-  });
-</script>
-
   <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
     {%- render 'shadow-dom-templates' -%}
 
@@ -157,5 +104,60 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+
+    <style>
+      .floating-bundle-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s, visibility 0.3s;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+      }
+
+      .floating-bundle-btn.visible {
+        opacity: 1;
+        visibility: visible;
+      }
+    </style>
+
+    {% if template contains 'product' %}
+      <button class="floating-bundle-btn" id="bundleBtn">✨</button>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const bundleBtn = document.getElementById('bundleBtn');
+          const buyButton = document.querySelector('.product-form__add-button') || document.querySelector('button[name="add"]');
+          
+          window.addEventListener('scroll', function() {
+            if (buyButton) {
+              const buttonRect = buyButton.getBoundingClientRect();
+              if (buttonRect.bottom < 0) {
+                bundleBtn.classList.add('visible');
+              } else {
+                bundleBtn.classList.remove('visible');
+              }
+            }
+          });
+          
+          bundleBtn.addEventListener('click', function() {
+            window.location.href = '/collections/serum-magique';
+          });
+        });
+      </script>
+    {% endif %}
   </body>
 </html>
