@@ -105,46 +105,48 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       {%- endif -%}
     </main>
 
-    <style>
-      .floating-bundle-btn {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        background-color: #fff;
-        border: 2px solid #000;
-        cursor: pointer;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.3s, visibility 0.3s;
-        z-index: 999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        overflow: hidden;
-      }
+  <style>
+    .floating-bundle-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #000;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      overflow: hidden;
+    }
 
-      .floating-bundle-btn:hover {
-        transform: scale(1.1);
-        box-shadow: 0 6px 16px rgba(0,0,0,0.4);
-      }
+    .floating-bundle-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+    }
 
-      .floating-bundle-btn.visible {
-        opacity: 1;
-        visibility: visible;
-      }
+    .floating-bundle-btn.visible {
+      opacity: 1;
+      visibility: visible;
+    }
 
-      .floating-bundle-btn img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 50%;
-      }
-    </style>
+    .floating-bundle-btn img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      filter: invert(1);
+    }
+  </style>
+
 
 
     {% if template contains 'product' %}
