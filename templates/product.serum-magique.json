@@ -375,6 +375,16 @@
     "images_with_text_scrolling_Ce43eQ": {
       "type": "images-with-text-scrolling",
       "blocks": {
+        "item_jYVbYK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/trust.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Sabrina",
+            "content": "<p>J’adore voir la réaction de mes clientes quand elles découvrent l’effet immédiat de la crème Korean Co ! On vient de lui faire essayer et son visage s’est lissé sous mes yeux… même moi je suis bluffée à chaque fois 😍✨</p>"
+          }
+        },
         "item_krxHNr": {
           "type": "item",
           "settings": {
@@ -427,6 +437,7 @@
         }
       },
       "block_order": [
+        "item_jYVbYK",
         "item_krxHNr",
         "item_Ary6WN",
         "item_qh6qqC",
