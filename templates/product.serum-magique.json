@@ -315,6 +315,138 @@
         "text_color": ""
       }
     },
+    "multiple_images_with_text_bahm8m": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_mcyJDH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/i.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_6tDw89": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/o.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Image with text",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_FMTQgg": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_mcyJDH",
+        "item_6tDw89",
+        "item_FMTQgg"
+      ],
+      "disabled": true,
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "shifted",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "images_with_text_scrolling_Ce43eQ": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_krxHNr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/i.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Sandrine",
+            "content": "<p>Super produit, petit et compact. Je peux l’appliquer n’importe où, même dans la voiture. Il tient parfaitement dans mon sac et dans ma boîte à gants. Résultat instantané sur mes rides et mes cernes. Meilleur achat de ma vie.<br/></p>"
+          }
+        },
+        "item_Ary6WN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/o.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Nathalie",
+            "content": "<p>Idéal pour les retouches en voyage. Il prend très peu de place dans ma trousse et s’applique en quelques secondes. Effet lift instantané, parfait avant une photo ou un rendez-vous. Je ne pars jamais sans lui !<br/></p>"
+          }
+        },
+        "item_qh6qqC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/m.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Karine",
+            "content": "<p>Je suis choquée ! Je pensais vraiment que c’était Faux ! J’ai mis la crème avant mon rendez-vous pro, je me suis regardée dans le rétro et j’étais trop confiante. Résultat : j’ai eu le job ! Je n’en reviens toujours pas…<br/><br/></p>"
+          }
+        },
+        "item_tit7J7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ll.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Isabelle",
+            "content": "<p>Après ma douche à la salle, j’ai appliqué ma crème Korean Co et mes cernes ont disparu en quelques secondes. C’est incroyable comme elle rafraîchit instantanément mon regard, parfait pour passer direct de l’entraînement à un rendez-vous ou une sortie.</p>"
+          }
+        },
+        "item_YB84nR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/7_07274583-e2d2-4ebc-995b-426f55f1517c.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Virginie",
+            "content": "<p>Je l’ai toujours dans mon sac et il me sauve la vie quand j’ai un rendez-vous de dernière minute ou quand j’ai l’air fatiguée. Une petite touche sous les yeux et mes rides disparaissent instantanément. Super pratique et efficace !<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_krxHNr",
+        "item_Ary6WN",
+        "item_qh6qqC",
+        "item_tit7J7",
+        "item_YB84nR"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "custom_liquid_wAACwC": {
       "type": "custom-liquid",
       "disabled": true,
@@ -707,6 +839,8 @@
     "rich_text_8atdt6",
     "slideshow_P46faW",
     "rich_text_KTkPMg",
+    "multiple_images_with_text_bahm8m",
+    "images_with_text_scrolling_Ce43eQ",
     "custom_liquid_wAACwC",
     "rich_text_ex9gby",
     "main",
