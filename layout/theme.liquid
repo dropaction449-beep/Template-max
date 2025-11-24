@@ -138,20 +138,33 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       <button class="floating-bundle-btn" id="bundleBtn">✨</button>
 
       <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        window.addEventListener('load', function() {
           const bundleBtn = document.getElementById('bundleBtn');
-          const buyButton = document.querySelector('.product-form__add-button') || document.querySelector('button[name="add"]');
           
-          window.addEventListener('scroll', function() {
-            if (buyButton) {
-              const buttonRect = buyButton.getBoundingClientRect();
-              if (buttonRect.bottom < 0) {
-                bundleBtn.classList.add('visible');
+          // Attendre que Moon Bundle charge
+          setTimeout(function() {
+            const buyButton = document.querySelector('buy-buttons') || 
+                             document.querySelector('.product-form__buttons') ||
+                             document.querySelector('button[name="add"]');
+            
+            window.addEventListener('scroll', function() {
+              if (buyButton) {
+                const buttonRect = buyButton.getBoundingClientRect();
+                if (buttonRect.bottom < 0) {
+                  bundleBtn.classList.add('visible');
+                } else {
+                  bundleBtn.classList.remove('visible');
+                }
               } else {
-                bundleBtn.classList.remove('visible');
+                // Fallback: afficher après 400px de scroll
+                if (window.scrollY > 400) {
+                  bundleBtn.classList.add('visible');
+                } else {
+                  bundleBtn.classList.remove('visible');
+                }
               }
-            }
-          });
+            });
+          }, 1000);
           
           bundleBtn.addEventListener('click', function() {
             window.location.href = '/collections/serum-magique';
@@ -161,3 +174,4 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {% endif %}
   </body>
 </html>
+
