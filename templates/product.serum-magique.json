@@ -625,7 +625,7 @@
         "liquid_twT9Tc": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_GnVqWa\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n  .limited-offer-banner {\n    background-color: #eaf7f2; /* fond noir */\n    color: #5f887a;            /* texte blanc */\n    padding: 18px 24px;\n    border-radius: 12px;\n    text-align: center;\n    max-width: 900px;\n    margin: 0 auto 20px auto;\n    font-size: 16px;\n    line-height: 1.4;\n  }\n\n  .limited-offer-banner b {\n    font-weight: 700;\n  }\n</style>\n\n<div class=\"limited-offer-banner\">\n  <b>🎁 Offre Black Friday</b><br>Jusqu'à -75% + jusqu'à 3 cadeaux offerts par commande.\n</div>\n            </div></div>"
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_GnVqWa\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n  .limited-offer-banner {\n    background-color: #eaf7f2; /* fond noir */\n    color: #5f887a;            /* texte blanc */\n    padding: 18px 24px;\n    border-radius: 12px;\n    text-align: center;\n    max-width: 900px;\n    margin: 0 auto 20px auto;\n    font-size: 16px;\n    line-height: 1.4;\n  }\n\n  .limited-offer-banner b {\n    font-weight: 700;\n  }\n</style>\n\n<div class=\"limited-offer-banner\">\n  <b>🎁 Offre Black Friday</b><br>Jusqu'à -75% + jusqu'à 4 cadeaux offerts par commande.\n</div>\n            </div></div>"
           }
         },
         "liquid_eH9Pc9": {
