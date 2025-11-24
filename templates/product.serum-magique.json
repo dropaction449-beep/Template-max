@@ -375,6 +375,16 @@
     "images_with_text_scrolling_Ce43eQ": {
       "type": "images-with-text-scrolling",
       "blocks": {
+        "item_krxHNr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/i.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Sandrine",
+            "content": "<p>Super produit, petit et compact. Je peux l’appliquer n’importe où, même dans la voiture. Il tient parfaitement dans mon sac et dans ma boîte à gants. Résultat instantané sur mes rides et mes cernes. Meilleur achat de ma vie.<br/></p>"
+          }
+        },
         "item_jYVbYK": {
           "type": "item",
           "settings": {
@@ -385,14 +395,14 @@
             "content": "<p>J’adore voir la réaction de mes clientes quand elles découvrent l’effet immédiat de la crème Korean Co ! On vient de lui faire essayer et son visage s’est lissé sous mes yeux… même moi je suis bluffée à chaque fois 😍✨</p>"
           }
         },
-        "item_krxHNr": {
+        "item_QWGAJC": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/i.png",
+            "image": "shopify://shop_images/trust_3.png",
             "icon": "none",
             "icon_width": 48,
-            "title": "Sandrine",
-            "content": "<p>Super produit, petit et compact. Je peux l’appliquer n’importe où, même dans la voiture. Il tient parfaitement dans mon sac et dans ma boîte à gants. Résultat instantané sur mes rides et mes cernes. Meilleur achat de ma vie.<br/></p>"
+            "title": "Sonia",
+            "content": "<p>Je m’appelle Sonia, et j’adore voir ce moment-là : quand la cliente découvre son visage dans le miroir après Korean Co. La réaction est toujours la même… des yeux ronds et un grand ‘wow’ 🤩<br/><br/>Même ses amies n’en reviennent pas ! On adore utiliser ce produit au salon.</p>"
           }
         },
         "item_Ary6WN": {
@@ -415,6 +425,16 @@
             "content": "<p>Je suis choquée ! Je pensais vraiment que c’était Faux ! J’ai mis la crème avant mon rendez-vous pro, je me suis regardée dans le rétro et j’étais trop confiante. Résultat : j’ai eu le job ! Je n’en reviens toujours pas…<br/><br/></p>"
           }
         },
+        "item_jkCrJh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/trust1.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Élise",
+            "content": "<p>Dans mon salon, je recommande toujours la crème Korean Co. J’en ai testé des dizaines, mais celle-ci bluffe absolument toutes mes clientes. On voit les résultats en quelques minutes, et elles repartent toujours ravies ! C’est devenu un indispensable ici.</p>"
+          }
+        },
         "item_tit7J7": {
           "type": "item",
           "settings": {
@@ -424,25 +444,16 @@
             "title": "Isabelle",
             "content": "<p>Après ma douche à la salle, j’ai appliqué ma crème Korean Co et mes cernes ont disparu en quelques secondes. C’est incroyable comme elle rafraîchit instantanément mon regard, parfait pour passer direct de l’entraînement à un rendez-vous ou une sortie.</p>"
           }
-        },
-        "item_YB84nR": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/7_07274583-e2d2-4ebc-995b-426f55f1517c.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Virginie",
-            "content": "<p>Je l’ai toujours dans mon sac et il me sauve la vie quand j’ai un rendez-vous de dernière minute ou quand j’ai l’air fatiguée. Une petite touche sous les yeux et mes rides disparaissent instantanément. Super pratique et efficace !<br/></p>"
-          }
         }
       },
       "block_order": [
-        "item_jYVbYK",
         "item_krxHNr",
+        "item_jYVbYK",
+        "item_QWGAJC",
         "item_Ary6WN",
         "item_qh6qqC",
-        "item_tit7J7",
-        "item_YB84nR"
+        "item_jkCrJh",
+        "item_tit7J7"
       ],
       "name": "Images and text scrolling",
       "settings": {
