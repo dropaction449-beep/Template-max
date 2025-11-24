@@ -24,8 +24,8 @@
     "footer_background": "#020202",
     "footer_text_color": "#ffffff",
     "dialog_background": "#ffffff",
-    "primary_button_background": "#1a1a1a",
-    "primary_button_text_color": "#ffffff",
+    "primary_button_background": "#ffb74a",
+    "primary_button_text_color": "#000000",
     "secondary_button_background": "#1a1a1a",
     "secondary_button_text_color": "#ffffff",
     "product_card_text_color": "#1a1a1a",
@@ -88,11 +88,6 @@
       "2567389343055140935": {
         "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
         "disabled": false,
-        "settings": {}
-      },
-      "15557474716127144420": {
-        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-        "disabled": true,
         "settings": {}
       },
       "7054877461618660028": {
