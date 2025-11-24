@@ -592,6 +592,12 @@
             "show_empty": false
           }
         },
+        "liquid_gfdgFj": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        .cls-xj7hJ9K {\n            display: flex;\n            align-items: center;\n            font-family: Arial, sans-serif;\n            color: #000; /* texte noir */\n            font-weight: bold; /* texte en gras */\n        }\n\n        .icon-xj7hJ9K {\n            margin-right: 20px;\n            color: #D9534F;\n            width: 10px; /* plus grand */\n            height: 15px; /* plus grand */\n            animation: blink-xj7hJ9K 1s infinite, wave-glow-xj7hJ9K 2s infinite;\n        }\n\n        @keyframes blink-xj7hJ9K {\n            0%, 100% { opacity: 1; }\n            50% { opacity: 0.3; }\n        }\n\n        @keyframes wave-glow-xj7hJ9K {\n            0% { filter: drop-shadow(0 0 3px #D9534F); }\n            50% { filter: drop-shadow(0 0 8px #D9534F); }\n            100% { filter: drop-shadow(0 0 3px #D9534F); }\n        }\n    </style>\n</head>\n<body class=\"body-xj7hJ9K\">\n    <div class=\"cls-xj7hJ9K\">\n        <svg class=\"icon-xj7hJ9K\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 16 16\">\n            <circle cx=\"8\" cy=\"8\" r=\"8\" />\n        </svg>\n        <span>Attention ! Plus que 5 en stock</span>\n    </div>\n</body>\n</html>"
+          }
+        },
         "price_QcwQEJ": {
           "type": "price",
           "disabled": true,
@@ -631,12 +637,6 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
-          }
-        },
-        "liquid_gfdgFj": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        .cls-xj7hJ9K {\n            display: flex;\n            align-items: center;\n            font-family: Arial, sans-serif;\n            color: #000; /* texte noir */\n            font-weight: bold; /* texte en gras */\n        }\n\n        .icon-xj7hJ9K {\n            margin-right: 20px;\n            color: #D9534F;\n            width: 10px; /* plus grand */\n            height: 15px; /* plus grand */\n            animation: blink-xj7hJ9K 1s infinite, wave-glow-xj7hJ9K 2s infinite;\n        }\n\n        @keyframes blink-xj7hJ9K {\n            0%, 100% { opacity: 1; }\n            50% { opacity: 0.3; }\n        }\n\n        @keyframes wave-glow-xj7hJ9K {\n            0% { filter: drop-shadow(0 0 3px #D9534F); }\n            50% { filter: drop-shadow(0 0 8px #D9534F); }\n            100% { filter: drop-shadow(0 0 3px #D9534F); }\n        }\n    </style>\n</head>\n<body class=\"body-xj7hJ9K\">\n    <div class=\"cls-xj7hJ9K\">\n        <svg class=\"icon-xj7hJ9K\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 16 16\">\n            <circle cx=\"8\" cy=\"8\" r=\"8\" />\n        </svg>\n        <span>Attention ! Plus que 5 en stock</span>\n    </div>\n</body>\n</html>"
           }
         },
         "liquid_7UCdFX": {
@@ -733,12 +733,12 @@
         "liquid_P7gUrF",
         "liquid_tEiaHi",
         "rating",
+        "liquid_gfdgFj",
         "price_QcwQEJ",
         "variant_picker",
         "quantity_selector",
         "liquid_eH9Pc9",
         "buy_buttons_GK7tdV",
-        "liquid_gfdgFj",
         "liquid_7UCdFX",
         "liquid_cmQENa",
         "liquid_bdRg8E",
