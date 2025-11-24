@@ -143,14 +143,15 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
           
           // Attendre que Moon Bundle charge
           setTimeout(function() {
-            const buyButton = document.querySelector('buy-buttons') || 
-                             document.querySelector('.product-form__buttons') ||
-                             document.querySelector('button[name="add"]');
+            const moonBundleSection = document.querySelector('.moonbundleCustomLoader') ||
+                                     document.querySelector('[class*="moonbundle"]') ||
+                                     document.querySelector('buy-buttons') || 
+                                     document.querySelector('.product-form__buttons');
             
             window.addEventListener('scroll', function() {
-              if (buyButton) {
-                const buttonRect = buyButton.getBoundingClientRect();
-                if (buttonRect.bottom < 0) {
+              if (moonBundleSection) {
+                const sectionRect = moonBundleSection.getBoundingClientRect();
+                if (sectionRect.bottom < 0) {
                   bundleBtn.classList.add('visible');
                 } else {
                   bundleBtn.classList.remove('visible');
@@ -166,8 +167,19 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
             });
           }, 1000);
           
+          // Scroll vers le bundle au clic
           bundleBtn.addEventListener('click', function() {
-            window.location.href = '/collections/serum-magique';
+            const moonBundleSection = document.querySelector('.moonbundleCustomLoader') ||
+                                     document.querySelector('[class*="moonbundle"]') ||
+                                     document.querySelector('buy-buttons') || 
+                                     document.querySelector('.product-form__buttons');
+            
+            if (moonBundleSection) {
+              moonBundleSection.scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'center' 
+              });
+            }
           });
         });
       </script>
