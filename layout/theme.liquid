@@ -124,7 +124,8 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 10px;
+        padding: 0;
+        overflow: hidden;
       }
 
       .floating-bundle-btn:hover {
@@ -138,11 +139,13 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       }
 
       .floating-bundle-btn img {
-        width: 35px;
-        height: 35px;
-        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
       }
     </style>
+
 
     {% if template contains 'product' %}
       <button class="floating-bundle-btn" id="bundleBtn">
