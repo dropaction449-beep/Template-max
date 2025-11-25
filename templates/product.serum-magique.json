@@ -214,27 +214,6 @@
     "slideshow_P46faW": {
       "type": "slideshow",
       "blocks": {
-        "image_Pde7HM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sanstitre_1500x1500px.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "image_DU38KT": {
           "type": "image",
           "settings": {
@@ -255,11 +234,32 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "image_Pde7HM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sanstitre_1500x1500px.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
-        "image_Pde7HM",
-        "image_DU38KT"
+        "image_DU38KT",
+        "image_Pde7HM"
       ],
       "name": "Slideshow",
       "settings": {
