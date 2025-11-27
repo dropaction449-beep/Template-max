@@ -186,6 +186,46 @@
         "background_gradient": ""
       }
     },
+    "rich_text_JYH7Lc": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_wRjtWJ": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_Uf8jWa": {
+          "type": "heading",
+          "settings": {
+            "text": "Résultats Avant/Après",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_miy4Y6": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wRjtWJ",
+        "heading_Uf8jWa",
+        "richtext_miy4Y6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "slideshow_P46faW": {
       "type": "slideshow",
       "blocks": {
@@ -236,7 +276,6 @@
         "image_DU38KT",
         "image_Pde7HM"
       ],
-      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -335,7 +374,6 @@
         "item_6tDw89",
         "item_FMTQgg"
       ],
-      "disabled": true,
       "name": "Multiple images with text",
       "settings": {
         "full_width": true,
@@ -868,6 +906,7 @@
     "rich_text_P94xUH",
     "custom_liquid_MgRCgf",
     "slideshow_bEqtRk",
+    "rich_text_JYH7Lc",
     "slideshow_P46faW",
     "rich_text_KTkPMg",
     "multiple_images_with_text_bahm8m",
