@@ -634,12 +634,14 @@
         },
         "liquid_DDwpEf": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": ""
           }
         },
         "liquid_iaJLx6": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_7thrNr\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n\n    <style>\n      /* ==== Force la police Bricolage Grotesque ==== */\n      .korean-specs,\n      .korean-specs * {\n        font-family: 'Bricolage Grotesque', sans-serif !important;\n      }\n\n      /* ==== Structure ==== */\n      .korean-specs {\n        padding: 0;\n        margin-top: 18px;\n        width: 100%;\n        border-top: 1px solid #e5e5e5;\n      }\n\n      .korean-specs__item {\n        padding: 14px 0;\n        display: flex;\n        gap: 20px;\n        border-bottom: 1px solid #e5e5e5;\n      }\n\n      .korean-specs__title {\n        font-size: 13px;\n        font-weight: 700;\n        color: #000;\n        margin: 0;\n        min-width: 140px;\n      }\n\n      .korean-specs__content {\n        font-size: 13px;\n        font-weight: 400;\n        color: #222;\n        margin: 0;\n        line-height: 1.5;\n        flex: 1;\n      }\n\n      /* ==== Responsive Mobile ==== */\n      @media (max-width: 768px) {\n        .korean-specs__item {\n          flex-direction: column;\n          gap: 6px;\n          padding: 12px 0;\n        }\n        .korean-specs__title {\n          min-width: auto;\n          font-size: 13px;\n        }\n        .korean-specs__content {\n          font-size: 13px;\n        }\n      }\n    </style>\n\n    <section class=\"korean-specs\">\n\n      <div class=\"korean-specs__item\">\n        <h3 class=\"korean-specs__title\">Action ciblée</h3>\n        <p class=\"korean-specs__content\">\n          Réduction immédiate des rides, poches et cernes.<br>\n          Effet lift visible dès <strong>5 minutes</strong>.\n        </p>\n      </div>\n\n      <div class=\"korean-specs__item\">\n        <h3 class=\"korean-specs__title\">Texture</h3>\n        <p class=\"korean-specs__content\">\n          Gel tenseur clinique ultra-fin, absorption rapide.<br>\n          Ne colle pas, compatible avec le maquillage.\n        </p>\n      </div>\n\n      <div class=\"korean-specs__item\">\n        <h3 class=\"korean-specs__title\">Formulation</h3>\n        <p class=\"korean-specs__content\">\n          Acide hyaluronique, peptides, bio-collagène.<br>\n          <strong>Testé cliniquement • 98% naturel</strong>.\n        </p>\n      </div>\n\n      <div class=\"korean-specs__item\">\n        <h3 class=\"korean-specs__title\">Utilisation</h3>\n        <p class=\"korean-specs__content\">\n          Tapoter une fine couche sur peau propre.<br>\n          Laisser agir <strong>2–5 min</strong> pour un effet lift optimal.\n        </p>\n      </div>\n\n    </section>\n\n  </div>\n</div>"
           }
@@ -653,6 +655,7 @@
         },
         "liquid_A6Cnxx": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": ""
           }
