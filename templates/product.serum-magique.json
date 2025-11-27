@@ -76,19 +76,6 @@
         "background_gradient": ""
       }
     },
-    "custom_html_ULTk4W": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<p style=\"text-align: center\">Write or copy/paste HTML code</p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_KMDTCF": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -96,7 +83,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "liquid": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>As Seen On Section</title>\n<style>\n\n  /* Styles for mobile devices */\n  @media only screen and (max-width: 600px) {\n    .seen-on-section {\n      background-color: #C9E6DD;\n      text-align: center;\n      padding: 25px;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      margin-bottom: 0px;\n    }\n    .seen-on-text {\n      color: black;\n      font-size: 16px;\n      font-weight: 600;\n      margin-bottom: 10px;\n    }\n    .seen-on-logos {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      flex-wrap: wrap;\n      gap: 15px;\n    }\n    .seen-on-logos img {\n      max-width: 85px; /* Augmenté de 60px à 85px */\n      height: auto;\n    }\n  }\n\n  /* Styles for desktop */\n  @media only screen and (min-width: 601px) {\n    .seen-on-section {\n      background-color: #C9E6DD;\n      text-align: center;\n      padding: 30px;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }\n    .seen-on-text {\n      color: black;\n      font-size: 18px;\n      font-weight: 600;\n      margin-right: 25px;\n    }\n    .seen-on-logos {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      gap: 30px;\n    }\n    .seen-on-logos img {\n      max-width: 130px; /* Augmenté de 100px à 130px */\n      height: auto;\n    }\n  }\n</style>\n\n<section class=\"seen-on-section\">\n  <div class=\"seen-on-text\">VU SUR</div>\n  <div class=\"seen-on-logos\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0828/6457/0634/files/grazia_903e2915-484b-4095-8aa6-308e604c5f36.svg?v=1720539441\" alt=\"Grazia\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0828/6457/0634/files/Design_sans_titre_23.png?v=1725557823\" alt=\"Magazine 2\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0828/6457/0634/files/vogue_0d2782bd-1d73-47bd-89bd-334df51924d2.svg?v=1720539452\" alt=\"Vogue\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0828/6457/0634/files/elle_8f537aab-c668-429a-bc19-e409721dc3a0.svg?v=1720539424\" alt=\"Elle\">\n  </div>\n</section><br>",
+        "liquid": "<div id=\"shopify-section-template--25237837218118__custom_content_zxqN4g\" class=\"shopify-section\">\n\n<div class=\"section section-template--25237837218118__custom_content_zxqN4g section--padding section--custom-content page-width color-scheme-1\" style=\"--section-padding-top: 50px;--section-padding-bottom: 50px;\" data-id=\"template--25237837218118__custom_content_zxqN4g\">\n  \n\n  <div class=\"section__content f-grid--gap-medium\">\n    <div class=\"f-flex f-grid--gap-medium f-grid--row-gap-large\"><div id=\"block-text_7rUVtr\" class=\"f-column relative custom-content-block--text md:flex items-center w-full \" data-block-type=\"text\">\n          <div class=\"custom__block custom__block--text w-full text-center\"><div class=\"rich-text\"><h2 class=\"rich-text__heading inline-richtext h5\">\n                      <motion-element class=\"block\" data-motion=\"fade-up\" data-motion-delay=\"50\" style=\"transform: translateY(0px); opacity: 1;\">\n                        \nVU SUR\n                      </motion-element>\n                    </h2>\n                </div></div>\n        </div><div id=\"block-image_BycpHX\" class=\"f-column relative custom-content-block--image md:flex items-center w-full md:w-1/2 lg:w-2/12 \" data-block-type=\"image\">\n          <div class=\"custom__block custom__block--image w-full text-\"><div class=\"media-wrapper blocks-radius loaded\" style=\"--aspect-ratio: 3.8585209003215435;\">\n                  <motion-element class=\"block\" data-motion=\"zoom-out-sm\" style=\"transform: scale(1);\"><img src=\"//harveyross-fr.com/cdn/shop/files/1200px-VOGUE_revista_-_logo.png?v=1721074061&width=1500\" alt=\"Harvey Ross Europe\" srcset=\"//harveyross-fr.com/cdn/shop/files/1200px-VOGUE_revista_-_logo.png?v=1721074061&width=375 375w, //harveyross-fr.com/cdn/shop/files/1200px-VOGUE_revista_-_logo.png?v=1721074061&width=550 550w, //harveyross-fr.com/cdn/shop/files/1200px-VOGUE_revista_-_logo.png?v=1721074061&width=750 750w, //harveyross-fr.com/cdn/shop/files/1200px-VOGUE_revista_-_logo.png?v=1721074061&width=1100 1100w, //harveyross-fr.com/cdn/shop/files/1200px-VOGUE_revista_-_logo.png?v=1721074061&width=1500 1500w\" width=\"1500\" height=\"389\" loading=\"lazy\" fetchpriority=\"low\" class=\"motion-reduce loaded\" is=\"image-lazy\">\n</motion-element>\n                </div></div>\n        </div><div id=\"block-image_NYWrc9\" class=\"f-column relative custom-content-block--image md:flex items-center w-full md:w-1/2 lg:w-2/12 \" data-block-type=\"image\">\n          <div class=\"custom__block custom__block--image w-full text-\"><div class=\"media-wrapper blocks-radius loaded\" style=\"--aspect-ratio: 5.208333333333333;\">\n                  <motion-element class=\"block\" data-motion=\"zoom-out-sm\" style=\"transform: scale(1);\"><img src=\"//harveyross-fr.com/cdn/shop/files/Comopolitan_Magazine_Logo_svg.png?v=1721074063&width=1500\" alt=\"Harvey Ross Europe\" srcset=\"//harveyross-fr.com/cdn/shop/files/Comopolitan_Magazine_Logo_svg.png?v=1721074063&width=375 375w, //harveyross-fr.com/cdn/shop/files/Comopolitan_Magazine_Logo_svg.png?v=1721074063&width=550 550w, //harveyross-fr.com/cdn/shop/files/Comopolitan_Magazine_Logo_svg.png?v=1721074063&width=750 750w, //harveyross-fr.com/cdn/shop/files/Comopolitan_Magazine_Logo_svg.png?v=1721074063&width=1100 1100w, //harveyross-fr.com/cdn/shop/files/Comopolitan_Magazine_Logo_svg.png?v=1721074063&width=1500 1500w\" width=\"1500\" height=\"288\" loading=\"lazy\" fetchpriority=\"low\" class=\"motion-reduce loaded\" is=\"image-lazy\">\n</motion-element>\n                </div></div>\n        </div><div id=\"block-image_Hj6QMa\" class=\"f-column relative custom-content-block--image md:flex items-center w-full md:w-1/2 lg:w-2/12 \" data-block-type=\"image\">\n          <div class=\"custom__block custom__block--image w-full text-\"><div class=\"media-wrapper blocks-radius loaded\" style=\"--aspect-ratio: 6.49746192893401;\">\n                  <motion-element class=\"block\" data-motion=\"zoom-out-sm\" style=\"transform: scale(1);\"><img src=\"//harveyross-fr.com/cdn/shop/files/Marie_Claire_Magazine_logo.svg_1.png?v=1721074061&width=1500\" alt=\"Harvey Ross Europe\" srcset=\"//harveyross-fr.com/cdn/shop/files/Marie_Claire_Magazine_logo.svg_1.png?v=1721074061&width=375 375w, //harveyross-fr.com/cdn/shop/files/Marie_Claire_Magazine_logo.svg_1.png?v=1721074061&width=550 550w, //harveyross-fr.com/cdn/shop/files/Marie_Claire_Magazine_logo.svg_1.png?v=1721074061&width=750 750w, //harveyross-fr.com/cdn/shop/files/Marie_Claire_Magazine_logo.svg_1.png?v=1721074061&width=1100 1100w, //harveyross-fr.com/cdn/shop/files/Marie_Claire_Magazine_logo.svg_1.png?v=1721074061&width=1500 1500w\" width=\"1500\" height=\"231\" loading=\"lazy\" fetchpriority=\"low\" class=\"motion-reduce loaded\" is=\"image-lazy\">\n</motion-element>\n                </div></div>\n        </div><div id=\"block-image_Gfg3PQ\" class=\"f-column relative custom-content-block--image md:flex items-center w-full md:w-1/2 lg:w-2/12 \" data-block-type=\"image\">\n          <div class=\"custom__block custom__block--image w-full text-\"><div class=\"media-wrapper blocks-radius loaded\" style=\"--aspect-ratio: 3.433333333333333;\">\n                  <motion-element class=\"block\" data-motion=\"zoom-out-sm\" style=\"transform: scale(1);\"><img src=\"//harveyross-fr.com/cdn/shop/files/logo-seo.png?v=1725740174&width=1500\" alt=\"Harvey Ross Europe\" srcset=\"//harveyross-fr.com/cdn/shop/files/logo-seo.png?v=1725740174&width=375 375w, //harveyross-fr.com/cdn/shop/files/logo-seo.png?v=1725740174&width=550 550w, //harveyross-fr.com/cdn/shop/files/logo-seo.png?v=1725740174&width=750 750w, //harveyross-fr.com/cdn/shop/files/logo-seo.png?v=1725740174&width=1100 1100w, //harveyross-fr.com/cdn/shop/files/logo-seo.png?v=1725740174&width=1500 1500w\" width=\"1500\" height=\"437\" loading=\"lazy\" fetchpriority=\"low\" class=\"motion-reduce loaded\" is=\"image-lazy\">\n</motion-element>\n                </div></div>\n        </div></div>\n  </div>\n</div>\n\n<style> \n#shopify-section-template--25237837218118__custom_content_zxqN4g .media-wrapper {\n  border-radius: 0px;\n}\n\n/* Structure principale */\n#shopify-section-template--25237837218118__custom_content_zxqN4g .section__content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n#shopify-section-template--25237837218118__custom_content_zxqN4g .f-flex {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  gap: 16px;\n  width: 100%;\n}\n\n/* Texte VU SUR - pleine largeur */\n#block-text_7rUVtr {\n  width: 100% !important;\n  flex: 0 0 100% !important;\n  max-width: 100% !important;\n}\n\n/* Logos - forcer sur une seule ligne */\n#shopify-section-template--25237837218118__custom_content_zxqN4g .custom-content-block--image {\n  width: 22% !important;\n  max-width: 220px !important;\n  flex: 0 0 auto !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n/* Desktop - tous les logos sur une ligne */\n@media screen and (min-width: 768px) {\n  #shopify-section-template--25237837218118__custom_content_zxqN4g .f-flex {\n    flex-wrap: nowrap;\n    gap: 24px;\n  }\n  \n  #shopify-section-template--25237837218118__custom_content_zxqN4g .custom-content-block--image {\n    width: auto !important;\n    flex: 1 1 0 !important;\n    max-width: 250px !important;\n  }\n}\n\n/* Mobile - 2 logos par ligne */\n@media screen and (max-width: 767px) {\n  #shopify-section-template--25237837218118__custom_content_zxqN4g .f-flex {\n    gap: 16px;\n  }\n  \n  #shopify-section-template--25237837218118__custom_content_zxqN4g .custom-content-block--image {\n    width: 45% !important;\n    max-width: 180px !important;\n  }\n}\n</style></div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -132,6 +119,7 @@
         "heading_GfCyAd",
         "richtext_DBwQ8b"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -149,7 +137,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div id=\"shopify-section-template--25237837218118__image_with_text_overlay_XJzVzQ\" class=\"shopify-section\"><style>\n  #shopify-section-template--25237837218118__image_with_text_overlay_XJzVzQ {\n    --section-padding-top: 50px;\n    --section-padding-bottom: 50px;\n      --media-ratio: 1.7777777777777777;\n    --padding-x: var(--page-padding);}\n    @media screen and (max-width: 767px) {\n      #shopify-section-template--25237837218118__image_with_text_overlay_XJzVzQ {\n        --media-ratio-mobile: 0.46296296296296297;\n      }\n    }\n  </style>\n<div class=\"image-with-text-overlay section--padding\">\n  <div class=\"w-full\">\n    <div class=\"relative overflow-hidden\">\n      <parallax-element class=\"block w-full h-full overflow-hidden\">\n        <motion-element data-motion=\"zoom-out\" class=\"block relative overflow-hidden w-full h-full media mb:media--adapt media--adapt\" style=\"transform: scale(1);\"><picture class=\"media-wrapper media--height block w-full h-full relative overflow-hidden loaded\"><source media=\"(max-width: 767px)\" srcset=\"//harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_NEW_2.jpg?v=1763130610&amp;width=400 400w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_NEW_2.jpg?v=1763130610&amp;width=600 600w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_NEW_2.jpg?v=1763130610&amp;width=800 800w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_NEW_2.jpg?v=1763130610&amp;width=1000 1000w\" width=\"500\" height=\"1080\"><img src=\"//harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=1920\" alt=\"\" srcset=\"//harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=300 300w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=400 400w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=500 500w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=600 600w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=700 700w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=800 800w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=900 900w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=1000 1000w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=1200 1200w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=1400 1400w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=1600 1600w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=1800 1800w\" width=\"1920\" height=\"1080\" loading=\"lazy\" sizes=\"100vw\" is=\"image-lazy\" class=\"loaded media-download-handled\"><div class=\"download-button-container\" style=\"position: absolute; top: 8px; left: 8px; z-index: 10000; pointer-events: auto;\"><div title=\"Download media\" style=\"background: rgb(255, 255, 255); width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border: 1px solid rgb(224, 224, 224); border-radius: 6px; color: rgb(0, 0, 0); opacity: 1; cursor: pointer; transition: 0.2s; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px; pointer-events: auto; user-select: none;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-download\"><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"></path><polyline points=\"7 10 12 15 17 10\"></polyline><line x1=\"12\" x2=\"12\" y1=\"15\" y2=\"3\"></line></svg></div></div></picture></motion-element>\n      </parallax-element>\n      <div class=\"image-with-text-ovelay__content\">\n        <div class=\"image-with-text-ovelay__content-wrapper content-overlay content-overlay--middle-left color-scheme-inverse page-width\">\n          <div class=\"relative z-1 rich-text text-left\">\n          </div>\n        </div>\n      </div>\n      <div class=\"bg-overlay absolute inset-0\" style=\"--color-overlay-alpha: 0;\"></div>\n    </div>\n  </div>\n</div>\n\n</div>",
+        "liquid": "<div id=\"shopify-section-template--25237837218118__image_with_text_overlay_XJzVzQ\" class=\"shopify-section\"><style>\n  #shopify-section-template--25237837218118__image_with_text_overlay_XJzVzQ {\n    --section-padding-top: 50px;\n    --section-padding-bottom: 50px;\n      --media-ratio: 1.7777777777777777;\n    --padding-x: var(--page-padding);}\n    @media screen and (max-width: 767px) {\n      #shopify-section-template--25237837218118__image_with_text_overlay_XJzVzQ {\n        --media-ratio-mobile: 0.46296296296296297;\n      }\n    }\n  </style>\n<div class=\"image-with-text-overlay section--padding\">\n  <div class=\"w-full\">\n    <div class=\"relative overflow-hidden\">\n      <parallax-element class=\"block w-full h-full overflow-hidden\">\n        <motion-element data-motion=\"zoom-out\" class=\"block relative overflow-hidden w-full h-full media mb:media--adapt media--adapt\" style=\"transform: scale(1);\"><picture class=\"media-wrapper media--height block w-full h-full relative overflow-hidden loaded\"><source media=\"(max-width: 767px)\" srcset=\"//harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_NEW_2.jpg?v=1763130610&amp;width=400 400w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_NEW_2.jpg?v=1763130610&amp;width=600 600w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_NEW_2.jpg?v=1763130610&amp;width=800 800w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_NEW_2.jpg?v=1763130610&amp;width=1000 1000w\" width=\"500\" height=\"1080\"><img src=\"//harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=1920\" alt=\"\" srcset=\"//harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=300 300w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=400 400w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=500 500w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=600 600w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=700 700w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=800 800w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=900 900w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=1000 1000w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=1200 1200w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=1400 1400w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=1600 1600w, //harveyross-fr.com/cdn/shop/files/Copie_de_Section_benefice_HR_new_desktop.jpg?v=1763130715&amp;width=1800 1800w\" width=\"1920\" height=\"1080\" loading=\"lazy\" sizes=\"100vw\" is=\"image-lazy\" class=\"loaded\"></picture></motion-element>\n      </parallax-element>\n      <div class=\"image-with-text-ovelay__content\">\n        <div class=\"image-with-text-ovelay__content-wrapper content-overlay content-overlay--middle-left color-scheme-inverse page-width\">\n          <div class=\"relative z-1 rich-text text-left\">\n          </div>\n        </div>\n      </div>\n      <div class=\"bg-overlay absolute inset-0\" style=\"--color-overlay-alpha: 0;\"></div>\n    </div>\n  </div>\n</div>\n\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -196,46 +184,6 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
-      }
-    },
-    "rich_text_8atdt6": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_GeafnP": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_c8rjaN": {
-          "type": "heading",
-          "settings": {
-            "text": "Résultat Avant/Après",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_ExQFGp": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_GeafnP",
-        "heading_c8rjaN",
-        "richtext_ExQFGp"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "slideshow_P46faW": {
@@ -288,6 +236,7 @@
         "image_DU38KT",
         "image_Pde7HM"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -915,12 +864,10 @@
     "custom_liquid_3cYXhQ",
     "1763812243d67206e3",
     "slideshow_V6ng47",
-    "custom_html_ULTk4W",
     "custom_liquid_KMDTCF",
     "rich_text_P94xUH",
     "custom_liquid_MgRCgf",
     "slideshow_bEqtRk",
-    "rich_text_8atdt6",
     "slideshow_P46faW",
     "rich_text_KTkPMg",
     "multiple_images_with_text_bahm8m",
