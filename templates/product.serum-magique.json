@@ -624,41 +624,6 @@
             "content": "<p>Nos produits sont uniquement disponibles sur notre site officiel. Toute vente sur des plateformes tierces, comme Amazon, concerne des contrefaçons de mauvaise qualité. Pour garantir l'authenticité et la qualité, achetez exclusivement sur notre site. Nous déclinons toute responsabilité pour les produits achetés ailleurs.</p>",
             "page": ""
           }
-        },
-        "liquid_RFiQTh": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"product-info__block-group accordion-group korean-accordion\">\n\n  <style>\n    /* Police globale Bricolage */\n    .korean-accordion,\n    .korean-accordion * {\n      font-family: 'Bricolage Grotesque', sans-serif !important;\n    }\n\n    /* Titres accordéons */\n    .korean-accordion .accordion__toggle span:first-child {\n      font-size: 13px;\n      letter-spacing: 0.06em;\n      font-weight: 600;\n    }\n\n    /* Texte interne */\n    .korean-accordion .accordion__content p,\n    .korean-accordion .accordion__content li {\n      font-size: 13px;\n      line-height: 1.5;\n      margin-bottom: 6px;\n      color: #111;\n    }\n\n    .korean-accordion .accordion__content ul,\n    .korean-accordion .accordion__content ol {\n      margin: 6px 0 12px;\n      padding-left: 18px;\n    }\n\n    @media (max-width: 768px) {\n      .korean-accordion .accordion__toggle span:first-child {\n        font-size: 13px;\n      }\n      .korean-accordion .accordion__content p,\n      .korean-accordion .accordion__content li {\n        font-size: 13px;\n      }\n    }\n  </style>\n\n\n  <!-- ACCORDÉON 1 : DESCRIPTION -->\n  <div class=\"product-info__block-item\" data-block-id=\"collapsible_text_description\" data-block-type=\"collapsible-text\">\n    <details class=\"product-info__accordion accordion group\" is=\"accordion-disclosure\">\n      <summary>\n        <div class=\"accordion__toggle bold\">\n          <span>DESCRIPTION</span>\n          <span class=\"circle-chevron group-expanded:rotate\">\n            <svg width=\"8\" height=\"6\" viewBox=\"0 0 8 6\"><path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>\n          </span>\n        </div>\n      </summary>\n\n      <div class=\"accordion__content\">\n        <p>\n          En <strong>90 secondes</strong>, cette crème anti-rides d’inspiration coréenne\n          <strong>atténue cernes, poches et ridules</strong> pour un regard plus lisse et reposé.\n        </p>\n        <ul>\n          <li>⭐ <strong>Réduit cernes, poches & rides d’expression</strong></li>\n          <li>💄 <strong>Invisible sous le maquillage</strong>, sans pelucher</li>\n          <li>🌱 <strong>Ingrédients d’origine naturelle</strong></li>\n          <li>⏱️ <strong>Effet tenseur immédiat</strong></li>\n        </ul>\n        <p>\n          Lisse les traits, défatigue le regard et améliore l’élasticité de la peau autour des yeux.\n        </p>\n      </div>\n    </details>\n  </div>\n\n\n  <!-- ACCORDÉON 2 : MODE D'EMPLOI -->\n  <div class=\"product-info__block-item\" data-block-id=\"collapsible_text_mode\" data-block-type=\"collapsible-text\">\n    <details class=\"product-info__accordion accordion group\" is=\"accordion-disclosure\">\n      <summary>\n        <div class=\"accordion__toggle bold\">\n          <span>MODE D'EMPLOI</span>\n          <span class=\"circle-chevron group-expanded:rotate\">\n            <svg width=\"8\" height=\"6\" viewBox=\"0 0 8 6\"><path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>\n          </span>\n        </div>\n      </summary>\n\n      <div class=\"accordion__content\">\n        <ol>\n          <li><strong>Nettoyez</strong> délicatement le contour des yeux.</li>\n          <li><strong>Appliquez</strong> une petite quantité sur rides, poches et cernes.</li>\n          <li><strong>Patientez ~90s</strong> sans bouger : le film tenseur se forme.</li>\n        </ol>\n        <p><em>Idéal le matin, avant le maquillage.</em></p>\n      </div>\n    </details>\n  </div>\n\n\n  <!-- ACCORDÉON 3 : INGRÉDIENTS -->\n  <div class=\"product-info__block-item\" data-block-id=\"collapsible_text_ingredients\" data-block-type=\"collapsible-text\">\n    <details class=\"product-info__accordion accordion group\" is=\"accordion-disclosure\">\n      <summary>\n        <div class=\"accordion__toggle bold\">\n          <span>INGRÉDIENTS</span>\n          <span class=\"circle-chevron group-expanded:rotate\">\n            <svg width=\"8\" height=\"6\" viewBox=\"0 0 8 6\"><path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>\n          </span>\n        </div>\n      </summary>\n\n      <div class=\"accordion__content\">\n        <p><strong>Actifs principaux :</strong></p>\n        <ul>\n          <li><strong>Thé Vert :</strong> apaise et revitalise.</li>\n          <li><strong>Acide Hyaluronique :</strong> hydrate & repulpe.</li>\n          <li><strong>Camomille :</strong> calme et réduit la fatigue.</li>\n          <li><strong>Peptides :</strong> raffermissent la peau.</li>\n        </ul>\n\n        <p><em><strong>INCI simplifié :</strong></em></p>\n        <p>\n          AQUA, SODIUM HYALURONATE, HYDROLYZED COLLAGEN, TOCOPHEROL, GLYCERIN,\n          CHAMOMILLA RECUTITA FLOWER EXTRACT, CAMELLIA SINENSIS LEAF EXTRACT.\n        </p>\n      </div>\n    </details>\n  </div>\n\n\n  <!-- ACCORDÉON 4 : LIVRAISON & RETOURS -->\n  <div class=\"product-info__block-item\" data-block-id=\"collapsible_text_livraison\" data-block-type=\"collapsible-text\">\n    <details class=\"product-info__accordion accordion group\" is=\"accordion-disclosure\">\n      <summary>\n        <div class=\"accordion__toggle bold\">\n          <span>LIVRAISON & RETOURS</span>\n          <span class=\"circle-chevron group-expanded:rotate\">\n            <svg width=\"8\" height=\"6\" viewBox=\"0 0 8 6\"><path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>\n          </span>\n        </div>\n      </summary>\n\n      <div class=\"accordion__content\">\n        <p>\n          Livraison en <strong>5 à 10 jours ouvrés</strong> selon votre pays.\n          Suivi fourni dès l’expédition.\n        </p>\n        <p>\n          Retours possibles sous <strong>30 jours</strong> pour remboursement ou échange\n          (produit non ouvert).\n        </p>\n        <p><em>Support client réactif & prioritaire.</em></p>\n      </div>\n    </details>\n  </div>\n\n</div>"
-          }
-        },
-        "liquid_DDwpEf": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": ""
-          }
-        },
-        "liquid_iaJLx6": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_7thrNr\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n\n    <style>\n      /* ==== Force la police Bricolage Grotesque ==== */\n      .korean-specs,\n      .korean-specs * {\n        font-family: 'Bricolage Grotesque', sans-serif !important;\n      }\n\n      /* ==== Structure ==== */\n      .korean-specs {\n        padding: 0;\n        margin-top: 18px;\n        width: 100%;\n        border-top: 1px solid #e5e5e5;\n      }\n\n      .korean-specs__item {\n        padding: 14px 0;\n        display: flex;\n        gap: 20px;\n        border-bottom: 1px solid #e5e5e5;\n      }\n\n      .korean-specs__title {\n        font-size: 13px;\n        font-weight: 700;\n        color: #000;\n        margin: 0;\n        min-width: 140px;\n      }\n\n      .korean-specs__content {\n        font-size: 13px;\n        font-weight: 400;\n        color: #222;\n        margin: 0;\n        line-height: 1.5;\n        flex: 1;\n      }\n\n      /* ==== Responsive Mobile ==== */\n      @media (max-width: 768px) {\n        .korean-specs__item {\n          flex-direction: column;\n          gap: 6px;\n          padding: 12px 0;\n        }\n        .korean-specs__title {\n          min-width: auto;\n          font-size: 13px;\n        }\n        .korean-specs__content {\n          font-size: 13px;\n        }\n      }\n    </style>\n\n    <section class=\"korean-specs\">\n\n      <div class=\"korean-specs__item\">\n        <h3 class=\"korean-specs__title\">Action ciblée</h3>\n        <p class=\"korean-specs__content\">\n          Réduction immédiate des rides, poches et cernes.<br>\n          Effet lift visible dès <strong>5 minutes</strong>.\n        </p>\n      </div>\n\n      <div class=\"korean-specs__item\">\n        <h3 class=\"korean-specs__title\">Texture</h3>\n        <p class=\"korean-specs__content\">\n          Gel tenseur clinique ultra-fin, absorption rapide.<br>\n          Ne colle pas, compatible avec le maquillage.\n        </p>\n      </div>\n\n      <div class=\"korean-specs__item\">\n        <h3 class=\"korean-specs__title\">Formulation</h3>\n        <p class=\"korean-specs__content\">\n          Acide hyaluronique, peptides, bio-collagène.<br>\n          <strong>Testé cliniquement • 98% naturel</strong>.\n        </p>\n      </div>\n\n      <div class=\"korean-specs__item\">\n        <h3 class=\"korean-specs__title\">Utilisation</h3>\n        <p class=\"korean-specs__content\">\n          Tapoter une fine couche sur peau propre.<br>\n          Laisser agir <strong>2–5 min</strong> pour un effet lift optimal.\n        </p>\n      </div>\n\n    </section>\n\n  </div>\n</div>"
-          }
-        },
-        "liquid_NNDyrT": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Video Slider Autoplay</title>\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: Arial, sans-serif;\n            background: #f5f5f5;\n            padding: 40px 0;\n        }\n\n        /* Overlay sombre quand une vidéo est agrandie */\n        .overlay {\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100%;\n            height: 100%;\n            background: rgba(0, 0, 0, 0.85);\n            z-index: 999;\n            display: none;\n            opacity: 0;\n            transition: opacity 0.3s ease;\n        }\n\n        .overlay.active {\n            display: block;\n            opacity: 1;\n        }\n\n        .slider-container {\n            position: relative;\n            width: 100%;\n            overflow-x: scroll;\n            overflow-y: hidden;\n            display: flex;\n            align-items: center;\n            scroll-snap-type: x mandatory;\n            max-width: 1200px;\n            margin-left: auto;\n            margin-right: auto;\n            padding: 20px 10px;\n            scroll-behavior: smooth;\n        }\n\n        .slider {\n            display: flex;\n            gap: 15px;\n            scroll-snap-type: x mandatory;\n        }\n\n        .slide {\n            flex: 0 0 45%;\n            max-width: 220px;\n            scroll-snap-align: center;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            position: relative;\n            cursor: pointer;\n            transition: transform 0.3s ease, box-shadow 0.3s ease;\n        }\n\n        .slide:hover {\n            transform: translateY(-5px);\n        }\n\n        /* Vidéo agrandie */\n        .slide.enlarged {\n            position: fixed;\n            top: 50%;\n            left: 50%;\n            transform: translate(-50%, -50%) !important;\n            z-index: 1000;\n            flex: none;\n            max-width: 90vw;\n            max-height: 90vh;\n            width: auto;\n            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);\n            animation: fadeIn 0.3s ease;\n        }\n\n        @media screen and (min-width: 769px) {\n            .slide {\n                flex: 0 0 30%;\n                max-width: 200px;\n            }\n\n            .slide.enlarged {\n                max-width: 500px;\n            }\n        }\n\n        .video-wrapper {\n            width: 100%;\n            position: relative;\n            border-radius: 12px;\n            overflow: hidden;\n            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n        }\n\n        .slide.enlarged .video-wrapper {\n            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);\n        }\n\n        .video {\n            width: 100%;\n            height: auto;\n            aspect-ratio: 9 / 16;\n            display: block;\n            object-fit: cover;\n        }\n\n        /* Bouton fermer pour vidéo agrandie */\n        .close-button {\n            position: absolute;\n            top: -40px;\n            right: 0;\n            width: 35px;\n            height: 35px;\n            background: white;\n            color: #333;\n            border: none;\n            border-radius: 50%;\n            display: none;\n            justify-content: center;\n            align-items: center;\n            font-size: 20px;\n            cursor: pointer;\n            z-index: 1001;\n            font-weight: bold;\n            transition: background 0.2s ease;\n        }\n\n        .close-button:hover {\n            background: #f0f0f0;\n        }\n\n        .slide.enlarged .close-button {\n            display: flex;\n        }\n\n        /* Indicateur de lecture */\n        .play-indicator {\n            position: absolute;\n            bottom: 10px;\n            left: 10px;\n            width: 30px;\n            height: 30px;\n            background: rgba(0, 0, 0, 0.5);\n            color: white;\n            border-radius: 50%;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-size: 12px;\n            pointer-events: none;\n            opacity: 0.7;\n        }\n\n        .slider-container::-webkit-scrollbar {\n            height: 8px;\n        }\n\n        .slider-container::-webkit-scrollbar-thumb {\n            background: #aaa;\n            border-radius: 10px;\n        }\n\n        .slider-container::-webkit-scrollbar-track {\n            background: #ddd;\n        }\n\n        /* Animation corrigée → ne casse plus le centrage */\n        @keyframes fadeIn {\n            from {\n                opacity: 0;\n                transform: translate(-50%, -50%) scale(0.90);\n            }\n            to {\n                opacity: 1;\n                transform: translate(-50%, -50%) scale(1);\n            }\n        }\n    </style>\n</head>\n\n<body>\n    <!-- Overlay sombre -->\n    <div class=\"overlay\" id=\"overlay\"></div>\n\n    <div class=\"slider-container\">\n        <div class=\"slider\">\n\n            <div class=\"slide\">\n                <button class=\"close-button\">×</button>\n                <div class=\"video-wrapper\">\n                    <video class=\"video\" loop muted autoplay playsinline>\n                        <source src=\"https://cdn.shopify.com/videos/c/o/v/d1406043d2dc4ad68e47f6de623919f8.mov\" type=\"video/mp4\">\n                    </video>\n                    <div class=\"play-indicator\">▶</div>\n                </div>\n            </div>\n            <div class=\"slide\">\n                <button class=\"close-button\">×</button>\n                <div class=\"video-wrapper\">\n                    <video class=\"video\" loop muted autoplay playsinline>\n                        <source src=\"https://cdn.shopify.com/videos/c/o/v/60a39cdadedc4714a95528d81773e308.mov\" type=\"video/mp4\">\n                    </video>\n                    <div class=\"play-indicator\">▶</div>\n                </div>\n            </div>\n\n            <div class=\"slide\">\n                <button class=\"close-button\">×</button>\n                <div class=\"video-wrapper\">\n                    <video class=\"video\" loop muted autoplay playsinline>\n                        <source src=\"https://cdn.shopify.com/videos/c/o/v/d826ffe4b50d48db9149ffce88239c02.mov\" type=\"video/mp4\">\n                    </video>\n                    <div class=\"play-indicator\">▶</div>\n                </div>\n            </div>\n\n            <div class=\"slide\">\n                <button class=\"close-button\">×</button>\n                <div class=\"video-wrapper\">\n                    <video class=\"video\" loop muted autoplay playsinline>\n                        <source src=\"https://cdn.shopify.com/videos/c/o/v/fb3f41318d5a4a8cac7cc2df2a2bdb34.mov\" type=\"video/mp4\">\n                    </video>\n                    <div class=\"play-indicator\">▶</div>\n                </div>\n            </div>\n\n            <div class=\"slide\">\n                <button class=\"close-button\">×</button>\n                <div class=\"video-wrapper\">\n                    <video class=\"video\" loop muted autoplay playsinline>\n                        <source src=\"https://cdn.shopify.com/videos/c/o/v/47df0ec3570e4e2f8bc1beb8c14004b8.mov\" type=\"video/mp4\">\n                    </video>\n                    <div class=\"play-indicator\">▶</div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n\n    <script>\n        document.addEventListener(\"DOMContentLoaded\", () => {\n            const slides = document.querySelectorAll(\".slide\");\n            const overlay = document.getElementById(\"overlay\");\n            let enlargedSlide = null;\n\n            slides.forEach(slide => {\n                const video = slide.querySelector(\"video\");\n                const closeButton = slide.querySelector(\".close-button\");\n                const videoWrapper = slide.querySelector(\".video-wrapper\");\n\n                // Clic pour agrandir\n                videoWrapper.addEventListener(\"click\", (e) => {\n                    e.stopPropagation();\n\n                    if (slide.classList.contains(\"enlarged\")) {\n                        closeEnlargedVideo();\n                    } else {\n                        closeEnlargedVideo();\n                        slide.classList.add(\"enlarged\");\n                        overlay.classList.add(\"active\");\n                        enlargedSlide = slide;\n\n                        video.muted = false;\n                        video.play();\n\n                        document.body.style.overflow = \"hidden\";\n                    }\n                });\n\n                closeButton.addEventListener(\"click\", (e) => {\n                    e.stopPropagation();\n                    closeEnlargedVideo();\n                });\n            });\n\n            overlay.addEventListener(\"click\", closeEnlargedVideo);\n\n            document.addEventListener(\"keydown\", (e) => {\n                if (e.key === \"Escape\") closeEnlargedVideo();\n            });\n\n            function closeEnlargedVideo() {\n                if (enlargedSlide) {\n                    const video = enlargedSlide.querySelector(\"video\");\n\n                    enlargedSlide.classList.remove(\"enlarged\");\n                    overlay.classList.remove(\"active\");\n\n                    video.muted = true;\n                    document.body.style.overflow = \"\";\n\n                    enlargedSlide = null;\n                }\n            }\n\n            document.querySelectorAll(\"video\").forEach(video => {\n                video.play().catch(err => console.log(\"Autoplay bloqué:\", err));\n            });\n        });\n    </script>\n</body>\n\n</html>"
-          }
-        },
-        "liquid_A6Cnxx": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": ""
-          }
         }
       },
       "block_order": [
@@ -685,12 +650,7 @@
         "collapsible_text_fzmm8R",
         "collapsible_text_FCTmpc",
         "collapsible_text_pHymRQ",
-        "collapsible_text_rdmnf8",
-        "liquid_RFiQTh",
-        "liquid_DDwpEf",
-        "liquid_iaJLx6",
-        "liquid_NNDyrT",
-        "liquid_A6Cnxx"
+        "collapsible_text_rdmnf8"
       ],
       "settings": {
         "full_width": true,
@@ -710,8 +670,97 @@
         "input_text_color": ""
       }
     },
+    "multiple_images_with_text_JLJtPg": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_U3EgjP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/dr-sophie.jpg",
+            "image_rotation_degrees": 1,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>Dr. Sophie Renard à propos de Korean Co<br/></h4><p>\"Avec l’âge, la peau du contour des yeux s’amincit et perd en tonicité, favorisant l’apparition des rides et des poches. L’Instant Lift+ d’Harvey Ross offre une action ciblée pr retendre, lisser et défatiguer cette zone fragile. Sa formule avancée contribue à restaurer la fermeté et la souplesse cutanée, pour un regard visiblement plus éclatant et reposé.\"</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_U3EgjP"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multiple_images_with_text_jE6qNR": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_QfYmJ7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_10.webp",
+            "image_rotation_degrees": -5,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>Essayez Korean Co en toute confiance avec notre garantie de remboursement de 90 jours !<br/></h4><p>Les spécialistes de la peau, les dermatologues et nos clients en témoignent : Korean Co offre des résultats visibles !<br/>Convaincus de son efficacité, nous vous proposons une garantie satisfait ou remboursé pendant 90 jours.<br/>Si vous n’obtenez pas les résultats escomptés nous vous remboursons intégralement.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_QfYmJ7"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#85c6b1",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "custom_html_3mjhRk": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_Xg6tCw": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_html_qrVMB8": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -725,6 +774,7 @@
     },
     "custom_html_LVJRrK": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -738,6 +788,7 @@
     },
     "custom_html_QjMJJP": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -826,6 +877,7 @@
     },
     "custom_html_LdDiF8": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -880,6 +932,10 @@
     "images_with_text_scrolling_Ce43eQ",
     "custom_html_Wnzr78",
     "main",
+    "multiple_images_with_text_JLJtPg",
+    "multiple_images_with_text_jE6qNR",
+    "custom_html_3mjhRk",
+    "custom_html_Xg6tCw",
     "custom_html_qrVMB8",
     "custom_html_LVJRrK",
     "custom_html_QjMJJP",
