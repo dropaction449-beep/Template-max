@@ -46,11 +46,11 @@
             "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "★★★★★ Noté 4.8/5 par plus de 1'750 clientes satisfaites.",
-            "title": "Dites adieu aux yeux fatigués et bonjour à une confiance rajeunie",
+            "title": "Effacez vos yeux fatigués et reprenez immédiatement une confiance rajeunie.",
             "heading_tag": "h2",
             "button_text": "",
             "button_link": "shopify://products/instant-face-lift",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "button_background": "#85c6b1",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -444,6 +444,19 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "custom_html_Wnzr78": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "custom_liquid_wAACwC": {
@@ -873,6 +886,7 @@
     "rich_text_KTkPMg",
     "multiple_images_with_text_bahm8m",
     "images_with_text_scrolling_Ce43eQ",
+    "custom_html_Wnzr78",
     "custom_liquid_wAACwC",
     "rich_text_ex9gby",
     "main",
