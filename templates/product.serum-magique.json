@@ -132,7 +132,6 @@
     },
     "custom_liquid_MgRCgf": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -172,6 +171,7 @@
       "block_order": [
         "image_WJPdJU"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "full_width": true,
