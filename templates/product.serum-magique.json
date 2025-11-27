@@ -374,6 +374,7 @@
         "item_6tDw89",
         "item_FMTQgg"
       ],
+      "disabled": true,
       "name": "Multiple images with text",
       "settings": {
         "full_width": true,
