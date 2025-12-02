@@ -186,254 +186,14 @@
         "text_color": ""
       }
     },
-    "custom_html_Rt3UfA": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "html": "<section class=\"how-section\">\n  <div class=\"how-carousel\">\n    <button class=\"how-arrow how-arrow--left\" type=\"button\">❮</button>\n\n    <div class=\"how-viewport\">\n      <div class=\"how-track\">\n        <!-- Étape 1 -->\n        <div class=\"how-step\">\n          <video autoplay=\"\" muted=\"\" loop=\"\" playsinline=\"\">\n            <source src=\"//harveyross-fr.com/cdn/shop/videos/c/vp/4a00330c86a54b9fa0cc2f884106559e/4a00330c86a54b9fa0cc2f884106559e.HD-1080p-7.2Mbps-31842484.mp4?v=0\">\n            Votre navigateur ne supporte pas la vidéo.\n          </source></video>\n        </div>\n\n        <!-- Étape 2 -->\n        <div class=\"how-step\">\n          <video autoplay=\"\" muted=\"\" loop=\"\" playsinline=\"\">\n            <source src=\"//harveyross-fr.com/cdn/shop/videos/c/vp/d97425374e6d4a9aa3e671e6c8315443/d97425374e6d4a9aa3e671e6c8315443.HD-1080p-7.2Mbps-31842403.mp4?v=0\">\n            Votre navigateur ne supporte pas la vidéo.\n          </source></video>\n        </div>\n\n        <!-- Étape 3 -->\n        <div class=\"how-step\">\n          <video autoplay=\"\" muted=\"\" loop=\"\" playsinline=\"\">\n            <source src=\"//harveyross-fr.com/cdn/shop/videos/c/vp/5060d1db0f9c471e8112bbaa09ece416/5060d1db0f9c471e8112bbaa09ece416.HD-1080p-4.8Mbps-31842488.mp4?v=0\">\n            Votre navigateur ne supporte pas la vidéo.\n          </source></video>\n        </div>\n      </div>\n    </div>\n\n    <button class=\"how-arrow how-arrow--right\" type=\"button\">❯</button>\n  </div>\n</section>\n\n<script>\n  (function() {\n    const track = document.querySelector('.how-track');\n    const steps = document.querySelectorAll('.how-step');\n    const btnLeft = document.querySelector('.how-arrow--left');\n    const btnRight = document.querySelector('.how-arrow--right');\n\n    if (!track || steps.length === 0) return;\n\n    let index = 0;\n\n    function isMobile() {\n      return window.innerWidth <= 768;\n    }\n\n    function updatePosition() {\n      if (!isMobile()) {\n        // Sur ordi : aucune translation, tout est affiché\n        track.style.transform = 'translateX(0)';\n        index = 0;\n        return;\n      }\n\n      const stepWidth = steps[0].getBoundingClientRect().width + 12; // largeur + gap mobile\n      track.style.transform = 'translateX(' + (-index * stepWidth) + 'px)';\n    }\n\n    if (btnRight) {\n      btnRight.addEventListener('click', function() {\n        if (!isMobile()) return;\n        if (index < steps.length - 1) {\n          index++;\n          updatePosition();\n        }\n      });\n    }\n\n    if (btnLeft) {\n      btnLeft.addEventListener('click', function() {\n        if (!isMobile()) return;\n        if (index > 0) {\n          index--;\n          updatePosition();\n        }\n      });\n    }\n\n    window.addEventListener('resize', updatePosition);\n    updatePosition();\n  })();\n</script>\n\n<style>\n  .how-section {\n    font-family: -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Arial, sans-serif;\n    color: #111;\n    text-align: center;\n    padding: 32px 20px;\n  }\n\n  .how-section h2 {\n    font-size: 22px;\n    font-weight: 700;\n    margin-bottom: 20px;\n  }\n\n  .how-carousel {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 12px;\n    max-width: 1100px;\n    margin: 0 auto;\n  }\n\n  .how-arrow {\n    border: none;\n    background: rgba(0,0,0,0.05);\n    width: 30px;\n    height: 30px;\n    border-radius: 999px;\n    cursor: pointer;\n    font-size: 16px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .how-arrow:hover {\n    background: rgba(0,0,0,0.12);\n  }\n\n  .how-viewport {\n    overflow: hidden;\n    flex: 1;\n  }\n\n  .how-track {\n    display: flex;\n    gap: 16px;\n    transition: transform 0.25s ease-out;\n  }\n\n  /* Taille des cartes sur ORDI */\n  .how-step {\n    position: relative;\n    width: 260px;\n    border-radius: 16px;\n    overflow: hidden;\n    flex: 0 0 auto;\n  }\n\n  .how-step video {\n    width: 100%;\n    height: auto;\n    border-radius: 16px;\n    display: block;\n  }\n\n  .how-step span {\n    position: absolute;\n    bottom: 10px;\n    left: 10px;\n    background: rgba(255, 255, 255, 0.9);\n    color: #000;\n    font-weight: 700;\n    font-size: 14px;\n    padding: 4px 8px;\n    border-radius: 6px;\n  }\n\n  /* --- MOBILE --- */\n  @media (max-width: 768px) {\n    .how-section {\n      padding: 24px 12px;\n    }\n\n    .how-section h2 {\n      font-size: 18px;\n      margin-bottom: 14px;\n    }\n\n    .how-carousel {\n      gap: 6px;\n    }\n\n    .how-arrow {\n      width: 24px;\n      height: 24px;\n      font-size: 13px;\n    }\n\n    .how-viewport {\n      max-width: 260px;\n      margin: 0 auto;\n    }\n\n    .how-step {\n      width: 60vw;          /* plus petit */\n      max-width: 210px;     /* limite la taille */\n      border-radius: 12px;\n    }\n\n    .how-step video {\n      border-radius: 12px;\n    }\n\n    .how-step span {\n      font-size: 12px;\n      padding: 3px 6px;\n      bottom: 8px;\n      left: 8px;\n    }\n  }\n</style>",
-        "background": "#f2f2f2",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "slideshow_P46faW": {
-      "type": "slideshow",
-      "blocks": {
-        "image_DU38KT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/4_e5a84725-2851-4a40-9ca7-0eda3cf770ed.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_Pde7HM": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Sanstitre_1500x1500px.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_DU38KT",
-        "image_Pde7HM"
-      ],
-      "disabled": true,
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "show_initial_transition": false,
-        "image_size": "auto",
-        "controls_type": "filled_arrows",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#ffffff",
-        "background_gradient": ""
-      }
-    },
-    "rich_text_KTkPMg": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_ANnigW": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_d4BfDc": {
-          "type": "heading",
-          "settings": {
-            "text": "Elles en parles le mieux",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_KLCcFy": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_ANnigW",
-        "heading_d4BfDc",
-        "richtext_KLCcFy"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multiple_images_with_text_bahm8m": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_mcyJDH": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/i.png",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_6tDw89": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/o.png",
-            "image_rotation_degrees": 0,
-            "subheading": "",
-            "title": "Image with text",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "item_FMTQgg": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_mcyJDH",
-        "item_6tDw89",
-        "item_FMTQgg"
-      ],
-      "disabled": true,
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "shifted",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "images_with_text_scrolling_Ce43eQ": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_krxHNr": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/4_d1fc8796-6367-4ffd-86a7-4d71f6e584e4.jpg",
-            "icon": "none",
-            "icon_width": 44,
-            "title": "",
-            "content": "<h3><strong>Sandrine</strong></h3><p>★★★★★ Cliente vérifiée ✓</p><p>J’ai testé beaucoup de soins sans résultat visible — mais la Crème Liftante Instantanée de Korean Co est la première qui a transformé mon regard. En quelques minutes, mes poches et cernes sont atténués, la peau sous les yeux paraît plus ferme, plus lisse. Mon regard gagne en éclat — net, reposé, rajeuni.</p>"
-          }
-        },
-        "item_jYVbYK": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/3_10692d46-6194-46a3-9000-e34c295c6fe3.jpg",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<h3>Sabrina</h3><p>★★★★★ Cliente vérifiée ✓</p><p>La Crème Liftante Instantanée a effacé mes rides en un instant. Peau ferme, regard rajeuni. Addictive. </p>"
-          }
-        },
-        "item_QWGAJC": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1_240d8f6c-7c51-4f31-b83f-89e16408de60.jpg",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<h3>Sonia</h3><p>★★★★★ Cliente vérifiée ✓</p><p>Je m’appelle Sonia, et j’adore voir ce moment-là : quand la cliente découvre son visage dans le miroir après Korean Co. La réaction est toujours la même… des yeux ronds et un grand ‘wow’ 🤩<br/><br/>Même ses amies n’en reviennent pas ! On adore utiliser ce produit au salon.</p>"
-          }
-        },
-        "item_Ary6WN": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/9.jpg",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<h3>Nathalie</h3><p>★★★★★ Cliente vérifiée ✓</p><p>Idéal pour les retouches en voyage. Il prend très peu de place dans ma trousse et s’applique en quelques secondes. Effet lift instantané, parfait avant une photo ou un rendez-vous. Je ne pars jamais sans lui !<br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_krxHNr",
-        "item_jYVbYK",
-        "item_QWGAJC",
-        "item_Ary6WN"
-      ],
-      "name": "Images and text scrolling",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "custom_html_Wnzr78": {
+    "custom_html_XKjUbY": {
       "type": "custom-html",
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "",
+        "html": "<p style=\"text-align: center\">Write or copy/paste HTML code</p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -448,52 +208,10 @@
             "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div style=\"text-align: left;\">\n  <span style=\"\n    display: inline-block;\n    padding: 3px 3px;\n    border: 1px solid #c4c4c4;\n    color: #8c8c8c;\n    font-size: 9px;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    margin-right: 3px;\nmargin-bottom:10px;\n  \">\n    INSTANTANÉ\n  </span>\n\n  <span style=\"\n    display: inline-block;\n    padding: 3px 3px;\n    border: 1px solid #c4c4c4;\n    color: #8c8c8c;\n    font-size: 9px;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    margin-right: 3px;\n  \">\n    RIDES / RIDULES\n  </span>\n\n  <span style=\"\n    display: inline-block;\n    padding: 3px 3px;\n    border: 1px solid #c4c4c4;\n    color: #8c8c8c;\n    font-size: 9px;\n    text-transform: uppercase;\n    letter-spacing: 0.9px;\n  \">\n   KOREAN BEAUTY 🇰🇷\n  </span>\n</div>\n            </div></div>"
           }
         },
-        "liquid_w4LhVH": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div\n  style=\"\n    background-color:#ffffff;\n    border-bottom:1px solid #EAEAEA;\n    display:flex;\n    justify-content:space-between;\n    padding:12px 16px;\n    margin-top:-10px;\n    margin-left:-20px;\n    margin-right:-20px;\n  \"\n>\n  <!-- Colonne 1 -->\n  <div style=\"flex:1; text-align:center;\">\n    <div style=\"display:flex; flex-direction:column; align-items:center;\">\n      <img\n        src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/ChatGPT_Image_16_nov._2025_17_24_18.png?v=1763310268\"\n        alt=\"Lifting\"\n        style=\"width:52px; height:auto; margin-bottom:8px;\"\n      >\n      <p style=\"font-size:12px; line-height:1.25; color:#000; margin:0;\">\n        Effet liftant<br>immédiat\n      </p>\n    </div>\n  </div>\n\n  <!-- Colonne 2 -->\n  <div style=\"flex:1; text-align:center;\">\n    <div style=\"display:flex; flex-direction:column; align-items:center;\">\n      <img\n        src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/ChatGPT_Image_16_nov._2025_17_28_20.png?v=1763310512\"\n        alt=\"Anti-rides\"\n        style=\"width:52px; height:auto; margin-bottom:8px;\"\n      >\n      <p style=\"font-size:12px; line-height:1.25; color:#000; margin:0;\">\n        Réduit poches<br>& ridules\n      </p>\n    </div>\n  </div>\n\n  <!-- Colonne 3 -->\n  <div style=\"flex:1; text-align:center;\">\n    <div style=\"display:flex; flex-direction:column; align-items:center;\">\n      <img\n        src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/ChatGPT_Image_16_nov._2025_17_29_51.png?v=1763310603\"\n        alt=\"Korean skincare\"\n        style=\"width:52px; height:auto; margin-bottom:8px;\"\n      >\n      <p style=\"font-size:12px; line-height:1.25; color:#000; margin:0;\">\n        Inspiré des rituels<br>coréens\n      </p>\n    </div>\n  </div>\n</div>"
-          }
-        },
-        "liquid_AzFhkM": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_e4Wf7d\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div style=\"display: flex; align-items: center; margin-bottom: -15px; margin-top: -25px; justify-content: left;\">\n  <!-- Image des étoiles -->\n  <img src=\"https://cdn.shopify.com/s/files/1/0828/6457/0634/files/Untitled_design_19.png?v=1752572317\" alt=\"Rating Stars\" style=\"margin-right: 10px; max-width: 65px;\">\n\n  <!-- Texte de la note et des avis -->\n  <div style=\"font-size: 13px;\">\n    <span style=\"font-weight: bold;\"></span>\n    <span style=\"font-weight: regular;\"><b>4.8/5</b> - 34,231 avis vérifiés</span>\n  </div>\n</div>\n            </div></div>"
-          }
-        },
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {
-            "heading_tag": "h6"
-          }
-        },
         "liquid_YFUT8h": {
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <!-- HEADER : Titre + Badge -->\n<div class=\"ccp-header\">\n  <h1 class=\"ccp-title\">CRÈME LIFTANTE <br>INSTANTANÉE</h1>\n  <div class=\"stock-badge da\">\n    <span class=\"stock-badge__dot\"></span>\n    <span class=\"stock-badge__text\">Black Friday</span>\n  </div>\n</div>\n\n<!-- AVIS + séparation -->\n<div class=\"ccp-reviews\">\n  <span class=\"ccp-stars\" aria-hidden=\"true\">\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n  </span>\n  <span class=\"ccp-reviews-count\">+1&nbsp;750 avis clients</span>\n</div>\n\n<style>\n/* En-tête */\n.ccp-header{\n  display:flex;\n  align-items:center;\n  justify-content:space-between;\n  gap:12px;\n  margin:-10px 0 8px;\n}\n.ccp-title{\n  margin:0;\n  font-weight:600;\n  font-size:18px;\n  letter-spacing:.2px;\n  line-height:1.2;\n  flex-shrink:0;\n}\n\n/* Badge personnalisé */\n.stock-badge{\n  display:inline-flex;\n  align-items:center;\n  gap:6px;\n  font-size:.7rem;\n  font-weight:600;\n  text-transform:uppercase;\n  padding:6px 10px;\n  border-radius:9px;\n  border:1px solid rgba(0,0,0,.08);\n  box-shadow:0 2px 6px rgba(0,0,0,.15);\n  background:#fff84a;\n  color:#282820;\n  flex-shrink:0;\n}\n.stock-badge__dot{\n  width:8px;\n  height:8px;\n  border-radius:50%;\n  background:#282820;\n  position:relative;\n  box-shadow:0 0 6px rgba(0,0,0,.25);\n  animation:dotPulse 2.2s infinite;\n}\n.stock-badge__dot::before{\n  content:'';\n  position:absolute;\n  inset:-2px;\n  border-radius:50%;\n  background:#282820;\n  opacity:.25;\n  animation:dotRing 1.6s infinite;\n}\n\n/* Animations */\n@keyframes dotPulse{\n  0%,100%{transform:scale(1);opacity:1}\n  50%{transform:scale(1.15);opacity:.85}\n}\n@keyframes dotRing{\n  0%{transform:scale(.8);opacity:.35}\n  60%{transform:scale(1.4);opacity:.08}\n  100%{transform:scale(1.7);opacity:0}\n}\n\n/* Avis */\n.ccp-reviews{\n  position:relative;\n  display:flex;\n  align-items:center;\n  gap:8px;\n  font-size:14px;\n  color:#111;\n  padding-bottom:10px;\n  margin-bottom:12px;\n}\n.ccp-reviews::after{\n  content:\"\";\n  position:absolute;\n  left:0;right:0;bottom:0;\n  height:1px;\n  background:#dcdcdc;\n}\n\n/* Étoiles Trustpilot */\n.ccp-stars{\n  display:flex;\n  gap:4px;\n}\n.ccp-stars .star{\n  width:16px;\n  height:16px;\n  padding:2px;\n  background:#00B67A;\n  border-radius:3px;\n  fill:#fff;\n  box-shadow:0 1px 3px rgba(0,0,0,0.15);\n}\n\n/* Texte avis */\n.ccp-reviews-count{\n  cursor:pointer;\n  text-decoration:underline;\n  text-underline-offset:2px;\n  color:#007a5e;\n  font-weight:500;\n}\n\n/* Responsive */\n@media(max-width:480px){\n  .ccp-title{font-size:16px}\n  .stock-badge{font-size:.75rem;padding:5px 9px}\n  .stock-badge__dot{width:7px;height:7px}\n  .ccp-stars .star{width:14px;height:14px}\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const reviewsCount = document.querySelector(\".ccp-reviews-count\");\n  if (reviewsCount) {\n    reviewsCount.addEventListener(\"click\", function() {\n      const target = document.querySelector(\"#looxReviewsFrame\");\n      if (target) target.scrollIntoView({ behavior: \"smooth\" });\n      else window.location.hash = \"#looxReviewsFrame\";\n    });\n  }\n});\n</script>\n          </div>"
-          }
-        },
-        "liquid_PPKBYG": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_GnVqWa\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n  .limited-offer-banner {\n    background-color: #eaf7f2; /* fond noir */\n    color: #5f887a;            /* texte blanc */\n    padding: 18px 24px;\n    border-radius: 12px;\n    text-align: center;\n    max-width: 900px;\n    margin: 0 auto 20px auto;\n    font-size: 16px;\n    line-height: 1.4;\n  }\n\n  .limited-offer-banner b {\n    font-weight: 700;\n  }\n</style>\n\n<div class=\"limited-offer-banner\">\n  Effet lifting visible en <b> 2 minutes </b> pour lisser rides et cernes.\n</div>\n            </div></div>"
-          }
-        },
-        "liquid_cgD8EP": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": ""
-          }
-        },
-        "liquid_P7gUrF": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_B9EKP6\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n\n    <div class=\"korean-rating\">\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/0828/6457/0634/files/Untitled_design_19.png?v=1752572317\" \n        alt=\"Rating Stars\" \n        class=\"korean-rating-stars\"\n      >\n      <p class=\"korean-rating-text\">\n        <strong>Noté 4,8/5</strong> — 34 231 avis clients\n      </p>\n    </div>\n\n    <style>\n      /* Police globale */\n      .korean-rating,\n      .korean-rating * {\n        font-family: 'Bricolage Grotesque', sans-serif !important;\n      }\n\n      .korean-rating {\n        display: flex;\n        align-items: center;\n        gap: 8px;\n        margin: -12px 0 -12px 0;\n      }\n\n      .korean-rating-stars {\n        width: 70px;\n        height: auto;\n        display: block;\n      }\n\n      .korean-rating-text {\n        font-size: 13px;\n        margin: 0;\n        color: #000;\n      }\n\n      @media (max-width: 600px) {\n        .korean-rating-stars {\n          width: 60px;\n        }\n        .korean-rating-text {\n          font-size: 12.5px;\n        }\n      }\n    </style>\n\n  </div>\n</div>"
           }
         },
         "liquid_tEiaHi": {
@@ -624,17 +342,17 @@
             "content": "<p>Nos produits sont uniquement disponibles sur notre site officiel. Toute vente sur des plateformes tierces, comme Amazon, concerne des contrefaçons de mauvaise qualité. Pour garantir l'authenticité et la qualité, achetez exclusivement sur notre site. Nous déclinons toute responsabilité pour les produits achetés ailleurs.</p>",
             "page": ""
           }
+        },
+        "liquid_LTXdwG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_geLMJw\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <section id=\"pm-1764608744\" class=\"pm-wrap\" data-pm=\"\" aria-label=\"Puure benefits\">\n  <div class=\"pm-grid\">\n    <!-- 1 -->\n    <article class=\"pm-item\" aria-label=\"Targets PFAS, Fluoride, Lead, Microplastics and 150+ other contaminants\n\">\n      <div class=\"pm-icon\" aria-hidden=\"true\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n          <path d=\"M12 2s6 6.2 6 10.1A6 6 0 1 1 6 12.1C6 8.2 12 2 12 2Z\"></path>\n          <path d=\"M16.5 6.8l-2.6 2.6-1.5-1.5\"></path>\n        </svg>\n      </div>\n      <p class=\"pm-text\">Targets PFAS, Fluoride, Lead, Microplastics and 150+ other contaminants\n</p>\n    </article>\n\n    <!-- 2 -->\n    <article class=\"pm-item\" aria-label=\"Built with medical-grade stainless steel\n\">\n      <div class=\"pm-icon\" aria-hidden=\"true\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n          <circle cx=\"12\" cy=\"12\" r=\"8.5\"></circle>\n          <g fill=\"currentColor\" stroke=\"none\">\n            <circle cx=\"8\" cy=\"8\" r=\".9\"></circle><circle cx=\"12\" cy=\"8\" r=\".9\"></circle><circle cx=\"16\" cy=\"8\" r=\".9\"></circle>\n            <circle cx=\"8\" cy=\"12\" r=\".9\"></circle><circle cx=\"12\" cy=\"12\" r=\".9\"></circle><circle cx=\"16\" cy=\"12\" r=\".9\"></circle>\n            <circle cx=\"8\" cy=\"16\" r=\".9\"></circle><circle cx=\"12\" cy=\"16\" r=\".9\"></circle><circle cx=\"16\" cy=\"16\" r=\".9\"></circle>\n          </g>\n        </svg>\n      </div>\n      <p class=\"pm-text\">Built with medical-grade stainless steel\n</p>\n    </article>\n\n    <!-- 3 -->\n    <article class=\"pm-item\" aria-label=\"Quick and Easy Installation\">\n      <div class=\"pm-icon\" aria-hidden=\"true\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n          <path d=\"M14.6 7.4a4.2 4.2 0 0 1-6 5.8L3 18.8V21h2.2l6-6a4.2 4.2 0 0 1 3.4-7.6Z\"></path>\n          <path d=\"M6.2 5.2l2.6 2.6M8.8 5.2L6.2 7.8\"></path>\n        </svg>\n      </div>\n      <p class=\"pm-text\">Quick &amp; Easy Installation</p>\n    </article>\n\n    <!-- 4 -->\n    <article class=\"pm-item\" aria-label=\"Rigorously and Transparently Tested\">\n      <div class=\"pm-icon\" aria-hidden=\"true\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n          <path d=\"M10 2h4M12 2v5.5\"></path>\n          <path d=\"M8.8 7.5h6.4l5 9.1a3 3 0 0 1-2.6 4.4H6.4A3 3 0 0 1 3.8 16.6l5-9.1Z\"></path>\n          <g fill=\"currentColor\" stroke=\"none\">\n            <circle cx=\"11\" cy=\"15.2\" r=\".9\"></circle><circle cx=\"14.2\" cy=\"17\" r=\".8\"></circle><circle cx=\"12.8\" cy=\"13.6\" r=\".6\"></circle>\n          </g>\n        </svg>\n      </div>\n      <p class=\"pm-text\">Rigorously &amp; Transparently Tested</p>\n    </article>\n  </div>\n\n  <style>\n    /* ===== Component scope & variables ===== */\n    #pm-1764608744{\n      --pm-blue:#3D5AFE;\n      --pm-text:#6B7280;\n      --pm-size:28px;\n      --pm-stroke:1.8;\n      --pm-fs:15px;\n      background:#F4F4F4;     /* <-- MOBILE gris */\n      padding:12px;           /* léger padding pour le fond */\n      margin:8px 0 24px;\n      isolation:isolate;\n    }\n    /* Desktop : fond blanc */\n    @media (min-width:1024px){\n      #pm-1764608744{ background:#f4f4f4; }\n    }\n\n    #pm-1764608744 *, #pm-1764608744 *::before, #pm-1764608744 *::after{ box-sizing:border-box; }\n\n    /* 2 colonnes même sur mobile */\n    #pm-1764608744 .pm-grid{\n      width:100%;\n      max-width:1200px;\n      margin:0 auto;\n      display:grid !important;\n      grid-template-columns:repeat(2,minmax(0,1fr)) !important;\n      gap:32px 48px !important;\n    }\n\n    #pm-1764608744 .pm-item{\n      display:flex !important;\n      flex-direction:column !important;  /* icône au-dessus */\n      align-items:flex-start !important;\n      gap:10px !important;\n      background:transparent !important;\n      padding:0 !important;\n      border:0 !important;\n      box-shadow:none !important;\n    }\n\n    #pm-1764608744 .pm-icon{\n      width:var(--pm-size);\n      height:var(--pm-size);\n      color:var(--pm-blue);\n      display:grid; place-items:center;\n      flex:0 0 var(--pm-size);\n    }\n    #pm-1764608744 .pm-icon svg{\n      display:block;\n      width:100%; height:100%;\n      stroke:currentColor;\n      stroke-width:var(--pm-stroke);\n      stroke-linecap:round; stroke-linejoin:round;\n      vector-effect:non-scaling-stroke;\n    }\n\n    #pm-1764608744 .pm-text{\n      margin:0;\n      color:var(--pm-text);\n      font-weight:500;\n      font-size:var(--pm-fs);\n      line-height:1.5;\n      letter-spacing:.1px;\n    }\n\n    @media (min-width:1024px){\n      #pm-1764608744{ --pm-size:30px; --pm-stroke:1.9; --pm-fs:18px; }\n    }\n  </style>\n</section>\n            </div></div>"
+          }
         }
       },
       "block_order": [
         "liquid_4Atpnn",
-        "liquid_w4LhVH",
-        "liquid_AzFhkM",
-        "title",
         "liquid_YFUT8h",
-        "liquid_PPKBYG",
-        "liquid_cgD8EP",
-        "liquid_P7gUrF",
         "liquid_tEiaHi",
         "rating",
         "liquid_gfdgFj",
@@ -650,7 +368,8 @@
         "collapsible_text_fzmm8R",
         "collapsible_text_FCTmpc",
         "collapsible_text_pHymRQ",
-        "collapsible_text_rdmnf8"
+        "collapsible_text_rdmnf8",
+        "liquid_LTXdwG"
       ],
       "settings": {
         "full_width": true,
@@ -668,6 +387,19 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "custom_liquid_kfjXgj": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section id=\"shopify-section-template--26801237295449__custom_liquid_UkDAGt\" class=\"shopify-section shopify-section--custom-liquid\"><style>\n  #shopify-section-template--26801237295449__custom_liquid_UkDAGt {\n    --section-background-hash: 0;\n  }\n\n  #shopify-section-template--26801237295449__custom_liquid_UkDAGt + * {\n    --previous-section-background-hash: 0;\n  }</style><style>\n    #shopify-section-template--26801237295449__custom_liquid_UkDAGt {\n      --section-spacing-block: 0px;\n      --section-spacing-inline: 0px;\n    }\n  </style>\n\n  <div class=\"section   section-blends section-full\">\n    <section id=\"pu-how-works\" class=\"hw-wrap is-visible\" aria-label=\"How it works\"><div class=\"hw-head\">\n    <span class=\"hw-pill\">How It Works</span>\n    <h2 class=\"hw-title\">Fit, Fill, Flow</h2>\n  </div>\n\n  <div class=\"hw-grid\" data-scroller=\"\">\n    <!-- CARD 1 -->\n    <article class=\"hw-card\" data-reveal=\"\">\n      <figure class=\"hw-media\">\n        \n          <video class=\"hw-video\" autoplay=\"\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"metadata\" poster=\"https://cdn.shopify.com/s/files/your-poster-1.jpg\">\n            <source src=\"https://cdn.shopify.com/videos/c/o/v/e41cab4603634b7daa147d464fb8c55d.mp4\" type=\"video/mp4\">\n          </video>\n        \n      </figure>\n      <div class=\"hw-body\">\n        <span class=\"hw-step\">STEP 1</span>\n        <h3 class=\"hw-name\">Remove the Aerator</h3>\n        <p class=\"hw-desc\">Unscrew the small mesh tip at the end of your faucet. If a rubber washer drops out, keep it nearby—we may reuse it.</p>\n      </div>\n    </article>\n\n    <!-- CARD 2 -->\n    <article class=\"hw-card\" data-reveal=\"\">\n      <figure class=\"hw-media\">\n        \n          <video class=\"hw-video\" autoplay=\"\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"metadata\" poster=\"https://cdn.shopify.com/s/files/your-poster-2.jpg\">\n            <source src=\"https://cdn.shopify.com/videos/c/o/v/db5c438d2231464cb0761fbf853de659.mp4\" type=\"video/mp4\">\n          </video>\n        \n      </figure>\n      <div class=\"hw-body\">\n        <span class=\"hw-step\">STEP 2</span>\n        <h3 class=\"hw-name\">Screw On the Filter</h3>\n        <p class=\"hw-desc\">Thread the Puure® adapter if needed, then hand-tighten the filter in place. Snug is perfect—no tools, no leaks.</p>\n      </div>\n    </article>\n\n    <!-- CARD 3 -->\n    <article class=\"hw-card\" data-reveal=\"\">\n      <figure class=\"hw-media\">\n        \n          <video class=\"hw-video\" autoplay=\"\" muted=\"\" loop=\"\" playsinline=\"\" preload=\"metadata\" poster=\"https://cdn.shopify.com/s/files/your-poster-3.jpg\">\n            <source src=\"https://cdn.shopify.com/videos/c/o/v/4712ae73a7fb4b88b66efd7adf8c8aeb.mp4\" type=\"video/mp4\">\n          </video>\n        \n      </figure>\n      <div class=\"hw-body\">\n        <span class=\"hw-step\">STEP 3</span>\n        <h3 class=\"hw-name\">You’re Done — Water, Puure</h3>\n        <p class=\"hw-desc\">Turn on the tap and enjoy crisp, purified water. A brief carbon burst is normal—let it run 10–20 seconds.</p>\n      </div>\n    </article>\n  </div>\n\n  <style>\n    #pu-how-works{\n      --hw-bg:#f4f4f4; --hw-text:#0e0e52; --hw-muted:rgba(14,14,82,.68);\n      --hw-pill:#fff; --hw-radius:22px; --hw-gap:clamp(18px,3vw,28px);\n      --hw-max:1000px; --hw-ease:cubic-bezier(.22,.61,.36,1);\n      --side:16px; --peek:20vw; /* ~20% de la carte suivante visible en mobile */\n      background:var(--hw-bg); padding:clamp(28px,6vw,64px) 16px;\n    }\n    #pu-how-works .hw-head{margin:0 auto clamp(16px,3vw,28px); max-width:var(--hw-max);}\n    #pu-how-works .hw-pill{display:inline-block;font-size:12px;line-height:1;padding:8px 12px;border-radius:999px;background:var(--hw-pill);color:var(--hw-text);border:1px solid rgba(0,0,0,.08);box-shadow:0 4px 14px rgba(0,0,0,.05);margin-bottom:8px;}\n    #pu-how-works .hw-title{margin:0;color:var(--hw-text);font-weight:500;line-height:1.05;font-size:clamp(26px,5vw,40px);letter-spacing:-.01em;}\n\n    #pu-how-works .hw-grid{margin:0 auto;max-width:var(--hw-max);display:grid;gap:var(--hw-gap);grid-template-columns:repeat(3,1fr);}\n    @media (max-width:1023px){\n      #pu-how-works .hw-grid{display:block;position:relative;overflow:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0 var(--side) 16px;white-space:nowrap;}\n    }\n\n    #pu-how-works .hw-card{background:#fff;border:1px solid rgba(0,0,0,.06);border-radius:var(--hw-radius);box-shadow:0 8px 26px rgba(0,0,0,.08);overflow:hidden;transition:transform 400ms var(--hw-ease),box-shadow 400ms var(--hw-ease),opacity 600ms var(--hw-ease);will-change:transform;white-space:normal;}\n    #pu-how-works .hw-card:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(0,0,0,.10);}\n    @media (max-width:1023px){\n      #pu-how-works .hw-card{display:inline-block;vertical-align:top;width:calc(100vw - (var(--side)*2) - var(--peek));margin-right:16px;scroll-snap-align:start;}\n      #pu-how-works .hw-card:last-child{margin-right:12px;}\n    }\n\n    #pu-how-works .hw-media{margin:0;}\n    #pu-how-works .hw-video,#pu-how-works .hw-fallback{width:100%;display:block;height:min(40vh,560px);object-fit:cover;border:0;background:#000;}\n    @media (min-width:1024px){\n      #pu-how-works .hw-video,#pu-how-works .hw-fallback{height:clamp(320px,32vw,480px);}\n    }\n\n    #pu-how-works .hw-body{padding:16px 16px 18px;}\n    #pu-how-works .hw-step{display:block;font-size:12px;font-weight:700;letter-spacing:.18em;color:#3863f6;margin-bottom:6px;}\n    #pu-how-works .hw-name{margin:0 0 6px;font-size:clamp(18px,2.4vw,22px);color:var(--hw-text);}\n    #pu-how-works .hw-desc{margin:0;color:var(--hw-muted);line-height:1.6;font-size:14.5px;}\n\n    #pu-how-works [data-reveal]{opacity:0;transform:translateY(10px);}\n    #pu-how-works.is-visible [data-reveal]{opacity:1;transform:none;transition:all 600ms var(--hw-ease);}\n    #pu-how-works.is-visible .hw-card:nth-child(1){transition-delay:.06s;}\n    #pu-how-works.is-visible .hw-card:nth-child(2){transition-delay:.14s;}\n    #pu-how-works.is-visible .hw-card:nth-child(3){transition-delay:.22s;}\n  </style>\n\n  <script>\n    \n    (function(){\n      const root = document.getElementById('pu-how-works');\n      if(!root) return;\n\n      // Reveal on view\n      const io = new IntersectionObserver((es)=>{\n        es.forEach(e=>{\n          if(e.isIntersecting){ root.classList.add('is-visible'); io.unobserve(root); }\n        });\n      }, {threshold:0.2});\n      io.observe(root);\n\n      // Add scrollable class hint on mobile\n      const scroller = root.querySelector('[data-scroller]');\n      const toggle = ()=>{\n        if(window.innerWidth <= 1023){\n          scroller.classList.toggle('is-scrollable', scroller.scrollWidth > scroller.clientWidth + 2);\n        } else {\n          scroller.classList.remove('is-scrollable');\n        }\n      };\n      toggle();\n      window.addEventListener('resize', toggle);\n\n      // Autoplay videos only when visible (battery-friendly)\n      const vids = root.querySelectorAll('video.hw-video');\n      const vio = new IntersectionObserver((entries)=>{\n        entries.forEach(({isIntersecting, target})=>{\n          if(isIntersecting){ target.play().catch(()=>{}); } else { target.pause(); }\n        });\n      }, {threshold:0.25});\n      vids.forEach(v=>{ v.setAttribute('playsinline',''); v.muted = true; vio.observe(v); });\n    })();\n    \n  </script>\n</section>\n  </div>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "multiple_images_with_text_JLJtPg": {
@@ -701,80 +433,8 @@
         "button_text_color": ""
       }
     },
-    "multiple_images_with_text_jE6qNR": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_QfYmJ7": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_10.webp",
-            "image_rotation_degrees": -5,
-            "subheading": "",
-            "title": "",
-            "content": "<h4>Essayez Korean Co en toute confiance avec notre garantie de remboursement de 90 jours !<br/></h4><p>Les spécialistes de la peau, les dermatologues et nos clients en témoignent : Korean Co offre des résultats visibles !<br/>Convaincus de son efficacité, nous vous proposons une garantie satisfait ou remboursé pendant 90 jours.<br/>Si vous n’obtenez pas les résultats escomptés nous vous remboursons intégralement.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_QfYmJ7"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "#85c6b1",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "custom_html_3mjhRk": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_html_Xg6tCw": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_html_qrVMB8": {
-      "type": "custom-html",
-      "disabled": true,
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "html": "<section id=\"shopify-section-template--24940377080074__before_after_image_qQ78FT\" class=\"shopify-section shopify-section--before-after-image\" style=\"--clip-path-offset: -145.6px;\">\n  <style>\n    #shopify-section-template--24940377080074__before_after_image_qQ78FT {\n      --section-background-hash: 0;\n      --section-stack-intro: 33.3333%;\n      --section-stack-main: 66.6667%;\n      --before-after-initial-drag-position: 63%;\n    }\n\n    #shopify-section-template--24940377080074__before_after_image_qQ78FT + * {\n      --previous-section-background-hash: 0;\n    }\n\n    /* === Bricolage Grotesque sur toute la section === */\n    #shopify-section-template--24940377080074__before_after_image_qQ78FT,\n    #shopify-section-template--24940377080074__before_after_image_qQ78FT * {\n      font-family: 'Bricolage Grotesque', sans-serif !important;\n    }\n\n    /* Typo / lisibilité */\n    #shopify-section-template--24940377080074__before_after_image_qQ78FT .subheading {\n      font-size: 12px;\n      letter-spacing: 0.16em;\n    }\n\n    #shopify-section-template--24940377080074__before_after_image_qQ78FT .prose p {\n      font-size: 14px;\n      line-height: 1.55;\n      margin-bottom: 8px;\n    }\n\n    #shopify-section-template--24940377080074__before_after_image_qQ78FT h2.h2 {\n      font-size: 24px;\n      line-height: 1.3;\n      margin-bottom: 10px;\n    }\n\n    @media (min-width: 1000px) {\n      #shopify-section-template--24940377080074__before_after_image_qQ78FT h2.h2 {\n        font-size: 28px;\n      }\n      #shopify-section-template--24940377080074__before_after_image_qQ78FT .prose p {\n        font-size: 15px;\n      }\n    }\n  </style>\n\n  <div class=\"section section-blends section-full\">\n    <div class=\"section-stack section-stack--horizontal\">\n      <div class=\"section-stack__intro\">\n        <div class=\"prose\">\n          <p class=\"subheading\">TESTÉ CLINIQUEMENT</p>\n          <h2 class=\"h2\">Nous ne promettons pas des résultats. Nous les montrons.</h2>\n          <p>\n            Des tests indépendants et de nombreux retours clients confirment l’efficacité de notre\n            <strong>Crème Liftante Instantanée Korean Co</strong>.<br><br>\n            Dès les premières minutes, le contour des yeux paraît <strong>plus lisse</strong>,\n            <strong>visiblement retendu</strong> et <strong>moins froissé</strong>, avec une diminution\n            apparente des <strong>rides, ridules et poches sous les yeux</strong>.\n          </p>\n          <p><strong>Observez la différence dès la première application.</strong></p>\n        </div>\n      </div>\n\n      <div class=\"section-stack__main\">\n        <div class=\"before-after shadow text-custom\" style=\"--text-color: 255 255 255;\">\n          <div class=\"before-after__before-image text-custom\" style=\"--text-color: 255 255 255;\">\n            <picture>\n              <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/3_62fc2ecd-b807-458c-963e-f602bec3f4e5.png?v=1764265618\" alt=\"\" srcset=\"\n                  https://cdn.shopify.com/s/files/1/0956/0349/1142/files/3_62fc2ecd-b807-458c-963e-f602bec3f4e5.png?v=1764265618&amp;width=300 300w,\n                  https://cdn.shopify.com/s/files/1/0956/0349/1142/files/3_62fc2ecd-b807-458c-963e-f602bec3f4e5.png?v=1764265618&amp;width=400 400w\n                \" width=\"430\" height=\"430\" loading=\"lazy\" sizes=\"(max-width: 999px) 100vw, 1000px\" draggable=\"false\" class=\"rounded w-full\">\n            </picture>\n            <p class=\"before-after__label before-after__label--left before-after__label--top h5\">Avant</p>\n          </div>\n\n          <div class=\"before-after__after-image text-custom\" style=\"--text-color: 255 255 255;\">\n            <picture>\n              <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/4_0e04b211-1ab0-4ed6-8384-0ae202e2de28.png?v=1764265617\" alt=\"\" srcset=\"\n                  https://cdn.shopify.com/s/files/1/0956/0349/1142/files/4_0e04b211-1ab0-4ed6-8384-0ae202e2de28.png?v=1764265617&amp;width=300 300w,\n                  https://cdn.shopify.com/s/files/1/0956/0349/1142/files/4_0e04b211-1ab0-4ed6-8384-0ae202e2de28.png?v=1764265617&amp;width=400 400w\n                \" width=\"430\" height=\"430\" loading=\"lazy\" sizes=\"(max-width: 999px) 100vw, 1000px\" class=\"object-fill rounded\" draggable=\"false\">\n            </picture>\n            <p class=\"before-after__label before-after__label--right before-after__label--top h5\">Après</p>\n          </div>\n\n          <div class=\"before-after__cursor-wrapper\">\n            <split-cursor class=\"before-after__cursor\" style=\"--background: 255 255 255\">\n              <span class=\"sr-only\">Tirer</span>\n              <svg role=\"presentation\" focusable=\"false\" width=\"28\" height=\"35\" viewbox=\"0 0 32 40\">\n                <path d=\"M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16V24C32 32.8366 24.8366 40 16 40C7.16344 40 0 32.8366 0 24V16Z\" fill=\"#ffffff\"></path>\n                <path fill=\"#000000\" d=\"M11 14H13V26H11zM15 14H17V26H15zM19 14H21V26H19z\"></path>\n              </svg>\n            </split-cursor>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_html_LVJRrK": {
       "type": "custom-html",
-      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -786,9 +446,21 @@
         "text_color": ""
       }
     },
+    "custom_html_NwyCyW": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<section id=\"shopify-section-template--26801237295449__review_social_proof_wpqReA\" class=\"shopify-section\">\n<section id=\"spr-template--26801237295449__review_social_proof_wpqReA\" class=\"spr-wrap\" style=\"--spr-fg: #0b1533; --spr-accent: #3863f6; --spr-card: rgba(255,255,255,0.7); --spr-max: 950px; --spr-gap: 16px; --spr-radius: 18px; --spr-speed: 38s;\">\n  <div class=\"spr-inner\">\n<div class=\"spr-head\">\n      <div class=\"spr-pill\">\n        <span class=\"spr-stars\" aria-hidden=\"true\"><svg viewbox=\"0 0 24 24\" class=\"spr-star\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg><svg viewbox=\"0 0 24 24\" class=\"spr-star\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg><svg viewbox=\"0 0 24 24\" class=\"spr-star\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg><svg viewbox=\"0 0 24 24\" class=\"spr-star\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg><span class=\"spr-star-partial\" style=\"--p: 80%;\">\n                    <svg viewbox=\"0 0 24 24\" class=\"base\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                    <svg viewbox=\"0 0 24 24\" class=\"fill\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                </span></span>\n        <span class=\"spr-metric\">4.8/5 — 30K+ happy customers</span>\n      </div>\n\n      \n        <h3 class=\"spr-title\">Trusted by 30,000+ people who switched to cleaner water</h3>\n      \n      \n        <p class=\"spr-sub\">Real words from real customers — lightweight and honest.</p>\n      \n    </div>\n\n    \n    <div class=\"spr-rail-clip\" aria-label=\"Customer reviews\">\n      <div class=\"spr-rail\">\n<article class=\"spr-card\" role=\"article\">\n              <div class=\"spr-card-top\">\n                <div class=\"spr-badge\">\n                  \n                  <span class=\"spr-badge-stars\" aria-label=\"5 out of 5\">\n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                  </span>\n                </div>\n              </div>\n              <blockquote class=\"spr-quote\">“The water tastes so much better. Installation took minutes. Love it!”</blockquote>\n              <div class=\"spr-meta\">\n                <span class=\"spr-author\">Sophie</span>\n                <span class=\"spr-dot\">•</span><span class=\"spr-loc\">Verified buyer — UK</span>\n              </div>\n            </article><article class=\"spr-card\" role=\"article\">\n              <div class=\"spr-card-top\">\n                <div class=\"spr-badge\">\n                  \n                  <span class=\"spr-badge-stars\" aria-label=\"5 out of 5\">\n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                  </span>\n                </div>\n              </div>\n              <blockquote class=\"spr-quote\">“Oh my god it’s so easy and I love the filter, what a great idea! I used to have one of those undersink filters, but the water pressure was always too low. I switched to this one on my tap and it’s SO much better”</blockquote>\n              <div class=\"spr-meta\">\n                <span class=\"spr-author\">Steph</span>\n                <span class=\"spr-dot\">•</span><span class=\"spr-loc\">Verified buyer — UK</span>\n              </div>\n            </article><article class=\"spr-card\" role=\"article\">\n              <div class=\"spr-card-top\">\n                <div class=\"spr-badge\">\n                  \n                  <span class=\"spr-badge-stars\" aria-label=\"5 out of 5\">\n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                  </span>\n                </div>\n              </div>\n              <blockquote class=\"spr-quote\">“The build quality is excellent and don’t get me started on how clean the water tastes. My children and wife only drink bottled water but now they go straight for the tap. Even use it when cooking and all the food tastes cleaner and how it should.”</blockquote>\n              <div class=\"spr-meta\">\n                <span class=\"spr-author\">Mathew L.</span>\n                <span class=\"spr-dot\">•</span><span class=\"spr-loc\">Verified buyer — UK</span>\n              </div>\n            </article><article class=\"spr-card\" role=\"article\">\n              <div class=\"spr-card-top\">\n                <div class=\"spr-badge\">\n                  \n                  <span class=\"spr-badge-stars\" aria-label=\"5 out of 5\">\n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                  </span>\n                </div>\n              </div>\n              <blockquote class=\"spr-quote\">“The water now tastes like it came from a fresh mountain spring.”</blockquote>\n              <div class=\"spr-meta\">\n                <span class=\"spr-author\">Emma W.</span>\n                <span class=\"spr-dot\">•</span><span class=\"spr-loc\">Verified buyer — UK</span>\n              </div>\n            </article><article class=\"spr-card\" role=\"article\">\n              <div class=\"spr-card-top\">\n                <div class=\"spr-badge\">\n                  \n                  <span class=\"spr-badge-stars\" aria-label=\"5 out of 5\">\n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                  </span>\n                </div>\n              </div>\n              <blockquote class=\"spr-quote\">“The water tastes so much better. Installation took minutes. Love it!”</blockquote>\n              <div class=\"spr-meta\">\n                <span class=\"spr-author\">Sophie</span>\n                <span class=\"spr-dot\">•</span><span class=\"spr-loc\">Verified buyer — UK</span>\n              </div>\n            </article><article class=\"spr-card\" role=\"article\">\n              <div class=\"spr-card-top\">\n                <div class=\"spr-badge\">\n                  \n                  <span class=\"spr-badge-stars\" aria-label=\"5 out of 5\">\n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                  </span>\n                </div>\n              </div>\n              <blockquote class=\"spr-quote\">“Oh my god it’s so easy and I love the filter, what a great idea! I used to have one of those undersink filters, but the water pressure was always too low. I switched to this one on my tap and it’s SO much better”</blockquote>\n              <div class=\"spr-meta\">\n                <span class=\"spr-author\">Steph</span>\n                <span class=\"spr-dot\">•</span><span class=\"spr-loc\">Verified buyer — UK</span>\n              </div>\n            </article><article class=\"spr-card\" role=\"article\">\n              <div class=\"spr-card-top\">\n                <div class=\"spr-badge\">\n                  \n                  <span class=\"spr-badge-stars\" aria-label=\"5 out of 5\">\n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                  </span>\n                </div>\n              </div>\n              <blockquote class=\"spr-quote\">“The build quality is excellent and don’t get me started on how clean the water tastes. My children and wife only drink bottled water but now they go straight for the tap. Even use it when cooking and all the food tastes cleaner and how it should.”</blockquote>\n              <div class=\"spr-meta\">\n                <span class=\"spr-author\">Mathew L.</span>\n                <span class=\"spr-dot\">•</span><span class=\"spr-loc\">Verified buyer — UK</span>\n              </div>\n            </article><article class=\"spr-card\" role=\"article\">\n              <div class=\"spr-card-top\">\n                <div class=\"spr-badge\">\n                  \n                  <span class=\"spr-badge-stars\" aria-label=\"5 out of 5\">\n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                      \n                        <svg viewbox=\"0 0 24 24\" class=\"spr-star sm\"><path d=\"M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"></path></svg>\n                      \n                    \n                  </span>\n                </div>\n              </div>\n              <blockquote class=\"spr-quote\">“The water now tastes like it came from a fresh mountain spring.”</blockquote>\n              <div class=\"spr-meta\">\n                <span class=\"spr-author\">Emma W.</span>\n                <span class=\"spr-dot\">•</span><span class=\"spr-loc\">Verified buyer — UK</span>\n              </div>\n            </article>\n</div>\n    </div>\n    \n  </div>\n\n  <style>\n    /* Full section background + airy spacing */\n    #spr-template--26801237295449__review_social_proof_wpqReA{ background:#f4f4f4 !important; color:var(--spr-fg); padding: 48px 20px; width:100%; }\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-inner{ max-width:var(--spr-max); margin:0 auto; }\n\n    /* Head */\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-head{ display:flex; flex-direction:column; gap:18px; align-items:flex-start; margin-bottom:22px; }\n\n    /* Responsive pill */\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-pill{\n      display:inline-flex; flex-wrap:wrap; align-items:center; gap:10px 12px;\n      background: linear-gradient(180deg, rgba(255,255,255,.95), rgba(255,255,255,.75));\n      border: 1px solid rgba(0,0,0,.06);\n      padding: 10px 14px;\n      border-radius: 999px;\n      box-shadow: 0 2px 8px rgba(0,0,0,.06);\n      backdrop-filter: blur(6px);\n      max-width:100%;\n    }\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-stars{display:inline-flex; gap:4px; flex:0 0 auto;}\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-star{width:18px;height:18px;fill: var(--spr-accent);opacity:.95;}\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-star--dim{opacity:.22;}\n    /* fractional star (clip to percentage) */\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-star-partial{position:relative; display:inline-block; width:18px; height:18px;}\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-star-partial svg{position:absolute; inset:0;}\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-star-partial .base{fill:var(--spr-accent); opacity:.22;}\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-star-partial .fill{fill:var(--spr-accent); clip-path: inset(0 calc(100% - var(--p)) 0 0);}\n\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-metric{font-weight:700; font-size:14px; letter-spacing:.2px; line-height:1.2;}\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-title{font-size:25px; line-height:1.2; margin:0; font-weight:500;}\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-sub{margin:0; opacity:.75; font-size:15px;}\n\n    /* Rail */\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-rail-clip{\n      margin-top:6px;\n      overflow:hidden; position:relative;\n      mask-image: linear-gradient(to right, transparent 0, black 6%, black 94%, transparent 100%);\n      -webkit-mask-image: linear-gradient(to right, transparent 0, black 6%, black 94%, transparent 100%);\n    }\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-rail{ display:flex; gap: var(--spr-gap); width:max-content; animation: spr-scroll var(--spr-speed) linear infinite; padding-bottom: 24px; }\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-rail:hover{ animation-play-state: paused; }\n\n    @keyframes spr-scroll{ from{ transform: translateX(0);} to{ transform: translateX(-50%);} }\n\n    /* Cards — a bit larger breathing room */\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-card{\n      min-width: 280px; max-width: 340px;\n      background: var(--spr-card);\n      border: 1px solid rgba(9,22,61,.08);\n      border-radius: var(--spr-radius);\n      padding: 16px 16px 14px;\n      box-shadow: 0 6px 18px rgba(9,22,61,.07);\n      backdrop-filter: blur(8px);\n    }\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-quote{ margin:10px 0 12px; font-size:16px; line-height:1.5; }\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-meta{ display:flex; align-items:center; gap:6px; font-size:12px; opacity:.75; }\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-dot{opacity:.5;}\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-badge{display:flex; align-items:center; gap:6px;}\n    #spr-template--26801237295449__review_social_proof_wpqReA .spr-star.sm{width:14px;height:14px;}\n\n    @media (max-width: 860px){\n      #spr-template--26801237295449__review_social_proof_wpqReA{ padding: 40px 16px; }\n      #spr-template--26801237295449__review_social_proof_wpqReA .spr-title{font-size:22px;}\n      #spr-template--26801237295449__review_social_proof_wpqReA .spr-metric{font-size:12px;}\n      #spr-template--26801237295449__review_social_proof_wpqReA .spr-pill{ padding: 8px 12px; }\n    }\n    @media (max-width: 560px){\n      #spr-template--26801237295449__review_social_proof_wpqReA .spr-title{font-size:25px;}\n      #spr-template--26801237295449__review_social_proof_wpqReA .spr-sub{font-size:14px;}\n      #spr-template--26801237295449__review_social_proof_wpqReA .spr-card{min-width: 240px;}\n    }\n  </style>\n</section>\n\n\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_html_QjMJJP": {
       "type": "custom-html",
-      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -877,7 +549,6 @@
     },
     "custom_html_LdDiF8": {
       "type": "custom-html",
-      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -925,19 +596,12 @@
     "custom_liquid_MgRCgf",
     "slideshow_bEqtRk",
     "rich_text_JYH7Lc",
-    "custom_html_Rt3UfA",
-    "slideshow_P46faW",
-    "rich_text_KTkPMg",
-    "multiple_images_with_text_bahm8m",
-    "images_with_text_scrolling_Ce43eQ",
-    "custom_html_Wnzr78",
+    "custom_html_XKjUbY",
     "main",
+    "custom_liquid_kfjXgj",
     "multiple_images_with_text_JLJtPg",
-    "multiple_images_with_text_jE6qNR",
-    "custom_html_3mjhRk",
-    "custom_html_Xg6tCw",
-    "custom_html_qrVMB8",
     "custom_html_LVJRrK",
+    "custom_html_NwyCyW",
     "custom_html_QjMJJP",
     "text_with_icons_DMdwef",
     "custom_html_LdDiF8",
