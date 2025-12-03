@@ -92,6 +92,7 @@
     },
     "custom_liquid_MgRCgf": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -101,6 +102,49 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "slideshow_jw8pDj": {
+      "type": "slideshow",
+      "blocks": {
+        "image_zdfmQJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Firefly_Gemini_Flash_dans_chaque_rectangle_de_texte_laisse_uniquement_la_partie_du_haut_par_exemple_sur_le_569375.png",
+            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_dans_chaque_rectangle_de_texte_laisse_uniquement_la_partie_du_haut_par_exemple_sur_le_569375.png",
+            "content_max_width": 680,
+            "mobile_text_position": "place-self-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#000000",
+            "button_background": "#85c6b1",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zdfmQJ"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
       }
     },
     "slideshow_bEqtRk": {
@@ -585,6 +629,7 @@
     "slideshow_V6ng47",
     "custom_liquid_KMDTCF",
     "custom_liquid_MgRCgf",
+    "slideshow_jw8pDj",
     "slideshow_bEqtRk",
     "rich_text_JYH7Lc",
     "main",
