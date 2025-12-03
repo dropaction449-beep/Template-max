@@ -27,6 +27,7 @@
     },
     "custom_html_VfLx9U": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
