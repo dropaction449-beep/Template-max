@@ -329,27 +329,7 @@
         "liquid_YFUT8h": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <!-- HEADER : Titre + Badge -->\n<div class=\"ccp-header\">\n  <h1 class=\"ccp-title\">CRÈME LIFTANTE <br>INSTANTANÉE</h1>\n  <div class=\"stock-badge da\">\n    <span class=\"stock-badge__dot\"></span>\n    <span class=\"stock-badge__text\">Black Friday</span>\n  </div>\n</div>\n\n<!-- AVIS + séparation -->\n<div class=\"ccp-reviews\">\n  <span class=\"ccp-stars\" aria-hidden=\"true\">\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n  </span>\n  <span class=\"ccp-reviews-count\">+1&nbsp;750 avis clients</span>\n</div>\n\n<style>\n/* En-tête */\n.ccp-header{\n  display:flex;\n  align-items:center;\n  justify-content:space-between;\n  gap:12px;\n  margin:-10px 0 8px;\n}\n.ccp-title{\n  margin:0;\n  font-weight:600;\n  font-size:18px;\n  letter-spacing:.2px;\n  line-height:1.2;\n  flex-shrink:0;\n}\n\n/* Badge personnalisé */\n.stock-badge{\n  display:inline-flex;\n  align-items:center;\n  gap:6px;\n  font-size:.7rem;\n  font-weight:600;\n  text-transform:uppercase;\n  padding:6px 10px;\n  border-radius:9px;\n  border:1px solid rgba(0,0,0,.08);\n  box-shadow:0 2px 6px rgba(0,0,0,.15);\n  background:#fff84a;\n  color:#282820;\n  flex-shrink:0;\n}\n.stock-badge__dot{\n  width:8px;\n  height:8px;\n  border-radius:50%;\n  background:#282820;\n  position:relative;\n  box-shadow:0 0 6px rgba(0,0,0,.25);\n  animation:dotPulse 2.2s infinite;\n}\n.stock-badge__dot::before{\n  content:'';\n  position:absolute;\n  inset:-2px;\n  border-radius:50%;\n  background:#282820;\n  opacity:.25;\n  animation:dotRing 1.6s infinite;\n}\n\n/* Animations */\n@keyframes dotPulse{\n  0%,100%{transform:scale(1);opacity:1}\n  50%{transform:scale(1.15);opacity:.85}\n}\n@keyframes dotRing{\n  0%{transform:scale(.8);opacity:.35}\n  60%{transform:scale(1.4);opacity:.08}\n  100%{transform:scale(1.7);opacity:0}\n}\n\n/* Avis */\n.ccp-reviews{\n  position:relative;\n  display:flex;\n  align-items:center;\n  gap:8px;\n  font-size:14px;\n  color:#111;\n  padding-bottom:10px;\n  margin-bottom:12px;\n}\n.ccp-reviews::after{\n  content:\"\";\n  position:absolute;\n  left:0;right:0;bottom:0;\n  height:1px;\n  background:#dcdcdc;\n}\n\n/* Étoiles Trustpilot */\n.ccp-stars{\n  display:flex;\n  gap:4px;\n}\n.ccp-stars .star{\n  width:16px;\n  height:16px;\n  padding:2px;\n  background:#00B67A;\n  border-radius:3px;\n  fill:#fff;\n  box-shadow:0 1px 3px rgba(0,0,0,0.15);\n}\n\n/* Texte avis */\n.ccp-reviews-count{\n  cursor:pointer;\n  text-decoration:underline;\n  text-underline-offset:2px;\n  color:#007a5e;\n  font-weight:500;\n}\n\n/* Responsive */\n@media(max-width:480px){\n  .ccp-title{font-size:16px}\n  .stock-badge{font-size:.75rem;padding:5px 9px}\n  .stock-badge__dot{width:7px;height:7px}\n  .ccp-stars .star{width:14px;height:14px}\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const reviewsCount = document.querySelector(\".ccp-reviews-count\");\n  if (reviewsCount) {\n    reviewsCount.addEventListener(\"click\", function() {\n      const target = document.querySelector(\"#looxReviewsFrame\");\n      if (target) target.scrollIntoView({ behavior: \"smooth\" });\n      else window.location.hash = \"#looxReviewsFrame\";\n    });\n  }\n});\n</script>\n          </div>"
-          }
-        },
-        "liquid_tEiaHi": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin-bottom: -30px; margin-top: -10px;padding: 10px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/4_benefices_3.png?v=1763909806\" alt=\"Description de l'image\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n</div>\n          </div><br>"
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "liquid_gfdgFj": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"qa-feature-feature_7XifwH rte\">\n  \n\n    <img src=\"//magic-doodle.fr/cdn/shop/files/gift_1_400x.png?v=1763707003\" width=\"100\" height=\"100\" class=\"media-download-handled\" data-media-download-modified=\"true\" data-original-position=\"static\" style=\"position: relative;\">\n  <div style=\"text-align: left;\">\n    <h4>\n      \n    </h4>\n    <p><span class=\"lumin-text__fancy2\"><strong>Votre enfant adorera</strong></span> en offrir une à son ami… ou à son cousin préféré !</p>\n  </div>\n</div>"
+            "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <!-- HEADER : Titre + Badge -->\n<div class=\"ccp-header\">\n  <h1 class=\"ccp-title\">CRÈME LIFTANTE <br>INSTANTANÉE</h1>\n  <div class=\"stock-badge da\">\n    <span class=\"stock-badge__dot\"></span>\n    <span class=\"stock-badge__text\">Édition Noël</span>\n  </div>\n</div>\n\n<!-- AVIS + séparation -->\n<div class=\"ccp-reviews\">\n  <span class=\"ccp-stars\" aria-hidden=\"true\">\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.5l2.6 5.2 5.8.8-4.2 4 1 5.8L10 14.8l-5.2 2.7 1-5.8-4.2-4 5.8-.8L10 1.5z\"></path></svg>\n  </span>\n  <span class=\"ccp-reviews-count\">+4&nbsp;326 avis clients</span>\n</div>\n\n<style>\n/* En-tête */\n.ccp-header{\n  display:flex;\n  align-items:center;\n  justify-content:space-between;\n  gap:12px;\n  margin:-10px 0 8px;\n}\n.ccp-title{\n  margin:0;\n  font-weight:600;\n  font-size:18px;\n  letter-spacing:.2px;\n  line-height:1.2;\n  flex-shrink:0;\n}\n\n/* Badge personnalisé Noël */\n.stock-badge{\n  display:inline-flex;\n  align-items:center;\n  gap:6px;\n  font-size:.7rem;\n  font-weight:600;\n  text-transform:uppercase;\n  padding:6px 10px;\n  border-radius:9px;\n  border:1px solid rgba(0,0,0,.08);\n  box-shadow:0 2px 6px rgba(0,0,0,.15);\n  background:#6659ff;\n  color:white;\n  flex-shrink:0;\n}\n.stock-badge__dot{\n  width:8px;\n  height:8px;\n  border-radius:50%;\n  background:white;\n  position:relative;\n  box-shadow:0 0 6px rgba(0,0,0,.25);\n  animation:dotPulse 2.2s infinite;\n}\n.stock-badge__dot::before{\n  content:'';\n  position:absolute;\n  inset:-2px;\n  border-radius:50%;\n  background:white;\n  opacity:.25;\n  animation:dotRing 1.6s infinite;\n}\n\n/* Animations */\n@keyframes dotPulse{\n  0%,100%{transform:scale(1);opacity:1}\n  50%{transform:scale(1.15);opacity:.85}\n}\n@keyframes dotRing{\n  0%{transform:scale(.8);opacity:.35}\n  60%{transform:scale(1.4);opacity:.08}\n  100%{transform:scale(1.7);opacity:0}\n}\n\n/* Avis */\n.ccp-reviews{\n  position:relative;\n  display:flex;\n  align-items:center;\n  gap:8px;\n  font-size:14px;\n  color:#111;\n  padding-bottom:10px;\n  margin-bottom:12px;\n}\n.ccp-reviews::after{\n  content:\"\";\n  position:absolute;\n  left:0;right:0;bottom:0;\n  height:1px;\n  background:#dcdcdc;\n}\n\n/* Étoiles Trustpilot */\n.ccp-stars{\n  display:flex;\n  gap:4px;\n}\n.ccp-stars .star{\n  width:16px;\n  height:16px;\n  padding:2px;\n  background:#00B67A;\n  border-radius:3px;\n  fill:#fff;\n  box-shadow:0 1px 3px rgba(0,0,0,0.15);\n}\n\n/* Texte avis */\n.ccp-reviews-count{\n  cursor:pointer;\n  text-decoration:underline;\n  text-underline-offset:2px;\n  color:#007a5e;\n  font-weight:500;\n}\n\n/* Responsive */\n@media(max-width:480px){\n  .ccp-title{font-size:16px}\n  .stock-badge{font-size:.75rem;padding:5px 9px}\n  .stock-badge__dot{width:7px;height:7px}\n  .ccp-stars .star{width:14px;height:14px}\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const reviewsCount = document.querySelector(\".ccp-reviews-count\");\n  if (reviewsCount) {\n    reviewsCount.addEventListener(\"click\", function() {\n      const target = document.querySelector(\"#looxReviewsFrame\");\n      if (target) target.scrollIntoView({ behavior: \"smooth\" });\n      else window.location.hash = \"#looxReviewsFrame\";\n    });\n  }\n});\n</script>\n</div>"
           }
         },
         "liquid_twT9Tc": {
@@ -440,9 +420,6 @@
         "title_KXwnkd",
         "liquid_ER4rqK",
         "liquid_YFUT8h",
-        "liquid_tEiaHi",
-        "rating",
-        "liquid_gfdgFj",
         "liquid_twT9Tc",
         "liquid_eH9Pc9",
         "buy_buttons_GK7tdV",
@@ -460,8 +437,8 @@
         "show_fixed_add_to_cart": false,
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "thumbnails",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "dots",
         "enable_video_autoplay": true,
         "enable_video_looping": true,
         "enable_image_zoom": false,
@@ -525,6 +502,7 @@
         "item_QRWVKk",
         "item_xBj3Uz"
       ],
+      "disabled": true,
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
