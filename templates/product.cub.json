@@ -353,6 +353,7 @@
         },
         "liquid_gfdgFj": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"qa-feature-feature_7XifwH rte\">\n  \n\n    <img src=\"//magic-doodle.fr/cdn/shop/files/gift_1_400x.png?v=1763707003\" width=\"100\" height=\"100\" class=\"media-download-handled\" data-media-download-modified=\"true\" data-original-position=\"static\" style=\"position: relative;\">\n  <div style=\"text-align: left;\">\n    <h4>\n      \n    </h4>\n    <p><span class=\"lumin-text__fancy2\"><strong>Votre enfant adorera</strong></span> en offrir une à son ami… ou à son cousin préféré !</p>\n  </div>\n</div>"
           }
