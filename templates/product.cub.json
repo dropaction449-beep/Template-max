@@ -110,7 +110,7 @@
         "image_zdfmQJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Firefly_Gemini_Flash_dans_chaque_rectangle_de_texte_laisse_uniquement_la_partie_du_haut_par_exemple_sur_le_569375.png",
+            "image": "shopify://shop_images/Firefly_Cree_une_banniere_au_meme_style_graphique_que_l_image_de_reference_-_mise_en_page_en_569375.png",
             "mobile_image": "shopify://shop_images/Firefly_Cree_une_banniere_au_meme_style_graphique_que_l_image_de_reference_-_mise_en_page_en_569375.png",
             "content_max_width": 860,
             "mobile_text_position": "place-self-start text-start",
@@ -431,8 +431,8 @@
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "thumbnails",
-        "enable_video_autoplay": false,
-        "enable_video_looping": false,
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
         "enable_image_zoom": false,
         "max_image_zoom_level": 3,
         "background": "",
