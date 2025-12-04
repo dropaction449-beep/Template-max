@@ -391,20 +391,40 @@
         "collapsible_text_Gy9tAw": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "picto-file",
+            "icon": "none",
             "icon_width": 20,
-            "title": "Caractéristiques",
-            "content": "<p><strong>Âge :</strong> 3 – 10 ans<br/><br/><strong>Utilisation :</strong> Construction illimitée, facile à assembler</p><p><strong>Taille :</strong> Pièces adaptées aux petites mains<br/><br/><strong>Poids :</strong> Ultra-léger<br/><br/><strong>Matériau :</strong> ABS incassable, aimants sécurisés<br/><br/><strong>Sécurité :</strong> Normes CE / EN71 / RoHS<br/><br/><strong>Compatibilité :</strong> Fonctionne avec la plupart des blocs magnétiques<br/><br/><strong>Développement :</strong> Logique, créativité, motricité fine, coordination</p>",
+            "title": "🤓 C’est quoi le MINT ?",
+            "content": "<p>Le MINT regroupe <strong>Sciences, Technologie, Ingénierie et Mathématiques</strong> : des compétences essentielles pour préparer ton enfant au monde d’aujourd’hui.</p><p>Avec <strong>MagnetiCraft™</strong>, cet apprentissage devient un <strong>jeu ultra captivant</strong> :<br/><br/>Les blocs magnétiques offrent une expérience concrète qui <strong>développe la logique</strong>, stimule la <strong>créativité</strong> et renforce la <strong>confiance en soi</strong> – tout ça <strong>sans écrans</strong>, juste en s’amusant.</p>",
             "page": ""
           }
         },
         "collapsible_text_rdmnf8": {
           "type": "collapsible_text",
           "settings": {
-            "icon": "picto-box",
+            "icon": "none",
             "icon_width": 20,
-            "title": "Contenu de la commande",
-            "content": "<p><em>(Le contenu s’adapte automatiquement selon le pack acheté)</em></p><p>Pour un pack standard (exemple 60 pièces) :</p><ul><li><strong>x60 pièces magnétiques MagnetiCraft™</strong> (formes variées)<br/></li><li><strong>x1 livret de modèles</strong> (animaux, maisons, véhicules…)<br/></li><li><strong>x1 sac de rangement premium</strong><br/></li><li><strong>x1 boîte renforcée de stockage</strong><br/></li></ul><p>Pour les packs supérieurs :</p><ul><li><strong>+ pièces supplémentaires</strong><br/></li><li><strong>+ roues / bases de véhicules</strong><br/></li><li><strong>+ accessoires de construction avancée</strong><br/></li></ul>",
+            "title": "🎁 Qu’est-ce qui est inclus ?",
+            "content": "<p>Nous proposons <strong>quatre options</strong>, adaptées à tous les niveaux.</p><p><strong>• Le Pack Découverte – 40 blocs</strong><br/><br/>Parfait pour débuter. Idéal pour construire les premières formes : une petite maison, un véhicule, un arbre, un mini univers… Le pack simple, efficace, qui donne envie d’aller plus loin.</p><p><strong>• Le Pack Créatif – 80 blocs</strong><br/><br/>Beaucoup plus complet. Il permet de créer des structures plus grandes et complexes. C’est le choix préféré des parents ayant plusieurs enfants ou des enfants un peu plus âgés.</p><p><strong>• Le Pack Univers – 200 blocs</strong><br/><br/>L’expérience ultime. Le pack préféré des enfants passionnés, avec <strong>200 blocs magnétiques</strong> pour imaginer des mondes entiers.<br/><br/>Nous y avons ajouté une <strong>édition Mystère</strong> : une sélection spéciale, différente, pour encore plus de créativité et de défis. Le meilleur choix pour les vrais petits bâtisseurs.</p><p><strong>• Tous les packs</strong><br/><br/>Chaque pack contient une sélection aléatoire de blocs — c’est ce qui rend l’expérience amusante !<br/><br/>Mais tous incluent une base essentielle : bois, pierres et formes nécessaires pour réussir les constructions les plus populaires.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_taMXYg": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "🙆🏼 Pour qui ?",
+            "content": "<p>Les blocs MagnetiCraft™ conviennent à tous les enfants <strong>à partir de 36 mois (3 ans)</strong>.</p><p>Et la vérité ?<br/><br/><strong>Il n’y a pas d’âge limite.</strong><br/><br/>Les plus petits créent, les plus grands inventent… et même les adultes finissent par jouer avec.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_NtNpq3": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "🚚 Livraison",
+            "content": "<p>Toutes les commandes sont expédiées <strong>sous 24h (jours ouvrés)</strong>.<br/><br/>Une fois expédiée, la livraison prend généralement <strong>5 à 8 jours ouvrés</strong> avec l’envoi standard.</p>",
             "page": ""
           }
         },
@@ -436,6 +456,8 @@
         "liquid_JppfTT",
         "collapsible_text_Gy9tAw",
         "collapsible_text_rdmnf8",
+        "collapsible_text_taMXYg",
+        "collapsible_text_NtNpq3",
         "liquid_DfpVUJ",
         "liquid_LTXdwG"
       ],
