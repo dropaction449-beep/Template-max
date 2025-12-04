@@ -417,46 +417,6 @@
             "page": ""
           }
         },
-        "collapsible_text_JRgcyr": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Combien de temps dure l'effet ?",
-            "content": "<p>L'effet de Instant Lift+ dure entre 6 et 12 heures, selon les individus.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_text_fzmm8R": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Peut-on appliquer du maquillage par-dessus ?",
-            "content": "<p>La crème Korean co a été conçu pour s’intégrer à votre routine beauté. Appliquez-le sous votre correcteur ou fond de teint, attendez quelques minutes avant de vous maquiller et tapotez (sans frotter) pour un résultat optimal.<br/><br/></p>",
-            "page": ""
-          }
-        },
-        "collapsible_text_FCTmpc": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Est-ce que cela laisse des traces blanches ?",
-            "content": "<p>Non, pas si vous utilisez la bonne quantité. Notre formule avancée est rapidement absorbée et ne laisse aucune trace blanche.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_text_pHymRQ": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Ingrédients",
-            "content": "<p><strong>Tous les ingrédients</strong></p><ul><li>Eau/Aqua/Eau</li><li>Magnésium</li><li>Peptide</li><li>Extrait de Noyau d'Argania</li><li>Rétinol</li><li>Protéine de Lupin</li><li>Aloe vera</li><li>Extrait de Feuille de Fenouil</li></ul>",
-            "page": ""
-          }
-        },
         "collapsible_text_rdmnf8": {
           "type": "collapsible_text",
           "settings": {
@@ -492,10 +452,6 @@
         "liquid_bdRg8E",
         "liquid_JppfTT",
         "collapsible_text_Gy9tAw",
-        "collapsible_text_JRgcyr",
-        "collapsible_text_fzmm8R",
-        "collapsible_text_FCTmpc",
-        "collapsible_text_pHymRQ",
         "collapsible_text_rdmnf8",
         "liquid_LTXdwG"
       ],
