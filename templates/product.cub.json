@@ -569,6 +569,7 @@
     },
     "custom_html_QjMJJP": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -591,7 +592,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#85c6b1",
+            "icon_color": "#6659ff",
             "title": "Livraison gratuite",
             "content": ""
           }
@@ -604,7 +605,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#85c6b1",
+            "icon_color": "#6659ff",
             "title": "Satisfait ou remboursé",
             "content": ""
           }
@@ -617,7 +618,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#85c6b1",
+            "icon_color": "#6659ff",
             "title": "Service client 7J/J",
             "content": ""
           }
@@ -630,7 +631,7 @@
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
-            "icon_color": "#85c6b1",
+            "icon_color": "#6659ff",
             "title": "Paiement sécurisé",
             "content": ""
           }
