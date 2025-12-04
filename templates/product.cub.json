@@ -524,6 +524,7 @@
         "item_QRWVKk",
         "item_xBj3Uz"
       ],
+      "disabled": true,
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
