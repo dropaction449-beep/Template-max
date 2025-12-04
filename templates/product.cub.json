@@ -404,7 +404,7 @@
         "liquid_DfpVUJ": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin: 2px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Capture_d_ecran_2025-12-04_153806.png?v=1764859671\" alt=\"Ajouter un titre\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n</div>\n          </div>"
+            "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin: 2px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Capture_d_ecran_2025-12-04_153806.png?v=1764859671\" alt=\"Ajouter un titre\" style=\"max-width: 100%; height: auto; border-radius: 20px;\">\n</div>\n          </div>"
           }
         },
         "liquid_LTXdwG": {
