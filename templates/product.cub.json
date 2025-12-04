@@ -90,7 +90,7 @@
           "type": "heading",
           "settings": {
             "text": "Vu sur :",
-            "heading_tag": "h2",
+            "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
           }
