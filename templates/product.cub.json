@@ -41,7 +41,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Firefly_Gemini_Flash_L_enfant_doit_bouger_-_manipuler_davantage__Retirer_les_guirlandes_sur_le_JOUET_Ton_569375_2.png",
-            "mobile_image": "shopify://shop_images/headerr.png",
+            "mobile_image": "shopify://shop_images/headerrr.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
