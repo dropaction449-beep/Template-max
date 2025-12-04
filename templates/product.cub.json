@@ -321,12 +321,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title_KXwnkd": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h6"
-          }
-        },
         "liquid_ER4rqK": {
           "type": "liquid",
           "settings": {
@@ -444,7 +438,6 @@
         }
       },
       "block_order": [
-        "title_KXwnkd",
         "liquid_ER4rqK",
         "liquid_YFUT8h",
         "liquid_twT9Tc",
