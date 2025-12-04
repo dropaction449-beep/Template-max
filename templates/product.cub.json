@@ -230,6 +230,59 @@
         "text_color": ""
       }
     },
+    "images_with_text_scrolling_G9cKMH": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_AKrPQU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1_d1c1ad27-b7a6-4b0c-a739-a7cc297a1f16.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p>🧩 <strong>Ici, les enfants résolvent des problèmes – en jouant</strong><br/><br/>Stimule la pensée logique, la résolution de problèmes et même les compétences techniques – et tu vois la confiance de ton enfant grandir de jour en jour !</p>"
+          }
+        },
+        "item_QRWVKk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_efc169ab-f197-4b68-b581-55eecd9984d1.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p>🧠 <strong>Ici, les enfants deviennent des bâtisseurs et des inventeurs</strong><br/><br/>Un jeu qui façonne les esprits curieux de demain – tout en les éloignant des écrans pendant des heures.</p>"
+          }
+        },
+        "item_xBj3Uz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3_02de6697-6cf1-45b2-a973-17f84dc9c5a8.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "",
+            "content": "<p>✨ <strong>Chaque jour, de nouvelles créations</strong><br/><br/>Avec les blocs magnétiques, chaque séance de jeu est différente. Construire, démonter, réinventer – sans jamais s’ennuyer.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_AKrPQU",
+        "item_QRWVKk",
+        "item_xBj3Uz"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "custom_html_wr8kTm": {
       "type": "custom-html",
       "name": "Custom HTML",
@@ -679,6 +732,7 @@
     "slideshow_jw8pDj",
     "slideshow_bEqtRk",
     "rich_text_JYH7Lc",
+    "images_with_text_scrolling_G9cKMH",
     "custom_html_wr8kTm",
     "main",
     "custom_html_YarTLM",
