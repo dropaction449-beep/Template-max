@@ -11,20 +11,6 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "custom_liquid_yTxUtx": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<section id=\"shopify-section-sections--23527924203786__custom_liquid_L98FyL\" class=\"shopify-section shopify-section-group-header-group shopify-section--custom-liquid\"><style>\n  #shopify-section-sections--23527924203786__custom_liquid_L98FyL {\n    --section-background-hash: 077077406004094060320625600209552;\n  }\n\n  #shopify-section-sections--23527924203786__custom_liquid_L98FyL + * {\n    --previous-section-background-hash: 077077406004094060320625600209552;\n  }</style><style>\n    #shopify-section-sections--23527924203786__custom_liquid_L98FyL {\n      --section-spacing-block: 0px;\n      --section-spacing-inline: 0px;\n    }\n  </style>\n\n  <div class=\"section   section-full bg-custom text-custom\" style=\"--background: 0 0 0; --text-color: 255 255 255;\">\n    <style>\n  #bf-countdown-timer {\n    color: #fff;\n    padding: 10px;\n    text-align: center;\n    font-size: 14px;\n    background-color: #000; /* garde ton fond noir actuel */\n  }\n  /* Pastille orange derrière le timer */\n  #bf-countdown-timer .bf-chip {\n    display: inline-block;\n    background: #5f887a;\n    color: #fff;\n    padding: 2px 10px;\n    border-radius: 999px;\n    font-weight: 700;\n    letter-spacing: 0.5px;\n    min-width: 86px; /* évite que ça saute en largeur */\n  }\n</style>\n\n<div id=\"bf-countdown-timer\">\n  <b>BLACK NOVEMBER</b> ｜ JUSQU'À -75% ET DES CADEAUX OFFERTS. FIN DANS\n  <b><span class=\"bf-chip\"><span id=\"bf-time\">06:43:59</span></span></b>\n</div>\n\n<script>\n  (function () {\n    function pad(n) { return n < 10 ? '0' + n : '' + n; }\n\n    function nextMidnight(date) {\n      // Prochain minuit en heure locale\n      return new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1, 0, 0, 0, 0);\n    }\n\n    function tick() {\n      const now = new Date();\n\n      // Fenêtre \"arrêt\" : de 00:00:00 à 00:00:59 inclus => on affiche 00:00:00\n      const isFreezeWindow = now.getHours() === 0 && now.getMinutes() === 0;\n      const el = document.getElementById('bf-time');\n\n      if (!el) {\n        setTimeout(tick, 1000);\n        return;\n      }\n\n      if (isFreezeWindow) {\n        el.textContent = '00:00:00';\n        setTimeout(tick, 1000);\n        return;\n      }\n\n      // Sinon, décompte jusqu'au prochain minuit local\n      const target = nextMidnight(now);\n      let diff = Math.max(0, Math.floor((target.getTime() - now.getTime()) / 1000)); // en secondes\n\n      // Conversion en HH:MM:SS (heures restantes dans la journée)\n      const hours   = Math.floor((diff % 86400) / 3600);\n      const minutes = Math.floor((diff % 3600) / 60);\n      const seconds = diff % 60;\n\n      el.textContent = `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;\n\n      setTimeout(tick, 1000);\n    }\n\n    if (document.readyState === 'loading') {\n      document.addEventListener('DOMContentLoaded', tick);\n    } else {\n      tick();\n    }\n  })();\n</script>\n  </div>\n</section>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_html_VfLx9U": {
       "type": "custom-html",
       "name": "Custom HTML",
@@ -100,27 +86,11 @@
         "background_opacity": 100,
         "background_blur_radius": 0
       }
-    },
-    "custom_html_mdbjf3": {
-      "type": "custom-html",
-      "disabled": true,
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<div class=\"shopify-policy__container\">\n  <div class=\"shopify-policy__title h1\">\n    <h1>Mentions légales</h1>\n  </div>\n\n  <div class=\"shopify-policy__body\">\n    <div class=\"rte prose\">\n        <h2>Éditeur du site / Website Publisher</h2>\n<p>Ce site est édité par / This website is published by:<br><strong>LEAF COSMETICS LLC</strong><br>1309 Coffeen Ave, STE 1200<br>Sheridan, WY 82801, USA<br>Numéro de téléphone / Phone: +1 (510) 533-8628<br>Email : <a rel=\"noopener\" class=\"decorated-link cursor-pointer\">support@leaf-cosmetics.com<span class=\"ms-0.5 inline-block align-middle leading-none\"></span></a><br>Forme juridique / Legal form: Limited Liability Company (LLC)<br>Immatriculée dans l'État du Wyoming (États-Unis) / Registered in the State of Wyoming (USA)</p>\n<h2>Hébergeur / Hosting Provider</h2>\n<p><strong>Shopify Inc.</strong><br>150 Elgin Street, Suite 800<br>Ottawa, Ontario K2P 1L4, Canada<br>Site web / Website: <a href=\"https://www.shopify.com\" class=\"decorated-link\" rel=\"noopener\">www.shopify.com<span class=\"ms-0.5 inline-block align-middle leading-none\"></span></a></p>\n<h2>Propriété intellectuelle / Intellectual Property</h2>\n<p>Tous les éléments présents sur ce site (textes, images, vidéos, graphismes, logos, icônes, etc.) sont la propriété exclusive de LEAF COSMETICS LLC ou de ses partenaires.<br>Toute reproduction ou utilisation sans autorisation écrite est strictement interdite.</p>\n<p>All content on this site (text, images, videos, graphics, logos, icons, etc.) is the exclusive property of LEAF COSMETICS LLC or its partners.<br>Any reproduction or use without prior written consent is strictly prohibited.</p>\n<h2>Données personnelles / Personal Data</h2>\n<p>Les données collectées sont traitées conformément à notre <a class=\"decorated-link cursor-pointer\" rel=\"noopener\">Politique de confidentialité<span class=\"ms-0.5 inline-block align-middle leading-none\"></span></a>.<br>Chaque utilisateur dispose d’un droit d’accès, de rectification et de suppression de ses données (conformément au RGPD).</p>\n<p>Collected data is processed in accordance with our <a class=\"decorated-link cursor-pointer\" rel=\"noopener\">Privacy Policy<span class=\"ms-0.5 inline-block align-middle leading-none\"></span></a>.<br>Each user has the right to access, rectify, or delete their data (in compliance with GDPR).</p>\n<h2>Responsabilité / Liability</h2>\n<p>LEAF COSMETICS LLC ne peut être tenue responsable d’éventuelles erreurs ou interruptions du service. L'utilisation du site est sous la seule responsabilité de l'utilisateur.</p>\n<p>LEAF COSMETICS LLC cannot be held liable for any errors or service interruptions. The use of the website is under the sole responsibility of the user.</p>\n<h2>Droit applicable / Governing Law</h2>\n<p>Les présentes mentions légales sont régies par le droit en vigueur dans l'État du Wyoming, États-Unis.<br>This legal notice is governed by the laws of the State of Wyoming, United States.</p>\n    </div>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
-    "custom_liquid_yTxUtx",
     "custom_html_VfLx9U",
     "announcement-bar",
-    "header",
-    "custom_html_mdbjf3"
+    "header"
   ]
 }
