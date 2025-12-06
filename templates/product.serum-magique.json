@@ -246,7 +246,6 @@
         },
         "liquid_cmQENa": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin: 2px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0921/8903/2794/files/NOIR.png?v=1747170686\" alt=\"Ajouter un titre\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n</div>\n          </div>"
           }
