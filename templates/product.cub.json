@@ -362,6 +362,7 @@
         },
         "liquid_RDGTkd": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin: 2px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Firefly_Gemini_Flash_Modifie_l_image_pour_la_faire_correspondre_avec_mon_produit_mets_mon_produit_a_la_pl_154433.png?v=1765014668\" alt=\"Ajouter un titre\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n</div>\n          </div>"
           }
