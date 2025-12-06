@@ -314,6 +314,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "title_XeMYJH": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h5"
+          }
+        },
         "liquid_ER4rqK": {
           "type": "liquid",
           "settings": {
@@ -452,6 +458,7 @@
         }
       },
       "block_order": [
+        "title_XeMYJH",
         "liquid_ER4rqK",
         "liquid_YFUT8h",
         "description_JiJHdX",
