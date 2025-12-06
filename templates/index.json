@@ -319,7 +319,7 @@
             "icon": "picto-truck",
             "mobile_icon_width": 64,
             "icon_width": 24,
-            "icon_background_type": "circle",
+            "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "#6659ff",
             "title": "Livraison gratuite",
@@ -365,7 +365,7 @@
         "title": "",
         "heading_tag": "h5",
         "text_alignment": "center",
-        "icon_spacing": "medium",
+        "icon_spacing": "small",
         "background": "",
         "background_gradient": "",
         "text_color": ""
