@@ -186,13 +186,20 @@
           "settings": {
             "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin: 2px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Firefly_Gemini_Flash_Modifie_l_image_pour_la_faire_correspondre_avec_mon_produit_mets_mon_produit_a_la_pl_154433.png?v=1765014668\" alt=\"Ajouter un titre\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n</div>\n          </div>"
           }
+        },
+        "liquid_D86Q4L": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_purchases\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n\n    <div class=\"korean-purchase-widget\">\n      <div class=\"korean-purchase-avatars\">\n        <img src=\"https://randomuser.me/api/portraits/women/3.jpg\" alt=\"Cliente 1\">\n        <img src=\"https://randomuser.me/api/portraits/women/2.jpg\" alt=\"Cliente 2\">\n        <img src=\"https://randomuser.me/api/portraits/women/10.jpg\" alt=\"Cliente 3\">\n      </div>\n      <p class=\"korean-purchase-text\">\n        Nathalie et <span id=\"purchase-count\">240</span> personnes ont acheté cette semaine\n      </p>\n    </div>\n\n    <style>\n      .korean-purchase-widget,\n      .korean-purchase-widget * {\n        font-family: 'Bricolage Grotesque', sans-serif !important;\n      }\n\n      .korean-purchase-widget {\n        display: flex;\n        align-items: center;\n        gap: 10px;\n        margin: -6px 0 -6px 0;\n      }\n\n      .korean-purchase-avatars {\n        display: flex;\n        align-items: center;\n      }\n\n      .korean-purchase-avatars img {\n        width: 28px;\n        height: 28px;\n        border-radius: 50%;\n        border: 2px solid #fff;\n        margin-right: -8px;\n        box-shadow: 0 0 0 1px #ddd;\n      }\n\n      .korean-purchase-text {\n        margin: 0;\n        font-size: 13px;\n        color: #000;\n      }\n\n      #purchase-count {\n        font-weight: 700;\n      }\n\n      @media (max-width: 600px) {\n        .korean-purchase-widget {\n          gap: 8px;\n        }\n        .korean-purchase-avatars img {\n          width: 24px;\n          height: 24px;\n        }\n        .korean-purchase-text {\n          font-size: 12.5px;\n        }\n      }\n    </style>\n\n    <script>\n      (function() {\n        var purchaseCount = 240;\n        var purchaseCountElement = document.getElementById(\"purchase-count\");\n        if (!purchaseCountElement) return;\n\n        function updatePurchaseCount() {\n          var incrementAmount = Math.floor(Math.random() * 3) + 1;\n          purchaseCount += incrementAmount;\n          purchaseCountElement.textContent = purchaseCount;\n\n          var nextUpdateDelay = Math.floor(Math.random() * 6000) + 2000;\n          setTimeout(updatePurchaseCount, nextUpdateDelay);\n        }\n\n        updatePurchaseCount();\n      })();\n    </script>\n\n  </div>\n</div>"
+          }
         }
       },
       "block_order": [
         "liquid_LYdYfi",
         "liquid_6izAdc",
         "liquid_Y7LVg4",
-        "liquid_TEcnMX"
+        "liquid_TEcnMX",
+        "liquid_D86Q4L"
       ],
       "name": "Featured product",
       "settings": {
