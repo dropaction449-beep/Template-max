@@ -65,8 +65,8 @@
             "only_photos": false,
             "hide_thumbnails": false,
             "product_handle": "",
-            "aggregated": true,
-            "data-limit": 20,
+            "aggregated": false,
+            "data-limit": 7,
             "maxwidth": 1080,
             "is_sample": true
           }
