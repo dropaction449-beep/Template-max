@@ -88,17 +88,10 @@
             "text_color": "",
             "gradient": ""
           }
-        },
-        "richtext_3VHGUV": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
         }
       },
       "block_order": [
-        "heading_j9y9eG",
-        "richtext_3VHGUV"
+        "heading_j9y9eG"
       ],
       "custom_css": [],
       "name": "Rich text",
