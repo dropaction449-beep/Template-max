@@ -434,12 +434,6 @@
             "page": ""
           }
         },
-        "liquid_DfpVUJ": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin: 2px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Capture_d_ecran_2025-12-04_153806.png?v=1764859671\" alt=\"Ajouter un titre\" style=\"max-width: 100%; height: auto; border-radius: 20px;\">\n</div>\n          </div>"
-          }
-        },
         "liquid_LTXdwG": {
           "type": "liquid",
           "name": "4 point important",
@@ -465,7 +459,6 @@
         "collapsible_text_rdmnf8",
         "collapsible_text_taMXYg",
         "collapsible_text_NtNpq3",
-        "liquid_DfpVUJ",
         "liquid_LTXdwG"
       ],
       "settings": {
