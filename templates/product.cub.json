@@ -386,22 +386,6 @@
             "liquid": "<div class=\"product__block product__block--custom_liquid\">\n  <!-- HEADER : Titre + Badge -->\n  <div class=\"ccp-header\">\n    <h1 class=\"ccp-title\">MAGNETICRAFT™</h1>\n    <div class=\"stock-badge\">\n      <svg class=\"stock-badge__icon\" viewBox=\"0 0 24 24\" fill=\"none\">\n        <path d=\"M13 2L3 14h8l-1 8 10-12h-8l1-8z\" fill=\"currentColor\"/>\n      </svg>\n      <span class=\"stock-badge__text\">Cyber Week</span>\n    </div>\n  </div>\n  \n  <!-- AVIS -->\n  <div class=\"ccp-reviews\">\n    <span class=\"ccp-stars\" aria-hidden=\"true\">\n      <svg viewBox=\"0 0 24 24\" class=\"star\">\n        <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n      </svg>\n      <svg viewBox=\"0 0 24 24\" class=\"star\">\n        <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n      </svg>\n      <svg viewBox=\"0 0 24 24\" class=\"star\">\n        <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n      </svg>\n      <svg viewBox=\"0 0 24 24\" class=\"star\">\n        <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n      </svg>\n      <svg viewBox=\"0 0 24 24\" class=\"star\">\n        <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n      </svg>\n    </span>\n    <span class=\"ccp-reviews-rating\">4.8/5</span>\n    <span class=\"ccp-reviews-count\">(+4 326 avis)</span>\n  </div>\n\n  <style>\n    /* En-tête */\n    .ccp-header {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      gap: 16px;\n      margin: -10px 0 12px;\n    }\n    \n    .ccp-title {\n      margin: 0;\n      font-weight: 800;\n      font-size: 24px;\n      letter-spacing: 0.5px;\n      line-height: 1.1;\n      color: #0e0e52;\n      flex-shrink: 0;\n    }\n    \n    /* Badge moderne */\n    .stock-badge {\n      display: inline-flex;\n      align-items: center;\n      gap: 8px;\n      font-size: 13px;\n      font-weight: 700;\n      text-transform: uppercase;\n      letter-spacing: 0.5px;\n      padding: 8px 14px;\n      border-radius: 12px;\n      background: linear-gradient(135deg, #6659FF 0%, #8B7FFF 100%);\n      color: #fff;\n      box-shadow: 0 4px 12px rgba(102, 89, 255, 0.3);\n      flex-shrink: 0;\n      position: relative;\n      overflow: hidden;\n    }\n    \n    .stock-badge::before {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: -100%;\n      width: 100%;\n      height: 100%;\n      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);\n      animation: badgeShine 2s infinite;\n    }\n    \n    @keyframes badgeShine {\n      0% { left: -100%; }\n      100% { left: 100%; }\n    }\n    \n    .stock-badge__icon {\n      width: 16px;\n      height: 16px;\n      color: #FFD700;\n      flex-shrink: 0;\n      animation: iconPulse 2s infinite;\n    }\n    \n    @keyframes iconPulse {\n      0%, 100% { transform: scale(1); opacity: 1; }\n      50% { transform: scale(1.1); opacity: 0.9; }\n    }\n    \n    /* Avis modernisé */\n    .ccp-reviews {\n      display: flex;\n      align-items: center;\n      gap: 10px;\n      padding-bottom: 14px;\n      margin-bottom: 14px;\n      border-bottom: 1px solid #E5E7EB;\n    }\n    \n    /* Étoiles Trustpilot */\n    .ccp-stars {\n      display: flex;\n      gap: 3px;\n    }\n    \n    .ccp-stars .star {\n      width: 18px;\n      height: 18px;\n      fill: #00B67A;\n    }\n    \n    /* Note et compteur */\n    .ccp-reviews-rating {\n      font-weight: 700;\n      font-size: 15px;\n      color: #0e0e52;\n      margin-left: 2px;\n    }\n    \n    .ccp-reviews-count {\n      font-size: 14px;\n      color: #6B7280;\n      font-weight: 500;\n      cursor: pointer;\n      transition: all 0.2s ease;\n    }\n    \n    .ccp-reviews-count:hover {\n      color: #00B67A;\n      text-decoration: underline;\n      text-underline-offset: 2px;\n    }\n    \n    /* Responsive */\n    @media (max-width: 768px) {\n      .ccp-header {\n        gap: 12px;\n      }\n      \n      .ccp-title {\n        font-size: 20px;\n      }\n      \n      .stock-badge {\n        font-size: 11px;\n        padding: 6px 12px;\n        gap: 6px;\n      }\n      \n      .stock-badge__icon {\n        width: 14px;\n        height: 14px;\n      }\n    }\n    \n    @media (max-width: 480px) {\n      .ccp-title {\n        font-size: 18px;\n      }\n      \n      .stock-badge {\n        font-size: 10px;\n        padding: 5px 10px;\n      }\n      \n      .stock-badge__icon {\n        width: 12px;\n        height: 12px;\n      }\n      \n      .ccp-stars .star {\n        width: 16px;\n        height: 16px;\n      }\n      \n      .ccp-reviews-rating {\n        font-size: 14px;\n      }\n      \n      .ccp-reviews-count {\n        font-size: 13px;\n      }\n    }\n  </style>\n\n  <script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      const reviewsCount = document.querySelector(\".ccp-reviews-count\");\n      if (reviewsCount) {\n        reviewsCount.addEventListener(\"click\", function() {\n          const target = document.querySelector(\"#looxReviewsFrame\");\n          if (target) {\n            target.scrollIntoView({ behavior: \"smooth\", block: \"start\" });\n          } else {\n            window.location.hash = \"#looxReviewsFrame\";\n          }\n        });\n      }\n    });\n  </script>\n</div>"
           }
         },
-        "description_JiJHdX": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "liquid_twT9Tc": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_GnVqWa\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <style>\n  .limited-offer-banner {\n    background-color: #eaf7f2; /* fond noir */\n    color: #5f887a;            /* texte blanc */\n    padding: 18px 24px;\n    border-radius: 12px;\n    text-align: center;\n    max-width: 900px;\n    margin: 0 auto 20px auto;\n    font-size: 16px;\n    line-height: 1.4;\n  }\n\n  .limited-offer-banner b {\n    font-weight: 700;\n  }\n</style>\n\n<div class=\"limited-offer-banner\">\n  <b>🎁 Offre Black Friday</b><br>Jusqu'à -75% + jusqu'à 4 cadeaux offerts par commande.\n</div>\n            </div></div>"
-          }
-        },
         "liquid_yWELyi": {
           "type": "liquid",
           "settings": {
@@ -416,7 +400,6 @@
         },
         "liquid_RDGTkd": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
             "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin: 2px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Firefly_Gemini_Flash_Modifie_l_image_pour_la_faire_correspondre_avec_mon_produit_mets_mon_produit_a_la_pl_154433.png?v=1765014668\" alt=\"Ajouter un titre\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n</div>\n          </div>"
           }
@@ -523,8 +506,6 @@
         "title_XeMYJH",
         "liquid_ER4rqK",
         "liquid_YFUT8h",
-        "description_JiJHdX",
-        "liquid_twT9Tc",
         "liquid_yWELyi",
         "liquid_eH9Pc9",
         "liquid_RDGTkd",
