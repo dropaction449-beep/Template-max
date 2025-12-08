@@ -589,9 +589,9 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/BOTTLAMP_1000_x_529_px_3.png",
-            "width_mode": "custom",
+            "width_mode": "full_width",
             "max_width": 600,
-            "mobile_max_width": 400
+            "mobile_max_width": 530
           }
         }
       },
