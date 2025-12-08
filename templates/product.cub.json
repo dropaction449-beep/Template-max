@@ -574,6 +574,18 @@
         "input_text_color": ""
       }
     },
+    "rich_text_HzUeA9": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_html_JYNjEP": {
       "type": "custom-html",
       "name": "Custom HTML",
@@ -745,6 +757,7 @@
     "custom_liquid_kfjXgj",
     "custom_html_wr8kTm",
     "main",
+    "rich_text_HzUeA9",
     "custom_html_JYNjEP",
     "custom_html_a3XAmz",
     "custom_html_QjMJJP",
