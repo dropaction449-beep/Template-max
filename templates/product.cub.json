@@ -220,15 +220,6 @@
     "rich_text_abw9Wj": {
       "type": "rich-text",
       "blocks": {
-        "heading_xkdkq7": {
-          "type": "heading",
-          "settings": {
-            "text": "Le Jouet Préféré de Vos Enfants !",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "image_LabTTF": {
           "type": "image",
           "disabled": true,
@@ -241,7 +232,6 @@
         }
       },
       "block_order": [
-        "heading_xkdkq7",
         "image_LabTTF"
       ],
       "name": "Rich text",
