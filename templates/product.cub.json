@@ -228,10 +228,20 @@
             "text_color": "",
             "gradient": ""
           }
+        },
+        "image_LabTTF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BOTTLAMP_1000_x_529_px_3_b7e8a45c-f675-4df6-99a3-dcf1bb25b7f8.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
-        "heading_xkdkq7"
+        "heading_xkdkq7",
+        "image_LabTTF"
       ],
       "name": "Rich text",
       "settings": {
