@@ -137,8 +137,8 @@
         "image_zdfmQJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Firefly_Cree_une_banniere_au_meme_style_graphique_que_l_image_de_reference_-_mise_en_page_en_569375.png",
-            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_modifie_cette_image_pour_ajouter_le_logo_minecraft_er_des_personnages_de_minecraft_po_154433.png",
+            "image": "shopify://shop_images/Design_sans_titre_16.png",
+            "mobile_image": "shopify://shop_images/Design_sans_titre_16_44de19a9-82ad-4c33-88de-ed665ff27cac.png",
             "content_max_width": 860,
             "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -152,7 +152,7 @@
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "background": "",
+            "background": "#ffffff",
             "background_gradient": ""
           }
         }
