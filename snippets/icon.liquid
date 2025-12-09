@@ -94,39 +94,24 @@
         <path d="m16 15 3 3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
       </svg>
 
-  {%- when 'cart' -%}
-    {%- case settings.cart_icon -%}
+    {%- when 'cart' -%}
+      {%- case settings.cart_icon -%}
+        {%- when 'shopping_basket' -%}
+          <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 22 }}" height="{{ height | default: 22 }}" class="{{ class | strip }}" viewBox="0 0 22 22">
+            <path d="M11 7H3.577A2 2 0 0 0 1.64 9.497l2.051 8A2 2 0 0 0 5.63 19H16.37a2 2 0 0 0 1.937-1.503l2.052-8A2 2 0 0 0 18.422 7H11Zm0 0V1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
 
-      {%- when 'shopping_basket' -%}
-        <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 22 }}" height="{{ height | default: 22 }}" class="{{ class | strip }}" viewBox="0 0 22 22">
-          <path d="M11 7H3.577A2 2 0 0 0 1.64 9.497l2.051 8A2 2 0 0 0 5.63 19H16.37a2 2 0 0 0 1.937-1.503l2.052-8A2 2 0 0 0 18.422 7H11Zm0 0V1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-        </svg>
+        {%- when 'tote_bag' -%}
+          <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 22 }}" height="{{ height | default: 22 }}" class="{{ class | strip }}" viewBox="0 0 22 22">
+            <path d="M14.666 7.333a3.666 3.666 0 1 1-7.333 0M3.33 6.785l-.642 7.7c-.137 1.654-.206 2.48.073 3.119a2.75 2.75 0 0 0 1.21 1.314c.612.332 1.442.332 3.102.332h7.853c1.66 0 2.49 0 3.103-.332a2.75 2.75 0 0 0 1.21-1.314c.279-.638.21-1.465.072-3.12l-.642-7.7c-.118-1.423-.178-2.134-.493-2.673A2.75 2.75 0 0 0 16.99 3.02c-.563-.269-1.277-.269-2.705-.269h-6.57c-1.428 0-2.142 0-2.705.27A2.75 2.75 0 0 0 3.823 4.11c-.315.539-.374 1.25-.493 2.674Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
 
-      {%- when 'tote_bag' -%}
-        <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 22 }}" height="{{ height | default: 22 }}" class="{{ class | strip }}" viewBox="0 0 22 22">
-          <path d="M14.666 7.333a3.666 3.666 0 1 1-7.333 0M3.33 6.785l-.642 7.7c-.137 1.654-.206 2.48.073 3.119a2.75 2.75 0 0 0 1.21 1.314c.612.332 1.442.332 3.102.332h7.853c1.66 0 2.49 0 3.103-.332a2.75 2.75 0 0 0 1.21-1.314c.279-.638.21-1.465.072-3.12l-.642-7.7c-.118-1.423-.178-2.134-.493-2.673A2.75 2.75 0 0 0 16.99 3.02c-.563-.269-1.277-.269-2.705-.269h-6.57c-1.428 0-2.142 0-2.705.27A2.75 2.75 0 0 0 3.823 4.11c-.315.539-.374 1.25-.493 2.674Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-        </svg>
-
-      {%- when 'shopping_cart' -%}
-        <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 22 }}" height="{{ height | default: 22 }}" class="{{ class | strip }}" viewBox="0 0 22 22">
-          <path d="M9.182 18.454a.91.91 0 1 1-1.818 0 .91.91 0 0 1 1.818 0Zm7.272 0a.91.91 0 1 1-1.818 0 .91.91 0 0 1 1.819 0Z" fill="currentColor"></path>
-          <path d="M5.336 6.636H21l-3.636 8.182H6.909L4.636 3H1m8.182 15.454a.91.91 0 1 1-1.818 0 .91.91 0 0 1 1.818 0Zm7.272 0a.91.91 0 1 1-1.818 0 .91.91 0 0 1 1.819 0Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-        </svg>
-
-      {%- when 'custom_icon' -%}
-        <img 
-          src="https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Design_sans_titre_13.png?v=1765310765"
-          width="{{ width | default: 22 }}"
-          height="{{ height | default: 22 }}"
-          class="{{ class | strip }}"
-          style="object-fit: contain; display: block;"
-          alt="Icône panier personnalisée"
-        >
-
-    {%- endcase -%}
-
-
-
+        {%- when 'shopping_cart' -%}
+          <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 22 }}" height="{{ height | default: 22 }}" class="{{ class | strip }}" viewBox="0 0 22 22">
+            <path d="M9.182 18.454a.91.91 0 1 1-1.818 0 .91.91 0 0 1 1.818 0Zm7.272 0a.91.91 0 1 1-1.818 0 .91.91 0 0 1 1.819 0Z" fill="currentColor"></path>
+            <path d="M5.336 6.636H21l-3.636 8.182H6.909L4.636 3H1m8.182 15.454a.91.91 0 1 1-1.818 0 .91.91 0 0 1 1.818 0Zm7.272 0a.91.91 0 1 1-1.818 0 .91.91 0 0 1 1.819 0Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+      {%- endcase -%}
 
     {%- when 'quick-buy-cart' -%}
       {%- case settings.cart_icon -%}
