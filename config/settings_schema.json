@@ -793,7 +793,7 @@
             "label": "Shopping cart"
           }
         ],
-        "default": "shopping_basket"
+        "default": "custom_icon"
       },
       {
         "type": "url",
