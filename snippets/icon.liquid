@@ -97,26 +97,9 @@
     {%- when 'cart' -%}
       {%- case settings.cart_icon -%}
         {%- when 'shopping_basket' -%}
-          <svg role="presentation"
-              stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}"
-              focusable="false"
-              width="{{ width | default: 22 }}"
-              height="{{ height | default: 22 }}"
-              class="{{ class | strip }}"
-              viewBox="0 0 22 22">
-            
-            <!-- IMAGE DU TRAÎNEAU (remplace l'URL ci-dessous) -->
-            <image 
-              href="https://cdn.shopify.com/sleigh.png" 
-              x="0" 
-              y="0" 
-              width="22" 
-              height="22"
-              preserveAspectRatio="xMidYMid meet"
-            />
-            
+          <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 22 }}" height="{{ height | default: 22 }}" class="{{ class | strip }}" viewBox="0 0 22 22">
+            <path d="M11 7H3.577A2 2 0 0 0 1.64 9.497l2.051 8A2 2 0 0 0 5.63 19H16.37a2 2 0 0 0 1.937-1.503l2.052-8A2 2 0 0 0 18.422 7H11Zm0 0V1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
-
 
         {%- when 'tote_bag' -%}
           <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 22 }}" height="{{ height | default: 22 }}" class="{{ class | strip }}" viewBox="0 0 22 22">
@@ -124,26 +107,10 @@
           </svg>
 
         {%- when 'shopping_cart' -%}
-          <svg role="presentation"
-              stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}"
-              focusable="false"
-              width="{{ width | default: 22 }}"
-              height="{{ height | default: 22 }}"
-              class="{{ class | strip }}"
-              viewBox="0 0 22 22">
-            
-            <!-- IMAGE DU TRAÎNEAU (remplace l'URL ci-dessous) -->
-            <image 
-              href="https://cdn.shopify.com/sleigh.png" 
-              x="0" 
-              y="0" 
-              width="22" 
-              height="22"
-              preserveAspectRatio="xMidYMid meet"
-            />
-            
+          <svg role="presentation" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 22 }}" height="{{ height | default: 22 }}" class="{{ class | strip }}" viewBox="0 0 22 22">
+            <path d="M9.182 18.454a.91.91 0 1 1-1.818 0 .91.91 0 0 1 1.818 0Zm7.272 0a.91.91 0 1 1-1.818 0 .91.91 0 0 1 1.819 0Z" fill="currentColor"></path>
+            <path d="M5.336 6.636H21l-3.636 8.182H6.909L4.636 3H1m8.182 15.454a.91.91 0 1 1-1.818 0 .91.91 0 0 1 1.818 0Zm7.272 0a.91.91 0 1 1-1.818 0 .91.91 0 0 1 1.819 0Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
-
       {%- endcase -%}
 
     {%- when 'quick-buy-cart' -%}
