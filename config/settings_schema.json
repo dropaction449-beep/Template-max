@@ -777,7 +777,7 @@
       },
       {
         "type": "select",
-        "id": "custom_icon",
+        "id": "cart_icon",
         "label": "Cart icon",
         "options": [
           {
@@ -789,7 +789,7 @@
             "label": "Tote bag"
           },
           {
-            "value": "shopping_cart",
+            "value": "custom_icon",
             "label": "Shopping cart"
           }
         ],
