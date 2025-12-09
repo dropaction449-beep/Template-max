@@ -777,7 +777,7 @@
       },
       {
         "type": "select",
-        "id": "cart_icon",
+        "id": "custom_icon",
         "label": "Cart icon",
         "options": [
           {
