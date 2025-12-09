@@ -126,11 +126,15 @@
           </svg>
 
         {%- when 'shopping_cart' -%}
-          <svg role="presentation" fill="none" stroke-width="{{ stroke_width | default: settings.icon_stroke_width }}" focusable="false" width="{{ width | default: 16 }}" height="{{ height | default: 15 }}" class="{{ class | strip }}" viewBox="0 0 16 15">
-            <path d="M4.5 3.545H15l-2.546 5.728H5.136L3.546 1H1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="5.955" cy="12.682" r=".5" fill="#252627" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="11.5" cy="12.682" r=".5" fill="#252627" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
+          <img 
+            src="https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Design_sans_titre_13.png?v=1765310765"
+            width="{{ width | default: 22 }}"
+            height="{{ height | default: 22 }}"
+            class="{{ class | strip }}"
+            alt="Cart icon"
+            style="object-fit: contain; display: block;"
+          >
+
       {%- endcase -%}
 
     {%- when 'circle-button-left-clipped' -%}
