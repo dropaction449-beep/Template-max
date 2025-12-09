@@ -789,11 +789,11 @@
             "label": "Tote bag"
           },
           {
-            "value": "custom_icon",
+            "value": "shopping_cart",
             "label": "Shopping cart"
           }
         ],
-        "default": "custom_icon"
+        "default": "shopping_basket"
       },
       {
         "type": "url",
