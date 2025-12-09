@@ -115,7 +115,7 @@
       {%- when 'custom_icon' -%}
         {% if settings.custom_cart_icon != blank %}
           <img 
-            src="{{ settings.custom_cart_icon | img_url:"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Design_sans_titre_13.png?v=1765310765"'64x' }}" 
+            src="{{ settings.custom_cart_icon | img_url: https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Design_sans_titre_13.png?v=1765310765 '64x' }}" 
             alt="Mon icône panier"
             width="{{ width | default: 22 }}"
             height="{{ height | default: 22 }}"
