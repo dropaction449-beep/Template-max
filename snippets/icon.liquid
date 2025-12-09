@@ -114,23 +114,17 @@
         </svg>
 
       {%- when 'custom_icon' -%}
-        {% if settings.custom_cart_icon != blank %}
-          <img 
-            src="{{ settings.custom_cart_icon | img_url: '64x' }}" 
-            alt="Mon icône panier"
-            width="{{ width | default: 22 }}"
-            height="{{ height | default: 22 }}"
-            class="{{ class | strip }}"
-            style="object-fit: contain;"
-          >
-        {% else %}
-          <!-- Sécurité : fallback si aucune image n'est définie -->
-          <svg role="presentation" width="22" height="22" viewBox="0 0 22 22">
-            <circle cx="11" cy="11" r="10" stroke="currentColor" fill="none"/>
-          </svg>
-        {% endif %}
+        <img 
+          src="https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Design_sans_titre_13.png?v=1765310765"
+          width="{{ width | default: 22 }}"
+          height="{{ height | default: 22 }}"
+          class="{{ class | strip }}"
+          style="object-fit: contain; display: block;"
+          alt="Icône panier personnalisée"
+        >
 
     {%- endcase -%}
+
 
 
 
