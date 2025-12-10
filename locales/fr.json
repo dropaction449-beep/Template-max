@@ -445,6 +445,9 @@
     "checkout": {
       "general": {
         "continue_to_review": "Payer maintenant"
+      },
+      "shipping": {
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Votre commande sera expédiée gratuitement"
       }
     }
   }
