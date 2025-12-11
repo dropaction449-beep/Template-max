@@ -41,7 +41,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Firefly_Gemini_Flash_Ajoute_le_logo_minecraft_en_haut_710070.png",
-            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Professional_e-commerce_website_header_1920x800px_4K_quality._Scene-_Modern_French_279848_1.png",
+            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Professional_e-commerce_website_header_4K_quality._Scene-_theme_de_noel_Modern_Fren_279848.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
