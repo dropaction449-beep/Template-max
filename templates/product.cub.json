@@ -628,6 +628,19 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_B7EdQb": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"mc-guarantee-block\">\n  <style>\n    .mc-guarantee-block {\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n      background: #ffffff;\n      border-radius: 14px;\n      padding: 20px 22px;\n      border: 1px solid #e5e5e5;\n      box-shadow: 0 4px 14px rgba(0,0,0,0.05);\n      margin-top: 18px;\n    }\n\n    .mc-guarantee-title {\n      font-size: 18px;\n      font-weight: 800;\n      text-align: center;\n      color: #1f1f1f;\n      margin-bottom: 18px;\n      letter-spacing: 0.5px;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      gap: 6px;\n    }\n\n    .mc-guarantee-list {\n      display: flex;\n      flex-direction: column;\n      gap: 16px;\n    }\n\n    .mc-guarantee-item {\n      display: flex;\n      align-items: flex-start;\n      gap: 10px;\n    }\n\n    .mc-guarantee-icon {\n      font-size: 18px;\n      color: #2E2E2E;\n      line-height: 1;\n      flex-shrink: 0;\n    }\n\n    .mc-guarantee-text {\n      font-size: 14px;\n      color: #2c2c2c;\n      font-weight: 600;\n      line-height: 1.35;\n    }\n\n    .mc-guarantee-text span {\n      display: block;\n      font-size: 12px;\n      font-weight: 500;\n      color: #7a7a7a;\n      margin-top: 2px;\n    }\n\n    @media (max-width: 480px) {\n      .mc-guarantee-block {\n        padding: 18px;\n      }\n      .mc-guarantee-title {\n        font-size: 16px;\n      }\n      .mc-guarantee-text {\n        font-size: 13px;\n      }\n    }\n  </style>\n\n  <div class=\"mc-guarantee-title\">\n    🛡️ VOS 5 GARANTIES MAGNETICRAFT\n  </div>\n\n  <div class=\"mc-guarantee-list\">\n\n    <div class=\"mc-guarantee-item\">\n      <div class=\"mc-guarantee-icon\">✅</div>\n      <div class=\"mc-guarantee-text\">\n        Satisfait ou Remboursé 60 jours\n        <span>(même si l’emballage est ouvert)</span>\n      </div>\n    </div>\n\n    <div class=\"mc-guarantee-item\">\n      <div class=\"mc-guarantee-icon\">✅</div>\n      <div class=\"mc-guarantee-text\">\n        Livraison garantie avant Noël\n        <span>(pour toute commande avant le 18/12)</span>\n      </div>\n    </div>\n\n    <div class=\"mc-guarantee-item\">\n      <div class=\"mc-guarantee-icon\">✅</div>\n      <div class=\"mc-guarantee-text\">\n        SAV Français 7j/7\n        <span>(réponse en moins de 2h en moyenne)</span>\n      </div>\n    </div>\n\n    <div class=\"mc-guarantee-item\">\n      <div class=\"mc-guarantee-icon\">✅</div>\n      <div class=\"mc-guarantee-text\">\n        Blocs garantis à vie\n        <span>(remplacement gratuit si un bloc est cassé)</span>\n      </div>\n    </div>\n\n    <div class=\"mc-guarantee-item\">\n      <div class=\"mc-guarantee-icon\">✅</div>\n      <div class=\"mc-guarantee-text\">\n        Paiement 100% sécurisé\n        <span>(SSL + Stripe + conformité RGPD)</span>\n      </div>\n    </div>\n\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_HzUeA9": {
       "type": "rich-text",
       "blocks": {
@@ -826,6 +839,7 @@
     "custom_liquid_kfjXgj",
     "custom_html_wr8kTm",
     "main",
+    "custom_liquid_B7EdQb",
     "rich_text_HzUeA9",
     "custom_html_JYNjEP",
     "custom_html_QjMJJP",
