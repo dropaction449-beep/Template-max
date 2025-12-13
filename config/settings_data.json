@@ -89,16 +89,6 @@
         "disabled": false,
         "settings": {}
       },
-      "6319715395561037789": {
-        "type": "shopify://apps/trackify-x/blocks/app-embed/f3561b5a-1d26-4c4b-9d29-6bae914fb95d",
-        "disabled": true,
-        "settings": {}
-      },
-      "7421546185640437913": {
-        "type": "shopify://apps/tixel-tiktok-pixels/blocks/app-embed/b273c4b8-95ba-409d-a87c-c46907e02629",
-        "disabled": false,
-        "settings": {}
-      },
       "7054877461618660028": {
         "type": "shopify://apps/moon-bundles-upsell-free-gifts/blocks/app-embed/aaf4cd95-8b9b-4a14-b929-0f7fc8fced27",
         "disabled": false,
@@ -114,9 +104,9 @@
         "disabled": false,
         "settings": {}
       },
-      "17676059084223943535": {
-        "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
-        "disabled": true,
+      "4824701725375534060": {
+        "type": "shopify://apps/blockify-checkout/blocks/block-checkout/a02f68fe-3bdb-4615-b9c5-7d181a329397",
+        "disabled": false,
         "settings": {}
       }
     }
