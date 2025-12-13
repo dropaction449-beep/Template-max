@@ -205,8 +205,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".moonbundle-option-active .moonbundle-gift-horizontal {background: var(--moonbundle-gift-bg-color-selected) !important;}",
-      ".moonbundle-option .moonbundle-gift-horizontal {background: var(--moonbundle-gift-bg-color) !important;}"
+      ".moonbundle-option .moonbundle-gift-horizontal {background: var(--moonbundle-gift-bg-color) !important;}",
+      ".moonbundle-option-active .moonbundle-gift-horizontal {background: var(--moonbundle-gift-bg-color-selected) !important;}"
     ]
   }
 }
