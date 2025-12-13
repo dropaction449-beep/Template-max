@@ -103,11 +103,6 @@
         "type": "shopify://apps/upcart-cart-drawer/blocks/app-embed/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
         "disabled": false,
         "settings": {}
-      },
-      "4824701725375534060": {
-        "type": "shopify://apps/blockify-checkout/blocks/block-checkout/a02f68fe-3bdb-4615-b9c5-7d181a329397",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
@@ -207,5 +202,11 @@
       "product_color_display": "swatch",
       "product_info_alignment": "center"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".moonbundle-option-active .moonbundle-gift-horizontal {background: var(--moonbundle-gift-bg-color-selected) !important;}",
+      ".moonbundle-option .moonbundle-gift-horizontal {background: var(--moonbundle-gift-bg-color) !important;}"
+    ]
   }
 }
