@@ -529,20 +529,13 @@
             "liquid": "<section class=\"how-section\">\n  <div class=\"how-carousel\">\n    <button class=\"how-arrow how-arrow--left\" type=\"button\">&#10094;</button>\n\n    <div class=\"how-viewport\">\n      <div class=\"how-track\">\n        <!-- Étape 1 -->\n        <div class=\"how-step\">\n          <video autoplay muted loop playsinline>\n            <source src=\"https://spiel-minds.com/cdn/shop/videos/c/vp/e466474f6673413685de80e5863c8b80/e466474f6673413685de80e5863c8b80.HD-720p-3.0Mbps-60048491.mp4?v=0\">\n            Votre navigateur ne supporte pas la vidéo.\n          </video>\n        </div>\n\n        <!-- Étape 2 -->\n        <div class=\"how-step\">\n          <video autoplay muted loop playsinline>\n            <source src=\"https://spiel-minds.com/cdn/shop/videos/c/vp/8cd8d8cb2ee34383b2dbca27d15f0803/8cd8d8cb2ee34383b2dbca27d15f0803.HD-720p-4.5Mbps-60048425.mp4?v=0\">\n            Votre navigateur ne supporte pas la vidéo.\n          </video>\n        </div>\n\n        <!-- Étape 3 -->\n        <div class=\"how-step\">\n          <video autoplay muted loop playsinline>\n            <source src=\"https://cdn.shopify.com/videos/c/o/v/245b7247eb734db6a04972e4021c0050.mp4\">\n            Votre navigateur ne supporte pas la vidéo.\n          </video>\n        </div>\n      </div>\n    </div>\n\n    <button class=\"how-arrow how-arrow--right\" type=\"button\">&#10095;</button>\n  </div>\n</section>\n\n<script>\n  (function() {\n    const track = document.querySelector('.how-track');\n    const steps = document.querySelectorAll('.how-step');\n    const btnLeft = document.querySelector('.how-arrow--left');\n    const btnRight = document.querySelector('.how-arrow--right');\n\n    if (!track || steps.length === 0) return;\n\n    let index = 0;\n\n    function isMobile() {\n      return window.innerWidth <= 768;\n    }\n\n    function updatePosition() {\n      if (!isMobile()) {\n        // Sur ordi : aucune translation, tout est affiché\n        track.style.transform = 'translateX(0)';\n        index = 0;\n        return;\n      }\n\n      const stepWidth = steps[0].getBoundingClientRect().width + 12; // largeur + gap mobile\n      track.style.transform = 'translateX(' + (-index * stepWidth) + 'px)';\n    }\n\n    if (btnRight) {\n      btnRight.addEventListener('click', function() {\n        if (!isMobile()) return;\n        if (index < steps.length - 1) {\n          index++;\n          updatePosition();\n        }\n      });\n    }\n\n    if (btnLeft) {\n      btnLeft.addEventListener('click', function() {\n        if (!isMobile()) return;\n        if (index > 0) {\n          index--;\n          updatePosition();\n        }\n      });\n    }\n\n    window.addEventListener('resize', updatePosition);\n    updatePosition();\n  })();\n</script>\n\n<style>\n  .how-section {\n    font-family: -apple-system, BlinkMacSystemFont, \"Helvetica Neue\", Arial, sans-serif;\n    color: #111;\n    text-align: center;\n    padding: 32px 20px;\n  }\n\n  .how-section h2 {\n    font-size: 22px;\n    font-weight: 700;\n    margin-bottom: 20px;\n  }\n\n  .how-carousel {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 12px;\n    max-width: 1100px;\n    margin: 0 auto;\n  }\n\n  .how-arrow {\n    border: none;\n    background: rgba(0,0,0,0.05);\n    width: 30px;\n    height: 30px;\n    border-radius: 999px;\n    cursor: pointer;\n    font-size: 16px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .how-arrow:hover {\n    background: rgba(0,0,0,0.12);\n  }\n\n  .how-viewport {\n    overflow: hidden;\n    flex: 1;\n  }\n\n  .how-track {\n    display: flex;\n    gap: 16px;\n    transition: transform 0.25s ease-out;\n  }\n\n  /* Taille des cartes sur ORDI */\n  .how-step {\n    position: relative;\n    width: 260px;\n    border-radius: 16px;\n    overflow: hidden;\n    flex: 0 0 auto;\n  }\n\n  .how-step video {\n    width: 100%;\n    height: auto;\n    border-radius: 16px;\n    display: block;\n  }\n\n  .how-step span {\n    position: absolute;\n    bottom: 10px;\n    left: 10px;\n    background: rgba(255, 255, 255, 0.9);\n    color: #000;\n    font-weight: 700;\n    font-size: 14px;\n    padding: 4px 8px;\n    border-radius: 6px;\n  }\n\n  /* --- MOBILE --- */\n  @media (max-width: 768px) {\n    .how-section {\n      padding: 24px 12px;\n    }\n\n    .how-section h2 {\n      font-size: 18px;\n      margin-bottom: 14px;\n    }\n\n    .how-carousel {\n      gap: 6px;\n    }\n\n    .how-arrow {\n      width: 24px;\n      height: 24px;\n      font-size: 13px;\n    }\n\n    .how-viewport {\n      max-width: 260px;\n      margin: 0 auto;\n    }\n\n    .how-step {\n      width: 60vw;          /* plus petit */\n      max-width: 210px;     /* limite la taille */\n      border-radius: 12px;\n    }\n\n    .how-step video {\n      border-radius: 12px;\n    }\n\n    .how-step span {\n      font-size: 12px;\n      padding: 3px 6px;\n      bottom: 8px;\n      left: 8px;\n    }\n  }\n</style>"
           }
         },
-        "liquid_F8XLik": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"product__block product__block--custom_liquid\">\n<style>\n#freetrialtemplate--21113719390540__main {\n    padding: 10px !important;\n    background: #f8f8f8;\n    margin-top: 25px !important;\n    margin-bottom: 10px !important;\n    margin: 25px auto;\n    border-radius: 7px;\n    text-align: left;\n    border: 1px solid #f2f2f7 !important;\n    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;\n    max-width: 600px;\n}\n\n#freetrialtemplate--21113719390540__main .wrap {\n    display: flex;\n    align-items: center;\n}\n\n#freetrialtemplate--21113719390540__main .box1 {\n    margin-right: 15px;\n    flex-shrink: 0;\n}\n\n#freetrialtemplate--21113719390540__main .box1 img {\n    width: 60px;\n    height: auto;\n}\n\n#freetrialtemplate--21113719390540__main .box2 h6 {\n    font-size: 18px;\n    font-weight: bold;\n    margin: 0;\n}\n\n#freetrialtemplate--21113719390540__main .box2 p {\n    font-size: 14px;\n    margin: 5px 0 0;\n    color: #333;\n}\n\n/* Mobile */\n@media screen and (max-width: 767px) {\n    #freetrialtemplate--21113719390540__main {\n        padding: 10px !important;\n        margin: 10px 0 !important;\n    }\n    #freetrialtemplate--21113719390540__main .wrap {\n        flex-direction: row;\n        align-items: center;\n    }\n    #freetrialtemplate--21113719390540__main .box1 img {\n        width: 35px;\n    }\n    #freetrialtemplate--21113719390540__main .box2 h6 {\n        font-size: 16px;\n    }\n    #freetrialtemplate--21113719390540__main .box2 p {\n        font-size: 13px;\n    }\n}\n</style>\n\n<div class=\"hidetrialdesktop\" id=\"freetrialtemplate--21113719390540__main\">\n    <div class=\"wrap\">\n        <div class=\"box1\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0572/8367/4154/files/winner.png?v=1740695965\" alt=\"Meilleur jeu éducatif\">\n        </div>\n        <div class=\"box2\">\n            <h6>Élu Jeu Créatif n°1 de l’Année en Europe</h6>\n\n            <p>\n            MagnetiCraft™ est officiellement reconnu comme l’un des jeux éducatifs les plus appréciés par les parents pour sa capacité à \n            <b>réduire la dépendance aux écrans</b> et stimuler l’imagination.\n            <br><br>\n            <b>94% des parents</b> déclarent que leur enfant joue plus longtemps au calme, développe sa créativité et améliore sa concentration.  \n            <i>(Étude interne : 312 familles testées, enfants de 3 à 12 ans.)</i>\n            </p>\n        </div>\n    </div>\n</div>\n\n</div>"
-          }
-        },
         "collapsible_text_Gy9tAw": {
           "type": "collapsible_text",
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "🤓 C’est quoi le MINT ?",
-            "content": "<p>Non, ce n'est PAS de la menthe ! 😅</p><p>MINT = Minecraft INspired Toys</p><p>Ce sont des blocs de construction magnétiques avec les textures EXACTES de <strong>Minecraft </strong>(herbe, terre, pierre, bois, eau, etc.)</p><p>Votre enfant reconnaît instantanément et adore !</p>",
+            "title": "🚨 Mon enfant va-t-il VRAIMENT lâcher sa tablette ?",
+            "content": "<p><strong>OUI. </strong>89% des parents constatent une réduction d'écran sous 14 jours. Si après 60 jours votre enfant préfère toujours l'iPad, on vous rembourse. Point.</p>",
             "page": ""
           }
         },
@@ -551,8 +544,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "🎁 Qu’est-ce qui est inclus ?",
-            "content": "<p>Nous proposons <strong>quatre packs</strong>, pensés pour tous les niveaux et tous les petits bâtisseurs :</p><h3><strong>• Le Pack Découverte – 40 blocs</strong></h3><p>Parfait pour commencer.<br/><br/>Idéal pour créer les premières formes inspirées de Minecraft : une petite maison, un véhicule, un arbre, un mini-biome…<br/><br/>Un pack simple, efficace, qui donne immédiatement envie d’aller plus loin.</p><h3><strong>• Le Pack Créatif – 80 blocs</strong></h3><p>Beaucoup plus complet.<br/><br/>Il permet de construire des structures plus grandes, plus variées et plus complexes.<br/><br/>C’est le choix préféré des parents de plusieurs enfants ou des enfants un peu plus âgés qui veulent vraiment explorer.</p><h3><strong>• Le Pack Univers – 200 blocs</strong></h3><p>L’expérience ultime MagnetiCraft™.<br/><br/>Le pack adoré des enfants passionnés : <strong>200 blocs magnétiques</strong> pour imaginer et étendre des mondes entiers façon Minecraft.<br/><br/>Nous y avons ajouté une <strong>Édition Mystère</strong>, avec une sélection unique et différente pour stimuler encore plus la créativité et les défis.<br/><br/>Le meilleur choix pour les véritables “petits architectes”.</p><h3><strong>• Tous les packs</strong></h3><p>Chaque pack contient une sélection aléatoire de blocs — c’est ce qui rend l’expérience aussi fun et surprenante !<br/><br/>Mais tous incluent une base indispensable :<br/><br/><strong>bois, pierres, formes classiques et éléments nécessaires</strong> pour réussir toutes les constructions les plus populaires.</p>",
+            "title": "💰 Il a déjà eu beaucoup de jouets, pourquoi celui-ci serait différent ?",
+            "content": "<p>La plupart des jouets sont <strong>consommés </strong>: vous l'ouvrez, vous jouez, c'est terminé. </p><p>MagnetiCraft est un <strong>système ouvert </strong>— création nouvelle chaque jour pendant des années.</p>",
             "page": ""
           }
         },
@@ -561,8 +554,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "🙆🏼 Pour qui ?",
-            "content": "<p>Les blocs MagnetiCraft™ conviennent à tous les enfants <strong>à partir de 36 mois (3 ans)</strong>.</p><p>Et la vérité ?<br/><br/><strong>Il n’y a pas d’âge limite.</strong><br/><br/>Les plus petits créent, les plus grands inventent… et même les adultes finissent par jouer avec.</p>",
+            "title": "📦 Combien de blocs faut-il pour vraiment l'occuper ?",
+            "content": "<p>Le Pack Découverte (40 blocs) est parfait pour tester. Mais le <strong>Pack Famille (80 blocs) </strong>est notre bestseller : constructions plus ambitieuses = engagement plus long.</p>",
             "page": ""
           }
         },
@@ -571,8 +564,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "🚚 Livraison",
-            "content": "<p>Toutes les commandes sont expédiées <strong>sous 24h (jours ouvrés)</strong>.<br/><br/>Une fois expédiée, la livraison prend généralement <strong>5 à 8 jours ouvrés</strong> avec l’envoi standard.</p>",
+            "title": "🛡️Et si mon enfant n'accroche pas ?",
+            "content": "<p><strong>30 jours pour essayer. </strong>Si ça ne marche pas (rare), nous remboursons intégralement. Retour gratuit. Aucune question posée.</p>",
             "page": ""
           }
         },
@@ -604,7 +597,6 @@
         "liquid_HfN8Gx",
         "liquid_JppfTT",
         "liquid_kKxRQN",
-        "liquid_F8XLik",
         "collapsible_text_Gy9tAw",
         "collapsible_text_rdmnf8",
         "collapsible_text_taMXYg",
