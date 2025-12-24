@@ -534,8 +534,8 @@
           "type": "collapsible_text",
           "settings": {
             "icon": "none",
-            "icon_width": 20,
-            "title": "🚨 Mon enfant va-t-il VRAIMENT lâcher sa tablette ?",
+            "icon_width": 30,
+            "title": "📵 Mon enfant va-t-il VRAIMENT lâcher sa tablette ?",
             "content": "<p><strong>OUI. </strong>89% des parents constatent une réduction d'écran sous 14 jours. Si après 60 jours votre enfant préfère toujours l'iPad, on vous rembourse. Point. </p>",
             "page": ""
           }
@@ -545,7 +545,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "💰 Il a déjà eu beaucoup de jouets, pourquoi celui-ci serait différent ?",
+            "title": "🧸 Il a déjà eu beaucoup de jouets, pourquoi celui-ci serait différent ?",
             "content": "<p>La plupart des jouets sont <strong>consommés </strong>: vous l'ouvrez, vous jouez, c'est terminé. </p><p>MagnetiCraft est un <strong>système ouvert </strong>— création nouvelle chaque jour pendant des années.</p>",
             "page": ""
           }
@@ -555,7 +555,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "📦 Combien de blocs faut-il pour vraiment l'occuper ?",
+            "title": "🧊 Combien de blocs faut-il pour vraiment l'occuper ?",
             "content": "<p>Le Pack Découverte (40 blocs) est parfait pour tester. Mais le <strong>Pack UNIVERS (200 blocs) </strong>est notre bestseller : constructions plus ambitieuses = engagement plus long.</p>",
             "page": ""
           }
@@ -565,7 +565,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "🛡️Et si mon enfant n'accroche pas ?",
+            "title": "😊 Et si mon enfant n'accroche pas ?",
             "content": "<p><strong>30 jours pour essayer. </strong>Si ça ne marche pas (rare), nous remboursons intégralement. Retour gratuit. Aucune question posée.</p>",
             "page": ""
           }
