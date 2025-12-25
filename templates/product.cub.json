@@ -9,20 +9,6 @@
  */
 {
   "sections": {
-    "custom_liquid_3cYXhQ": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<section id=\"shopify-section-template--24940377080074__custom_liquid_fHhgGg\" class=\"shopify-section shopify-section--custom-liquid\">\n  <style>\n    #shopify-section-template--24940377080074__custom_liquid_fHhgGg {\n      --section-background-hash: 0;\n      --section-spacing-block: 0px;\n      --section-spacing-inline: 0px;\n    }\n\n    #shopify-section-template--24940377080074__custom_liquid_fHhgGg + * {\n      --previous-section-background-hash: 0;\n    }\n\n    .product-badges,\n    .product-badges * {\n      font-family: 'Bricolage Grotesque', sans-serif !important;\n    }\n\n    .product-badges {\n      background-color: #f8f8f8;\n      padding: 24px 20px;\n      text-align: center;\n      line-height: 1.4;\n      margin-top: -20px;\n      margin-bottom: 20px;\n    }\n\n    .product-badges__text {\n      font-size: 16px;\n      margin: 0;\n    }\n\n    .product-badges__intro {\n      color: #999999;\n      font-weight: 600;\n    }\n\n    .product-badges__features {\n      color: #000000;\n      font-weight: 700;\n    }\n\n    /* Desktop : une ligne */\n    @media (min-width: 769px) {\n      .product-badges__text {\n        display: inline;\n      }\n      .product-badges__intro::after {\n        content: \" \";\n      }\n    }\n\n    /* Mobile : texte plus lisible */\n    @media (max-width: 768px) {\n      .product-badges {\n        text-align: left;\n      }\n      .product-badges__text {\n        display: block;\n        font-size: 14px;\n      }\n      .product-badges__intro {\n        display: inline;\n      }\n      .product-badges__intro::after {\n        content: \" \";\n      }\n      .product-badges__features {\n        display: inline;\n      }\n    }\n  </style>\n\n  <div class=\"section section-blends section-full\">\n    <section class=\"product-badges\">\n      <p class=\"product-badges__text\">\n        <span class=\"product-badges__intro\">Korean Skin Care</span>\n        <span class=\"product-badges__features\">Vegan · Cruelty Free · Sans parfum · Sans allergènes</span>\n      </p>\n    </section>\n  </div>\n</section>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "1763812243d67206e3": {
       "type": "apps",
       "settings": {
@@ -77,34 +63,6 @@
         "background_gradient": ""
       }
     },
-    "rich_text_VHMx3w": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_j9y9eG": {
-          "type": "heading",
-          "settings": {
-            "text": "Vu sur :",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_j9y9eG"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_KMDTCF": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -118,28 +76,14 @@
         "text_color": ""
       }
     },
-    "custom_liquid_MgRCgf": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div id=\"shopify-section-template--27471101722963__product_section_1_LwmfCP\" class=\"shopify-section\"><style>\n\n  .heading_slider_free .slick-dots li button:before {\n    border: 1px solid rgb(var(--color-foreground));\n  }\n\n\n  .section-template--27471101722963__product_section_1_LwmfCP\n  -padding h2\n  , .section-template--27471101722963__product_section_1_LwmfCP\n  -padding h6\n  , .section-template--27471101722963__product_section_1_LwmfCP\n  -padding .btn-bottom-box ul li {\n    color: rgb(var(--color-foreground));\n  }\n\n  .section-template--27471101722963__product_section_1_LwmfCP\n  -padding p {\n    color: rgb(var(--color-foreground), 0.7);\n  }\n\n  .section-template--27471101722963__product_section_1_LwmfCP\n  -padding .btn.btn-red {\n    background: rgb(var(--color-button));\n    color: rgb(var(--color-button-text));\n  }\n\n  .section-template--27471101722963__product_section_1_LwmfCP-padding .favorite-item h6:before {\n    background: rgb(var(--color-foreground));\n  }\n\n  .section-template--27471101722963__product_section_1_LwmfCP\n  -padding .btn-bottom-box svg path {\n    fill: rgb(var(--color-foreground));\n  }\n\n  /* Image height options */\n  .center-image--adapt {\n    max-width: var(--page-width);\n    width: 100%;\n    height: auto;\n  }\n\n  .center-image--small {\n    max-width: var(--page-width);\n    width: 100%;\n    height: 400px;\n    object-fit: cover;\n  }\n\n  .center-image--medium {\n    max-width: var(--page-width);\n    width: 100%;\n    height: 500px;\n    object-fit: cover;\n  }\n\n  .center-image--large {\n    max-width: var(--page-width);\n    width: 100%;\n    height: 600px;\n    object-fit: cover;\n  }\n\n\n  @media screen and (min-width: 750px) {\n    .section-template--27471101722963__product_section_1_LwmfCP-padding {\n      padding-top: 40px;\n      padding-bottom: 40px;\n    }\n\n  }\n\n</style>\n<!-- sections->product-section-1 -->\n<div class=\"new-favorite-sec section-template--27471101722963__product_section_1_LwmfCP-padding color-scheme-1\">\n  <div class=\"container\">\n\n    <div class=\"desktop-show\">\n      \n    </div>\n    <div class=\"common-new-favorite\">\n\n      <!-- Left side features -->\n      <div class=\"favorite-left\">\n        \n        \n          \n            <div class=\"favorite-item\">\n\n              \n\n              \n              \n\n              <h6>Motricité Fine</h6>\n              <p>Assembler les blocs renforce coordination &amp; précision</p>\n            </div>\n          \n        \n          \n            <div class=\"favorite-item\">\n\n              \n\n              \n              \n\n              <h6>Créativité No Limite</h6>\n              <p>Ils Imaginent, construisent et inventent leurs propres mondes.</p>\n            </div>\n          \n        \n          \n        \n          \n        \n          \n        \n      </div>\n\n      <!-- Middle content -->\n      <div class=\"favorite-mid\">\n        <div class=\"center-img-box\">\n\n          \n          \n\n          <img src=\"//grynd.fr/cdn/shop/files/WhatsApp-Video-2025-11-25-at-17.10.01_1.gif?v=1764087338\" alt=\"\" class=\"center-image--adapt\">\n        </div>\n\n        <div class=\"heading show-mobile\"><h2 class=\"h2 highlight-italic\"></h2>\n          <p></p>\n        </div>\n      </div>\n\n      <!-- Right side features -->\n      <div class=\"favorite-right\">\n        \n        \n          \n        \n          \n        \n          \n            <div class=\"favorite-item\">\n\n              \n\n              \n              \n              <h6>Moins d'Écran</h6>\n              <p>Un jeu captivant qui remplace naturellement les écrans</p>\n            </div>\n          \n        \n          \n            <div class=\"favorite-item\">\n\n              \n\n              \n              \n              <h6>Éducation STEM</h6>\n              <p>Développe logique, créativité et résolution de problèmes</p>\n            </div>\n          \n        \n          \n        \n      </div>\n\n    </div>\n\n    <!-- Button + guarantee list -->\n    <div class=\"btn-bottom-box\">\n      \n      <ul>\n        \n          \n        \n          \n        \n          \n        \n          \n        \n          \n            <li>\n              \n                \n\n\n  <svg width=\"15\" height=\"14\" viewBox=\"0 0 15 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3.1861 2.18375L7.50002 1.2251L11.8139 2.18375C11.9305 2.20966 12.0348 2.27455 12.1095 2.36771C12.1843 2.46087 12.225 2.57672 12.225 2.69615V7.93932C12.225 8.45788 12.0969 8.96841 11.8522 9.4256C11.6075 9.88279 11.2537 10.2725 10.8222 10.5601L7.50002 12.7751L4.17782 10.5601C3.74642 10.2725 3.39267 9.88292 3.14796 9.42583C2.90325 8.96874 2.77515 8.45832 2.77502 7.93985V2.69615C2.77504 2.57672 2.81578 2.46087 2.89052 2.36771C2.96525 2.27455 3.06952 2.20966 3.1861 2.18375ZM3.82502 3.1172V7.93932C3.82503 8.28501 3.91038 8.62536 4.07349 8.93015C4.2366 9.23494 4.47243 9.49475 4.76005 9.68652L7.50002 11.5135L10.24 9.68652C10.5275 9.4948 10.7633 9.23507 10.9264 8.93038C11.0895 8.62569 11.1749 8.28545 11.175 7.93985V3.1172L7.50002 2.30135L3.82502 3.1172Z\" fill=\"#757575\" fill-opacity=\"0.4\"></path></svg>\n              \n              <span>Essai sans risque de 14 nuits</span>\n            </li>\n          \n        \n      </ul>\n    </div>\n  </div>\n</div>\n\n\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "slideshow_jw8pDj": {
       "type": "slideshow",
       "blocks": {
         "image_zdfmQJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Firefly_Gemini_Flash_TOP-_Minecraft_logo._SECTION_1-_-VOTRE_ENFANT_EST_ACCRO_A_MINECRAFT--_bold_title_dar_111976.png",
-            "mobile_image": "shopify://shop_images/Firefly_rends_l_image_plus_moderne_162122-Photoroom.png",
+            "image": "shopify://shop_images/Firefly_mets_le_fond_en_blanc_54914_a13f5631-5429-499f-abd0-c5fa221a35cc.png",
+            "mobile_image": "shopify://shop_images/Firefly_mets_le_fond_en_blanc_54914.png",
             "content_max_width": 860,
             "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -204,33 +148,6 @@
     },
     "slideshow_bEqtRk": {
       "type": "slideshow",
-      "blocks": {
-        "image_WJPdJU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/456.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_WJPdJU"
-      ],
-      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -284,101 +201,6 @@
         "text_color": ""
       }
     },
-    "images_with_text_scrolling_G9cKMH": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_AKrPQU": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1_d1c1ad27-b7a6-4b0c-a739-a7cc297a1f16.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<h4><strong>Michelle T. </strong>🧩</h4><p>Depuis qu’on a ces blocs, je vois vraiment mes enfants résoudre des problèmes en jouant. Leur logique, leur créativité, même leurs petites compétences techniques se sont améliorées. Et le plus beau, c’est de voir leur confiance grandir de jour en jour !</p>"
-          }
-        },
-        "item_QRWVKk": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/2_efc169ab-f197-4b68-b581-55eecd9984d1.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<h4><strong>Emma B. </strong>🧠</h4><p>Franchement, avec ces blocs, mes enfants deviennent de vrais petits bâtisseurs et inventeurs. C’est un jeu qui stimule vraiment leur curiosité, et le meilleur… c’est qu’ils restent loin des écrans pendant des heures !</p>"
-          }
-        },
-        "item_xBj3Uz": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/3_02de6697-6cf1-45b2-a973-17f84dc9c5a8.png",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "",
-            "content": "<h4><strong>Michelle T. </strong>✨</h4><p>Chaque jour, ils inventent quelque chose de nouveau. Avec ces blocs magnétiques, aucune séance de jeu ne se ressemble : ils construisent, démontent, réinventent… et ils ne s’ennuient jamais !<br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_AKrPQU",
-        "item_QRWVKk",
-        "item_xBj3Uz"
-      ],
-      "disabled": true,
-      "name": "Images and text scrolling",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "rich_text_JYH7Lc": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_wRjtWJ": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_Uf8jWa": {
-          "type": "heading",
-          "settings": {
-            "text": "Les enfants l'adorent !",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_miy4Y6": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_wRjtWJ",
-        "heading_Uf8jWa",
-        "richtext_miy4Y6"
-      ],
-      "disabled": true,
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_kfjXgj": {
       "type": "custom-liquid",
       "name": "Video comment faire",
@@ -392,29 +214,9 @@
         "text_color": ""
       }
     },
-    "custom_html_wr8kTm": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
-        "title_XeMYJH": {
-          "type": "title",
-          "disabled": true,
-          "settings": {
-            "heading_tag": "h5"
-          }
-        },
         "liquid_ER4rqK": {
           "type": "liquid",
           "settings": {
@@ -427,33 +229,10 @@
             "liquid": "<div class=\"product__block product__block--custom_liquid\">\n  <!-- HEADER : Titre + Badge -->\n  <div class=\"ccp-header\">\n    <h1 class=\"ccp-title\">MAGNETICRAFT™</h1>\n    <div class=\"stock-badge\">\n      <svg class=\"stock-badge__icon\" viewBox=\"0 0 24 24\" fill=\"none\">\n        <path d=\"M13 2L3 14h8l-1 8 10-12h-8l1-8z\" fill=\"currentColor\"/>\n      </svg>\n      <span class=\"stock-badge__text\">Offre Janvier</span>\n    </div>\n  </div>\n  \n  <!-- AVIS -->\n  <div class=\"ccp-reviews\">\n    <span class=\"ccp-stars\" aria-hidden=\"true\">\n      <svg viewBox=\"0 0 24 24\" class=\"star\">\n        <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n      </svg>\n      <svg viewBox=\"0 0 24 24\" class=\"star\">\n        <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n      </svg>\n      <svg viewBox=\"0 0 24 24\" class=\"star\">\n        <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n      </svg>\n      <svg viewBox=\"0 0 24 24\" class=\"star\">\n        <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n      </svg>\n      <svg viewBox=\"0 0 24 24\" class=\"star\">\n        <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n      </svg>\n    </span>\n    <span class=\"ccp-reviews-rating\">4,8/5</span>\n    <span class=\"ccp-reviews-count\">(+4 326 familles)</span>\n  </div>\n\n  <!-- BÉNÉFICES CLÉS -->\n  <div class=\"ccp-benefits\">\n    <div class=\"ccp-benefit\">\n      <svg class=\"benefit-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/>\n      </svg>\n      <span class=\"benefit-text\"><strong>RÉSULTAT GARANTI EN 48H</strong><br>ou on vous rembourse intégralement</span>\n    </div>\n    \n    <div class=\"ccp-benefit\">\n      <svg class=\"benefit-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path d=\"M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z\"/>\n      </svg>\n      <span class=\"benefit-text\"><strong>+47% de créativité mesurée</strong><br>(vs jeux vidéo classiques)</span>\n    </div>\n    \n    <div class=\"ccp-benefit\">\n      <svg class=\"benefit-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path d=\"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z\"/>\n      </svg>\n      <span class=\"benefit-text\"><strong>2-3h de concentration d'affilée</strong><br>Sans écran. Sans cris.</span>\n    </div>\n    \n    <div class=\"ccp-benefit\">\n      <svg class=\"benefit-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path d=\"M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z\"/>\n      </svg>\n      <span class=\"benefit-text\"><strong>👨‍👩‍👧 Idéal 3-12 ans</strong><br>Évolutif : grandit avec l'enfant</span>\n    </div>\n  </div>\n\n  <style>\n    /* En-tête */\n    .ccp-header {\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      gap: 16px;\n      margin: -10px 0 12px;\n    }\n    \n    .ccp-title {\n      margin: 0;\n      font-weight: 800;\n      font-size: 24px;\n      letter-spacing: 0.5px;\n      line-height: 1.1;\n      color: #0e0e52;\n      flex-shrink: 0;\n    }\n    \n    /* Badge moderne - JANVIER */\n    .stock-badge {\n      display: inline-flex;\n      align-items: center;\n      gap: 8px;\n      font-size: 13px;\n      font-weight: 700;\n      text-transform: uppercase;\n      letter-spacing: 0.5px;\n      padding: 8px 14px;\n      border-radius: 12px;\n      background: linear-gradient(135deg, #FFD700 0%, #FFC800 100%);\n      color: #1a1a1a;\n      box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);\n      flex-shrink: 0;\n      position: relative;\n      overflow: hidden;\n    }\n    \n    .stock-badge::before {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: -100%;\n      width: 100%;\n      height: 100%;\n      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);\n      animation: badgeShine 2s infinite;\n    }\n    \n    @keyframes badgeShine {\n      0% { left: -100%; }\n      100% { left: 100%; }\n    }\n    \n    .stock-badge__icon {\n      width: 16px;\n      height: 16px;\n      color: #1a1a1a;\n      flex-shrink: 0;\n      animation: iconPulse 2s infinite;\n    }\n    \n    @keyframes iconPulse {\n      0%, 100% { transform: scale(1); opacity: 1; }\n      50% { transform: scale(1.1); opacity: 0.8; }\n    }\n    \n    /* Avis modernisé */\n    .ccp-reviews {\n      display: flex;\n      align-items: center;\n      gap: 10px;\n      padding-bottom: 14px;\n      margin-bottom: 14px;\n      border-bottom: 1px solid #E5E7EB;\n    }\n    \n    /* Étoiles Trustpilot */\n    .ccp-stars {\n      display: flex;\n      gap: 3px;\n    }\n    \n    .ccp-stars .star {\n      width: 18px;\n      height: 18px;\n      fill: #00B67A;\n    }\n    \n    /* Note et compteur */\n    .ccp-reviews-rating {\n      font-weight: 700;\n      font-size: 15px;\n      color: #0e0e52;\n      margin-left: 2px;\n    }\n    \n    .ccp-reviews-count {\n      font-size: 14px;\n      color: #6B7280;\n      font-weight: 500;\n      cursor: pointer;\n      transition: all 0.2s ease;\n    }\n    \n    .ccp-reviews-count:hover {\n      color: #00B67A;\n      text-decoration: underline;\n      text-underline-offset: 2px;\n    }\n\n    /* SECTION BÉNÉFICES */\n    .ccp-benefits {\n      display: flex;\n      flex-direction: column;\n      gap: 12px;\n      margin-top: 16px;\n      padding: 16px;\n      background: linear-gradient(to bottom, #F9FAFB 0%, #FFFFFF 100%);\n      border-radius: 12px;\n      border: 1px solid #E5E7EB;\n    }\n\n    .ccp-benefit {\n      display: flex;\n      align-items: flex-start;\n      gap: 12px;\n      padding: 0;\n    }\n\n    .benefit-icon {\n      width: 24px;\n      height: 24px;\n      color: #10B981;\n      flex-shrink: 0;\n      margin-top: 2px;\n    }\n\n    .benefit-text {\n      font-size: 14px;\n      line-height: 1.5;\n      color: #374151;\n    }\n\n    .benefit-text strong {\n      color: #0e0e52;\n      font-weight: 700;\n      display: block;\n      margin-bottom: 2px;\n    }\n    \n    /* Responsive */\n    @media (max-width: 768px) {\n      .ccp-header {\n        gap: 12px;\n      }\n      \n      .ccp-title {\n        font-size: 20px;\n      }\n      \n      .stock-badge {\n        font-size: 11px;\n        padding: 6px 12px;\n        gap: 6px;\n      }\n      \n      .stock-badge__icon {\n        width: 14px;\n        height: 14px;\n      }\n\n      .ccp-benefits {\n        padding: 12px;\n        gap: 10px;\n      }\n\n      .benefit-text {\n        font-size: 13px;\n      }\n\n      .benefit-icon {\n        width: 20px;\n        height: 20px;\n      }\n    }\n    \n    @media (max-width: 480px) {\n      .ccp-title {\n        font-size: 18px;\n      }\n      \n      .stock-badge {\n        font-size: 10px;\n        padding: 5px 10px;\n      }\n      \n      .stock-badge__icon {\n        width: 12px;\n        height: 12px;\n      }\n      \n      .ccp-stars .star {\n        width: 16px;\n        height: 16px;\n      }\n      \n      .ccp-reviews-rating {\n        font-size: 14px;\n      }\n      \n      .ccp-reviews-count {\n        font-size: 13px;\n      }\n\n      .benefit-text {\n        font-size: 12px;\n      }\n    }\n  </style>\n\n  <script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      const reviewsCount = document.querySelector(\".ccp-reviews-count\");\n      if (reviewsCount) {\n        reviewsCount.addEventListener(\"click\", function() {\n          const target = document.querySelector(\"#looxReviewsFrame\");\n          if (target) {\n            target.scrollIntoView({ behavior: \"smooth\", block: \"start\" });\n          } else {\n            window.location.hash = \"#looxReviewsFrame\";\n          }\n        });\n      }\n    });\n  </script>\n</div>"
           }
         },
-        "description_i8L6pQ": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "liquid_tJJzNW": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<style>\n  .dvry__trust-badges {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 10px;\n    margin-bottom: 18px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n  }\n\n  .dvry__trust-item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 8px;\n    padding: 14px 8px;\n    background: #fff;\n    border: 1.5px solid #111;\n    border-radius: 10px;\n    text-align: center;\n  }\n\n  .dvry__trust-icon {\n    width: 32px;\n    height: 32px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .dvry__trust-icon svg {\n    width: 100%;\n    height: 100%;\n    stroke-width: 1.5;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n\n  .dvry__trust-icon--ce {\n    font-size: 20px;\n    font-weight: 800;\n    color: #111;\n  }\n\n  .dvry__trust-text {\n    font-size: 11px;\n    font-weight: 600;\n    color: #111;\n    line-height: 1.3;\n    text-transform: uppercase;\n  }\n\n  @media (max-width: 480px) {\n    .dvry__trust-badges {\n      grid-template-columns: repeat(2, 1fr);\n      gap: 8px;\n    }\n    .dvry__trust-item {\n      padding: 12px 6px;\n    }\n    .dvry__trust-icon {\n      width: 28px;\n      height: 28px;\n    }\n    .dvry__trust-text {\n      font-size: 10px;\n    }\n  }\n</style>\n\n<div class=\"dvry__trust-badges\">\n  <div class=\"dvry__trust-item\">\n    <div class=\"dvry__trust-icon dvry__trust-icon--ce\">CE</div>\n    <span class=\"dvry__trust-text\">Norme<br>Européenne</span>\n  </div>\n  \n  <div class=\"dvry__trust-item\">\n    <div class=\"dvry__trust-icon\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#22c55e\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/><path d=\"M9 12l2 2 4-4\"/></svg>\n    </div>\n    <span class=\"dvry__trust-text\">Sans BPA<br>Non toxique</span>\n  </div>\n\n  <div class=\"dvry__trust-item\">\n    <div class=\"dvry__trust-icon\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#111\"><path d=\"M9 11l3 3L22 4\"/><path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/></svg>\n    </div>\n    <span class=\"dvry__trust-text\">Testé en<br>Laboratoire</span>\n  </div>\n\n  <div class=\"dvry__trust-item\">\n    <div class=\"dvry__trust-icon\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#111\"><circle cx=\"12\" cy=\"8\" r=\"4\"/><path d=\"M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></svg>\n    </div>\n    <span class=\"dvry__trust-text\">Adapté<br>3-12 ans</span>\n  </div>\n</div>"
-          }
-        },
         "liquid_qyVyBP": {
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"product-info__block-item\">\n  <div class=\"product-info__liquid\">\n    <div id=\"urgency-card\">\n      <div class=\"urgency-wrapper\" data-target-percent=\"91\">\n\n        <div class=\"urgency-row\">\n          <div class=\"urgency-left\">\n            <span class=\"urgency-dot\"></span>\n            <span class=\"urgency-stock\">Plus que <strong>5 unités</strong></span>\n            <span class=\"urgency-sep\">•</span>\n            <span class=\"urgency-viewers\"><strong>14</strong> personnes regardent</span>\n          </div>\n          <div class=\"urgency-right\">\n            <span id=\"urgency-countdown\">12h 47min</span>\n          </div>\n        </div>\n\n        <div class=\"urgency-progress\">\n          <div class=\"urgency-progress-fill\" style=\"width: 0%;\"></div>\n        </div>\n\n      </div>\n    </div>\n\n    <style>\n      #urgency-card {\n        width: 100%;\n      }\n\n      #urgency-card .urgency-wrapper {\n        padding: 10px 14px;\n        background: #fef2f2;\n        border: 1px solid #fecaca;\n        border-radius: 8px;\n        font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;\n      }\n\n      #urgency-card .urgency-row {\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        gap: 12px;\n        margin-bottom: 8px;\n      }\n\n      #urgency-card .urgency-left {\n        display: flex;\n        align-items: center;\n        gap: 6px;\n        font-size: 12px;\n        color: #666;\n        flex-wrap: wrap;\n      }\n\n      #urgency-card .urgency-dot {\n        width: 6px;\n        height: 6px;\n        background: #dc2626;\n        border-radius: 50%;\n        animation: blink 1s ease-in-out infinite;\n        flex-shrink: 0;\n      }\n\n      @keyframes blink {\n        0%, 100% { opacity: 1; }\n        50% { opacity: 0.3; }\n      }\n\n      #urgency-card .urgency-left strong {\n        color: #dc2626;\n        font-weight: 700;\n      }\n\n      #urgency-card .urgency-sep {\n        color: #ccc;\n      }\n\n      #urgency-card .urgency-right {\n        font-size: 12px;\n        font-weight: 600;\n        color: #dc2626;\n        flex-shrink: 0;\n      }\n\n      #urgency-card .urgency-progress {\n        width: 100%;\n        height: 4px;\n        background: #fecaca;\n        border-radius: 100px;\n        overflow: hidden;\n      }\n\n      #urgency-card .urgency-progress-fill {\n        height: 100%;\n        background: linear-gradient(90deg, #f87171, #dc2626);\n        border-radius: 100px;\n        transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);\n      }\n\n      @media (max-width: 480px) {\n        #urgency-card .urgency-wrapper {\n          padding: 8px 12px;\n        }\n\n        #urgency-card .urgency-left {\n          font-size: 11px;\n        }\n\n        #urgency-card .urgency-right {\n          font-size: 11px;\n        }\n      }\n    </style>\n\n    <script>\n      (function() {\n        var wrapper = document.querySelector('#urgency-card .urgency-wrapper');\n        if (!wrapper) return;\n\n        var targetPercent = parseInt(wrapper.getAttribute('data-target-percent'), 10) || 91;\n        var fillEl = wrapper.querySelector('.urgency-progress-fill');\n\n        var observer = new IntersectionObserver(function(entries) {\n          entries.forEach(function(entry) {\n            if (entry.isIntersecting) {\n              setTimeout(function() {\n                fillEl.style.width = targetPercent + '%';\n              }, 300);\n              observer.unobserve(entry.target);\n            }\n          });\n        }, { threshold: 0.2 });\n\n        observer.observe(wrapper);\n\n        function updateCountdown() {\n          var now = new Date();\n          var midnight = new Date();\n          midnight.setHours(24, 0, 0, 0);\n          var diff = midnight - now;\n          var hours = Math.floor(diff / (1000 * 60 * 60));\n          var minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));\n          var el = document.getElementById('urgency-countdown');\n          if (el) el.textContent = hours + 'h ' + (minutes < 10 ? '0' : '') + minutes + 'min';\n        }\n        updateCountdown();\n        setInterval(updateCountdown, 60000);\n      })();\n    </script>\n  </div>\n</div>"
-          }
-        },
-        "liquid_QEiiLG": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        .cls-xj7hJ9K {\n            display: flex;\n            align-items: center;\n            font-family: Arial, sans-serif;\n            color: #000; /* texte noir */\n            font-weight: bold; /* texte en gras */\n        }\n\n        .icon-xj7hJ9K {\n            margin-right: 20px;\n            color: #D9534F;\n            width: 10px; /* plus grand */\n            height: 15px; /* plus grand */\n            animation: blink-xj7hJ9K 1s infinite, wave-glow-xj7hJ9K 2s infinite;\n        }\n\n        @keyframes blink-xj7hJ9K {\n            0%, 100% { opacity: 1; }\n            50% { opacity: 0.3; }\n        }\n\n        @keyframes wave-glow-xj7hJ9K {\n            0% { filter: drop-shadow(0 0 3px #D9534F); }\n            50% { filter: drop-shadow(0 0 8px #D9534F); }\n            100% { filter: drop-shadow(0 0 3px #D9534F); }\n        }\n    </style>\n</head>\n<body class=\"body-xj7hJ9K\">\n    <div class=\"cls-xj7hJ9K\">\n        <svg class=\"icon-xj7hJ9K\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 16 16\">\n            <circle cx=\"8\" cy=\"8\" r=\"8\" />\n        </svg>\n        <span>Attention ! Plus que 4 en stock</span>\n    </div>\n</body>\n</html>"
           }
         },
         "liquid_pLngU9": {
@@ -472,13 +251,6 @@
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"moonbundleCustomLoader\"></div>"
-          }
-        },
-        "liquid_RDGTkd": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin: 2px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Firefly_Gemini_Flash_Modifie_l_image_pour_la_faire_correspondre_avec_mon_produit_mets_mon_produit_a_la_pl_154433.png?v=1765014668\" alt=\"Ajouter un titre\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n</div>\n          </div>"
           }
         },
         "buy_buttons_GK7tdV": {
@@ -508,20 +280,6 @@
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin: 2px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/3_assurances_sous_bouton_fond_blanc.webp?v=1765964561\" alt=\"Ajouter un titre\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n</div>\n          </div>"
-          }
-        },
-        "liquid_HfN8Gx": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"product__block product__block--custom_liquid\">\n            <div style=\"text-align: center; margin: 2px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/rrrrr.png?v=1764859284\" alt=\"Ajouter un titre\" style=\"max-width: 100%; height: auto; border-radius: 10px;\">\n</div>\n          </div>"
-          }
-        },
-        "liquid_JppfTT": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"product-block\">\n  <style>\n    .dvry {\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n      font-size: 14px;\n    }\n    .dvry__wrap {\n      background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);\n      border-radius: 20px;\n      padding: 24px;\n      box-shadow: \n        0 8px 32px rgba(0,0,0,0.08),\n        0 2px 8px rgba(0,0,0,0.04),\n        inset 0 1px 0 rgba(255,255,255,0.8);\n      border: 1px solid rgba(255,255,255,0.6);\n      position: relative;\n      overflow: hidden;\n    }\n    .dvry__wrap::before {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: 0;\n      right: 0;\n      height: 3px;\n      background: linear-gradient(90deg, #D4AF37 0%, #F4E4B0 50%, #D4AF37 100%);\n      animation: shimmer 3s infinite;\n    }\n    @keyframes shimmer {\n      0%, 100% { opacity: 1; }\n      50% { opacity: 0.6; }\n    }\n    /* Bandeau principal */\n    .dvry__xmas {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      gap: 14px;\n      padding: 20px 24px;\n      background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);\n      border-radius: 16px;\n      color: #ffffff;\n      box-shadow: \n        0 10px 30px rgba(0,0,0,0.25),\n        0 2px 8px rgba(0,0,0,0.15),\n        inset 0 1px 1px rgba(255,255,255,0.1);\n      position: relative;\n      overflow: hidden;\n    }\n    .dvry__xmas::after {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: -100%;\n      width: 100%;\n      height: 100%;\n      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);\n      animation: slide 3s infinite;\n    }\n    @keyframes slide {\n      0% { left: -100%; }\n      100% { left: 100%; }\n    }\n    .dvry__xmas-icon {\n      font-size: 32px;\n      filter: drop-shadow(0 2px 8px rgba(212,175,55,0.4));\n      animation: pulse 2s ease-in-out infinite;\n    }\n    @keyframes pulse {\n      0%, 100% { transform: scale(1); }\n      50% { transform: scale(1.1); }\n    }\n    .dvry__xmas-content {\n      text-align: left;\n      flex: 1;\n    }\n    .dvry__xmas-title {\n      font-size: 16px;\n      font-weight: 800;\n      letter-spacing: 0.3px;\n      margin-bottom: 4px;\n      background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);\n      -webkit-background-clip: text;\n      -webkit-text-fill-color: transparent;\n      background-clip: text;\n    }\n    .dvry__xmas-subtitle {\n      font-size: 13px;\n      font-weight: 400;\n      color: #d4af37;\n      letter-spacing: 0.2px;\n    }\n    /* Badges sous le bandeau */\n    .dvry__badges {\n      display: flex;\n      justify-content: center;\n      gap: 16px;\n      margin-top: 16px;\n      flex-wrap: wrap;\n    }\n    .dvry__badge {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n      padding: 8px 14px;\n      background: rgba(212,175,55,0.08);\n      border-radius: 10px;\n      font-size: 11px;\n      font-weight: 600;\n      color: #333;\n      border: 1px solid rgba(212,175,55,0.2);\n      transition: all 0.3s ease;\n    }\n    .dvry__badge:hover {\n      background: rgba(212,175,55,0.15);\n      transform: translateY(-2px);\n    }\n    .dvry__badge-icon {\n      font-size: 14px;\n    }\n    @media (max-width: 480px) {\n      .dvry__wrap {\n        padding: 20px;\n        border-radius: 16px;\n      }\n      .dvry__xmas {\n        padding: 18px 20px;\n        gap: 12px;\n      }\n      .dvry__xmas-icon {\n        font-size: 28px;\n      }\n      .dvry__xmas-title {\n        font-size: 15px;\n      }\n      .dvry__xmas-subtitle {\n        font-size: 12px;\n      }\n      .dvry__badges {\n        gap: 10px;\n        margin-top: 14px;\n      }\n      .dvry__badge {\n        font-size: 10px;\n        padding: 7px 12px;\n      }\n    }\n  </style>\n  <div class=\"dvry\">\n    <div class=\"dvry__wrap\">\n      <div class=\"dvry__xmas\">\n        <span class=\"dvry__xmas-icon\">🎁</span>\n        <div class=\"dvry__xmas-content\">\n          <div class=\"dvry__xmas-title\">Expédition garantie avant Noël</div>\n          <div class=\"dvry__xmas-subtitle\">Pour toute commande passée aujourd'hui</div>\n        </div>\n      </div>\n      <div class=\"dvry__badges\">\n        <div class=\"dvry__badge\">\n          <span class=\"dvry__badge-icon\">📦</span>\n          <span>Expédition suivie</span>\n        </div>\n        <div class=\"dvry__badge\">\n          <span class=\"dvry__badge-icon\">⚡</span>\n          <span>Stock limité</span>\n        </div>\n        <div class=\"dvry__badge\">\n          <span class=\"dvry__badge-icon\">✨</span>\n          <span>Cadeau idéal</span>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
           }
         },
         "liquid_kKxRQN": {
@@ -569,40 +327,24 @@
             "content": "<p><strong>30 jours pour essayer. </strong>Si ça ne marche pas (rare), nous remboursons intégralement. Retour gratuit. Aucune question posée.</p>",
             "page": ""
           }
-        },
-        "liquid_LTXdwG": {
-          "type": "liquid",
-          "name": "4 point important",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div class=\"product-info__block-item\">\n  <div class=\"product-info__liquid\">\n    <section id=\"benefits-block\" class=\"benefits-wrap\" aria-label=\"Avantages MagnetiCraft\">\n      \n      <div class=\"benefits-grid\">\n        <!-- 1 - Soulagement culpabilité (Carrousel Social Proof) -->\n        <article class=\"benefits-item\">\n          <div class=\"benefits-icon\">\n            <svg viewBox=\"0 0 24 24\" fill=\"none\">\n              <path d=\"M9 11l3 3L22 4\"/>\n              <path d=\"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11\"/>\n            </svg>\n          </div>\n          <div class=\"benefits-content\">\n            <h3 class=\"benefits-title\">Zéro écran, zéro culpabilité</h3>\n            <p class=\"benefits-text\"><p class=\"benefits-text\">\n  Des heures de jeu créatif sans tablette, loin des écrans. Votre enfant joue, imagine et s’amuse vraiment… et vous respirez enfin sans culpabiliser.\n</p>\n</p>\n          </div>\n        </article>\n\n        <!-- 2 - STEM / Papa (Carrousel Focus Papa) -->\n        <article class=\"benefits-item\">\n          <div class=\"benefits-icon\">\n            <svg viewBox=\"0 0 24 24\" fill=\"none\">\n              <path d=\"M12 2L2 7l10 5 10-5-10-5z\"/>\n              <path d=\"M2 17l10 5 10-5\"/>\n              <path d=\"M2 12l10 5 10-5\"/>\n            </svg>\n          </div>\n          <div class=\"benefits-content\">\n            <h3 class=\"benefits-title\">Développe les compétences STEM</h3>\n            <p class=\"benefits-text\"><p class=\"benefits-text\">\n  Logique, spatialisation et ingénierie. Chaque construction stimule son cerveau et renforce des compétences essentielles pour l’école et la vie.\n</p>\n</p>\n          </div>\n        </article>\n\n        <!-- 3 - Concentration (Tous les carrousels) -->\n        <article class=\"benefits-item\">\n          <div class=\"benefits-icon\">\n            <svg viewBox=\"0 0 24 24\" fill=\"none\">\n              <circle cx=\"12\" cy=\"12\" r=\"10\"/>\n              <circle cx=\"12\" cy=\"12\" r=\"6\"/>\n              <circle cx=\"12\" cy=\"12\" r=\"2\"/>\n            </svg>\n          </div>\n          <div class=\"benefits-content\">\n            <h3 class=\"benefits-title\">Concentration profonde</h3>\n            <p class=\"benefits-text\">  Parfait pendant que vous préparez le dîner. MagnetiCraft capte son attention, l’apaise et le garde concentré naturellement pendant de longues minutes.\n</p>\n          </div>\n        </article>\n\n        <!-- 4 - Social Proof -->\n        <article class=\"benefits-item\">\n          <div class=\"benefits-icon\">\n            <svg viewBox=\"0 0 24 24\" fill=\"none\">\n              <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n            </svg>\n          </div>\n          <div class=\"benefits-content\">\n            <h3 class=\"benefits-title\">4326 familles conquises</h3>\n            <p class=\"benefits-text\">  Noté 4.8/5 sur Trustpilot. Les parents adorent la qualité, la solidité et l’effet “magique” sur la créativité et la réduction du temps d’écran.\n</p>\n          </div>\n        </article>\n      </div>\n\n      <style>\n        #benefits-block {\n          padding: 0;\n          margin: 16px 0;\n        }\n\n        #benefits-block .benefits-grid {\n          display: grid;\n          grid-template-columns: 1fr;\n          gap: 0;\n        }\n\n        #benefits-block .benefits-item {\n          display: flex;\n          align-items: flex-start;\n          gap: 14px;\n          padding: 16px 0;\n          border-bottom: 1px solid #f0f0f0;\n        }\n\n        #benefits-block .benefits-item:last-child {\n          border-bottom: none;\n          padding-bottom: 0;\n        }\n\n        #benefits-block .benefits-item:first-child {\n          padding-top: 0;\n        }\n\n        #benefits-block .benefits-icon {\n          width: 40px;\n          height: 40px;\n          background: #111;\n          border-radius: 10px;\n          display: flex;\n          align-items: center;\n          justify-content: center;\n          flex-shrink: 0;\n        }\n\n        #benefits-block .benefits-icon svg {\n          width: 20px;\n          height: 20px;\n          stroke: #fff;\n          stroke-width: 1.5;\n          stroke-linecap: round;\n          stroke-linejoin: round;\n          fill: none;\n        }\n\n        #benefits-block .benefits-content {\n          flex: 1;\n          min-width: 0;\n        }\n\n        #benefits-block .benefits-title {\n          margin: 0 0 2px;\n          font-size: 14px;\n          font-weight: 600;\n          color: #111;\n          letter-spacing: -0.2px;\n          line-height: 1.3;\n        }\n\n        #benefits-block .benefits-text {\n          margin: 0;\n          font-size: 13px;\n          color: #888;\n          line-height: 1.4;\n        }\n\n        /* Desktop */\n        @media (min-width: 768px) {\n          #benefits-block .benefits-grid {\n            grid-template-columns: repeat(2, 1fr);\n            gap: 0 32px;\n          }\n\n          #benefits-block .benefits-item {\n            padding: 14px 0;\n          }\n\n          #benefits-block .benefits-item:nth-child(1),\n          #benefits-block .benefits-item:nth-child(2) {\n            padding-top: 0;\n          }\n\n          #benefits-block .benefits-item:nth-child(3),\n          #benefits-block .benefits-item:nth-child(4) {\n            border-bottom: none;\n            padding-bottom: 0;\n          }\n\n          #benefits-block .benefits-item:nth-child(1),\n          #benefits-block .benefits-item:nth-child(3) {\n            border-right: 1px solid #f0f0f0;\n            padding-right: 32px;\n          }\n\n          #benefits-block .benefits-item:nth-child(2),\n          #benefits-block .benefits-item:nth-child(4) {\n            padding-left: 0;\n          }\n\n          #benefits-block .benefits-title {\n            font-size: 15px;\n          }\n\n          #benefits-block .benefits-text {\n            font-size: 13px;\n          }\n        }\n      </style>\n    </section>\n  </div>\n</div>"
-          }
         }
       },
       "block_order": [
-        "title_XeMYJH",
         "liquid_ER4rqK",
         "liquid_YFUT8h",
-        "description_i8L6pQ",
-        "liquid_tJJzNW",
         "liquid_qyVyBP",
-        "liquid_QEiiLG",
         "liquid_pLngU9",
         "liquid_yWELyi",
         "liquid_eH9Pc9",
-        "liquid_RDGTkd",
         "buy_buttons_GK7tdV",
         "liquid_RUnHPU",
         "liquid_bdRg8E",
         "liquid_nhfQzA",
-        "liquid_HfN8Gx",
-        "liquid_JppfTT",
         "liquid_kKxRQN",
         "collapsible_text_Gy9tAw",
         "collapsible_text_rdmnf8",
         "collapsible_text_taMXYg",
-        "collapsible_text_NtNpq3",
-        "liquid_LTXdwG"
+        "collapsible_text_NtNpq3"
       ],
       "settings": {
         "full_width": true,
@@ -620,20 +362,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "custom_liquid_B7EdQb": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<div class=\"mc-guarantee-block\">\n  <style>\n    .mc-guarantee-block {\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n      background: #ffffff;\n      border-radius: 14px;\n      padding: 20px 22px;\n      border: 1px solid #e5e5e5;\n      box-shadow: 0 4px 14px rgba(0,0,0,0.05);\n      margin-top: 18px;\n    }\n\n    .mc-guarantee-title {\n      font-size: 18px;\n      font-weight: 800;\n      text-align: center;\n      color: #1f1f1f;\n      margin-bottom: 18px;\n      letter-spacing: 0.5px;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      gap: 6px;\n    }\n\n    .mc-guarantee-list {\n      display: flex;\n      flex-direction: column;\n      gap: 16px;\n    }\n\n    .mc-guarantee-item {\n      display: flex;\n      align-items: flex-start;\n      gap: 10px;\n    }\n\n    .mc-guarantee-icon {\n      font-size: 18px;\n      color: #2E2E2E;\n      line-height: 1;\n      flex-shrink: 0;\n    }\n\n    .mc-guarantee-text {\n      font-size: 14px;\n      color: #2c2c2c;\n      font-weight: 600;\n      line-height: 1.35;\n    }\n\n    .mc-guarantee-text span {\n      display: block;\n      font-size: 12px;\n      font-weight: 500;\n      color: #7a7a7a;\n      margin-top: 2px;\n    }\n\n    @media (max-width: 480px) {\n      .mc-guarantee-block {\n        padding: 18px;\n      }\n      .mc-guarantee-title {\n        font-size: 16px;\n      }\n      .mc-guarantee-text {\n        font-size: 13px;\n      }\n    }\n  </style>\n\n  <div class=\"mc-guarantee-title\">\n    🛡️ VOS 5 GARANTIES MAGNETICRAFT\n  </div>\n\n  <div class=\"mc-guarantee-list\">\n\n    <div class=\"mc-guarantee-item\">\n      <div class=\"mc-guarantee-icon\">✅</div>\n      <div class=\"mc-guarantee-text\">\n        Satisfait ou Remboursé 60 jours\n        <span>(même si l’emballage est ouvert)</span>\n      </div>\n    </div>\n\n    <div class=\"mc-guarantee-item\">\n      <div class=\"mc-guarantee-icon\">✅</div>\n      <div class=\"mc-guarantee-text\">\n        Livraison garantie avant Noël\n        <span>(pour toute commande avant le 18/12)</span>\n      </div>\n    </div>\n\n    <div class=\"mc-guarantee-item\">\n      <div class=\"mc-guarantee-icon\">✅</div>\n      <div class=\"mc-guarantee-text\">\n        SAV Français 7j/7\n        <span>(réponse en moins de 2h en moyenne)</span>\n      </div>\n    </div>\n\n    <div class=\"mc-guarantee-item\">\n      <div class=\"mc-guarantee-icon\">✅</div>\n      <div class=\"mc-guarantee-text\">\n        Blocs garantis à vie\n        <span>(remplacement gratuit si un bloc est cassé)</span>\n      </div>\n    </div>\n\n    <div class=\"mc-guarantee-item\">\n      <div class=\"mc-guarantee-icon\">✅</div>\n      <div class=\"mc-guarantee-text\">\n        Paiement 100% sécurisé\n        <span>(SSL + Stripe + conformité RGPD)</span>\n      </div>\n    </div>\n\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "custom_html_QjMJJP": {
@@ -831,23 +559,16 @@
     }
   },
   "order": [
-    "custom_liquid_3cYXhQ",
     "1763812243d67206e3",
     "slideshow_V6ng47",
-    "rich_text_VHMx3w",
     "custom_liquid_KMDTCF",
-    "custom_liquid_MgRCgf",
     "slideshow_jw8pDj",
     "rich_text_EEFV3B",
     "slideshow_bEqtRk",
     "rich_text_abw9Wj",
     "custom_html_YarTLM",
-    "images_with_text_scrolling_G9cKMH",
-    "rich_text_JYH7Lc",
     "custom_liquid_kfjXgj",
-    "custom_html_wr8kTm",
     "main",
-    "custom_liquid_B7EdQb",
     "custom_html_QjMJJP",
     "rich_text_HzUeA9",
     "custom_html_JYNjEP",
