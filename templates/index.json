@@ -176,6 +176,36 @@
         "text_color": ""
       }
     },
+    "featured_collection_BJFTek": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "minecraft-magnetbloc",
+          "blocs-magnetiques-lumineux",
+          "boite-de-rangement"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "text_with_icons_heBjee": {
       "type": "text-with-icons",
       "blocks": {
@@ -297,6 +327,7 @@
     "slideshow_fBPFaX",
     "featured_product_CtQXNF",
     "custom_html_Ld8ba7",
+    "featured_collection_BJFTek",
     "text_with_icons_heBjee",
     "custom_html_88hmW8",
     "1765010079eb23d7c7"
