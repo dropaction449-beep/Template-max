@@ -406,7 +406,6 @@
     },
     "custom_html_JYNjEP": {
       "type": "custom-html",
-      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
