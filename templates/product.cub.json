@@ -27,7 +27,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Firefly_Gemini_Flash_Professional_e-commerce_hero_banner_1920x800px._Modern_French_living_room_warm_golde_111976_1.png",
-            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Professional_e-commerce_hero_banner_1920x800px._Modern_French_living_room_golden_hou_553428.png",
+            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Deux_enfants_construisent_ensemble_avec_des_cubes_magnetiques_colores_inspires_de_Min_966316_1.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -82,8 +82,8 @@
         "image_zdfmQJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Firefly_mets_le_fond_en_blanc_54914_a13f5631-5429-499f-abd0-c5fa221a35cc.png",
-            "mobile_image": "shopify://shop_images/Firefly_mets_le_fond_en_blanc_54914.png",
+            "image": "shopify://shop_images/Firefly_Gemini_Flash_Ultra_high-impact_conversion_ad_problem-solution_before-after_style._FORMAT-_1080x10_966316_8afb6f0d-378a-4710-9b62-44273b4cc872.png",
+            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Ultra_high-impact_conversion_ad_problem-solution_before-after_style._FORMAT-_1080x10_532683.png",
             "content_max_width": 860,
             "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
