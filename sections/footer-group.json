@@ -74,14 +74,6 @@
             "menu_title": ""
           }
         },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "MagnetiCraft™",
-            "content": "<p>🇫🇷 <strong>Inspiré par l’univers créatif pixelisé, pensé pour éveiller l’imagination.</strong><br/><br/>Chez <strong>MagnetiCraft™</strong>, nous transformons le jeu en véritable expérience éducative.<br/><br/>Nos blocs magnétiques ultra-réalistes permettent aux enfants de construire, inventer et apprendre <strong>loin des écrans</strong>.</p><p>Chaque création stimule la logique, la créativité et la motricité fine — tout en offrant des heures de jeu calme et captivant.<br/><br/>Déjà adopté par des milliers de parents qui veulent allier <strong>fun, apprentissage et tranquillité</strong>.</p>",
-            "enable_follow_on_shop": false
-          }
-        },
         "links_kMBczw": {
           "type": "links",
           "settings": {
@@ -93,7 +85,6 @@
       },
       "block_order": [
         "links",
-        "text",
         "links_kMBczw"
       ],
       "settings": {
