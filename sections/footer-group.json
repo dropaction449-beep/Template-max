@@ -73,10 +73,19 @@
             "show_menu_title": true,
             "menu_title": ""
           }
+        },
+        "links_rCff4W": {
+          "type": "links",
+          "settings": {
+            "menu": "rechtliche-seiten",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
         }
       },
       "block_order": [
-        "links"
+        "links",
+        "links_rCff4W"
       ],
       "settings": {
         "show_social_media": true,
