@@ -73,19 +73,10 @@
             "show_menu_title": true,
             "menu_title": ""
           }
-        },
-        "links_kMBczw": {
-          "type": "links",
-          "settings": {
-            "menu": "",
-            "show_menu_title": true,
-            "menu_title": ""
-          }
         }
       },
       "block_order": [
-        "links",
-        "links_kMBczw"
+        "links"
       ],
       "settings": {
         "show_social_media": true,
