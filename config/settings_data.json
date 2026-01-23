@@ -30,6 +30,7 @@
     "primary_button_text_color": "#ffffff",
     "secondary_button_background": "#1a1a1a",
     "secondary_button_text_color": "#ffffff",
+    "product_card_background": "#ffffff",
     "product_card_text_color": "#1a1a1a",
     "product_rating_color": "#e5b631",
     "product_on_sale_accent": "#000000",
