@@ -26,8 +26,8 @@
         "image_EXJrHq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Generated_Image_January_22_2026_-_3_58PM.jpg",
-            "mobile_image": "shopify://shop_images/Generated_Image_January_22_2026_-_3_58PM_4c877676-78bd-473e-9ec6-0c8564342697.jpg",
+            "image": "shopify://shop_images/Firefly_Gemini_Flash_Recreate_the_exact_same_image_with_identical_composition_colors_lighting_camera_an_454914_1.png",
+            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Recreate_the_exact_same_image_with_identical_composition_colors_lighting_camera_an_454914_1_0f2a6dee-96e6-4d6d-81a3-fee81a8aae89.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -63,65 +63,39 @@
         "background_gradient": ""
       }
     },
-    "custom_liquid_KMDTCF": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<div id=\"shopify-section-template--27037045522757__logo_scroll_4diREc\" class=\"shopify-section\">\n  <style data-shopify=\"\">\n    .section-template--27037045522757__logo_scroll_4diREc-padding {\n      padding-top: 0px;\n      padding-bottom: 0px;\n    }\n\n    @media screen and (min-width: 750px) {\n      .section-template--27037045522757__logo_scroll_4diREc-padding {\n        padding-top: 0px;\n        padding-bottom: 0px;\n      }\n    }\n  </style>\n\n  <div class=\"section-template--27037045522757__logo_scroll_4diREc-padding\" style=\"background-color: #FAFBFC;\">\n    <div class=\"logo-wrapper section-template--27037045522757__logo_scroll_4diREc-fade\">\n\n      <style>\n        /* ==== BASE STYLES ==== */\n        .logo-wrapper {\n          display: flex;\n          flex-direction: column;\n          align-items: center;\n          justify-content: center;\n          padding: 48px 20px;\n          background: #FAFBFC;\n        }\n\n        /* ==== TITRE - Optimisé conversion ==== */\n        .logo-section-title {\n          text-align: center;\n          margin-bottom: 32px;\n        }\n\n        .logo-section-title h3 {\n          font-size: 26px;\n          font-weight: 700;\n          color: #0e0e52;\n          margin: 0;\n          letter-spacing: -0.02em;\n          line-height: 1.3;\n        }\n\n        .logo-section-subtitle {\n          font-size: 15px;\n          color: #6B7280;\n          font-weight: 500;\n          margin: 8px 0 0 0;\n          line-height: 1.5;\n        }\n\n        /* ==== GRID LOGOS - Desktop First ==== */\n        .logos-grid-container {\n          display: grid;\n          grid-template-columns: repeat(4, 1fr);\n          gap: 24px;\n          max-width: 1000px;\n          width: 100%;\n          margin: 0 auto;\n        }\n\n        .logo-item {\n          display: flex;\n          align-items: center;\n          justify-content: center;\n          padding: 24px;\n          background: #FFFFFF;\n          border-radius: 16px;\n          border: 1px solid #E5E7EB;\n          transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);\n          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);\n          min-height: 100px;\n        }\n\n        .logo-item:hover {\n          border-color: #D1D5DB;\n          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);\n          transform: translateY(-4px);\n        }\n\n        /* ==== IMAGES - Clarté maximale ==== */\n        .logo-item img {\n          width: 100%;\n          max-width: 140px;\n          height: auto;\n          opacity: 0.92;\n          transition: opacity 0.25s ease;\n          object-fit: contain;\n        }\n\n        .logo-item:hover img {\n          opacity: 1;\n        }\n\n        /* ==== BADGE CONFIANCE (optionnel) ==== */\n        .trust-badge {\n          text-align: center;\n          margin-top: 40px;\n          padding: 18px 28px;\n          background: linear-gradient(135deg, #F0FDF4 0%, #ECFDF5 100%);\n          border: 1px solid #A7F3D0;\n          border-radius: 12px;\n          max-width: 700px;\n          margin-left: auto;\n          margin-right: auto;\n        }\n\n        .trust-badge p {\n          margin: 0;\n          font-size: 15px;\n          font-weight: 600;\n          color: #065F46;\n          letter-spacing: -0.01em;\n        }\n\n        /* ========================================\n           RESPONSIVE BREAKPOINTS - Mobile First\n        ======================================== */\n\n        /* ==== TABLETTE (769px - 1024px) ==== */\n        @media screen and (max-width: 1024px) {\n          .logo-wrapper {\n            padding: 44px 24px;\n          }\n\n          .logo-section-title h3 {\n            font-size: 24px;\n          }\n\n          .logo-section-subtitle {\n            font-size: 14px;\n          }\n\n          .logos-grid-container {\n            grid-template-columns: repeat(2, 1fr);\n            gap: 20px;\n            max-width: 600px;\n          }\n\n          .logo-item {\n            padding: 20px;\n            min-height: 90px;\n          }\n\n          .logo-item img {\n            max-width: 120px;\n          }\n\n          .trust-badge {\n            margin-top: 36px;\n            padding: 16px 24px;\n            max-width: 600px;\n          }\n\n          .trust-badge p {\n            font-size: 14px;\n          }\n        }\n\n        /* ==== MOBILE LARGE (481px - 768px) ==== */\n        @media screen and (max-width: 768px) {\n          .logo-wrapper {\n            padding: 40px 20px;\n          }\n\n          .logo-section-title {\n            margin-bottom: 28px;\n          }\n\n          .logo-section-title h3 {\n            font-size: 22px;\n          }\n\n          .logo-section-subtitle {\n            font-size: 14px;\n          }\n\n          .logos-grid-container {\n            grid-template-columns: repeat(2, 1fr);\n            gap: 16px;\n            max-width: 500px;\n          }\n\n          .logo-item {\n            padding: 18px;\n            border-radius: 12px;\n            min-height: 85px;\n          }\n\n          .logo-item img {\n            max-width: 110px;\n          }\n\n          /* Désactiver hover sur mobile */\n          .logo-item:hover {\n            transform: none;\n            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);\n          }\n\n          .trust-badge {\n            margin-top: 32px;\n            padding: 14px 20px;\n            max-width: 500px;\n          }\n\n          .trust-badge p {\n            font-size: 13px;\n          }\n        }\n\n        /* ==== MOBILE STANDARD (376px - 480px) ==== */\n        @media screen and (max-width: 480px) {\n          .logo-wrapper {\n            padding: 36px 16px;\n          }\n\n          .logo-section-title {\n            margin-bottom: 24px;\n          }\n\n          .logo-section-title h3 {\n            font-size: 20px;\n          }\n\n          .logo-section-subtitle {\n            font-size: 13px;\n          }\n\n          .logos-grid-container {\n            gap: 14px;\n            max-width: 100%;\n            padding: 0 4px;\n          }\n\n          .logo-item {\n            padding: 16px 12px;\n            border-radius: 10px;\n            min-height: 75px;\n          }\n\n          .logo-item img {\n            max-width: 95px;\n          }\n\n          .trust-badge {\n            margin-top: 28px;\n            padding: 12px 18px;\n          }\n\n          .trust-badge p {\n            font-size: 12px;\n          }\n        }\n\n        /* ==== MOBILE PETIT (321px - 375px) ==== */\n        @media screen and (max-width: 375px) {\n          .logo-wrapper {\n            padding: 32px 12px;\n          }\n\n          .logo-section-title h3 {\n            font-size: 19px;\n          }\n\n          .logos-grid-container {\n            gap: 12px;\n          }\n\n          .logo-item {\n            padding: 14px 10px;\n            min-height: 70px;\n          }\n\n          .logo-item img {\n            max-width: 85px;\n          }\n\n          .trust-badge {\n            margin-top: 24px;\n            padding: 10px 16px;\n          }\n\n          .trust-badge p {\n            font-size: 11px;\n          }\n        }\n\n        /* ==== TRÈS PETIT MOBILE (≤320px) ==== */\n        @media screen and (max-width: 320px) {\n          .logo-wrapper {\n            padding: 28px 10px;\n          }\n\n          .logo-section-title h3 {\n            font-size: 18px;\n          }\n\n          .logo-section-subtitle {\n            font-size: 12px;\n          }\n\n          .logos-grid-container {\n            gap: 10px;\n          }\n\n          .logo-item {\n            padding: 12px 8px;\n            border-radius: 8px;\n            min-height: 65px;\n          }\n\n          .logo-item img {\n            max-width: 75px;\n          }\n\n          .trust-badge {\n            margin-top: 20px;\n            padding: 10px 14px;\n          }\n\n          .trust-badge p {\n            font-size: 11px;\n          }\n        }\n\n        /* ==== OPTIMISATION PERFORMANCE ==== */\n        @media (prefers-reduced-motion: reduce) {\n          .logo-item,\n          .logo-item img {\n            transition: none;\n          }\n\n          .logo-item:hover {\n            transform: none;\n          }\n        }\n      </style>\n\n      <!-- Titre section -->\n      <div class=\"logo-section-title\">\n        <h3>Vu sur :</h3>\n        <p class=\"logo-section-subtitle\">Recommandé par les médias français de référence</p>\n      </div>\n\n      <!-- Grid logos -->\n      <div class=\"logos-grid-container\">\n\n        <div class=\"logo-item\">\n          <img src=\"https://www.wikiberal.org/images/2/29/Logo_Le_Monde.jpg\"\n               alt=\"Le Monde recommande MagnetiCraft\"\n               width=\"300\"\n               height=\"75\"\n               loading=\"lazy\">\n        </div>\n\n        <div class=\"logo-item\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/download_86a93226-9a6e-48e9-a6cb-841426b946db.jpg?v=1765468827&width=300\"\n               alt=\"Clin d'Oeil recommande MagnetiCraft\"\n               width=\"300\"\n               height=\"75\"\n               loading=\"lazy\">\n        </div>\n\n        <div class=\"logo-item\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/download_f820ff53-fa4b-4ab8-93dc-2f299e0421d1.jpg?v=1765469187&width=300\"\n               alt=\"Femme Actuelle recommande MagnetiCraft\"\n               width=\"300\"\n               height=\"75\"\n               loading=\"lazy\">\n        </div>\n\n        <div class=\"logo-item\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/download_0d84bba1-c6bb-4d9b-9836-1ef1c348ec38.jpg?v=1765469435&width=200\"\n               alt=\"Parents recommande MagnetiCraft\"\n               width=\"200\"\n               height=\"70\"\n               loading=\"lazy\">\n        </div>\n\n      </div>\n\n      <!-- Badge confiance -->\n      <div class=\"trust-badge\">\n        <p>✓ Approuvé par 4,300+ familles françaises</p>\n      </div>\n\n    </div>\n  </div>\n</div>",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_hnhj7d": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<section id=\"shopify-section-template--20829674504421__custom_html_MiDgPD\" class=\"shopify-section shopify-section--custom-html\">\n  <style>\n    #shopify-section-template--20829674504421__custom_html_MiDgPD {\n      --section-background-hash: 0;\n    }\n    #shopify-section-template--20829674504421__custom_html_MiDgPD + * {\n      --previous-section-background-hash: 0;\n    }\n  </style>\n  \n  <div class=\"section section-blends section-full\">\n    <section class=\"lunys-problem-section\">\n      <div class=\"lunys-container\">\n        <h2 class=\"lunys-title\">Vous aussi, vous vivez ça tous les soirs ?</h2>\n        <p class=\"lunys-subtitle\">\n          L'heure du coucher est devenue une bataille sans fin :\n        </p>\n        \n        <div class=\"lunys-content\">\n          <!-- IMAGE -->\n          <div class=\"lunys-image\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0956/0349/1142/files/Generated_Image_January_11_2026_-_9_08PM.jpg?v=1768162303\" \n                 alt=\"Parent épuisé face aux écrans de son enfant\" \n                 loading=\"lazy\">\n          </div>\n          \n          <!-- TEXTE -->\n          <div class=\"lunys-text\">\n            <ul class=\"lunys-list\">\n              <li>❌ \"Encore 5 minutes\"... qui durent 30 minutes</li>\n              <li>❌ Crises, pleurs, négociations épuisantes</li>\n              <li>❌ Un enfant surexcité qui ne trouve pas le sommeil</li>\n              <li>❌ Une culpabilité qui vous ronge : \"Je sais que l'écran n'aide pas...\"</li>\n              <li>❌ Et vous ? Trop fatigué(e) pour résister une fois de plus</li>\n            </ul>\n            \n            <div class=\"lunys-conclusion\">\n              <p class=\"conclusion-header\"><strong>Bonne nouvelle :</strong></p>\n              <p class=\"conclusion-statement\">\n                Il existe une alternative qui <strong>remplace naturellement la tablette</strong>.<br>\n                Un jeu qui apaise, captive et stimule sans écran.\n              </p>\n              <div class=\"conclusion-testimonial\">\n                <p class=\"testimonial-quote\">\n                  <em>\"Pour la première fois depuis des mois, mon fils a joué 2h sans écran... et il n'a même pas réclamé la tablette.\"</em>\n                </p>\n                <p class=\"testimonial-author\">— Sophie, maman de Léo (7 ans)</p>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>\n\n    <style>\n      /* === VARIABLES === */\n      .lunys-problem-section {\n        --color-primary: #2C3E50;\n        --color-text: #374151;\n        --color-text-light: #6B7280;\n        --color-danger: #EF4444;\n        --color-success: #10B981;\n        --color-bg: #FAFBFC;\n        --color-border: #E5E7EB;\n      }\n      \n      /* === SECTION PRINCIPALE === */\n      .lunys-problem-section {\n        padding: clamp(50px, 8vw, 80px) clamp(20px, 4vw, 40px);\n        background: var(--color-bg);\n      }\n      \n      .lunys-container {\n        max-width: 1200px;\n        margin: 0 auto;\n      }\n      \n      /* === TITRES === */\n      .lunys-title {\n        text-align: center;\n        font-size: clamp(28px, 5vw, 42px);\n        line-height: 1.3;\n        margin-bottom: 16px;\n        font-weight: 800;\n        color: var(--color-primary);\n        letter-spacing: -0.02em;\n      }\n      \n      .lunys-subtitle {\n        text-align: center;\n        font-size: clamp(17px, 2.5vw, 20px);\n        color: var(--color-text);\n        margin-bottom: clamp(40px, 6vw, 60px);\n        font-weight: 500;\n        letter-spacing: -0.01em;\n      }\n      \n      /* === CONTENU === */\n      .lunys-content {\n        display: flex;\n        gap: clamp(40px, 6vw, 60px);\n        align-items: flex-start;\n        background: #FFFFFF;\n        padding: clamp(30px, 5vw, 50px);\n        border-radius: 16px;\n        border: 1px solid var(--color-border);\n      }\n      \n      /* === IMAGE === */\n      .lunys-image {\n        flex-shrink: 0;\n      }\n      \n      .lunys-image img {\n        width: 100%;\n        border-radius: 12px;\n        max-width: 340px;\n        height: auto;\n        display: block;\n      }\n      \n      /* === TEXTE === */\n      .lunys-text {\n        flex: 1;\n        min-width: 0;\n      }\n      \n      /* === LISTE === */\n      .lunys-list {\n        list-style: none;\n        padding: 0;\n        margin: 0 0 clamp(28px, 4vw, 40px) 0;\n      }\n      \n      .lunys-list li {\n        font-size: clamp(16px, 2.2vw, 18px);\n        margin-bottom: 16px;\n        line-height: 1.6;\n        color: var(--color-text);\n        padding-left: 8px;\n      }\n      \n      .lunys-list li:last-child {\n        margin-bottom: 0;\n      }\n      \n      /* === CONCLUSION === */\n      .lunys-conclusion {\n        background: #F0FDF4;\n        padding: clamp(24px, 4vw, 32px);\n        border-radius: 12px;\n        border-left: 4px solid var(--color-success);\n      }\n      \n      .conclusion-header {\n        font-size: clamp(18px, 2.6vw, 20px);\n        margin: 0 0 16px 0;\n        color: var(--color-success);\n      }\n      \n      .conclusion-header strong {\n        font-weight: 700;\n      }\n      \n      .conclusion-statement {\n        font-size: clamp(16px, 2.2vw, 18px);\n        margin: 0 0 20px 0;\n        color: var(--color-text);\n        line-height: 1.7;\n      }\n      \n      .conclusion-statement strong {\n        font-weight: 700;\n        color: var(--color-primary);\n      }\n      \n      /* === TESTIMONIAL === */\n      .conclusion-testimonial {\n        background: #FFFFFF;\n        padding: clamp(16px, 3vw, 20px);\n        border-radius: 8px;\n        border-left: 3px solid var(--color-primary);\n      }\n      \n      .testimonial-quote {\n        font-size: clamp(15px, 2vw, 17px);\n        margin: 0 0 12px 0;\n        color: var(--color-text);\n        line-height: 1.7;\n      }\n      \n      .testimonial-quote em {\n        font-style: italic;\n        font-weight: 500;\n      }\n      \n      .testimonial-author {\n        font-size: clamp(14px, 1.8vw, 15px);\n        margin: 0;\n        color: var(--color-text-light);\n        font-weight: 600;\n      }\n      \n      /* === RESPONSIVE === */\n      \n      /* TABLETTE */\n      @media (max-width: 1024px) {\n        .lunys-content {\n          gap: 40px;\n          padding: 40px;\n        }\n        \n        .lunys-image img {\n          max-width: 300px;\n        }\n      }\n      \n      /* MOBILE LARGE */\n      @media (max-width: 768px) {\n        .lunys-problem-section {\n          padding: 40px 20px;\n        }\n        \n        .lunys-content {\n          flex-direction: column;\n          gap: 32px;\n          padding: 32px 24px;\n        }\n        \n        .lunys-image {\n          width: 100%;\n          display: flex;\n          justify-content: center;\n        }\n        \n        .lunys-image img {\n          max-width: 100%;\n        }\n        \n        .lunys-list li {\n          font-size: 16px;\n          margin-bottom: 14px;\n        }\n        \n        .lunys-conclusion {\n          padding: 24px 20px;\n        }\n        \n        .conclusion-testimonial {\n          padding: 16px;\n        }\n      }\n      \n      /* MOBILE STANDARD */\n      @media (max-width: 480px) {\n        .lunys-problem-section {\n          padding: 32px 16px;\n        }\n        \n        .lunys-content {\n          padding: 24px 20px;\n          border-radius: 12px;\n        }\n        \n        .lunys-title {\n          font-size: 24px;\n        }\n        \n        .lunys-subtitle {\n          font-size: 16px;\n          margin-bottom: 32px;\n        }\n        \n        .lunys-list li {\n          font-size: 15px;\n          margin-bottom: 12px;\n        }\n        \n        .lunys-conclusion {\n          padding: 20px 16px;\n        }\n        \n        .conclusion-header {\n          font-size: 17px;\n          margin-bottom: 14px;\n        }\n        \n        .conclusion-statement {\n          font-size: 15px;\n          margin-bottom: 18px;\n        }\n        \n        .conclusion-testimonial {\n          padding: 14px;\n        }\n        \n        .testimonial-quote {\n          font-size: 14px;\n          margin-bottom: 10px;\n        }\n        \n        .testimonial-author {\n          font-size: 13px;\n        }\n      }\n      \n      /* MOBILE PETIT */\n      @media (max-width: 375px) {\n        .lunys-content {\n          padding: 20px 16px;\n        }\n        \n        .lunys-title {\n          font-size: 22px;\n        }\n        \n        .lunys-list li {\n          font-size: 14px;\n        }\n        \n        .lunys-conclusion {\n          padding: 18px 14px;\n        }\n        \n        .conclusion-testimonial {\n          padding: 12px;\n        }\n      }\n    </style>\n  </div>\n</section>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "slideshow_jw8pDj": {
+    "slideshow_Fzxhnq": {
       "type": "slideshow",
       "blocks": {
-        "image_zdfmQJ": {
+        "image_jJFWzk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Generated_Image_January_22_2026_-_2_16PM.jpg",
-            "mobile_image": "shopify://shop_images/Generated_Image_January_22_2026_-_2_16PM_e7fbf8ef-d5de-43a9-bd63-df9189533c7c.jpg",
-            "content_max_width": 860,
-            "mobile_text_position": "place-self-start text-start",
+            "image": "shopify://shop_images/Firefly_Gemini_Flash_Remplace_les_pars_les_bon_logo_et_traduit_en_allemand_Titre_-_Bekannt_aus__ARD_ZDF_Bi_454914_bb96c25c-e6f8-4577-add4-2ee81120383e.png",
+            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Remplace_les_pars_les_bon_logo_et_traduit_en_allemand_Titre_-_Bekannt_aus__ARD_ZDF_Bi_454914.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "subheading": "",
             "title": "",
             "heading_tag": "h2",
             "button_text": "",
             "button_link": "",
-            "text_color": "#000000",
+            "text_color": "#6659ff",
             "button_background": "#85c6b1",
-            "button_text_color": "#ffffff",
+            "button_text_color": "#1a1a1a",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "background": "#ffffff",
+            "background": "",
             "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "image_zdfmQJ"
+        "image_jJFWzk"
       ],
       "name": "Slideshow",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "show_initial_transition": false,
         "image_size": "auto",
         "controls_type": "dots",
@@ -132,14 +106,13 @@
         "background_gradient": ""
       }
     },
-    "rich_text_EEFV3B": {
+    "rich_text_FWE66k": {
       "type": "rich-text",
       "blocks": {
-        "heading_NayNMp": {
+        "heading_MbLpxK": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "text": "De 3h d'écran par jour à 3h de création RÉELLE",
+            "text": "Warum die Nachtblick-Autofahrerbrille wählen?",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -147,16 +120,98 @@
         }
       },
       "block_order": [
-        "heading_NayNMp"
+        "heading_MbLpxK"
       ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
-        "content_width": "medium",
+        "content_width": "small",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "",
         "background_gradient": "",
-        "text_color": "#000000"
+        "text_color": ""
+      }
+    },
+    "rich_text_gTrR7m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KVnX6K": {
+          "type": "heading",
+          "settings": {
+            "text": "Bekannt aus",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_KVnX6K"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_7LWLGF": {
+      "type": "slideshow",
+      "blocks": {
+        "image_EqCYpd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Firefly_Gemini_Flash_Traduit_correctement_en_allemand_et_change_NoctiOptic_par_Nachtblick_454914.png",
+            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Traduit_correctement_en_allemand_et_change_NoctiOptic_par_Nachtblick_454914_81c306db-33d8-45b0-89a5-7ad9d4ecbf07.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#6659ff",
+            "button_background": "#85c6b1",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EqCYpd"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "custom_liquid_hnhj7d": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<section id=\"shopify-section-template--27717884674378__multi_column_KiMXzt\" class=\"shopify-section shopify-section--multi-column\"><style>\n  #shopify-section-template--27717884674378__multi_column_KiMXzt {\n    --section-background-hash: 0;\n  }\n\n  #shopify-section-template--27717884674378__multi_column_KiMXzt + * {\n    --previous-section-background-hash: 0;\n  }</style><style>\n    #shopify-section-template--27717884674378__multi_column_KiMXzt {\n      --multi-column-grid: auto / auto-flow 73vw;\n      --multi-column-list-gap: var(--spacing-12);\n    }\n  </style>\n\n  <div class=\"section   section-blends section-full\">\n    <div class=\"section-stack\">\n  <section-header class=\"section-header justify-center justify-items-center text-center\"><div class=\"prose\"><h2 class=\"h2\" reveal-on-scroll=\"true\" style=\"opacity: 1;\"><split-lines>Adopté par des milliers de conducteurs</split-lines></h2></div></section-header><div class=\"multi-column scroll-area bleed md:unbleed\"><div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\"><img src=\"//www.noctioptic.com/cdn/shop/files/Sans_titre_400_x_400_px.png?v=1763674368&amp;width=400\" alt=\"\" srcset=\"//www.noctioptic.com/cdn/shop/files/Sans_titre_400_x_400_px.png?v=1763674368&amp;width=300 300w, //www.noctioptic.com/cdn/shop/files/Sans_titre_400_x_400_px.png?v=1763674368&amp;width=400 400w\" width=\"400\" height=\"400\" loading=\"lazy\" sizes=\"(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min(1600px, 100vw) / 3)\" class=\"rounded\"><div class=\"v-stack gap-4 text-center\"><p class=\"h4\">Marc D.</p><div class=\"prose\"><p>Je suis  Chauffeur poids lourd depuis 7 ans les phares me fatiguaient énormément. plus de douleur aux yeux avec ces lunettes et mes trajets de nuit sont enfin confortables.<br><br><br></p></div></div></div><div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\"><img src=\"//www.noctioptic.com/cdn/shop/files/Design_sans_titre_78.png?v=1766232179&amp;width=400\" alt=\"\" srcset=\"//www.noctioptic.com/cdn/shop/files/Design_sans_titre_78.png?v=1766232179&amp;width=300 300w, //www.noctioptic.com/cdn/shop/files/Design_sans_titre_78.png?v=1766232179&amp;width=400 400w\" width=\"400\" height=\"400\" loading=\"lazy\" sizes=\"(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min(1600px, 100vw) / 3)\" class=\"rounded\"><div class=\"v-stack gap-4 text-center\"><p class=\"h4\">Gérard.A</p><div class=\"prose\"><p>Produit interessant pour une conduite de nuit reposante.</p></div></div></div><div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\"><img src=\"//www.noctioptic.com/cdn/shop/files/1140_n55.webp?v=1763636090&amp;width=400\" alt=\"\" srcset=\"//www.noctioptic.com/cdn/shop/files/1140_n55.webp?v=1763636090&amp;width=300 300w, //www.noctioptic.com/cdn/shop/files/1140_n55.webp?v=1763636090&amp;width=400 400w\" width=\"400\" height=\"400\" loading=\"lazy\" sizes=\"(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min(1600px, 100vw) / 3)\" class=\"rounded\"><div class=\"v-stack gap-4 text-center\"><p class=\"h4\">Julienne. R</p><div class=\"prose\"><p>J’avais souvent des migraines à cause des phares la nuit. Depuis que j’utilise  ces lunettes, plus de maux de tête et une vision beaucoup plus confortable<br><br></p></div></div></div><div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\"><img src=\"//www.noctioptic.com/cdn/shop/files/Design_sans_titre_77.png?v=1766232207&amp;width=400\" alt=\"\" srcset=\"//www.noctioptic.com/cdn/shop/files/Design_sans_titre_77.png?v=1766232207&amp;width=300 300w, //www.noctioptic.com/cdn/shop/files/Design_sans_titre_77.png?v=1766232207&amp;width=400 400w\" width=\"400\" height=\"400\" loading=\"lazy\" sizes=\"(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min(1600px, 100vw) / 3)\" class=\"rounded\"><div class=\"v-stack gap-4 text-center\"><p class=\"h4\">Céline.B</p><div class=\"prose\"><p>Les verres polarisés sont fantastiques pour réduire l'éblouissement, que je conduise ou que je pêche sur l'eau, rendant tout beaucoup plus clair et plus confortable.</p></div></div></div><div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\"><img src=\"//www.noctioptic.com/cdn/shop/files/Design_sans_titre_58.png?v=1763636090&amp;width=400\" alt=\"\" srcset=\"//www.noctioptic.com/cdn/shop/files/Design_sans_titre_58.png?v=1763636090&amp;width=300 300w, //www.noctioptic.com/cdn/shop/files/Design_sans_titre_58.png?v=1763636090&amp;width=400 400w\" width=\"400\" height=\"400\" loading=\"lazy\" sizes=\"(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min(1600px, 100vw) / 3)\" class=\"rounded\"><div class=\"v-stack gap-4 text-center\"><p class=\"h4\">Isabelle. R</p><div class=\"prose\"><p>J’avais toujours peur de conduire la nuit à cause des phares trop forts. Avec ces lunettes, ma vision est plus stable et je n’ai plus cette appréhension. Je me sens enfin en sécurité<br><br></p></div></div></div><div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\"><img src=\"//www.noctioptic.com/cdn/shop/files/Design_sans_titre_69.png?v=1764332395&amp;width=400\" alt=\"\" srcset=\"//www.noctioptic.com/cdn/shop/files/Design_sans_titre_69.png?v=1764332395&amp;width=300 300w, //www.noctioptic.com/cdn/shop/files/Design_sans_titre_69.png?v=1764332395&amp;width=400 400w\" width=\"400\" height=\"400\" loading=\"lazy\" sizes=\"(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min(1600px, 100vw) / 3)\" class=\"rounded\"><div class=\"v-stack gap-4 text-center\"><p class=\"h4\">Olivier. D</p><div class=\"prose\"><p>Commande bien reçue et parfaitement emballée. Qualité au rendez-vous, rien à dire. Très satisfait, je recommande</p></div></div></div></div>\n    </div>\n  </div></section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "slideshow_bEqtRk": {
@@ -392,7 +447,6 @@
         "image_eUFfWp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BOTTLAMP_1000_x_529_px_3.png",
             "width_mode": "full_width",
             "max_width": 600,
             "mobile_max_width": 530
@@ -418,8 +472,6 @@
         "image_qVCXWh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Generated_Image_January_11_2026_-_10_16PM-Photoroom.png",
-            "mobile_image": "shopify://shop_images/Generated_Image_January_11_2026_-_10_16PM-Photoroom_124e0d42-4efc-4012-b3da-30d8f779f14e.png",
             "content_max_width": 860,
             "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -461,8 +513,6 @@
         "image_YJXYWR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Generated_Image_January_11_2026_-_11_10PM_978b6cc4-34e3-46f5-b9df-e851f5c355f9.jpg",
-            "mobile_image": "shopify://shop_images/Generated_Image_January_11_2026_-_11_10PM.jpg",
             "content_max_width": 860,
             "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -504,8 +554,6 @@
         "image_QNkfFW": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Generated_Image_January_11_2026_-_11_16PM-Photoroom.png",
-            "mobile_image": "shopify://shop_images/Generated_Image_January_11_2026_-_11_16PM-Photoroom_1624a86c-46ae-46dc-a313-3bd0c92dc794.png",
             "content_max_width": 860,
             "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -698,22 +746,6 @@
     },
     "1763893506626c0b30": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_f7NmD8": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 6,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": false
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_f7NmD8"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -727,10 +759,11 @@
   "order": [
     "1763812243d67206e3",
     "slideshow_V6ng47",
-    "custom_liquid_KMDTCF",
+    "slideshow_Fzxhnq",
+    "rich_text_FWE66k",
+    "rich_text_gTrR7m",
+    "slideshow_7LWLGF",
     "custom_liquid_hnhj7d",
-    "slideshow_jw8pDj",
-    "rich_text_EEFV3B",
     "slideshow_bEqtRk",
     "rich_text_abw9Wj",
     "custom_html_YarTLM",
