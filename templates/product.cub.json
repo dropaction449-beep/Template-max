@@ -227,30 +227,90 @@
         "text_color": ""
       }
     },
-    "custom_liquid_q3VWBf": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
+    "slideshow_6pHWtw": {
+      "type": "slideshow",
+      "blocks": {
+        "image_H3zaQX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e08.webp",
+            "mobile_image": "shopify://shop_images/e08.webp",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#6659ff",
+            "button_background": "#85c6b1",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_H3zaQX"
+      ],
+      "name": "Slideshow",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<section id=\"shopify-section-template--27717884674378__image_with_text_overlay_63yUbz\" class=\"shopify-section shopify-section--image-with-text-overlay\"><style>\n  #shopify-section-template--27717884674378__image_with_text_overlay_63yUbz {--section-outer-spacing-block: 0;--content-over-media-overlay: 0 0 0 / 0.0;}\n</style>\n\n<div class=\"section   section-blends section-full text-custom\" style=\"--text-color: 255 255 255;\"><image-banner reveal-on-scroll=\"true\" class=\"content-over-media content-over-media--auto full-bleed  text-custom\" style=\"--text-color: 255 255 255; opacity: 1;\"><picture><img src=\"//www.noctioptic.com/cdn/shop/files/ezgif.com-webp-to-gif-converted_5_fae20996-59b8-486e-a639-cafbbbf47e08.webp?v=1763673800&amp;width=540\" alt=\"\" srcset=\"//www.noctioptic.com/cdn/shop/files/ezgif.com-webp-to-gif-converted_5_fae20996-59b8-486e-a639-cafbbbf47e08.webp?v=1763673800&amp;width=200 200w, //www.noctioptic.com/cdn/shop/files/ezgif.com-webp-to-gif-converted_5_fae20996-59b8-486e-a639-cafbbbf47e08.webp?v=1763673800&amp;width=300 300w, //www.noctioptic.com/cdn/shop/files/ezgif.com-webp-to-gif-converted_5_fae20996-59b8-486e-a639-cafbbbf47e08.webp?v=1763673800&amp;width=400 400w, //www.noctioptic.com/cdn/shop/files/ezgif.com-webp-to-gif-converted_5_fae20996-59b8-486e-a639-cafbbbf47e08.webp?v=1763673800&amp;width=500 500w\" width=\"540\" height=\"360\" loading=\"lazy\" sizes=\"100vw\" fetchpriority=\"low\"></picture></image-banner>\n</div>\n\n</section>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
       }
     },
-    "custom_liquid_CKgAwp": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
+    "slideshow_4aTWR7": {
+      "type": "slideshow",
+      "blocks": {
+        "image_PwtYwa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nachher.png",
+            "mobile_image": "shopify://shop_images/nachher.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#6659ff",
+            "button_background": "#85c6b1",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PwtYwa"
+      ],
+      "name": "Slideshow",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<section id=\"shopify-section-template--27717884674378__image_with_text_overlay_YiCVJA\" class=\"shopify-section shopify-section--image-with-text-overlay\"><style>\n  #shopify-section-template--27717884674378__image_with_text_overlay_YiCVJA {--section-outer-spacing-block: 0;--content-over-media-overlay: 0 0 0 / 0.0;}\n</style>\n\n<div class=\"section   section-blends section-full text-custom\" style=\"--text-color: 255 255 255;\"><image-banner reveal-on-scroll=\"true\" class=\"content-over-media content-over-media--auto full-bleed  text-custom\" style=\"--text-color: 255 255 255; opacity: 1;\"><picture><img src=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/nachher.png?v=1769193228&amp;width=1080\" alt=\"\" srcset=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/nachher.png?v=1769193228&amp;width=200 200w, https://cdn.shopify.com/s/files/1/0966/8490/0734/files/nachher.png?v=1769193228&amp;width=300 300w, https://cdn.shopify.com/s/files/1/0966/8490/0734/files/nachher.png?v=1769193228&amp;width=400 400w, https://cdn.shopify.com/s/files/1/0966/8490/0734/files/nachher.png?v=17691932286&amp;width=500 500w, //www.noctioptic.com/cdn/shop/files/Design_sans_titre_95.png?v=1768395276&amp;width=600 600w, //www.noctioptic.com/cdn/shop/files/Design_sans_titre_95.png?v=1768395276&amp;width=700 700w, //www.noctioptic.com/cdn/shop/files/Design_sans_titre_95.png?v=1768395276&amp;width=800 800w, //www.noctioptic.com/cdn/shop/files/Design_sans_titre_95.png?v=1768395276&amp;width=900 900w, https://cdn.shopify.com/s/files/1/0966/8490/0734/files/nachher.png?v=1769193228&amp;width=1000 1000w\" width=\"1080\" height=\"1080\" loading=\"lazy\" sizes=\"100vw\" fetchpriority=\"low\"></picture></image-banner>\n</div>\n\n</section><br>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
       }
     },
     "custom_liquid_hnhj7d": {
@@ -260,7 +320,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "liquid": "<section id=\"shopify-section-template--27717884674378__multi_column_KiMXzt\" class=\"shopify-section shopify-section--multi-column\"><style>\n  #shopify-section-template--27717884674378__multi_column_KiMXzt {\n    --section-background-hash: 0;\n  }\n\n  #shopify-section-template--27717884674378__multi_column_KiMXzt + * {\n    --previous-section-background-hash: 0;\n  }</style><style>\n    #shopify-section-template--27717884674378__multi_column_KiMXzt {\n      --multi-column-grid: auto / auto-flow 73vw;\n      --multi-column-list-gap: var(--spacing-12);\n    }\n  </style>\n\n  <div class=\"section section-blends section-full\">\n    <div class=\"section-stack\">\n      <section-header class=\"section-header justify-center justify-items-center text-center\">\n        <div class=\"prose\">\n          <h2 class=\"h2\" reveal-on-scroll=\"true\" style=\"opacity: 1;\">\n            <split-lines>Von tausenden Autofahrern gewählt</split-lines>\n          </h2>\n        </div>\n      </section-header>\n\n      <div class=\"multi-column scroll-area bleed md:unbleed\">\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"//www.noctioptic.com/cdn/shop/files/Sans_titre_400_x_400_px.png?v=1763674368&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Marc D.</p>\n            <div class=\"prose\">\n              <p>Ich bin seit 7 Jahren LKW-Fahrer. Die Scheinwerfer haben meine Augen stark belastet. Mit dieser Brille keine Augenschmerzen mehr und meine Nachtfahrten sind endlich angenehm.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/Firefly_Gemini_Flash____-task--_-image_edit-___-instructions--___-objective--_-Recreate_the_exact_sa_454914.png?v=1769189187&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Gérard A.</p>\n            <div class=\"prose\">\n              <p>Ein interessantes Produkt für entspanntes Fahren bei Nacht.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"//www.noctioptic.com/cdn/shop/files/1140_n55.webp?v=1763636090&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Julienne R.</p>\n            <div class=\"prose\">\n              <p>Ich hatte nachts oft Migräne wegen der Scheinwerfer. Seit ich diese Brille benutze, keine Kopfschmerzen mehr und eine deutlich angenehmere Sicht.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/duch2.png?v=1769189339&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Céline B.</p>\n            <div class=\"prose\">\n              <p>Die polarisierten Gläser sind fantastisch zur Reduzierung von Blendung – egal ob beim Autofahren oder beim Angeln auf dem Wasser. Alles wirkt klarer und deutlich komfortabler.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"//www.noctioptic.com/cdn/shop/files/Design_sans_titre_58.png?v=1763636090&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Isabelle R.</p>\n            <div class=\"prose\">\n              <p>Ich hatte immer Angst, nachts zu fahren wegen der starken Scheinwerfer. Mit dieser Brille ist meine Sicht stabiler und die Angst ist verschwunden. Ich fühle mich endlich sicher.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/duch3.png?v=1769189676&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Olivier D.</p>\n            <div class=\"prose\">\n              <p>Bestellung gut erhalten und perfekt verpackt. Qualität stimmt, nichts zu beanstanden. Sehr zufrieden, klare Empfehlung.</p>\n            </div>\n          </div>\n        </div>\n\n      </div>\n    </div>\n  </div>\n</section>",
+        "liquid": "<br><section id=\"shopify-section-template--27717884674378__multi_column_KiMXzt\" class=\"shopify-section shopify-section--multi-column\"><style>\n  #shopify-section-template--27717884674378__multi_column_KiMXzt {\n    --section-background-hash: 0;\n  }\n\n  #shopify-section-template--27717884674378__multi_column_KiMXzt + * {\n    --previous-section-background-hash: 0;\n  }</style><style>\n    #shopify-section-template--27717884674378__multi_column_KiMXzt {\n      --multi-column-grid: auto / auto-flow 73vw;\n      --multi-column-list-gap: var(--spacing-12);\n    }\n  </style>\n\n  <div class=\"section section-blends section-full\">\n    <div class=\"section-stack\">\n      <section-header class=\"section-header justify-center justify-items-center text-center\">\n        <div class=\"prose\">\n          <h2 class=\"h2\" reveal-on-scroll=\"true\" style=\"opacity: 1;\">\n            <split-lines>Von tausenden Autofahrern gewählt</split-lines>\n          </h2>\n        </div>\n      </section-header>\n\n      <div class=\"multi-column scroll-area bleed md:unbleed\">\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"//www.noctioptic.com/cdn/shop/files/Sans_titre_400_x_400_px.png?v=1763674368&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Marc D.</p>\n            <div class=\"prose\">\n              <p>Ich bin seit 7 Jahren LKW-Fahrer. Die Scheinwerfer haben meine Augen stark belastet. Mit dieser Brille keine Augenschmerzen mehr und meine Nachtfahrten sind endlich angenehm.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/Firefly_Gemini_Flash____-task--_-image_edit-___-instructions--___-objective--_-Recreate_the_exact_sa_454914.png?v=1769189187&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Gérard A.</p>\n            <div class=\"prose\">\n              <p>Ein interessantes Produkt für entspanntes Fahren bei Nacht.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"//www.noctioptic.com/cdn/shop/files/1140_n55.webp?v=1763636090&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Julienne R.</p>\n            <div class=\"prose\">\n              <p>Ich hatte nachts oft Migräne wegen der Scheinwerfer. Seit ich diese Brille benutze, keine Kopfschmerzen mehr und eine deutlich angenehmere Sicht.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/duch2.png?v=1769189339&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Céline B.</p>\n            <div class=\"prose\">\n              <p>Die polarisierten Gläser sind fantastisch zur Reduzierung von Blendung – egal ob beim Autofahren oder beim Angeln auf dem Wasser. Alles wirkt klarer und deutlich komfortabler.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"//www.noctioptic.com/cdn/shop/files/Design_sans_titre_58.png?v=1763636090&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Isabelle R.</p>\n            <div class=\"prose\">\n              <p>Ich hatte immer Angst, nachts zu fahren wegen der starken Scheinwerfer. Mit dieser Brille ist meine Sicht stabiler und die Angst ist verschwunden. Ich fühle mich endlich sicher.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/duch3.png?v=1769189676&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Olivier D.</p>\n            <div class=\"prose\">\n              <p>Bestellung gut erhalten und perfekt verpackt. Qualität stimmt, nichts zu beanstanden. Sehr zufrieden, klare Empfehlung.</p>\n            </div>\n          </div>\n        </div>\n\n      </div>\n    </div>\n  </div>\n</section><br>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -518,8 +578,8 @@
     "rich_text_FWE66k",
     "slideshow_7LWLGF",
     "rich_text_bwXcgK",
-    "custom_liquid_q3VWBf",
-    "custom_liquid_CKgAwp",
+    "slideshow_6pHWtw",
+    "slideshow_4aTWR7",
     "custom_liquid_hnhj7d",
     "slideshow_bEqtRk",
     "rich_text_abw9Wj",
