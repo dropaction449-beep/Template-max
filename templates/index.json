@@ -52,6 +52,269 @@
         "background_gradient": ""
       }
     },
+    "rich_text_Karb3X": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_me3qgb": {
+          "type": "heading",
+          "settings": {
+            "text": "Bekannt aus",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_me3qgb"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_wQqzwa": {
+      "type": "slideshow",
+      "blocks": {
+        "image_dFUHCx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Firefly_Gemini_Flash_Remplace_les_pars_les_bon_logo_et_traduit_en_allemand_Titre_-_Bekannt_aus__ARD_ZDF_Bi_454914_bb96c25c-e6f8-4577-add4-2ee81120383e.png",
+            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Remplace_les_pars_les_bon_logo_et_traduit_en_allemand_Titre_-_Bekannt_aus__ARD_ZDF_Bi_454914.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#6659ff",
+            "button_background": "#85c6b1",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dFUHCx"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_kdFc4p": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AFcd3q": {
+          "type": "heading",
+          "settings": {
+            "text": "Warum die Nachtblick-Autofahrerbrille wählen?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_AFcd3q"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_bqcED3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_g6B64J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Firefly_Gemini_Flash_Traduit_correctement_en_allemand_et_change_NoctiOptic_par_Nachtblick_454914_81c306db-33d8-45b0-89a5-7ad9d4ecbf07.png",
+            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Traduit_correctement_en_allemand_et_change_NoctiOptic_par_Nachtblick_454914_81c306db-33d8-45b0-89a5-7ad9d4ecbf07.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#6659ff",
+            "button_background": "#85c6b1",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_g6B64J"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_j7hTyM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_N47Ff4": {
+          "type": "heading",
+          "settings": {
+            "text": "Fahren Sie nachts wie bei Tageslicht",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_N47Ff4"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_NVAiMy": {
+      "type": "slideshow",
+      "blocks": {
+        "image_kABM3m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e08.webp",
+            "mobile_image": "shopify://shop_images/e08.webp",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#6659ff",
+            "button_background": "#85c6b1",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kABM3m"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_EGYiJP": {
+      "type": "slideshow",
+      "blocks": {
+        "image_P7rKYB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nachher.png",
+            "mobile_image": "shopify://shop_images/nachher.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#6659ff",
+            "button_background": "#85c6b1",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_P7rKYB"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "custom_liquid_6GN8kr": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<br><section id=\"shopify-section-template--27717884674378__multi_column_KiMXzt\" class=\"shopify-section shopify-section--multi-column\"><style>\n  #shopify-section-template--27717884674378__multi_column_KiMXzt {\n    --section-background-hash: 0;\n  }\n\n  #shopify-section-template--27717884674378__multi_column_KiMXzt + * {\n    --previous-section-background-hash: 0;\n  }</style><style>\n    #shopify-section-template--27717884674378__multi_column_KiMXzt {\n      --multi-column-grid: auto / auto-flow 73vw;\n      --multi-column-list-gap: var(--spacing-12);\n    }\n  </style>\n\n  <div class=\"section section-blends section-full\">\n    <div class=\"section-stack\">\n      <section-header class=\"section-header justify-center justify-items-center text-center\">\n        <div class=\"prose\">\n          <h2 class=\"h2\" reveal-on-scroll=\"true\" style=\"opacity: 1;\">\n            <split-lines>Von tausenden Autofahrern gewählt</split-lines>\n          </h2>\n        </div>\n      </section-header>\n\n      <div class=\"multi-column scroll-area bleed md:unbleed\">\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"//www.noctioptic.com/cdn/shop/files/Sans_titre_400_x_400_px.png?v=1763674368&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Marc D.</p>\n            <div class=\"prose\">\n              <p>Ich bin seit 7 Jahren LKW-Fahrer. Die Scheinwerfer haben meine Augen stark belastet. Mit dieser Brille keine Augenschmerzen mehr und meine Nachtfahrten sind endlich angenehm.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/Firefly_Gemini_Flash____-task--_-image_edit-___-instructions--___-objective--_-Recreate_the_exact_sa_454914.png?v=1769189187&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Gérard A.</p>\n            <div class=\"prose\">\n              <p>Ein interessantes Produkt für entspanntes Fahren bei Nacht.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"//www.noctioptic.com/cdn/shop/files/1140_n55.webp?v=1763636090&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Julienne R.</p>\n            <div class=\"prose\">\n              <p>Ich hatte nachts oft Migräne wegen der Scheinwerfer. Seit ich diese Brille benutze, keine Kopfschmerzen mehr und eine deutlich angenehmere Sicht.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/duch2.png?v=1769189339&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Céline B.</p>\n            <div class=\"prose\">\n              <p>Die polarisierten Gläser sind fantastisch zur Reduzierung von Blendung – egal ob beim Autofahren oder beim Angeln auf dem Wasser. Alles wirkt klarer und deutlich komfortabler.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"//www.noctioptic.com/cdn/shop/files/Design_sans_titre_58.png?v=1763636090&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Isabelle R.</p>\n            <div class=\"prose\">\n              <p>Ich hatte immer Angst, nachts zu fahren wegen der starken Scheinwerfer. Mit dieser Brille ist meine Sicht stabiler und die Angst ist verschwunden. Ich fühle mich endlich sicher.</p>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"multi-column__item justify-center snap-start\" style=\"--multi-column-item-column-count: span 4\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/duch3.png?v=1769189676&amp;width=400\" alt=\"\" class=\"rounded\">\n          <div class=\"v-stack gap-4 text-center\">\n            <p class=\"h4\">Olivier D.</p>\n            <div class=\"prose\">\n              <p>Bestellung gut erhalten und perfekt verpackt. Qualität stimmt, nichts zu beanstanden. Sehr zufrieden, klare Empfehlung.</p>\n            </div>\n          </div>\n        </div>\n\n      </div>\n    </div>\n  </div>\n</section><br>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_CtQXNF": {
       "type": "featured-product",
       "blocks": {
@@ -159,12 +422,14 @@
         "input_text_color": ""
       }
     },
-    "1765010079eb23d7c7": {
-      "type": "apps",
+    "custom_liquid_cQqpCw": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<section id=\"shopify-section-template--27717884674378__faq\" class=\"shopify-section shopify-section--faq\">\n<style>\n  #shopify-section-template--27717884674378__faq {\n    --section-background-hash: 0;\n  }\n\n  #shopify-section-template--27717884674378__faq + * {\n    --previous-section-background-hash: 0;\n  }\n  \n  #shopify-section-template--27717884674378__faq {\n    --section-stack-intro: 50%;\n    --section-stack-main: 50%;\n  }\n  \n  .faq-availability {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n  \n  .faq-availability img {\n    display: block;\n    margin: 0 auto;\n  }\n</style>\n\n<div class=\"section section-blends section-full\">\n  <div class=\"section-stack section-stack--horizontal\">\n    <div class=\"section-stack__intro\">\n      <div class=\"v-stack gap-10\">\n        <div class=\"hidden lg:block\">\n          <div class=\"faq-availability\">\n            <div class=\"v-stack gap-4\">\n              <img src=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/Breite.png?v=1769191547&amp;width=400\" alt=\"Kompatibel mit allen Brillentypen\" srcset=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/Breite.png?v=1769191547&amp;width=350 350w, https://cdn.shopify.com/s/files/1/0966/8490/0734/files/Breite.png?v=1769191547&amp;width=400 400w\" width=\"400\" height=\"400\" loading=\"lazy\" style=\"max-width: 350px; margin: 0 auto;\" sizes=\"350px\">\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    \n    <div class=\"section-stack__main\">\n      <div class=\"accordion-box rounded bg-secondary\">\n        \n        <details class=\"accordion group\" aria-expanded=\"false\" is=\"accordion-disclosure\" style=\"overflow: visible; height: auto;\">\n          <summary>\n            <div class=\"accordion__toggle bold\">\n              <span>Größe & Kompatibilität</span>\n              <span class=\"circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate\">\n                <svg role=\"presentation\" focusable=\"false\" width=\"8\" height=\"6\" class=\"icon icon-chevron-bottom-small\" viewBox=\"0 0 8 6\">\n                  <path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"></path>\n                </svg>\n              </span>\n            </div>\n          </summary>\n          <div class=\"accordion__content\" style=\"opacity: 0; transform: translateY(-4px);\">\n            <div class=\"prose\">\n              <p>Die Nachtblick™ sind für <strong>alle Gesichtsformen</strong> konzipiert und bieten sofortigen Komfort.<br>Dank ihres umschließenden Designs können sie <strong>über Ihre Korrektionsbrille</strong> getragen werden, ohne zu stören.<br>Perfekt für alle Fahrer, mit oder ohne Sehkorrektur.<br></p>\n            </div>\n          </div>\n        </details>\n        \n        <details class=\"accordion group\" aria-expanded=\"false\" is=\"accordion-disclosure\">\n          <summary>\n            <div class=\"accordion__toggle bold\">\n              <span>Produktdetails</span>\n              <span class=\"circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate\">\n                <svg role=\"presentation\" focusable=\"false\" width=\"8\" height=\"6\" class=\"icon icon-chevron-bottom-small\" viewBox=\"0 0 8 6\">\n                  <path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"></path>\n                </svg>\n              </span>\n            </div>\n          </summary>\n          <div class=\"accordion__content\">\n            <div class=\"prose\">\n              <p>Hochpräzise Blendschutzgläser, die aggressive Scheinwerfer sofort filtern<br><br>Optimierter Kontrast, um Details der Straße früher und deutlicher wahrzunehmen<br><br>Ultraleichtes und ergonomisches Gestell, ideal für lange Fahrten<br><br>Garantierte Wirksamkeit bei Regen, Nebel und intensiven Lichtern<br><br>Sofortige Reduzierung der Augenermüdung für eine entspanntere Fahrt<br><br>Fortschrittliche Nachtblick™-Technologie, entwickelt, um Ihre nächtlichen Fahrten in ein sichereres und komfortableres Erlebnis zu verwandeln<br><br></p>\n            </div>\n          </div>\n        </details>\n        \n        <details class=\"accordion group\" aria-expanded=\"false\" is=\"accordion-disclosure\">\n          <summary>\n            <div class=\"accordion__toggle bold\">\n              <span>Express-Lieferung mit Sendungsverfolgung</span>\n              <span class=\"circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate\">\n                <svg role=\"presentation\" focusable=\"false\" width=\"8\" height=\"6\" class=\"icon icon-chevron-bottom-small\" viewBox=\"0 0 8 6\">\n                  <path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"></path>\n                </svg>\n              </span>\n            </div>\n          </summary>\n          <div class=\"accordion__content\">\n            <div class=\"prose\">\n              <p>Versand innerhalb von 2-3 Werktagen<br>Verfolgte Lieferung <strong>kostenlos</strong><br>Eine Tracking-E-Mail wird gesendet, sobald der Spediteur das Paket übernimmt.<br>Sie werden <strong>bei jedem Schritt</strong> bis zu Ihrer Haustür informiert.<br><br></p>\n            </div>\n          </div>\n        </details>\n        \n        <details class=\"accordion group\" aria-expanded=\"false\" is=\"accordion-disclosure\">\n          <summary>\n            <div class=\"accordion__toggle bold\">\n              <span>30 Tage Zufriedenheitsgarantie</span>\n              <span class=\"circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate\">\n                <svg role=\"presentation\" focusable=\"false\" width=\"8\" height=\"6\" class=\"icon icon-chevron-bottom-small\" viewBox=\"0 0 8 6\">\n                  <path d=\"m1 1.5 3 3 3-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"></path>\n                </svg>\n              </span>\n            </div>\n          </summary>\n          <div class=\"accordion__content\">\n            <div class=\"prose\">\n              <p>Testen Sie Nachtblick™ in aller Ruhe.<br>Wenn Sie keine deutliche Verbesserung Ihres nächtlichen Fahrkomforts spüren, erhalten Sie innerhalb von 30 Tagen eine <strong>vollständige Rückerstattung</strong>.<br>Kein Risiko, nur Sicherheit am Steuer.<br><br></p>\n            </div>\n          </div>\n        </details>\n        \n      </div>\n    </div>\n    \n    <div class=\"lg:hidden\">\n      <div class=\"faq-availability\">\n        <div class=\"v-stack gap-4\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/Breite.png?v=1769191547&amp;width=400\" alt=\"Kompatibel mit allen Brillentypen\" srcset=\"https://cdn.shopify.com/s/files/1/0966/8490/0734/files/Breite.png?v=1769191547&amp;width=350 350w, https://cdn.shopify.com/s/files/1/0966/8490/0734/files/Breite.png?v=1769191547&amp;width=400 400w\" width=\"400\" height=\"400\" loading=\"lazy\" style=\"max-width: 350px; margin: 0 auto;\" sizes=\"350px\">\n        </div>\n      </div>\n    </div>\n    \n  </div>\n</div>\n\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"Größe & Kompatibilität\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Die Nachtblick™ sind für alle Gesichtsformen konzipiert und bieten sofortigen Komfort. Dank ihres umschließenden Designs können sie über Ihre Korrektionsbrille getragen werden, ohne zu stören. Perfekt für alle Fahrer, mit oder ohne Sehkorrektur.\"\n    }\n  },\n  {\n    \"@type\": \"Question\",\n    \"name\": \"Produktdetails\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Hochpräzise Blendschutzgläser, die aggressive Scheinwerfer sofort filtern. Optimierter Kontrast, um Details der Straße früher und deutlicher wahrzunehmen. Ultraleichtes und ergonomisches Gestell, ideal für lange Fahrten. Garantierte Wirksamkeit bei Regen, Nebel und intensiven Lichtern. Sofortige Reduzierung der Augenermüdung für eine entspanntere Fahrt. Fortschrittliche Nachtblick™-Technologie, entwickelt, um Ihre nächtlichen Fahrten in ein sichereres und komfortableres Erlebnis zu verwandeln.\"\n    }\n  },\n  {\n    \"@type\": \"Question\",\n    \"name\": \"Express-Lieferung mit Sendungsverfolgung\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Versand innerhalb von 2-3 Werktagen. Verfolgte Lieferung kostenlos. Eine Tracking-E-Mail wird gesendet, sobald der Spediteur das Paket übernimmt. Sie werden bei jedem Schritt bis zu Ihrer Haustür informiert.\"\n    }\n  },\n  {\n    \"@type\": \"Question\",\n    \"name\": \"30 Tage Zufriedenheitsgarantie\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Testen Sie Nachtblick™ in aller Ruhe. Wenn Sie keine deutliche Verbesserung Ihres nächtlichen Fahrkomforts spüren, erhalten Sie innerhalb von 30 Tagen eine vollständige Rückerstattung. Kein Risiko, nur Sicherheit am Steuer.\"\n    }\n  }]\n}\n</script>\n\n</section>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -173,7 +438,15 @@
   },
   "order": [
     "slideshow_9amCQ4",
+    "rich_text_Karb3X",
+    "slideshow_wQqzwa",
+    "rich_text_kdFc4p",
+    "slideshow_bqcED3",
+    "rich_text_j7hTyM",
+    "slideshow_NVAiMy",
+    "slideshow_EGYiJP",
+    "custom_liquid_6GN8kr",
     "featured_product_CtQXNF",
-    "1765010079eb23d7c7"
+    "custom_liquid_cQqpCw"
   ]
 }
