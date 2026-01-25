@@ -15,8 +15,7 @@
         "image_V34rzc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Firefly_Gemini_Flash_Recreate_the_exact_same_image_with_identical_composition_colors_lighting_camera_an_454914_1.png",
-            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Recreate_the_exact_same_image_with_identical_composition_colors_lighting_camera_an_454914_1_0f2a6dee-96e6-4d6d-81a3-fee81a8aae89.png",
+            "mobile_image": "shopify://shop_images/Capture_d_ecran_2026-01-25_210535.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -84,8 +83,6 @@
         "image_dFUHCx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Firefly_Gemini_Flash_Remplace_les_pars_les_bon_logo_et_traduit_en_allemand_Titre_-_Bekannt_aus__ARD_ZDF_Bi_454914_bb96c25c-e6f8-4577-add4-2ee81120383e.png",
-            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Remplace_les_pars_les_bon_logo_et_traduit_en_allemand_Titre_-_Bekannt_aus__ARD_ZDF_Bi_454914.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -153,8 +150,6 @@
         "image_g6B64J": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Firefly_Gemini_Flash_Traduit_correctement_en_allemand_et_change_NoctiOptic_par_Nachtblick_454914_81c306db-33d8-45b0-89a5-7ad9d4ecbf07.png",
-            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Traduit_correctement_en_allemand_et_change_NoctiOptic_par_Nachtblick_454914_81c306db-33d8-45b0-89a5-7ad9d4ecbf07.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -222,8 +217,6 @@
         "image_kABM3m": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/e08.webp",
-            "mobile_image": "shopify://shop_images/e08.webp",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -265,8 +258,6 @@
         "image_P7rKYB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/nachher.png",
-            "mobile_image": "shopify://shop_images/nachher.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
