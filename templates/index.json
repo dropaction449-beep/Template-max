@@ -58,7 +58,7 @@
         "heading_me3qgb": {
           "type": "heading",
           "settings": {
-            "text": "Bekannt aus",
+            "text": "VUE SUR",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -84,6 +84,8 @@
         "image_dFUHCx": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Firefly_Gemini_Flash_Cree_une_banniere_horizontale_minimaliste_avec_fond_blanc_pur.__Au_centre_en_haut_ec_350441.png",
+            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_Cree_une_banniere_horizontale_minimaliste_avec_fond_blanc_pur.__Au_centre_en_haut_ec_350441.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
