@@ -59,7 +59,7 @@
           "type": "heading",
           "settings": {
             "text": "VUE SUR",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -127,8 +127,8 @@
         "heading_AFcd3q": {
           "type": "heading",
           "settings": {
-            "text": "Warum die Nachtblick-Autofahrerbrille wählen?",
-            "heading_tag": "h2",
+            "text": "Pourquoi choisir notre solution ?",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -153,6 +153,8 @@
         "image_g6B64J": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Firefly_Gemini_Flash_retire_50px_40px_35px_350441.png",
+            "mobile_image": "shopify://shop_images/Firefly_Gemini_Flash_retire_50px_40px_35px_350441.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -186,6 +188,19 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
+      }
+    },
+    "custom_liquid_EPxnHT": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div id=\"shopify-section-comment-ca-fonctionne\" class=\"shopify-section\">\n  <section class=\"how-it-works-section\" style=\"background: linear-gradient(180deg, #F0FAFB 0%, #FFFFFF 100%);\">\n    <div class=\"how-it-works-section__inner page-width\">\n\n      <!-- ═══════════════════════════════\n           COMMENT ÇA FONCTIONNE\n           ═══════════════════════════════ -->\n      <div class=\"how-it-works\">\n        <!-- Titre -->\n        <p class=\"how-it-works__kicker\">Technologie infrarouge brevetée</p>\n        <h2 class=\"how-it-works__title\">Comment Moisissure-CLEAN agit sur le mur ?</h2>\n\n        <!-- GIF + Bulles explicatives -->\n        <div class=\"how-it-works__content\">\n          \n          <!-- GIF central -->\n          <div class=\"how-it-works__gif-wrapper\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/schimmel-dry-funktion_1.gif?v=1769382787\" alt=\"Fonctionnement\" class=\"how-it-works__gif\">\n            \n            <!-- Bulle 1 - Haut gauche -->\n            <div class=\"bubble bubble-1\">\n              <div class=\"bubble-number\">1</div>\n              <p class=\"bubble-text\">Le panneau émet des <strong>ondes infrarouges</strong> qui pénètrent le mur</p>\n            </div>\n\n            <!-- Bulle 2 - Milieu droite -->\n            <div class=\"bubble bubble-2\">\n              <div class=\"bubble-number\">2</div>\n              <p class=\"bubble-text\">L'humidité <strong>s'évapore en profondeur</strong> de l'intérieur vers l'extérieur</p>\n            </div>\n\n            <!-- Bulle 3 - Bas gauche -->\n            <div class=\"bubble bubble-3\">\n              <div class=\"bubble-number\">3</div>\n              <p class=\"bubble-text\">Le mur reste <strong>sec en permanence</strong> et la moisissure disparaît</p>\n            </div>\n          </div>\n\n        </div>\n      </div>\n\n    </div>\n  </section>\n</div>\n\n<style>\n/* ═══════════════════════════════\n   COMMENT ÇA FONCTIONNE - STYLES\n   ═══════════════════════════════ */\n.how-it-works-section {\n  padding: 64px 20px;\n}\n\n@media (max-width: 749px) {\n  .how-it-works-section {\n    padding: 56px 16px;\n  }\n}\n\n.how-it-works-section__inner {\n  max-width: 1600px;\n  margin: 0 auto;\n}\n\n.how-it-works {\n  margin-bottom: 0;\n}\n\n.how-it-works__kicker {\n  font-size: 16px;\n  color: #00A4C1;\n  font-weight: 600;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  text-align: center;\n  margin: 0 0 12px;\n}\n\n.how-it-works__title {\n  font-size: 36px;\n  font-weight: 700;\n  color: #1A1A1A;\n  text-align: center;\n  line-height: 1.3;\n  margin: 0 0 50px;\n}\n\n@media (max-width: 749px) {\n  .how-it-works__kicker {\n    font-size: 14px;\n  }\n  \n  .how-it-works__title {\n    font-size: 24px;\n    margin-bottom: 35px;\n  }\n}\n\n/* GIF avec bulles positionnées */\n.how-it-works__gif-wrapper {\n  position: relative;\n  max-width: 700px;\n  margin: 0 auto;\n}\n\n.how-it-works__gif {\n  width: 100%;\n  height: auto;\n  border-radius: 20px;\n  box-shadow: 0 8px 30px rgba(0, 164, 193, 0.15);\n  display: block;\n}\n\n@media (max-width: 749px) {\n  .how-it-works__gif-wrapper {\n    max-width: 100%;\n  }\n  \n  .how-it-works__gif {\n    border-radius: 15px;\n  }\n}\n\n/* ═══════════════════════════════\n   BULLES EXPLICATIVES\n   ═══════════════════════════════ */\n.bubble {\n  position: absolute;\n  background: #FFFFFF;\n  border: 2px solid #00A4C1;\n  border-radius: 15px;\n  padding: 15px 20px;\n  box-shadow: 0 4px 15px rgba(0, 164, 193, 0.2);\n  display: flex;\n  align-items: flex-start;\n  gap: 12px;\n  max-width: 280px;\n  z-index: 10;\n}\n\n.bubble-number {\n  flex-shrink: 0;\n  width: 35px;\n  height: 35px;\n  background: linear-gradient(135deg, #00A4C1 0%, #4DD0E1 100%);\n  color: #FFFFFF;\n  font-size: 18px;\n  font-weight: 700;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.bubble-text {\n  font-size: 14px;\n  color: #333;\n  line-height: 1.5;\n  margin: 0;\n  padding-top: 5px;\n}\n\n.bubble-text strong {\n  color: #00A4C1;\n  font-weight: 700;\n}\n\n/* Positions des bulles sur DESKTOP */\n.bubble-1 {\n  top: 5%;\n  left: -15%;\n}\n\n.bubble-2 {\n  top: 40%;\n  right: -18%;\n}\n\n.bubble-3 {\n  bottom: 10%;\n  left: -15%;\n}\n\n/* Positions des bulles sur MOBILE */\n@media (max-width: 989px) {\n  .bubble {\n    position: static;\n    max-width: 100%;\n    margin-bottom: 15px;\n  }\n  \n  /* Empiler les bulles sous le GIF */\n  .how-it-works__content {\n    display: flex;\n    flex-direction: column;\n    gap: 15px;\n  }\n  \n  .bubble-number {\n    width: 32px;\n    height: 32px;\n    font-size: 16px;\n  }\n  \n  .bubble-text {\n    font-size: 13px;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "rich_text_j7hTyM": {
@@ -309,6 +324,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_HtFiGY": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_4izTCq\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <div class=\"eu-compliance\">\n      <div class=\"eu-flag\">\n        <svg width=\"40\" height=\"28\" viewBox=\"0 0 810 540\">\n          <rect width=\"810\" height=\"540\" fill=\"#003399\"></rect>\n          <g fill=\"#FFCC00\">\n            <polygon points=\"405,90 417,126 456,126 423,147 435,183 405,162 375,183 387,147 354,126 393,126\"></polygon>\n            <polygon transform=\"rotate(30 405 270)\" points=\"405,90 417,126 456,126 423,147 435,183 405,162 375,183 387,147 354,126 393,126\"></polygon>\n            <polygon transform=\"rotate(60 405 270)\" points=\"405,90 417,126 456,126 423,147 435,183 405,162 375,183 387,147 354,126 393,126\"></polygon>\n            <polygon transform=\"rotate(90 405 270)\" points=\"405,90 417,126 456,126 423,147 435,183 405,162 375,183 387,147 354,126 393,126\"></polygon>\n            <polygon transform=\"rotate(120 405 270)\" points=\"405,90 417,126 456,126 423,147 435,183 405,162 375,183 387,147 354,126 393,126\"></polygon>\n            <polygon transform=\"rotate(150 405 270)\" points=\"405,90 417,126 456,126 423,147 435,183 405,162 375,183 387,147 354,126 393,126\"></polygon>\n            <polygon transform=\"rotate(180 405 270)\" points=\"405,90 417,126 456,126 423,147 435,183 405,162 375,183 387,147 354,126 393,126\"></polygon>\n            <polygon transform=\"rotate(210 405 270)\" points=\"405,90 417,126 456,126 423,147 435,183 405,162 375,183 387,147 354,126 393,126\"></polygon>\n            <polygon transform=\"rotate(240 405 270)\" points=\"405,90 417,126 456,126 423,147 435,183 405,162 375,183 387,147 354,126 393,126\"></polygon>\n            <polygon transform=\"rotate(270 405 270)\" points=\"405,90 417,126 456,126 423,147 435,183 405,162 375,183 387,147 354,126 393,126\"></polygon>\n            <polygon transform=\"rotate(300 405 270)\" points=\"405,90 417,126 456,126 423,147 435,183 405,162 375,183 387,147 354,126 393,126\"></polygon>\n            <polygon transform=\"rotate(330 405 270)\" points=\"405,90 417,126 456,126 423,147 435,183 405,162 375,183 387,147 354,126 393,126\"></polygon>\n          </g>\n        </svg>\n      </div>\n      <div class=\"eu-text\">\n        <div class=\"eu-title\">Conformité Européenne</div>\n        <div class=\"eu-sub\">\n          Moisissure-CLEAN est conforme aux normes de qualité et de sécurité de l'Union Européenne pour les appareils électriques domestiques. Certifié pour une utilisation en toute sécurité dans tous les foyers européens.\n        </div>\n      </div>\n    </div>\n    <style>\n      .eu-compliance {\n        display: flex;\n        align-items: center;\n        background: #ffffff;\n        color: #000000;\n        border-radius: 12px;\n        border: 1px solid #e5e5e5;\n        padding: 12px 14px;\n        max-width: 650px;\n        margin: 0 auto;\n      }\n      .eu-flag {\n        margin-right: 12px;\n      }\n      .eu-title {\n        font-size: 15px;\n        font-weight: 700;\n        margin-bottom: 2px;\n      }\n      .eu-sub {\n        font-size: 12px;\n        line-height: 1.4;\n      }\n    </style>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_CtQXNF": {
       "type": "featured-product",
       "blocks": {
@@ -400,7 +428,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "nachtblick™-die-brille-die-ihre-nacht-erhellt",
+        "product": "moisisure",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -436,10 +464,12 @@
     "slideshow_wQqzwa",
     "rich_text_kdFc4p",
     "slideshow_bqcED3",
+    "custom_liquid_EPxnHT",
     "rich_text_j7hTyM",
     "slideshow_NVAiMy",
     "slideshow_EGYiJP",
     "custom_liquid_6GN8kr",
+    "custom_liquid_HtFiGY",
     "featured_product_CtQXNF",
     "custom_liquid_cQqpCw"
   ]
