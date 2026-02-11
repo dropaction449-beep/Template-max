@@ -316,12 +316,6 @@
             "manual_deal_block_id": ""
           }
         },
-        "liquid_d6GQPJ": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!-- ACCESSOIRES UPSELL -->\n<div style=\"font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;padding:0 0 12px;\">\n  <div style=\"border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;background:#fff;\">\n    <div style=\"font-size:13px;font-weight:800;color:#0f172a;text-align:center;margin-bottom:10px;\">🔌 Accessoires souvent ajoutés</div>\n    <div style=\"display:flex;flex-direction:column;gap:8px;\">\n\n      <a href=\"/cart/add?id=VARIANT_ID_CABLE200&quantity=1\" style=\"display:flex;align-items:center;gap:10px;padding:10px;background:#f1f5f9;border-radius:10px;text-decoration:none;transition:background 0.15s;\">\n        <span style=\"width:34px;height:34px;background:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:15px;border:1px solid #e2e8f0;\">📏</span>\n        <div style=\"flex:1;\">\n          <div style=\"font-weight:700;color:#0f172a;font-size:12px;\">Câble extension 200 cm</div>\n          <div style=\"color:#64748b;font-size:11px;\">Idéal si prise éloignée du mur</div>\n        </div>\n        <span style=\"padding:5px 10px;border:1px solid #e2e8f0;border-radius:6px;background:#fff;color:#0891b2;font-size:11px;font-weight:700;\">+ 12,90 €</span>\n      </a>\n\n      <a href=\"/cart/add?id=VARIANT_ID_TIMER&quantity=1\" style=\"display:flex;align-items:center;gap:10px;padding:10px;background:#f1f5f9;border-radius:10px;text-decoration:none;transition:background 0.15s;\">\n        <span style=\"width:34px;height:34px;background:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:15px;border:1px solid #e2e8f0;\">⏱️</span>\n        <div style=\"flex:1;\">\n          <div style=\"font-weight:700;color:#0f172a;font-size:12px;\">Minuterie programmable</div>\n          <div style=\"color:#64748b;font-size:11px;\">Réduisez la consommation une fois le mur sec</div>\n        </div>\n        <span style=\"padding:5px 10px;border:1px solid #e2e8f0;border-radius:6px;background:#fff;color:#0891b2;font-size:11px;font-weight:700;\">+ 9,80 €</span>\n      </a>\n\n      <a href=\"/cart/add?id=VARIANT_ID_CABLE95&quantity=1\" style=\"display:flex;align-items:center;gap:10px;padding:10px;background:#f1f5f9;border-radius:10px;text-decoration:none;transition:background 0.15s;\">\n        <span style=\"width:34px;height:34px;background:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:15px;border:1px solid #e2e8f0;\">🔗</span>\n        <div style=\"flex:1;\">\n          <div style=\"font-weight:700;color:#0f172a;font-size:12px;\">Câble connexion 95 cm</div>\n          <div style=\"color:#64748b;font-size:11px;\">Reliez 2 panneaux entre eux</div>\n        </div>\n        <span style=\"padding:5px 10px;border:1px solid #e2e8f0;border-radius:6px;background:#fff;color:#0891b2;font-size:11px;font-weight:700;\">+ 9,90 €</span>\n      </a>\n\n    </div>\n  </div>\n</div>"
-          }
-        },
         "buy_buttons_Lkkhrt": {
           "type": "buy_buttons",
           "settings": {
@@ -373,7 +367,6 @@
         "liquid_i7W7wN",
         "liquid_DdL3Bq",
         "kaching_bundles_app_block_fD96Ex",
-        "liquid_d6GQPJ",
         "buy_buttons_Lkkhrt",
         "liquid_zXCG7Y",
         "liquid_qpr4fb",
