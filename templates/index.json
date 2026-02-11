@@ -52,6 +52,19 @@
         "background_gradient": ""
       }
     },
+    "custom_liquid_DqRYHN": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_fXwBUp\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <div class=\"tm-wrap\" role=\"note\" aria-label=\"Marque déposée\">\n      <div class=\"tm-rule\" aria-hidden=\"true\"></div>\n      <p class=\"tm-text\">\n        <span class=\"tm-badge\">®</span>\n        <span class=\"tm-brand\">Moisissure-CLEAN</span>\n        <span class=\"tm-msg\">Marque déposée en France — Tous droits réservés.</span>\n      </p>\n    </div>\n    <style>\n      .tm-wrap{\n        margin-top: 12px;\n        padding: 10px 12px;\n        border-radius: 14px;\n        background: rgba(0,0,0,0.03);\n        border: 1px solid rgba(0,0,0,0.06);\n        text-align: center;\n        font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Inter, Roboto, Arial, sans-serif;\n      }\n      .tm-rule{\n        width: 44px;\n        height: 1px;\n        margin: 0 auto 8px;\n        background: linear-gradient(to right, transparent, rgba(0,0,0,0.25), transparent);\n      }\n      .tm-text{\n        margin: 0;\n        line-height: 1.35;\n        letter-spacing: .15px;\n        color: rgba(0,0,0,0.72);\n        font-size: 12px; /* desktop */\n      }\n      .tm-badge{\n        display: inline-flex;\n        align-items: center;\n        justify-content: center;\n        width: 18px;\n        height: 18px;\n        border-radius: 999px;\n        background: rgba(0,0,0,0.08);\n        color: rgba(0,0,0,0.8);\n        font-size: 11px;\n        font-weight: 700;\n        margin-right: 6px;\n        transform: translateY(-1px);\n      }\n      .tm-brand{\n        font-weight: 700;\n        color: rgba(0,0,0,0.9);\n      }\n      .tm-msg{\n        margin-left: 6px;\n        font-weight: 500;\n      }\n      /* ✅ Optimisation mobile */\n      @media (max-width: 480px){\n        .tm-wrap{\n          margin-top: 10px;\n          padding: 9px 10px;\n          border-radius: 12px;\n        }\n        .tm-text{\n          font-size: 11px;\n          line-height: 1.4;\n        }\n        .tm-rule{\n          margin-bottom: 7px;\n          width: 40px;\n        }\n      }\n    </style>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_Karb3X": {
       "type": "rich-text",
       "blocks": {
@@ -188,19 +201,6 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
-      }
-    },
-    "custom_liquid_DqRYHN": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_fXwBUp\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <div class=\"tm-wrap\" role=\"note\" aria-label=\"Marque déposée\">\n      <div class=\"tm-rule\" aria-hidden=\"true\"></div>\n      <p class=\"tm-text\">\n        <span class=\"tm-badge\">®</span>\n        <span class=\"tm-brand\">Moisissure-CLEAN</span>\n        <span class=\"tm-msg\">Marque déposée en France — Tous droits réservés.</span>\n      </p>\n    </div>\n    <style>\n      .tm-wrap{\n        margin-top: 12px;\n        padding: 10px 12px;\n        border-radius: 14px;\n        background: rgba(0,0,0,0.03);\n        border: 1px solid rgba(0,0,0,0.06);\n        text-align: center;\n        font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Inter, Roboto, Arial, sans-serif;\n      }\n      .tm-rule{\n        width: 44px;\n        height: 1px;\n        margin: 0 auto 8px;\n        background: linear-gradient(to right, transparent, rgba(0,0,0,0.25), transparent);\n      }\n      .tm-text{\n        margin: 0;\n        line-height: 1.35;\n        letter-spacing: .15px;\n        color: rgba(0,0,0,0.72);\n        font-size: 12px; /* desktop */\n      }\n      .tm-badge{\n        display: inline-flex;\n        align-items: center;\n        justify-content: center;\n        width: 18px;\n        height: 18px;\n        border-radius: 999px;\n        background: rgba(0,0,0,0.08);\n        color: rgba(0,0,0,0.8);\n        font-size: 11px;\n        font-weight: 700;\n        margin-right: 6px;\n        transform: translateY(-1px);\n      }\n      .tm-brand{\n        font-weight: 700;\n        color: rgba(0,0,0,0.9);\n      }\n      .tm-msg{\n        margin-left: 6px;\n        font-weight: 500;\n      }\n      /* ✅ Optimisation mobile */\n      @media (max-width: 480px){\n        .tm-wrap{\n          margin-top: 10px;\n          padding: 9px 10px;\n          border-radius: 12px;\n        }\n        .tm-text{\n          font-size: 11px;\n          line-height: 1.4;\n        }\n        .tm-rule{\n          margin-bottom: 7px;\n          width: 40px;\n        }\n      }\n    </style>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "custom_liquid_EPxnHT": {
@@ -414,11 +414,11 @@
   },
   "order": [
     "slideshow_9amCQ4",
+    "custom_liquid_DqRYHN",
     "rich_text_Karb3X",
     "slideshow_wQqzwa",
     "rich_text_kdFc4p",
     "slideshow_bqcED3",
-    "custom_liquid_DqRYHN",
     "custom_liquid_EPxnHT",
     "custom_liquid_Ua6eYJ",
     "rich_text_j7hTyM",
