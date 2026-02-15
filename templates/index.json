@@ -65,6 +65,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_3RLnTt": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<section class=\"ds-section\">\n  <div class=\"ds-inner page-width\">\n    <p class=\"ds-title\">⚠️ La moisissure que vous voyez libère des <strong>spores invisibles</strong> que vous respirez chaque nuit.</p>\n    <div class=\"ds-stats\">\n      <div class=\"ds-stat\"><strong>93%</strong><span>sinusites chroniques</span></div>\n      <div class=\"ds-stat\"><strong>×2,5</strong><span>risque asthme enfants</span></div>\n      <div class=\"ds-stat\"><strong>24h/24</strong><span>exposition continue</span></div>\n    </div>\n  </div>\n</section>\n\n<style>\n.ds-section{padding:16px;background:#FEF2F2;border-top:2px solid #DC2626}\n.ds-inner{max-width:600px;margin:0 auto;text-align:center}\n.ds-title{font-size:14px;color:#333;line-height:1.5;margin:0 0 14px}\n.ds-title strong{color:#DC2626;font-weight:700}\n.ds-stats{display:flex;gap:8px}\n.ds-stat{flex:1;background:#FFF;border:1px solid #FECACA;border-radius:10px;padding:10px 6px;text-align:center}\n.ds-stat strong{display:block;font-size:20px;color:#DC2626;font-weight:800;margin-bottom:2px}\n.ds-stat span{font-size:11px;color:#666;line-height:1.3;display:block}\n@media(min-width:750px){\n  .ds-section{padding:24px 20px}\n  .ds-title{font-size:16px}\n  .ds-stat strong{font-size:26px}\n  .ds-stat span{font-size:12px}\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_Karb3X": {
       "type": "rich-text",
       "blocks": {
@@ -584,6 +597,7 @@
   "order": [
     "slideshow_9amCQ4",
     "custom_liquid_wDwKRX",
+    "custom_liquid_3RLnTt",
     "rich_text_Karb3X",
     "slideshow_wQqzwa",
     "rich_text_VePYNK",
