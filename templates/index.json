@@ -150,6 +150,7 @@
       "block_order": [
         "heading_T8TQmQ"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -160,49 +161,6 @@
         "text_color": ""
       }
     },
-    "slideshow_VdkwcL": {
-      "type": "slideshow",
-      "blocks": {
-        "image_taJTGy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/hf_20260215_003421_77d60829-f029-4302-b476-0297a8ca5bf2.png",
-            "mobile_image": "shopify://shop_images/hf_20260215_003421_77d60829-f029-4302-b476-0297a8ca5bf2.png",
-            "content_max_width": 1200,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h2",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#6659ff",
-            "button_background": "#85c6b1",
-            "button_text_color": "#1a1a1a",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_taJTGy"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "show_initial_transition": false,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
     "custom_liquid_WkFh9N": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -210,7 +168,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "liquid": "<section class=\"vp-section\">\n  <div class=\"vp-inner page-width\">\n    <p class=\"vp-kicker\">Ce que personne ne vous dit</p>\n    <h2 class=\"vp-title\">Le problème n'est pas la moisissure.<br>C'est l'humidité <span style=\"color:#DC2626;text-decoration:underline\">DANS</span> le mur.</h2>\n    <div class=\"vp-cards\">\n      <div class=\"vp-card\">\n        <span class=\"vp-emoji\">👁️</span>\n        <div><strong>Ce que vous voyez</strong><br>Des taches noires. Vous nettoyez, ça revient en 2-4 semaines.</div>\n      </div>\n      <div class=\"vp-card vp-card-orange\">\n        <span class=\"vp-emoji\">🔍</span>\n        <div><strong>Ce que vous ne voyez pas</strong><br>L'humidité est <strong>dans le mur</strong>. Les spores se régénèrent en permanence.</div>\n      </div>\n      <div class=\"vp-card vp-card-green\">\n        <span class=\"vp-emoji\">✅</span>\n        <div><strong>La solution</strong><br><strong>Sécher le mur de l'intérieur.</strong> C'est ce que fait Moisissure-CLEAN.</div>\n      </div>\n    </div>\n  </div>\n</section>\n\n<style>\n.vp-section{padding:24px 16px;background:#FFF}\n.vp-inner{max-width:600px;margin:0 auto;text-align:center}\n.vp-kicker{font-size:12px;color:#00A4C1;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin:0 0 6px}\n.vp-title{font-size:18px;font-weight:700;color:#1A1A1A;line-height:1.35;margin:0 0 16px}\n.vp-cards{display:flex;flex-direction:column;gap:8px}\n.vp-card{display:flex;align-items:flex-start;gap:10px;text-align:left;background:#F9FAFB;border:1px solid #E5E7EB;border-radius:10px;padding:12px}\n.vp-card-orange{background:#FFF7ED;border-color:#FED7AA}\n.vp-card-green{background:#F0FDF4;border-color:#BBF7D0}\n.vp-emoji{font-size:20px;flex-shrink:0;margin-top:2px}\n.vp-card div{font-size:13px;color:#555;line-height:1.5}\n.vp-card strong{color:#1A1A1A;font-weight:700}\n.vp-card-green strong{color:#16A34A}\n.vp-card-orange strong{color:#00A4C1}\n@media(min-width:750px){\n  .vp-title{font-size:24px}\n  .vp-cards{flex-direction:row}\n  .vp-card{flex:1;flex-direction:column;text-align:center;padding:20px}\n  .vp-emoji{font-size:28px;align-self:center}\n}\n</style>",
+        "liquid": "<div class=\"science-section\">\n  <div class=\"science-container\">\n    <div class=\"science-image\">\n      <!-- REMPLACE LE LIEN CI-DESSOUS PAR LE LIEN DE TON IMAGE COUPE MUR (Page 3 PDF) -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/hf_20260215_003421_77d60829-f029-4302-b476-0297a8ca5bf2.png?v=1771115910\" alt=\"Schéma coupe mur humidité vs infrarouge\">\n    </div>\n    <div class=\"science-text\">\n      <h2 class=\"science-title\">Pourquoi la moisissure revient toujours ? <br><span class=\"highlight\">(Ce qu'on ne vous dit pas)</span></h2>\n      \n      <div class=\"comparison-point\">\n        <h3>❌ Le piège des Sprays & Javel</h3>\n        <p>Ils nettoient uniquement la <strong>surface visible</strong> (le symptôme). Mais l'humidité reste emprisonnée <strong>DANS</strong> la maçonnerie. C'est comme couper une mauvaise herbe sans arracher la racine : elle repousse en 2 semaines.</p>\n      </div>\n\n      <div class=\"comparison-point\">\n        <h3>✅ La Technologie Infrarouge</h3>\n        <p>MoisissureCLEAN ne frotte pas. Il chauffe le mur en profondeur. Les ondes infrarouges pénètrent la brique et font <strong>évaporer l'humidité interne</strong>. <br><br><strong>Résultat scientifique :</strong> Sans eau à l'intérieur du mur, la moisissure ne peut physiquement plus se développer. Problème réglé à la source.</p>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n.science-section {\n  padding: 40px 20px;\n  background-color: #F9FAFB; /* Fond très légèrement gris pour séparer du Hero */\n}\n.science-container {\n  max-width: 1100px;\n  margin: 0 auto;\n  display: flex;\n  flex-direction: column; /* Mobile d'abord */\n  gap: 30px;\n  align-items: center;\n}\n.science-image img {\n  width: 100%;\n  max-width: 500px;\n  border-radius: 12px;\n  box-shadow: 0 4px 12px rgba(0,0,0,0.08);\n}\n.science-text {\n  max-width: 600px;\n}\n.science-title {\n  font-size: 24px;\n  font-weight: 800;\n  color: #111;\n  margin-bottom: 24px;\n  line-height: 1.3;\n}\n.science-title .highlight {\n  color: #d93025; /* Rouge pour l'alerte */\n  font-size: 0.9em;\n}\n.comparison-point {\n  margin-bottom: 20px;\n  background: white;\n  padding: 15px;\n  border-radius: 8px;\n  border-left: 4px solid #ddd;\n}\n.comparison-point:nth-child(2) { border-left-color: #d93025; } /* Rouge pour spray */\n.comparison-point:nth-child(3) { border-left-color: #16A34A; } /* Vert pour solution */\n\n.comparison-point h3 {\n  font-size: 18px;\n  font-weight: 700;\n  margin-bottom: 8px;\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n.comparison-point p {\n  font-size: 15px;\n  color: #444;\n  line-height: 1.6;\n  margin: 0;\n}\n\n/* Version PC */\n@media(min-width: 900px) {\n  .science-container {\n    flex-direction: row; /* Image à gauche, texte à droite */\n    justify-content: space-between;\n  }\n  .science-title { font-size: 32px; }\n  .science-image { flex: 1; }\n  .science-text { flex: 1; }\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -232,6 +190,7 @@
       "block_order": [
         "heading_mJ7gka"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -637,7 +596,6 @@
     "rich_text_Karb3X",
     "slideshow_wQqzwa",
     "rich_text_VePYNK",
-    "slideshow_VdkwcL",
     "custom_liquid_WkFh9N",
     "rich_text_EFJPwp",
     "custom_liquid_CzAhGX",
