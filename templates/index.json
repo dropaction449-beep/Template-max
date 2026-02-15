@@ -52,14 +52,14 @@
         "background_gradient": ""
       }
     },
-    "custom_liquid_DqRYHN": {
+    "custom_liquid_wDwKRX": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_fXwBUp\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <div class=\"tm-wrap\" role=\"note\" aria-label=\"Marque déposée\">\n      <div class=\"tm-rule\" aria-hidden=\"true\"></div>\n      <p class=\"tm-text\">\n        <span class=\"tm-badge\">®</span>\n        <span class=\"tm-brand\">Moisissure-CLEAN</span>\n        <span class=\"tm-msg\">Marque déposée en France — Tous droits réservés.</span>\n      </p>\n    </div>\n    <style>\n      .tm-wrap{\n        margin-top: 12px;\n        padding: 10px 12px;\n        border-radius: 14px;\n        background: rgba(0,0,0,0.03);\n        border: 1px solid rgba(0,0,0,0.06);\n        text-align: center;\n        font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Inter, Roboto, Arial, sans-serif;\n      }\n      .tm-rule{\n        width: 44px;\n        height: 1px;\n        margin: 0 auto 8px;\n        background: linear-gradient(to right, transparent, rgba(0,0,0,0.25), transparent);\n      }\n      .tm-text{\n        margin: 0;\n        line-height: 1.35;\n        letter-spacing: .15px;\n        color: rgba(0,0,0,0.72);\n        font-size: 12px; /* desktop */\n      }\n      .tm-badge{\n        display: inline-flex;\n        align-items: center;\n        justify-content: center;\n        width: 18px;\n        height: 18px;\n        border-radius: 999px;\n        background: rgba(0,0,0,0.08);\n        color: rgba(0,0,0,0.8);\n        font-size: 11px;\n        font-weight: 700;\n        margin-right: 6px;\n        transform: translateY(-1px);\n      }\n      .tm-brand{\n        font-weight: 700;\n        color: rgba(0,0,0,0.9);\n      }\n      .tm-msg{\n        margin-left: 6px;\n        font-weight: 500;\n      }\n      /* ✅ Optimisation mobile */\n      @media (max-width: 480px){\n        .tm-wrap{\n          margin-top: 10px;\n          padding: 9px 10px;\n          border-radius: 12px;\n        }\n        .tm-text{\n          font-size: 11px;\n          line-height: 1.4;\n        }\n        .tm-rule{\n          margin-bottom: 7px;\n          width: 40px;\n        }\n      }\n    </style>\n  </div>\n</div>",
+        "liquid": "<!-- ╔═══════════════════════════════════════════════════════════════╗\n     ║  BLOC 6 — DANGER SANTÉ (COMPACT MOBILE)                      ║\n     ║  📍 APRÈS barre confiance, AVANT \"VUE SUR\"                   ║\n     ╚═══════════════════════════════════════════════════════════════╝ -->\n<section class=\"ds-section\">\n  <div class=\"ds-inner page-width\">\n    <p class=\"ds-title\">⚠️ La moisissure que vous voyez libère des <strong>spores invisibles</strong> que vous respirez chaque nuit.</p>\n    <div class=\"ds-stats\">\n      <div class=\"ds-stat\"><strong>93%</strong><span>sinusites chroniques</span></div>\n      <div class=\"ds-stat\"><strong>×2,5</strong><span>risque asthme enfants</span></div>\n      <div class=\"ds-stat\"><strong>24h/24</strong><span>exposition continue</span></div>\n    </div>\n  </div>\n</section>\n\n<style>\n.ds-section{padding:16px;background:#FEF2F2;border-top:2px solid #DC2626}\n.ds-inner{max-width:600px;margin:0 auto;text-align:center}\n.ds-title{font-size:14px;color:#333;line-height:1.5;margin:0 0 14px}\n.ds-title strong{color:#DC2626;font-weight:700}\n.ds-stats{display:flex;gap:8px}\n.ds-stat{flex:1;background:#FFF;border:1px solid #FECACA;border-radius:10px;padding:10px 6px;text-align:center}\n.ds-stat strong{display:block;font-size:20px;color:#DC2626;font-weight:800;margin-bottom:2px}\n.ds-stat span{font-size:11px;color:#666;line-height:1.3;display:block}\n@media(min-width:750px){\n  .ds-section{padding:24px 20px}\n  .ds-title{font-size:16px}\n  .ds-stat strong{font-size:26px}\n  .ds-stat span{font-size:12px}\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -134,6 +134,127 @@
         "background_gradient": ""
       }
     },
+    "rich_text_VePYNK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_T8TQmQ": {
+          "type": "heading",
+          "settings": {
+            "text": "LE VRAI PROBLÈME",
+            "heading_tag": "h3",
+            "text_color": "#1a1a1a",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_T8TQmQ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_VdkwcL": {
+      "type": "slideshow",
+      "blocks": {
+        "image_taJTGy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260215_003421_77d60829-f029-4302-b476-0297a8ca5bf2.png",
+            "mobile_image": "shopify://shop_images/hf_20260215_003421_77d60829-f029-4302-b476-0297a8ca5bf2.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#6659ff",
+            "button_background": "#85c6b1",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_taJTGy"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "custom_liquid_WkFh9N": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<section class=\"vp-section\">\n  <div class=\"vp-inner page-width\">\n    <p class=\"vp-kicker\">Ce que personne ne vous dit</p>\n    <h2 class=\"vp-title\">Le problème n'est pas la moisissure.<br>C'est l'humidité <span style=\"color:#DC2626;text-decoration:underline\">DANS</span> le mur.</h2>\n    <div class=\"vp-cards\">\n      <div class=\"vp-card\">\n        <span class=\"vp-emoji\">👁️</span>\n        <div><strong>Ce que vous voyez</strong><br>Des taches noires. Vous nettoyez, ça revient en 2-4 semaines.</div>\n      </div>\n      <div class=\"vp-card vp-card-orange\">\n        <span class=\"vp-emoji\">🔍</span>\n        <div><strong>Ce que vous ne voyez pas</strong><br>L'humidité est <strong>dans le mur</strong>. Les spores se régénèrent en permanence.</div>\n      </div>\n      <div class=\"vp-card vp-card-green\">\n        <span class=\"vp-emoji\">✅</span>\n        <div><strong>La solution</strong><br><strong>Sécher le mur de l'intérieur.</strong> C'est ce que fait Moisissure-CLEAN.</div>\n      </div>\n    </div>\n  </div>\n</section>\n\n<style>\n.vp-section{padding:24px 16px;background:#FFF}\n.vp-inner{max-width:600px;margin:0 auto;text-align:center}\n.vp-kicker{font-size:12px;color:#00A4C1;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin:0 0 6px}\n.vp-title{font-size:18px;font-weight:700;color:#1A1A1A;line-height:1.35;margin:0 0 16px}\n.vp-cards{display:flex;flex-direction:column;gap:8px}\n.vp-card{display:flex;align-items:flex-start;gap:10px;text-align:left;background:#F9FAFB;border:1px solid #E5E7EB;border-radius:10px;padding:12px}\n.vp-card-orange{background:#FFF7ED;border-color:#FED7AA}\n.vp-card-green{background:#F0FDF4;border-color:#BBF7D0}\n.vp-emoji{font-size:20px;flex-shrink:0;margin-top:2px}\n.vp-card div{font-size:13px;color:#555;line-height:1.5}\n.vp-card strong{color:#1A1A1A;font-weight:700}\n.vp-card-green strong{color:#16A34A}\n.vp-card-orange strong{color:#00A4C1}\n@media(min-width:750px){\n  .vp-title{font-size:24px}\n  .vp-cards{flex-direction:row}\n  .vp-card{flex:1;flex-direction:column;text-align:center;padding:20px}\n  .vp-emoji{font-size:28px;align-self:center}\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_EFJPwp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mJ7gka": {
+          "type": "heading",
+          "settings": {
+            "text": "SPRAYS VS INFRAROUGE",
+            "heading_tag": "h3",
+            "text_color": "#1a1a1a",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_mJ7gka"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_CzAhGX": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<section class=\"vs-section\">\n  <div class=\"vs-inner page-width\">\n    <h2 class=\"vs-title\">Pourquoi les sprays ne marchent pas</h2>\n\n    <div class=\"vs-cols\">\n      <!-- BAD -->\n      <div class=\"vs-col\">\n        <div class=\"vs-head vs-head-bad\">❌ Sprays & Javel</div>\n        <div class=\"vs-body\">\n          <p>❌ Surface seulement</p>\n          <p>❌ Revient en <strong>2-4 semaines</strong></p>\n          <p>❌ Chimique & toxique</p>\n          <p class=\"vs-cost vs-cost-bad\">💸 <strong>~970€ sur 3 ans</strong></p>\n        </div>\n      </div>\n      <!-- GOOD -->\n      <div class=\"vs-col\">\n        <div class=\"vs-head vs-head-good\">✅ Moisissure-CLEAN</div>\n        <div class=\"vs-body\">\n          <p>✅ Sèche le mur <strong>en profondeur</strong></p>\n          <p>✅ Élimine la <strong>cause</strong></p>\n          <p>✅ Zéro chimique</p>\n          <p class=\"vs-cost vs-cost-good\">💰 <strong>59,90€ une fois</strong></p>\n        </div>\n      </div>\n    </div>\n\n    <p class=\"vs-punchline\">C'est comme tondre sans arracher la racine.<br><strong>Moisissure-CLEAN arrache la racine.</strong></p>\n  </div>\n</section>\n\n<style>\n.vs-section{padding:24px 16px;background:#F9FAFB}\n.vs-inner{max-width:600px;margin:0 auto;text-align:center}\n.vs-title{font-size:18px;font-weight:700;color:#1A1A1A;margin:0 0 14px}\n.vs-cols{display:flex;gap:8px;margin-bottom:14px}\n.vs-col{flex:1;border-radius:10px;overflow:hidden;background:#FFF}\n.vs-col:first-child{border:1.5px solid #FECACA}\n.vs-col:last-child{border:1.5px solid #BBF7D0}\n.vs-head{padding:8px;font-size:12px;font-weight:700;color:#FFF;text-align:center}\n.vs-head-bad{background:#DC2626}\n.vs-head-good{background:#16A34A}\n.vs-body{padding:10px 10px 6px}\n.vs-body p{font-size:12px;color:#444;line-height:1.4;margin:0 0 6px;text-align:left}\n.vs-body strong{font-weight:700}\n.vs-col:first-child .vs-body strong{color:#DC2626}\n.vs-col:last-child .vs-body strong{color:#16A34A}\n.vs-cost{margin-top:6px !important;padding:6px 8px;border-radius:6px;font-size:12px !important}\n.vs-cost-bad{background:#FEF2F2}\n.vs-cost-good{background:#F0FDF4}\n.vs-punchline{font-size:13px;color:#666;line-height:1.5;margin:0}\n.vs-punchline strong{color:#00A4C1}\n@media(min-width:750px){\n  .vs-title{font-size:24px}\n  .vs-cols{gap:16px}\n  .vs-body p{font-size:14px}\n  .vs-head{font-size:14px;padding:12px}\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_kdFc4p": {
       "type": "rich-text",
       "blocks": {
@@ -203,6 +324,75 @@
         "background_gradient": ""
       }
     },
+    "custom_liquid_DqRYHN": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_fXwBUp\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <div class=\"tm-wrap\" role=\"note\" aria-label=\"Marque déposée\">\n      <div class=\"tm-rule\" aria-hidden=\"true\"></div>\n      <p class=\"tm-text\">\n        <span class=\"tm-badge\">®</span>\n        <span class=\"tm-brand\">Moisissure-CLEAN</span>\n        <span class=\"tm-msg\">Marque déposée en France — Tous droits réservés.</span>\n      </p>\n    </div>\n    <style>\n      .tm-wrap{\n        margin-top: 12px;\n        padding: 10px 12px;\n        border-radius: 14px;\n        background: rgba(0,0,0,0.03);\n        border: 1px solid rgba(0,0,0,0.06);\n        text-align: center;\n        font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Inter, Roboto, Arial, sans-serif;\n      }\n      .tm-rule{\n        width: 44px;\n        height: 1px;\n        margin: 0 auto 8px;\n        background: linear-gradient(to right, transparent, rgba(0,0,0,0.25), transparent);\n      }\n      .tm-text{\n        margin: 0;\n        line-height: 1.35;\n        letter-spacing: .15px;\n        color: rgba(0,0,0,0.72);\n        font-size: 12px; /* desktop */\n      }\n      .tm-badge{\n        display: inline-flex;\n        align-items: center;\n        justify-content: center;\n        width: 18px;\n        height: 18px;\n        border-radius: 999px;\n        background: rgba(0,0,0,0.08);\n        color: rgba(0,0,0,0.8);\n        font-size: 11px;\n        font-weight: 700;\n        margin-right: 6px;\n        transform: translateY(-1px);\n      }\n      .tm-brand{\n        font-weight: 700;\n        color: rgba(0,0,0,0.9);\n      }\n      .tm-msg{\n        margin-left: 6px;\n        font-weight: 500;\n      }\n      /* ✅ Optimisation mobile */\n      @media (max-width: 480px){\n        .tm-wrap{\n          margin-top: 10px;\n          padding: 9px 10px;\n          border-radius: 12px;\n        }\n        .tm-text{\n          font-size: 11px;\n          line-height: 1.4;\n        }\n        .tm-rule{\n          margin-bottom: 7px;\n          width: 40px;\n        }\n      }\n    </style>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_c4BT9q": {
+      "type": "slideshow",
+      "blocks": {
+        "image_y3eMqE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260215_003508_8fd3a76c-2f68-4bf5-b5d9-d8212ab0a5e7_1.png",
+            "mobile_image": "shopify://shop_images/hf_20260215_003508_8fd3a76c-2f68-4bf5-b5d9-d8212ab0a5e7_1.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#6659ff",
+            "button_background": "#85c6b1",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_y3eMqE"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "custom_liquid_QGhXnE": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"mec-box\">\n  <p class=\"mec-text\">\n    Les ondes infrarouges pénètrent <strong>jusqu'à 3 cm</strong> dans le mur.\n    L'humidité s'évapore de l'intérieur vers l'extérieur.\n    En <strong>4-6 semaines</strong>, le mur est sec. Sans humidité = <strong>zéro moisissure</strong>.\n  </p>\n  <div class=\"mec-tags\">\n    <span class=\"mec-tag\">🏛️ Restauration de monuments</span>\n    <span class=\"mec-tag\">🧪 0 produit chimique</span>\n    <span class=\"mec-tag\">⚡ ~3€/mois</span>\n  </div>\n</div>\n\n<style>\n.mec-box{max-width:600px;margin:0 auto 16px;padding:14px;background:#F0FDFA;border:1px solid #99F6E4;border-radius:10px;text-align:center}\n.mec-text{font-size:13px;color:#333;line-height:1.6;margin:0 0 10px}\n.mec-text strong{color:#00A4C1;font-weight:700}\n.mec-tags{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}\n.mec-tag{font-size:11px;color:#0D9488;font-weight:600;background:#CCFBF1;padding:4px 10px;border-radius:20px;white-space:nowrap}\n@media(min-width:750px){\n  .mec-box{padding:20px}\n  .mec-text{font-size:15px}\n  .mec-tag{font-size:12px}\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_EPxnHT": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -264,6 +454,19 @@
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
         "liquid": "<div id=\"shopify-section-template--24940377080074__before_after_reviews_xF9bed\" class=\"shopify-section\">\n\n<section id=\"before-after-reviews-template--24940377080074__before_after_reviews_xF9bed\" class=\"before-after-reviews-section\">\n\n  <!-- Titre de la section -->\n  <div class=\"reviews-heading-wrapper\">\n    <h2 class=\"reviews-heading\">\n      Des résultats prouvés par nos clients\n    </h2>\n  </div>\n\n  <div class=\"reviews-slider-container\">\n    <!-- Piste de slides -->\n    <div class=\"reviews-slider-track\" id=\"reviews-slider-track-template--24940377080074__before_after_reviews_xF9bed\" style=\"transform: translateX(0px);\">\n      \n        <!-- AVIS 1 : Maman famille -->\n        <div class=\"reviews-slide\">\n          <div class=\"review-card\">\n            <!-- Image avant/après (UNE SEULE IMAGE) -->\n            <div class=\"review-card__images\">\n              <div class=\"review-card__image-full\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/aivs_3.png?v=1769998606\" alt=\"Avant / Après\" loading=\"lazy\">\n                <div class=\"review-badge-left\">AVANT</div>\n                <div class=\"review-badge-right\">APRÈS</div>\n              </div>\n            </div>\n\n            <!-- Contenu de l'avis -->\n            <div class=\"review-card__content\">\n              <div class=\"review-user-info\">\n                <span class=\"review-user-name\">Marie, 38 ans - Toulouse</span>\n              </div>\n\n              <div class=\"review-rating-title\">\n                <div class=\"review-stars\">\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                </div>\n                <strong class=\"review-title\">Enfin un air sain pour mes enfants</strong>\n              </div>\n\n              <div class=\"review-verified\">\n                <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 24 24\">\n                  <path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z\"/>\n                </svg>\n                <span>Client vérifié</span>\n              </div>\n\n              <div class=\"review-text\">\n                \"J'avais de la moisissure noire dans la chambre de mes enfants depuis 2 ans. Tous les sprays que j'ai essayés revenaient après 3 semaines. Avec Moisissure-CLEAN, après 5 semaines le mur est complètement sec et la moisissure n'est jamais revenue. Mes enfants toussent beaucoup moins la nuit.\"\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        <!-- AVIS 2 : Senior -->\n        <div class=\"reviews-slide\">\n          <div class=\"review-card\">\n            <div class=\"review-card__images\">\n              <div class=\"review-card__image-full\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/avis_2.png?v=1769998060\" alt=\"Avant / Après\" loading=\"lazy\">\n                <div class=\"review-badge-left\">AVANT</div>\n                <div class=\"review-badge-right\">APRÈS</div>\n              </div>\n            </div>\n\n            <div class=\"review-card__content\">\n              <div class=\"review-user-info\">\n                <span class=\"review-user-name\">Jean-Claude, 67 ans - Lyon</span>\n              </div>\n\n              <div class=\"review-rating-title\">\n                <div class=\"review-stars\">\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                </div>\n                <strong class=\"review-title\">Simple et efficace, ça fonctionne vraiment</strong>\n              </div>\n\n              <div class=\"review-verified\">\n                <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 24 24\">\n                  <path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z\"/>\n                </svg>\n                <span>Client vérifié</span>\n              </div>\n\n              <div class=\"review-text\">\n                \"Je n'avais plus la force de frotter les murs de ma salle de bain toutes les semaines. Installation en 2 minutes, je l'ai branché et laissé faire. 6 semaines plus tard, le mur est sec et propre. Plus besoin de nettoyer sans arrêt. C'est certifié et ça ne consomme presque rien.\"\n              </div>\n            </div>\n          </div>\n        </div>\n      \n        <!-- AVIS 3 : Jeune couple -->\n        <div class=\"reviews-slide\">\n          <div class=\"review-card\">\n            <div class=\"review-card__images\">\n              <div class=\"review-card__image-full\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/avis_4.png?v=1769998897\" alt=\"Avant / Après\" loading=\"lazy\">\n                <div class=\"review-badge-left\">AVANT</div>\n                <div class=\"review-badge-right\">APRÈS</div>\n              </div>\n            </div>\n\n            <div class=\"review-card__content\">\n              <div class=\"review-user-info\">\n                <span class=\"review-user-name\">Lucas & Emma, 29 ans - Nantes</span>\n              </div>\n\n              <div class=\"review-rating-title\">\n                <div class=\"review-stars\">\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                </div>\n                <strong class=\"review-title\">Plus besoin de repeindre chaque année</strong>\n              </div>\n\n              <div class=\"review-verified\">\n                <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 24 24\">\n                  <path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z\"/>\n                </svg>\n                <span>Client vérifié</span>\n              </div>\n\n              <div class=\"review-text\">\n                \"On est locataires et notre propriétaire refusait de faire des travaux. On avait de la moisissure derrière les meubles. On a installé Moisissure-CLEAN avec les pieds, sans percer. Maintenant le mur est sec, plus d'odeur d'humidité et on peut enfin recevoir des amis sans avoir honte.\"\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <!-- AVIS 4 : Propriétaire -->\n        <div class=\"reviews-slide\">\n          <div class=\"review-card\">\n            <div class=\"review-card__images\">\n              <div class=\"review-card__image-full\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/avis_5.png?v=1769999132\" alt=\"Avant / Après\" loading=\"lazy\">\n                <div class=\"review-badge-left\">AVANT</div>\n                <div class=\"review-badge-right\">APRÈS</div>\n              </div>\n            </div>\n\n            <div class=\"review-card__content\">\n              <div class=\"review-user-info\">\n                <span class=\"review-user-name\">Thomas, 45 ans - Bordeaux</span>\n              </div>\n\n              <div class=\"review-rating-title\">\n                <div class=\"review-stars\">\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33/.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                </div>\n                <strong class=\"review-title\">Investissement rentabilisé en 6 mois</strong>\n              </div>\n\n              <div class=\"review-verified\">\n                <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 24 24\">\n                  <path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z\"/>\n                </svg>\n                <span>Client vérifié</span>\n              </div>\n\n              <div class=\"review-text\">\n                \"J'ai 3 appartements en location et je dépensais une fortune en peinture et produits anti-moisissure tous les ans. J'ai équipé mes 3 biens avec Moisissure-CLEAN. Depuis 8 mois, zéro problème, zéro plainte des locataires. Économies énormes sur les réparations.\"\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <!-- AVIS 5 : Problème de santé résolu -->\n        <div class=\"reviews-slide\">\n          <div class=\"review-card\">\n            <div class=\"review-card__images\">\n              <div class=\"review-card__image-full\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/moisissure-mur.jpg?v=1769999330\" alt=\"Avant / Après\" loading=\"lazy\">\n                <div class=\"review-badge-left\">AVANT</div>\n                <div class=\"review-badge-right\">APRÈS</div>\n              </div>\n            </div>\n\n            <div class=\"review-card__content\">\n              <div class=\"review-user-info\">\n                <span class=\"review-user-name\">Sophie, 52 ans - Lille</span>\n              </div>\n\n              <div class=\"review-rating-title\">\n                <div class=\"review-stars\">\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243/.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                </div>\n                <strong class=\"review-title\">Mes allergies ont complètement disparu</strong>\n              </div>\n\n              <div class=\"review-verified\">\n                <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 24 24\">\n                  <path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z\"/>\n                </svg>\n                <span>Client vérifié</span>\n              </div>\n\n              <div class=\"review-text\">\n                \"Je suis allergique et je faisais des crises d'asthme à cause de la moisissure dans ma chambre. Mon médecin m'a conseillé Moisissure-CLEAN. Après 1 mois et demi, la moisissure a disparu et je respire normalement. Je ne prends presque plus mes médicaments.\"\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <!-- AVIS 6 : Cave humide -->\n        <div class=\"reviews-slide\">\n          <div class=\"review-card\">\n            <div class=\"review-card__images\">\n              <div class=\"review-card__image-full\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download.jpg?v=1769999562\" alt=\"Avant / Après\" loading=\"lazy\">\n                <div class=\"review-badge-left\">AVANT</div>\n                <div class=\"review-badge-right\">APRÈS</div>\n              </div>\n            </div>\n\n            <div class=\"review-card__content\">\n              <div class=\"review-user-info\">\n                <span class=\"review-user-name\">Patrick, 58 ans - Strasbourg</span>\n              </div>\n\n              <div class=\"review-rating-title\">\n                <div class=\"review-stars\">\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                  <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 16 16\">\n                    <path d=\"M8 .25a.75.75 0 0 1 .67.418l1.898 3.845 4.243.617a.75.75 0 0 1 .415 1.279l-3.072 2.995.725 4.224a.75.75 0 0 1-1.088.791L8 12.347l-3.788 1.99a.75.75 0 0 1-1.088-.79l.725-4.225-3.072-2.995A.75.75 0 0 1 1.19 4.73l4.243-.617L7.33.668A.75.75 0 0 1 8 .25z\"></path>\n                  </svg>\n                </div>\n                <strong class=\"review-title\">Ma cave est enfin utilisable</strong>\n              </div>\n\n              <div class=\"review-verified\">\n                <svg width=\"16\" height=\"16\" fill=\"#00A4C1\" viewBox=\"0 0 24 24\">\n                  <path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z\"/>\n                </svg>\n                <span>Client vérifié</span>\n              </div>\n\n              <div class=\"review-text\">\n                \"Ma cave était inutilisable, toujours humide avec de la moisissure partout sur les murs. Impossible de stocker quoi que ce soit. J'ai mis 2 panneaux Moisissure-CLEAN. En 2 mois, les murs sont secs et je peux enfin ranger mes affaires sans qu'elles moisissent.\"\n              </div>\n            </div>\n          </div>\n        </div>\n      \n    </div>\n\n    <!-- Navigation en bas : flèches + dots sur la même ligne -->\n    <div class=\"reviews-nav\">\n      <button class=\"reviews-arrow\" id=\"reviews-arrow-prev-template--24940377080074__before_after_reviews_xF9bed\">←</button>\n      <div class=\"reviews-dots\" id=\"reviews-dots-template--24940377080074__before_after_reviews_xF9bed\">\n<button class=\"is-active\"></button><button></button>\n</div>\n      <button class=\"reviews-arrow\" id=\"reviews-arrow-next-template--24940377080074__before_after_reviews_xF9bed\">→</button>\n    </div>\n  </div>\n\n  <!-- STYLES -->\n  <style>\n    /* Font globale = héritée */\n    .before-after-reviews-section * {\n      box-sizing: border-box;\n    }\n\n    .before-after-reviews-section {\n      width: 100%;\n      margin: 0 auto;\n      max-width: 1200px;\n      padding: 40px 20px;\n      background: #FFFFFF;\n    }\n\n    /* Bannière preuve sociale */\n    .social-proof-banner {\n      background: linear-gradient(135deg, #E0F7FA 0%, #F0FAFB 100%);\n      border: 1px solid #00A4C1;\n      border-radius: 8px;\n      padding: 12px 20px;\n      margin-bottom: 30px;\n      text-align: center;\n    }\n\n    .social-proof-banner__inner {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      gap: 10px;\n      flex-wrap: wrap;\n    }\n\n    .social-proof-icon {\n      flex-shrink: 0;\n    }\n\n    .social-proof-text {\n      margin: 0;\n      font-size: 15px;\n      color: #1A1A1A;\n      line-height: 1.4;\n    }\n\n    .social-proof-text strong {\n      font-weight: 700;\n      color: #00A4C1;\n    }\n\n    @media (max-width: 749px) {\n      .social-proof-banner {\n        padding: 10px 15px;\n        margin-bottom: 20px;\n      }\n      \n      .social-proof-text {\n        font-size: 14px;\n      }\n      \n      .social-proof-icon {\n        width: 18px;\n        height: 18px;\n      }\n    }\n\n    .reviews-heading-wrapper {\n      text-align: center; \n      margin-bottom: 25px;\n    }\n\n    .reviews-heading {\n      font-size: 28px;\n      font-weight: 700;\n      margin: 0;\n      color: #1A1A1A;\n    }\n\n    @media (max-width: 749px) {\n      .reviews-heading {\n        font-size: 22px;\n      }\n    }\n\n    /* SLIDER container */\n    .reviews-slider-container {\n      width: 100%;\n      overflow: hidden;\n    }\n\n    .reviews-slider-track {\n      display: flex;\n      transition: transform 0.4s ease;\n    }\n\n    .reviews-slide {\n      flex: 0 0 calc(100% / 1); \n      max-width: calc(100% / 1);\n      padding: 0.5rem;\n      box-sizing: border-box;\n    }\n\n    /* CARD */\n    .review-card {\n      background: #fff;\n      border: 1px solid #E0E0E0;\n      border-radius: 12px;\n      overflow: hidden;\n      display: flex;\n      flex-direction: column;\n    }\n\n    /* UNE SEULE IMAGE */\n    .review-card__images {\n      position: relative;\n      border-bottom: 1px solid #E0E0E0;\n    }\n\n    .review-card__image-full {\n      position: relative;\n    }\n\n    .review-card__image-full img {\n      width: 100%;\n      height: auto;\n      display: block;\n      object-fit: cover;\n    }\n\n    .review-badge-left,\n    .review-badge-right {\n      position: absolute;\n      top: 0.5rem;\n      padding: 0.3rem 0.6rem;\n      background-color: #fff;\n      font-size: 0.7rem;\n      font-weight: 600;\n      border-radius: 12px;\n      border: 1px solid #00A4C1;\n      color: #00A4C1;\n      z-index: 2;\n    }\n\n    .review-badge-left {\n      left: 0.5rem;\n    }\n\n    .review-badge-right {\n      right: 0.5rem;\n    }\n\n    /* Contenu de la carte */\n    .review-card__content {\n      padding: 0.75rem 1rem;\n      display: flex;\n      flex-direction: column;\n      gap: 0.5rem;\n    }\n\n    .review-user-info {\n      display: flex;\n      align-items: center;\n      gap: 0.5rem;\n      font-weight: 600;\n      font-size: 14px;\n      color: #333;\n    }\n\n    .review-rating-title {\n      display: flex;\n      flex-direction: column;\n      gap: 0.25rem;\n    }\n\n    .review-stars {\n      display: flex;\n      gap: 2px;\n    }\n\n    .review-title {\n      font-weight: 600;\n      font-size: 15px;\n      color: #1A1A1A;\n    }\n\n    .review-verified {\n      display: inline-flex;\n      align-items: center;\n      gap: 0.3rem;\n      font-size: 0.9rem;\n      color: #00A4C1;\n      font-weight: 500;\n    }\n\n    .review-text {\n      font-size: 14px;\n      line-height: 1.5;\n      color: #555;\n    }\n\n    /* NAV (flèches + dots) */\n    .reviews-nav {\n      margin-top: 1rem;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      gap: 1rem;\n    }\n\n    .reviews-arrow {\n      background: #fff;\n      border: 1px solid #00A4C1;\n      border-radius: 50%;\n      width: 36px; \n      height: 36px;\n      display: flex;\n      align-items: center; \n      justify-content: center;\n      cursor: pointer;\n      font-size: 1.2rem;\n      color: #00A4C1;\n    }\n\n    .reviews-arrow:hover {\n      background: #E0F7FA;\n    }\n\n    .reviews-dots {\n      display: flex;\n      gap: 8px;\n    }\n\n    .reviews-dots button {\n      width: 10px;\n      height: 10px;\n      border-radius: 50%;\n      background-color: #ccc;\n      border: none;\n      cursor: pointer;\n      padding: 0;\n    }\n\n    .reviews-dots button.is-active {\n      background-color: #00A4C1;\n    }\n\n    /* Desktop : 3 slides */\n    @media (min-width: 1000px) {\n      .reviews-slide {\n        flex: 0 0 calc(100% / 3);\n        max-width: calc(100% / 3);\n      }\n    }\n  </style>\n\n<script>\n  (function () {\n    const track = document.getElementById('reviews-slider-track-template--24940377080074__before_after_reviews_xF9bed');\n    const btnPrev = document.getElementById('reviews-arrow-prev-template--24940377080074__before_after_reviews_xF9bed');\n    const btnNext = document.getElementById('reviews-arrow-next-template--24940377080074__before_after_reviews_xF9bed');\n    const dotsContainer = document.getElementById('reviews-dots-template--24940377080074__before_after_reviews_xF9bed');\n\n    if (!track || !btnPrev || !btnNext || !dotsContainer) return;\n\n    const slides = Array.from(track.querySelectorAll('.reviews-slide'));\n    const totalSlides = slides.length;\n\n    let slidesPerView = window.innerWidth >= 1000 ? 3 : 1;\n    let currentPage = 0;\n    let pageCount = Math.ceil(totalSlides / slidesPerView);\n    let dots = [];\n\n    function getSlidesPerView() {\n      return window.innerWidth >= 1000 ? 3 : 1;\n    }\n\n    function buildDots() {\n      dotsContainer.innerHTML = '';\n      dots = [];\n      for (let i = 0; i < pageCount; i++) {\n        const dot = document.createElement('button');\n        if (i === currentPage) dot.classList.add('is-active');\n        dot.addEventListener('click', function () {\n          currentPage = i;\n          applyTransform();\n          updateDots();\n        });\n        dotsContainer.appendChild(dot);\n        dots.push(dot);\n      }\n    }\n\n    function updateDots() {\n      dots.forEach((dot, index) => {\n        dot.classList.toggle('is-active', index === currentPage);\n      });\n    }\n\n    function applyTransform() {\n      const slideWidth = slides[0].clientWidth;\n      const offset = slideWidth * slidesPerView * currentPage;\n      track.style.transform = `translateX(-${offset}px)`;\n    }\n\n    function recalc() {\n      slidesPerView = getSlidesPerView();\n      pageCount = Math.ceil(totalSlides / slidesPerView);\n      if (currentPage >= pageCount) currentPage = pageCount - 1;\n      if (currentPage < 0) currentPage = 0;\n      buildDots();\n      applyTransform();\n    }\n\n    btnPrev.addEventListener('click', function () {\n      if (currentPage > 0) {\n        currentPage--;\n        applyTransform();\n        updateDots();\n      }\n    });\n\n    btnNext.addEventListener('click', function () {\n      if (currentPage < pageCount - 1) {\n        currentPage++;\n        applyTransform();\n        updateDots();\n      }\n    });\n\n    window.addEventListener('resize', function () {\n      recalc();\n    });\n\n    // init\n    recalc();\n  })();\n</script>\n\n</section>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_3dfUM3": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<section class=\"cmp-section\">\n  <div class=\"cmp-inner page-width\">\n    <h2 class=\"cmp-title\">Les 4 méthodes comparées</h2>\n\n    <!-- Version mobile : cartes empilées -->\n    <div class=\"cmp-cards\">\n\n      <div class=\"cmp-card cmp-card-bad\">\n        <div class=\"cmp-card-head\">❌ Sprays & Javel</div>\n        <div class=\"cmp-card-row\"><span>Action</span><strong>Surface seulement</strong></div>\n        <div class=\"cmp-card-row\"><span>Durée</span><strong>2-4 semaines</strong></div>\n        <div class=\"cmp-card-row\"><span>Coût/an</span><strong class=\"text-red\">~320€</strong></div>\n      </div>\n\n      <div class=\"cmp-card cmp-card-bad\">\n        <div class=\"cmp-card-head\">❌ Peinture anti-moisissure</div>\n        <div class=\"cmp-card-row\"><span>Action</span><strong>Cosmétique</strong></div>\n        <div class=\"cmp-card-row\"><span>Durée</span><strong>3-6 mois</strong></div>\n        <div class=\"cmp-card-row\"><span>Coût/an</span><strong class=\"text-red\">~200€</strong></div>\n      </div>\n\n      <div class=\"cmp-card cmp-card-meh\">\n        <div class=\"cmp-card-head\">⚠️ Déshumidificateur</div>\n        <div class=\"cmp-card-row\"><span>Action</span><strong>Air seul (pas le mur)</strong></div>\n        <div class=\"cmp-card-row\"><span>Durée</span><strong>Tant que branché</strong></div>\n        <div class=\"cmp-card-row\"><span>Coût/an</span><strong class=\"text-red\">~180€ + bruit</strong></div>\n      </div>\n\n      <div class=\"cmp-card cmp-card-win\">\n        <div class=\"cmp-card-head cmp-head-win\">⭐ Moisissure-CLEAN</div>\n        <div class=\"cmp-card-row\"><span>Action</span><strong class=\"text-green\">Mur en profondeur</strong></div>\n        <div class=\"cmp-card-row\"><span>Durée</span><strong class=\"text-green\">Permanent</strong></div>\n        <div class=\"cmp-card-row\"><span>Coût/an</span><strong class=\"text-green\">~36€ d'électricité</strong></div>\n      </div>\n\n    </div>\n\n  </div>\n</section>\n\n<style>\n.cmp-section{padding:24px 16px;background:#FFF}\n.cmp-inner{max-width:600px;margin:0 auto;text-align:center}\n.cmp-title{font-size:18px;font-weight:700;color:#1A1A1A;margin:0 0 14px}\n.cmp-cards{display:flex;flex-direction:column;gap:8px}\n.cmp-card{border-radius:10px;overflow:hidden;text-align:left}\n.cmp-card-bad{border:1px solid #FECACA;background:#FFFBFB}\n.cmp-card-meh{border:1px solid #FED7AA;background:#FFFDF7}\n.cmp-card-win{border:2px solid #16A34A;background:#F0FDF4}\n.cmp-card-head{padding:8px 12px;font-size:13px;font-weight:700;color:#666;background:#F9FAFB}\n.cmp-head-win{color:#FFF;background:#16A34A}\n.cmp-card-row{display:flex;justify-content:space-between;padding:6px 12px;font-size:12px;border-top:1px solid #F3F4F6}\n.cmp-card-row span{color:#888}\n.cmp-card-row strong{color:#444;font-weight:600}\n.text-red{color:#DC2626 !important}\n.text-green{color:#16A34A !important}\n@media(min-width:750px){\n  .cmp-title{font-size:24px}\n  .cmp-cards{flex-direction:row;flex-wrap:wrap}\n  .cmp-card{flex:1;min-width:45%}\n  .cmp-card-row{font-size:13px}\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -340,6 +543,12 @@
             "liquid": ""
           }
         },
+        "liquid_qUnigz": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"gar-box\">\n  <div class=\"gar-content\">\n    <span class=\"gar-shield\">🛡️</span>\n    <div>\n      <p class=\"gar-title\">Garantie 60 jours — Testez sans risque</p>\n      <p class=\"gar-text\">Si la moisissure n'a pas disparu, <strong>remboursement intégral</strong>. Sans condition.</p>\n    </div>\n  </div>\n  <div class=\"gar-tags\">\n    <span>✅ 60 jours</span>\n    <span>✅ Remboursement total</span>\n    <span>✅ Sans justification</span>\n  </div>\n</div>\n\n<style>\n.gar-box{max-width:600px;margin:12px auto 0;background:#F0FDF4;border:1.5px solid #BBF7D0;border-radius:10px;padding:12px}\n.gar-content{display:flex;align-items:flex-start;gap:10px}\n.gar-shield{font-size:28px;flex-shrink:0}\n.gar-title{font-size:14px;font-weight:700;color:#166534;margin:0 0 4px}\n.gar-text{font-size:12px;color:#444;line-height:1.5;margin:0}\n.gar-text strong{color:#166534;font-weight:700}\n.gar-tags{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}\n.gar-tags span{font-size:11px;color:#16A34A;font-weight:600;background:#DCFCE7;padding:3px 8px;border-radius:12px}\n@media(min-width:750px){\n  .gar-box{padding:20px}\n  .gar-title{font-size:16px}\n  .gar-text{font-size:14px}\n  .gar-tags span{font-size:12px}\n}\n</style>"
+          }
+        },
         "liquid_wPMReV": {
           "type": "liquid",
           "settings": {
@@ -376,6 +585,7 @@
         "buy_buttons_Lkkhrt",
         "liquid_zXCG7Y",
         "liquid_qpr4fb",
+        "liquid_qUnigz",
         "liquid_wPMReV",
         "liquid_CaQ4Wt",
         "liquid_nDTPni",
@@ -430,15 +640,24 @@
   },
   "order": [
     "slideshow_9amCQ4",
-    "custom_liquid_DqRYHN",
+    "custom_liquid_wDwKRX",
     "rich_text_Karb3X",
     "slideshow_wQqzwa",
+    "rich_text_VePYNK",
+    "slideshow_VdkwcL",
+    "custom_liquid_WkFh9N",
+    "rich_text_EFJPwp",
+    "custom_liquid_CzAhGX",
     "rich_text_kdFc4p",
     "slideshow_bqcED3",
+    "custom_liquid_DqRYHN",
+    "slideshow_c4BT9q",
+    "custom_liquid_QGhXnE",
     "custom_liquid_EPxnHT",
     "custom_liquid_Ua6eYJ",
     "rich_text_j7hTyM",
     "custom_liquid_6GN8kr",
+    "custom_liquid_3dfUM3",
     "featured_product_CtQXNF",
     "custom_liquid_cQqpCw",
     "custom_html_Wwz8yM"
