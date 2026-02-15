@@ -52,19 +52,6 @@
         "background_gradient": ""
       }
     },
-    "custom_liquid_wDwKRX": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<!-- ╔═══════════════════════════════════════════════════════════════╗\n     ║  BLOC 6 — DANGER SANTÉ (COMPACT MOBILE)                      ║\n     ║  📍 APRÈS barre confiance, AVANT \"VUE SUR\"                   ║\n     ╚═══════════════════════════════════════════════════════════════╝ -->\n<section class=\"ds-section\">\n  <div class=\"ds-inner page-width\">\n    <p class=\"ds-title\">⚠️ La moisissure que vous voyez libère des <strong>spores invisibles</strong> que vous respirez chaque nuit.</p>\n    <div class=\"ds-stats\">\n      <div class=\"ds-stat\"><strong>93%</strong><span>sinusites chroniques</span></div>\n      <div class=\"ds-stat\"><strong>×2,5</strong><span>risque asthme enfants</span></div>\n      <div class=\"ds-stat\"><strong>24h/24</strong><span>exposition continue</span></div>\n    </div>\n  </div>\n</section>\n\n<style>\n.ds-section{padding:16px;background:#FEF2F2;border-top:2px solid #DC2626}\n.ds-inner{max-width:600px;margin:0 auto;text-align:center}\n.ds-title{font-size:14px;color:#333;line-height:1.5;margin:0 0 14px}\n.ds-title strong{color:#DC2626;font-weight:700}\n.ds-stats{display:flex;gap:8px}\n.ds-stat{flex:1;background:#FFF;border:1px solid #FECACA;border-radius:10px;padding:10px 6px;text-align:center}\n.ds-stat strong{display:block;font-size:20px;color:#DC2626;font-weight:800;margin-bottom:2px}\n.ds-stat span{font-size:11px;color:#666;line-height:1.3;display:block}\n@media(min-width:750px){\n  .ds-section{padding:24px 20px}\n  .ds-title{font-size:16px}\n  .ds-stat strong{font-size:26px}\n  .ds-stat span{font-size:12px}\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "rich_text_Karb3X": {
       "type": "rich-text",
       "blocks": {
@@ -132,6 +119,19 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
+      }
+    },
+    "custom_liquid_wDwKRX": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<!-- ╔═══════════════════════════════════════════════════════════════╗\n     ║  BLOC 6 — DANGER SANTÉ (COMPACT MOBILE)                      ║\n     ║  📍 APRÈS barre confiance, AVANT \"VUE SUR\"                   ║\n     ╚═══════════════════════════════════════════════════════════════╝ -->\n<section class=\"ds-section\">\n  <div class=\"ds-inner page-width\">\n    <p class=\"ds-title\">⚠️ La moisissure que vous voyez libère des <strong>spores invisibles</strong> que vous respirez chaque nuit.</p>\n    <div class=\"ds-stats\">\n      <div class=\"ds-stat\"><strong>93%</strong><span>sinusites chroniques</span></div>\n      <div class=\"ds-stat\"><strong>×2,5</strong><span>risque asthme enfants</span></div>\n      <div class=\"ds-stat\"><strong>24h/24</strong><span>exposition continue</span></div>\n    </div>\n  </div>\n</section>\n\n<style>\n.ds-section{padding:16px;background:#FEF2F2;border-top:2px solid #DC2626}\n.ds-inner{max-width:600px;margin:0 auto;text-align:center}\n.ds-title{font-size:14px;color:#333;line-height:1.5;margin:0 0 14px}\n.ds-title strong{color:#DC2626;font-weight:700}\n.ds-stats{display:flex;gap:8px}\n.ds-stat{flex:1;background:#FFF;border:1px solid #FECACA;border-radius:10px;padding:10px 6px;text-align:center}\n.ds-stat strong{display:block;font-size:20px;color:#DC2626;font-weight:800;margin-bottom:2px}\n.ds-stat span{font-size:11px;color:#666;line-height:1.3;display:block}\n@media(min-width:750px){\n  .ds-section{padding:24px 20px}\n  .ds-title{font-size:16px}\n  .ds-stat strong{font-size:26px}\n  .ds-stat span{font-size:12px}\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "rich_text_VePYNK": {
@@ -546,19 +546,13 @@
         "liquid_qUnigz": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"gar-box\">\n  <div class=\"gar-content\">\n    <span class=\"gar-shield\">🛡️</span>\n    <div>\n      <p class=\"gar-title\">Garantie 60 jours — Testez sans risque</p>\n      <p class=\"gar-text\">Si la moisissure n'a pas disparu, <strong>remboursement intégral</strong>. Sans condition.</p>\n    </div>\n  </div>\n  <div class=\"gar-tags\">\n    <span>✅ 60 jours</span>\n    <span>✅ Remboursement total</span>\n    <span>✅ Sans justification</span>\n  </div>\n</div>\n\n<style>\n.gar-box{max-width:600px;margin:12px auto 0;background:#F0FDF4;border:1.5px solid #BBF7D0;border-radius:10px;padding:12px}\n.gar-content{display:flex;align-items:flex-start;gap:10px}\n.gar-shield{font-size:28px;flex-shrink:0}\n.gar-title{font-size:14px;font-weight:700;color:#166534;margin:0 0 4px}\n.gar-text{font-size:12px;color:#444;line-height:1.5;margin:0}\n.gar-text strong{color:#166534;font-weight:700}\n.gar-tags{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}\n.gar-tags span{font-size:11px;color:#16A34A;font-weight:600;background:#DCFCE7;padding:3px 8px;border-radius:12px}\n@media(min-width:750px){\n  .gar-box{padding:20px}\n  .gar-title{font-size:16px}\n  .gar-text{font-size:14px}\n  .gar-tags span{font-size:12px}\n}\n</style>"
+            "liquid": "<div class=\"gar-box\">\n  <div class=\"gar-content\">\n    <span class=\"gar-shield\">🛡️</span>\n    <div>\n      <p class=\"gar-title\">GARANTIE \"MUR SEC\" OU REMBOURSÉ (60 Jours)</p>\n      <p class=\"gar-text\">Vous ne prenez <strong>aucun risque</strong>. Installez-le. Si dans 59 jours votre mur n'est pas sec ou si une seule tache revient : <strong>nous vous remboursons à 100%</strong> (frais de retour inclus).</p>\n    </div>\n  </div>\n  <div class=\"gar-tags\">\n    <span>✅ 0% Risque pour vous</span>\n    <span>✅ Test complet 2 mois</span>\n    <span>✅ Retour Gratuit</span>\n  </div>\n</div>\n\n<style>\n.gar-box{\n  max-width:600px;\n  margin:16px auto;\n  background:#F0FDF4;\n  border:2px solid #16A34A; /* Bordure plus épaisse pour la confiance */\n  border-radius:12px;\n  padding:16px;\n  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Ombre pour l'effet 3D */\n}\n.gar-content{display:flex;align-items:flex-start;gap:12px}\n.gar-shield{font-size:32px;flex-shrink:0}\n.gar-title{\n  font-size:16px;\n  font-weight:800;\n  color:#14532D;\n  text-transform: uppercase;\n  margin:0 0 6px;\n  letter-spacing: 0.5px;\n}\n.gar-text{font-size:13px;color:#374151;line-height:1.5;margin:0}\n.gar-text strong{color:#15803D;font-weight:700}\n.gar-tags{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}\n.gar-tags span{\n  font-size:11px;\n  color:#14532D;\n  font-weight:700;\n  background:#DCFCE7;\n  padding:4px 10px;\n  border-radius:20px;\n  border: 1px solid #86EFAC;\n}\n@media(min-width:750px){\n  .gar-box{padding:24px}\n  .gar-title{font-size:18px}\n  .gar-text{font-size:15px}\n  .gar-tags span{font-size:13px}\n}\n</style>"
           }
         },
         "liquid_wPMReV": {
           "type": "liquid",
           "settings": {
             "liquid": "<style>\n  .sp-wrap {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n    background: #fff;\n    border: 1px solid #e2e6ea;\n    border-radius: 8px;\n    padding: 12px 14px;\n    width: 100%;\n    max-width: 280px;\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n    position: relative;\n    overflow: hidden;\n    margin: 0 auto;\n  }\n  .sp-wrap::before {\n    content: '';\n    position: absolute;\n    top: 0; left: 0; right: 0;\n    height: 3px;\n    background: linear-gradient(90deg, #1a1a2e, #16213e);\n  }\n  .sp-icon {\n    flex-shrink: 0;\n    width: 40px; height: 40px;\n    border-radius: 10px;\n    background: linear-gradient(135deg, #1a1a2e, #16213e);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    box-shadow: 0 3px 10px rgba(26, 26, 46, 0.25);\n  }\n  .sp-icon svg { width: 20px; height: 20px; }\n  .sp-content { display: flex; flex-direction: column; gap: 4px; flex: 1; min-width: 0; }\n  .sp-title { font-size: 13px; font-weight: 700; color: #1a1a1a; line-height: 1.2; }\n  .sp-sub { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: #0e7490; }\n  .sp-line { display: flex; align-items: center; gap: 5px; font-size: 10.5px; font-weight: 500; color: #1a1a2e; }\n  .sp-line svg { width: 12px; height: 12px; flex-shrink: 0; }\n  @media (max-width: 768px) {\n    .sp-wrap { max-width: 100%; padding: 10px 12px; gap: 10px; }\n    .sp-icon { width: 36px; height: 36px; }\n    .sp-icon svg { width: 18px; height: 18px; }\n    .sp-title { font-size: 12px; }\n    .sp-sub { font-size: 9px; }\n    .sp-line { font-size: 10px; }\n  }\n  @media (min-width: 1024px) {\n    .sp-wrap { max-width: 320px; padding: 14px 16px; }\n    .sp-icon { width: 44px; height: 44px; }\n    .sp-icon svg { width: 22px; height: 22px; }\n    .sp-title { font-size: 14px; }\n    .sp-sub { font-size: 11px; }\n    .sp-line { font-size: 11px; }\n  }\n</style>\n<div class=\"sp-wrap\">\n  <div class=\"sp-icon\">\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z\" fill=\"rgba(255,255,255,0.15)\" stroke=\"#fff\" stroke-width=\"1.8\" stroke-linejoin=\"round\"></path>\n      <rect x=\"8\" y=\"10\" width=\"8\" height=\"6\" rx=\"1.5\" stroke=\"#fff\" stroke-width=\"1.8\" fill=\"none\"></rect>\n      <path d=\"M10 10V8a2 2 0 0 1 4 0v2\" stroke=\"#fff\" stroke-width=\"1.8\" stroke-linecap=\"round\" fill=\"none\"></path>\n    </svg>\n  </div>\n  <div class=\"sp-content\">\n    <span class=\"sp-title\">Paiement 100% sécurisé</span>\n    <span class=\"sp-sub\">SSL & PCI DSS</span>\n    <div class=\"sp-line\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#1a1a2e\"></circle>\n        <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n      </svg>\n      Chiffrement niveau bancaire\n    </div>\n  </div>\n</div>"
-          }
-        },
-        "liquid_CaQ4Wt": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"mcb-guarantee-box\">\n  <style>\n    .mcb-guarantee-box{\n      font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;\n      max-width:100%;\n      margin: 10px 0; /* ✅ espace en haut aussi */\n    }\n\n    .mcb-guarantee-grid{\n      display:grid;\n      grid-template-columns:1fr 1fr;\n      gap:8px;\n      align-items:start; /* ✅ empêche l'enfoncement */\n    }\n\n    .mcb-g-item{\n      display:flex;\n      align-items:flex-start; /* ✅ texte aligné en haut */\n      gap:8px;\n      padding:12px;\n      background:#fff;\n      border:1px solid #e2e8f0;\n      border-radius:10px;\n      height:100%; /* ✅ stabilise les hauteurs */\n    }\n\n    .mcb-g-ico{\n      font-size:20px;\n      line-height:1;\n      margin-top:2px;\n    }\n\n    .mcb-g-txt{\n      font-size:11px;\n      line-height:1.35;\n      color:#1e293b;\n    }\n\n    .mcb-g-txt strong{\n      display:block;\n      font-weight:800;\n      margin-bottom:2px;\n    }\n\n    /* Desktop : 4 colonnes propres */\n    @media(min-width:768px){\n      .mcb-guarantee-grid{\n        grid-template-columns: repeat(4,1fr);\n      }\n    }\n  </style>\n\n  <div class=\"mcb-guarantee-grid\" aria-label=\"Garanties\">\n    <div class=\"mcb-g-item\">\n      <span class=\"mcb-g-ico\">🛡️</span>\n      <div class=\"mcb-g-txt\"><strong>Satisfait ou remboursé</strong>30 jours pour tester</div>\n    </div>\n    <div class=\"mcb-g-item\">\n      <span class=\"mcb-g-ico\">🇦🇹</span>\n      <div class=\"mcb-g-txt\"><strong>Fabriqué en Autriche</strong>Certifié TÜV · IP54</div>\n    </div>\n    <div class=\"mcb-g-item\">\n      <span class=\"mcb-g-ico\">⚡</span>\n      <div class=\"mcb-g-txt\"><strong>Ultra économique</strong>&lt; 50W · ~3€/mois</div>\n    </div>\n    <div class=\"mcb-g-item\">\n      <span class=\"mcb-g-ico\">🔬</span>\n      <div class=\"mcb-g-txt\"><strong>Efficacité prouvée</strong>15 000+ foyers en Europe</div>\n    </div>\n  </div>\n</div>"
           }
         },
         "liquid_nDTPni": {
@@ -587,7 +581,6 @@
         "liquid_qpr4fb",
         "liquid_qUnigz",
         "liquid_wPMReV",
-        "liquid_CaQ4Wt",
         "liquid_nDTPni",
         "liquid_bFU9K8"
       ],
@@ -640,9 +633,9 @@
   },
   "order": [
     "slideshow_9amCQ4",
-    "custom_liquid_wDwKRX",
     "rich_text_Karb3X",
     "slideshow_wQqzwa",
+    "custom_liquid_wDwKRX",
     "rich_text_VePYNK",
     "slideshow_VdkwcL",
     "custom_liquid_WkFh9N",
