@@ -418,17 +418,47 @@
         "text_color": ""
       }
     },
-    "custom_liquid_3dfUM3": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
+    "slideshow_hLhqKF": {
+      "type": "slideshow",
+      "blocks": {
+        "image_TKEpcp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260215_024846_8bfd595b-1937-49e1-8582-ba5a8779bb5a.png",
+            "mobile_image": "shopify://shop_images/hf_20260215_024846_8bfd595b-1937-49e1-8582-ba5a8779bb5a.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#6659ff",
+            "button_background": "#85c6b1",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TKEpcp"
+      ],
+      "name": "Slideshow",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<section class=\"cmp-section\">\n  <div class=\"cmp-inner page-width\">\n    <h2 class=\"cmp-title\">Les 4 méthodes comparées</h2>\n\n    <!-- Version mobile : cartes empilées -->\n    <div class=\"cmp-cards\">\n\n      <div class=\"cmp-card cmp-card-bad\">\n        <div class=\"cmp-card-head\">❌ Sprays & Javel</div>\n        <div class=\"cmp-card-row\"><span>Action</span><strong>Surface seulement</strong></div>\n        <div class=\"cmp-card-row\"><span>Durée</span><strong>2-4 semaines</strong></div>\n        <div class=\"cmp-card-row\"><span>Coût/an</span><strong class=\"text-red\">~320€</strong></div>\n      </div>\n\n      <div class=\"cmp-card cmp-card-bad\">\n        <div class=\"cmp-card-head\">❌ Peinture anti-moisissure</div>\n        <div class=\"cmp-card-row\"><span>Action</span><strong>Cosmétique</strong></div>\n        <div class=\"cmp-card-row\"><span>Durée</span><strong>3-6 mois</strong></div>\n        <div class=\"cmp-card-row\"><span>Coût/an</span><strong class=\"text-red\">~200€</strong></div>\n      </div>\n\n      <div class=\"cmp-card cmp-card-meh\">\n        <div class=\"cmp-card-head\">⚠️ Déshumidificateur</div>\n        <div class=\"cmp-card-row\"><span>Action</span><strong>Air seul (pas le mur)</strong></div>\n        <div class=\"cmp-card-row\"><span>Durée</span><strong>Tant que branché</strong></div>\n        <div class=\"cmp-card-row\"><span>Coût/an</span><strong class=\"text-red\">~180€ + bruit</strong></div>\n      </div>\n\n      <div class=\"cmp-card cmp-card-win\">\n        <div class=\"cmp-card-head cmp-head-win\">⭐ Moisissure-CLEAN</div>\n        <div class=\"cmp-card-row\"><span>Action</span><strong class=\"text-green\">Mur en profondeur</strong></div>\n        <div class=\"cmp-card-row\"><span>Durée</span><strong class=\"text-green\">Permanent</strong></div>\n        <div class=\"cmp-card-row\"><span>Coût/an</span><strong class=\"text-green\">~36€ d'électricité</strong></div>\n      </div>\n\n    </div>\n\n  </div>\n</section>\n\n<style>\n.cmp-section{padding:24px 16px;background:#FFF}\n.cmp-inner{max-width:600px;margin:0 auto;text-align:center}\n.cmp-title{font-size:18px;font-weight:700;color:#1A1A1A;margin:0 0 14px}\n.cmp-cards{display:flex;flex-direction:column;gap:8px}\n.cmp-card{border-radius:10px;overflow:hidden;text-align:left}\n.cmp-card-bad{border:1px solid #FECACA;background:#FFFBFB}\n.cmp-card-meh{border:1px solid #FED7AA;background:#FFFDF7}\n.cmp-card-win{border:2px solid #16A34A;background:#F0FDF4}\n.cmp-card-head{padding:8px 12px;font-size:13px;font-weight:700;color:#666;background:#F9FAFB}\n.cmp-head-win{color:#FFF;background:#16A34A}\n.cmp-card-row{display:flex;justify-content:space-between;padding:6px 12px;font-size:12px;border-top:1px solid #F3F4F6}\n.cmp-card-row span{color:#888}\n.cmp-card-row strong{color:#444;font-weight:600}\n.text-red{color:#DC2626 !important}\n.text-green{color:#16A34A !important}\n@media(min-width:750px){\n  .cmp-title{font-size:24px}\n  .cmp-cards{flex-direction:row;flex-wrap:wrap}\n  .cmp-card{flex:1;min-width:45%}\n  .cmp-card-row{font-size:13px}\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
       }
     },
     "featured_product_CtQXNF": {
@@ -608,7 +638,7 @@
     "custom_liquid_Ua6eYJ",
     "rich_text_j7hTyM",
     "custom_liquid_6GN8kr",
-    "custom_liquid_3dfUM3",
+    "slideshow_hLhqKF",
     "featured_product_CtQXNF",
     "custom_liquid_cQqpCw",
     "custom_html_Wwz8yM"
