@@ -59,7 +59,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "liquid": "<!-- ╔═══════════════════════════════════════════════════════════════╗\n     ║  BLOC 6 — DANGER SANTÉ (COMPACT MOBILE)                      ║\n     ║  📍 APRÈS barre confiance, AVANT \"VUE SUR\"                   ║\n     ╚═══════════════════════════════════════════════════════════════╝ -->\n<section class=\"ds-section\">\n  <div class=\"ds-inner page-width\">\n    <p class=\"ds-title\">⚠️ Arrêtez de <strong>nettoyer</strong>.    Séchez le mur. La solution définitive sans produits chimiques.</p>\n    <div class=\"ds-stats\">\n      <div class=\"ds-stat\"><strong>93%</strong><span>sinusites chroniques</span></div>\n      <div class=\"ds-stat\"><strong>×2,5</strong><span>risque asthme enfants</span></div>\n      <div class=\"ds-stat\"><strong>24h/24</strong><span>exposition continue</span></div>\n    </div>\n  </div>\n</section>\n\n<style>\n.ds-section{padding:16px;background:#FEF2F2;border-top:2px solid #DC2626}\n.ds-inner{max-width:600px;margin:0 auto;text-align:center}\n.ds-title{font-size:14px;color:#333;line-height:1.5;margin:0 0 14px}\n.ds-title strong{color:#DC2626;font-weight:700}\n.ds-stats{display:flex;gap:8px}\n.ds-stat{flex:1;background:#FFF;border:1px solid #FECACA;border-radius:10px;padding:10px 6px;text-align:center}\n.ds-stat strong{display:block;font-size:20px;color:#DC2626;font-weight:800;margin-bottom:2px}\n.ds-stat span{font-size:11px;color:#666;line-height:1.3;display:block}\n@media(min-width:750px){\n  .ds-section{padding:24px 20px}\n  .ds-title{font-size:16px}\n  .ds-stat strong{font-size:26px}\n  .ds-stat span{font-size:12px}\n}\n</style>",
+        "liquid": "<section class=\"vu-sur-section\">\n  <p class=\"vu-sur-label\">VUE SUR</p>\n  <div class=\"vu-sur-track\">\n    <div class=\"vu-sur-logos\">\n      <!-- Jeu 1 -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_5.jpg?v=1771157997\" alt=\"TF1\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_5.png?v=1771158000\" alt=\"France 2\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_6.png?v=1771158001\" alt=\"BFM TV\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_7.png?v=1771158002\" alt=\"Le Monde\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_6.jpg?v=1771158004\" alt=\"20 Minutes\" class=\"vu-sur-logo\">\n      <!-- Jeu 2 (dupliqué pour boucle infinie) -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_5.jpg?v=1771157997\" alt=\"TF1\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_5.png?v=1771158000\" alt=\"France 2\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_6.png?v=1771158001\" alt=\"BFM TV\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_7.png?v=1771158002\" alt=\"Le Monde\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_6.jpg?v=1771158004\" alt=\"20 Minutes\" class=\"vu-sur-logo\">\n    </div>\n  </div>\n</section>\n\n<style>\n.vu-sur-section {\n  padding: 12px 0;\n  background: #FFF;\n  text-align: center;\n  overflow: hidden;\n}\n.vu-sur-label {\n  font-size: 11px;\n  font-weight: 600;\n  color: #999;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  margin: 0 0 8px;\n}\n.vu-sur-track {\n  width: 100%;\n  overflow: hidden;\n  position: relative;\n}\n.vu-sur-logos {\n  display: flex;\n  align-items: center;\n  gap: 40px;\n  animation: vu-scroll 20s linear infinite;\n  width: max-content;\n}\n.vu-sur-logo {\n  height: 22px;\n  width: auto;\n  opacity: 0.45;\n  filter: grayscale(100%);\n  flex-shrink: 0;\n  transition: opacity 0.3s;\n}\n.vu-sur-logo:hover {\n  opacity: 0.7;\n}\n@keyframes vu-scroll {\n  0% { transform: translateX(0); }\n  100% { transform: translateX(-50%); }\n}\n@media (max-width: 749px) {\n  .vu-sur-logo { height: 18px; }\n  .vu-sur-logos { gap: 30px; }\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -81,6 +81,7 @@
       "block_order": [
         "heading_me3qgb"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -120,6 +121,7 @@
       "block_order": [
         "image_dFUHCx"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "full_width": true,
@@ -296,64 +298,9 @@
         "text_color": ""
       }
     },
-    "slideshow_c4BT9q": {
-      "type": "slideshow",
-      "blocks": {
-        "image_y3eMqE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/hf_20260215_003508_8fd3a76c-2f68-4bf5-b5d9-d8212ab0a5e7_1.png",
-            "mobile_image": "shopify://shop_images/hf_20260215_003508_8fd3a76c-2f68-4bf5-b5d9-d8212ab0a5e7_1.png",
-            "content_max_width": 1200,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h2",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#6659ff",
-            "button_background": "#85c6b1",
-            "button_text_color": "#1a1a1a",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_y3eMqE"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "show_initial_transition": false,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
-    "custom_liquid_QGhXnE": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<div class=\"mec-box\">\n  <p class=\"mec-text\">\n    Les ondes infrarouges pénètrent <strong>jusqu'à 3 cm</strong> dans le mur.\n    L'humidité s'évapore de l'intérieur vers l'extérieur.\n    En <strong>4-6 semaines</strong>, le mur est sec. Sans humidité = <strong>zéro moisissure</strong>.\n  </p>\n  <div class=\"mec-tags\">\n    <span class=\"mec-tag\">🏛️ Restauration de monuments</span>\n    <span class=\"mec-tag\">🧪 0 produit chimique</span>\n    <span class=\"mec-tag\">⚡ ~3€/mois</span>\n  </div>\n</div>\n\n<style>\n.mec-box{max-width:600px;margin:0 auto 16px;padding:14px;background:#F0FDFA;border:1px solid #99F6E4;border-radius:10px;text-align:center}\n.mec-text{font-size:13px;color:#333;line-height:1.6;margin:0 0 10px}\n.mec-text strong{color:#00A4C1;font-weight:700}\n.mec-tags{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}\n.mec-tag{font-size:11px;color:#0D9488;font-weight:600;background:#CCFBF1;padding:4px 10px;border-radius:20px;white-space:nowrap}\n@media(min-width:750px){\n  .mec-box{padding:20px}\n  .mec-text{font-size:15px}\n  .mec-tag{font-size:12px}\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_EPxnHT": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -418,62 +365,6 @@
         "text_color": ""
       }
     },
-    "slideshow_hLhqKF": {
-      "type": "slideshow",
-      "blocks": {
-        "image_TKEpcp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/hf_20260215_024846_8bfd595b-1937-49e1-8582-ba5a8779bb5a.png",
-            "mobile_image": "shopify://shop_images/hf_20260215_024846_8bfd595b-1937-49e1-8582-ba5a8779bb5a.png",
-            "content_max_width": 1200,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h2",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#6659ff",
-            "button_background": "#85c6b1",
-            "button_text_color": "#1a1a1a",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_TKEpcp"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "show_initial_transition": false,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
-    "custom_liquid_AAMMEi": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<br>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "featured_product_CtQXNF": {
       "type": "featured-product",
       "blocks": {
@@ -499,7 +390,7 @@
         "liquid_nADa3y": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_dkE6ht\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <div id=\"winter-promo-card\">\n      <div class=\"leaf-bf-wrapper\" \n           data-target-percent=\"89\" \n           data-last-updated=\"À l'instant\" \n           data-value-text=\"JUSQU'À -78% DE RÉDUCTION\" \n           data-title-text=\"❄️ GRANDE PROMO D'HIVER\" \n           data-subtitle-text=\"Profitez de l'offre avant minuit : Jusqu'à 5 CADEAUX OFFERTS\">\n\n        <!-- Badge Promo -->\n        <div class=\"leaf-bf-value-chip\">\n          <span class=\"leaf-bf-value-text\">JUSQU'À -78% DE RÉDUCTION</span>\n        </div>\n\n        <!-- Titres -->\n        <h2 class=\"leaf-bf-title\">❄️ GRANDE PROMO D'HIVER</h2>\n        <p class=\"leaf-bf-subtitle\">Recevez <strong>jusqu'à 5 CADEAUX</strong> avec votre commande</p>\n\n        <!-- Barre de stock -->\n        <p class=\"leaf-bf-percent\">\n          ⚠️ Stock critique : <span class=\"leaf-bf-percent-number\">89</span>% vendus\n        </p>\n\n        <div class=\"leaf-bf-progress-container\">\n          <div class=\"leaf-bf-progress-bar\">\n            <div class=\"leaf-bf-progress-fill\" style=\"width: 89%;\"></div>\n          </div>\n        </div>\n\n        <p class=\"leaf-bf-updated\">\n          Dernière mise à jour du stock : <span class=\"leaf-bf-updated-text\">À l'instant</span>\n        </p>\n      </div>\n    </div>\n\n    <style>\n      /* Conteneur global */\n      #winter-promo-card {\n        width: 100%;\n        padding: 10px 0;\n        box-sizing: border-box;\n      }\n\n      /* Carte Principale - Style \"Clean & Trust\" */\n      #winter-promo-card .leaf-bf-wrapper {\n        max-width: 900px;\n        margin: 0 auto;\n        text-align: center;\n        padding: 24px 16px;\n        /* Fond très léger bleu hivernal */\n        background: linear-gradient(180deg, #F0F9FF 0%, #E0F2FE 100%);\n        border: 1px solid #BAE6FD;\n        border-radius: 12px;\n        color: #0F172A; /* Texte foncé pour lisibilité */\n        font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);\n      }\n\n      /* Badge Promo - Rouge pour l'impact */\n      #winter-promo-card .leaf-bf-value-chip {\n        display: inline-flex;\n        align-items: center;\n        justify-content: center;\n        padding: 6px 16px;\n        border-radius: 99px;\n        background: #DC2626; /* Rouge urgence */\n        color: #ffffff;\n        font-size: 13px;\n        font-weight: 700;\n        letter-spacing: 0.5px;\n        margin-bottom: 12px;\n        text-transform: uppercase;\n        box-shadow: 0 2px 4px rgba(220, 38, 38, 0.3);\n      }\n\n      /* Titre */\n      #winter-promo-card .leaf-bf-title {\n        margin: 0 0 6px;\n        font-size: 24px;\n        line-height: 1.2;\n        font-weight: 900;\n        color: #0369A1; /* Bleu foncé autorité */\n        text-transform: uppercase;\n      }\n\n      /* Sous-titre */\n      #winter-promo-card .leaf-bf-subtitle {\n        margin: 0 0 16px;\n        font-size: 15px;\n        line-height: 1.4;\n        color: #334155;\n      }\n      #winter-promo-card .leaf-bf-subtitle strong {\n        color: #DC2626;\n        font-weight: 800;\n      }\n\n      /* Texte Pourcentage */\n      #leaf-bf-card .leaf-bf-percent {\n        margin: 0 0 8px;\n        font-size: 14px;\n        font-weight: 600;\n        color: #DC2626;\n      }\n\n      /* Barre de progression */\n      #winter-promo-card .leaf-bf-progress-container {\n        width: 100%;\n        max-width: 600px; /* Moins large pour faire plus \"réel\" */\n        margin: 0 auto 10px;\n        background: #CBD5E1;\n        border-radius: 99px;\n        height: 14px;\n        padding: 2px; /* Effet de bordure interne */\n      }\n\n      #winter-promo-card .leaf-bf-progress-bar {\n        width: 100%;\n        height: 100%;\n        border-radius: 99px;\n        overflow: hidden;\n        background: transparent;\n      }\n\n      #winter-promo-card .leaf-bf-progress-fill {\n        height: 100%;\n        width: 0;\n        border-radius: 99px;\n        /* Rayures rouges animées pour l'urgence */\n        background-image: repeating-linear-gradient(\n          45deg,\n          #EF4444 0,\n          #EF4444 10px,\n          #DC2626 10px,\n          #DC2626 20px\n        );\n        background-size: 28px 28px;\n        animation: progress-stripe 1s linear infinite;\n        transition: width 1.5s cubic-bezier(0.22, 1, 0.36, 1);\n      }\n\n      @keyframes progress-stripe {\n        0% { background-position: 0 0; }\n        100% { background-position: 28px 0; }\n      }\n\n      /* Texte Mise à jour */\n      #winter-promo-card .leaf-bf-updated {\n        margin: 0;\n        margin-top: 8px;\n        font-size: 11px;\n        color: #64748B;\n        font-style: italic;\n      }\n\n      /* Mobile */\n      @media (max-width: 600px) {\n        #winter-promo-card .leaf-bf-wrapper {\n          padding: 20px 12px;\n        }\n        #winter-promo-card .leaf-bf-title {\n          font-size: 20px;\n        }\n        #winter-promo-card .leaf-bf-subtitle {\n          font-size: 13px;\n        }\n      }\n    </style>\n\n    <script>\n      (function() {\n        var wrapper = document.querySelector('#winter-promo-card .leaf-bf-wrapper');\n        if (!wrapper) return;\n\n        var targetPercent = 89; // Fixé à 89% pour l'urgence\n        \n        var percentEl = wrapper.querySelector('.leaf-bf-percent-number');\n        var fillEl = wrapper.querySelector('.leaf-bf-progress-fill');\n\n        // Animation fluide au chargement\n        setTimeout(function() {\n            if(percentEl) percentEl.textContent = targetPercent;\n            if(fillEl) fillEl.style.width = targetPercent + '%';\n        }, 300);\n      })();\n    </script>\n  </div>\n</div>"
+            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_dkE6ht\" data-block-type=\"liquid\">\n  <div class=\"product-info__liquid\">\n    <div id=\"winter-promo-card\">\n      <div class=\"leaf-bf-wrapper\" \n           data-target-percent=\"89\" \n           data-last-updated=\"À l'instant\" \n           data-value-text=\"JUSQU'À -88% DE RÉDUCTION\" \n           data-title-text=\"❄️ GRANDE PROMO D'HIVER\" \n           data-subtitle-text=\"Profitez de l'offre avant minuit : Jusqu'à 5 CADEAUX OFFERTS\">\n\n        <!-- Badge Promo -->\n        <div class=\"leaf-bf-value-chip\">\n          <span class=\"leaf-bf-value-text\">JUSQU'À -88% DE RÉDUCTION</span>\n        </div>\n\n        <!-- Titres -->\n        <h2 class=\"leaf-bf-title\">❄️ GRANDE PROMO D'HIVER</h2>\n        <p class=\"leaf-bf-subtitle\">Recevez <strong>jusqu'à 5 CADEAUX</strong> avec votre commande</p>\n\n        <!-- Barre de stock -->\n        <p class=\"leaf-bf-percent\">\n          ⚠️ Stock critique : <span class=\"leaf-bf-percent-number\">89</span>% vendus\n        </p>\n\n        <div class=\"leaf-bf-progress-container\">\n          <div class=\"leaf-bf-progress-bar\">\n            <div class=\"leaf-bf-progress-fill\" style=\"width: 89%;\"></div>\n          </div>\n        </div>\n\n        <p class=\"leaf-bf-updated\">\n          Dernière mise à jour du stock : <span class=\"leaf-bf-updated-text\">À l'instant</span>\n        </p>\n      </div>\n    </div>\n\n    <style>\n      /* Conteneur global */\n      #winter-promo-card {\n        width: 100%;\n        padding: 10px 0;\n        box-sizing: border-box;\n      }\n\n      /* Carte Principale - Style \"Clean & Trust\" */\n      #winter-promo-card .leaf-bf-wrapper {\n        max-width: 900px;\n        margin: 0 auto;\n        text-align: center;\n        padding: 24px 16px;\n        /* Fond très léger bleu hivernal */\n        background: linear-gradient(180deg, #F0F9FF 0%, #E0F2FE 100%);\n        border: 1px solid #BAE6FD;\n        border-radius: 12px;\n        color: #0F172A; /* Texte foncé pour lisibilité */\n        font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);\n      }\n\n      /* Badge Promo - Rouge pour l'impact */\n      #winter-promo-card .leaf-bf-value-chip {\n        display: inline-flex;\n        align-items: center;\n        justify-content: center;\n        padding: 6px 16px;\n        border-radius: 99px;\n        background: #DC2626; /* Rouge urgence */\n        color: #ffffff;\n        font-size: 13px;\n        font-weight: 700;\n        letter-spacing: 0.5px;\n        margin-bottom: 12px;\n        text-transform: uppercase;\n        box-shadow: 0 2px 4px rgba(220, 38, 38, 0.3);\n      }\n\n      /* Titre */\n      #winter-promo-card .leaf-bf-title {\n        margin: 0 0 6px;\n        font-size: 24px;\n        line-height: 1.2;\n        font-weight: 900;\n        color: #0369A1; /* Bleu foncé autorité */\n        text-transform: uppercase;\n      }\n\n      /* Sous-titre */\n      #winter-promo-card .leaf-bf-subtitle {\n        margin: 0 0 16px;\n        font-size: 15px;\n        line-height: 1.4;\n        color: #334155;\n      }\n      #winter-promo-card .leaf-bf-subtitle strong {\n        color: #DC2626;\n        font-weight: 800;\n      }\n\n      /* Texte Pourcentage */\n      #leaf-bf-card .leaf-bf-percent {\n        margin: 0 0 8px;\n        font-size: 14px;\n        font-weight: 600;\n        color: #DC2626;\n      }\n\n      /* Barre de progression */\n      #winter-promo-card .leaf-bf-progress-container {\n        width: 100%;\n        max-width: 600px; /* Moins large pour faire plus \"réel\" */\n        margin: 0 auto 10px;\n        background: #CBD5E1;\n        border-radius: 99px;\n        height: 14px;\n        padding: 2px; /* Effet de bordure interne */\n      }\n\n      #winter-promo-card .leaf-bf-progress-bar {\n        width: 100%;\n        height: 100%;\n        border-radius: 99px;\n        overflow: hidden;\n        background: transparent;\n      }\n\n      #winter-promo-card .leaf-bf-progress-fill {\n        height: 100%;\n        width: 0;\n        border-radius: 99px;\n        /* Rayures rouges animées pour l'urgence */\n        background-image: repeating-linear-gradient(\n          45deg,\n          #EF4444 0,\n          #EF4444 10px,\n          #DC2626 10px,\n          #DC2626 20px\n        );\n        background-size: 28px 28px;\n        animation: progress-stripe 1s linear infinite;\n        transition: width 1.5s cubic-bezier(0.22, 1, 0.36, 1);\n      }\n\n      @keyframes progress-stripe {\n        0% { background-position: 0 0; }\n        100% { background-position: 28px 0; }\n      }\n\n      /* Texte Mise à jour */\n      #winter-promo-card .leaf-bf-updated {\n        margin: 0;\n        margin-top: 8px;\n        font-size: 11px;\n        color: #64748B;\n        font-style: italic;\n      }\n\n      /* Mobile */\n      @media (max-width: 600px) {\n        #winter-promo-card .leaf-bf-wrapper {\n          padding: 20px 12px;\n        }\n        #winter-promo-card .leaf-bf-title {\n          font-size: 20px;\n        }\n        #winter-promo-card .leaf-bf-subtitle {\n          font-size: 13px;\n        }\n      }\n    </style>\n\n    <script>\n      (function() {\n        var wrapper = document.querySelector('#winter-promo-card .leaf-bf-wrapper');\n        if (!wrapper) return;\n\n        var targetPercent = 89; // Fixé à 89% pour l'urgence\n        \n        var percentEl = wrapper.querySelector('.leaf-bf-percent-number');\n        var fillEl = wrapper.querySelector('.leaf-bf-progress-fill');\n\n        // Animation fluide au chargement\n        setTimeout(function() {\n            if(percentEl) percentEl.textContent = targetPercent;\n            if(fillEl) fillEl.style.width = targetPercent + '%';\n        }, 300);\n      })();\n    </script>\n  </div>\n</div>"
           }
         },
         "liquid_i7W7wN": {
@@ -632,6 +523,62 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "slideshow_c4BT9q": {
+      "type": "slideshow",
+      "blocks": {
+        "image_y3eMqE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hf_20260215_003508_8fd3a76c-2f68-4bf5-b5d9-d8212ab0a5e7_1.png",
+            "mobile_image": "shopify://shop_images/hf_20260215_003508_8fd3a76c-2f68-4bf5-b5d9-d8212ab0a5e7_1.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#6659ff",
+            "button_background": "#85c6b1",
+            "button_text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_y3eMqE"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "custom_liquid_QGhXnE": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"mec-box\">\n  <p class=\"mec-text\">\n    Les ondes infrarouges pénètrent <strong>jusqu'à 3 cm</strong> dans le mur.\n    L'humidité s'évapore de l'intérieur vers l'extérieur.\n    En <strong>4-6 semaines</strong>, le mur est sec. Sans humidité = <strong>zéro moisissure</strong>.\n  </p>\n  <div class=\"mec-tags\">\n    <span class=\"mec-tag\">🏛️ Restauration de monuments</span>\n    <span class=\"mec-tag\">🧪 0 produit chimique</span>\n    <span class=\"mec-tag\">⚡ ~3€/mois</span>\n  </div>\n</div>\n\n<style>\n.mec-box{max-width:600px;margin:0 auto 16px;padding:14px;background:#F0FDFA;border:1px solid #99F6E4;border-radius:10px;text-align:center}\n.mec-text{font-size:13px;color:#333;line-height:1.6;margin:0 0 10px}\n.mec-text strong{color:#00A4C1;font-weight:700}\n.mec-tags{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}\n.mec-tag{font-size:11px;color:#0D9488;font-weight:600;background:#CCFBF1;padding:4px 10px;border-radius:20px;white-space:nowrap}\n@media(min-width:750px){\n  .mec-box{padding:20px}\n  .mec-text{font-size:15px}\n  .mec-tag{font-size:12px}\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -646,16 +593,14 @@
     "rich_text_kdFc4p",
     "slideshow_bqcED3",
     "custom_liquid_DqRYHN",
-    "slideshow_c4BT9q",
-    "custom_liquid_QGhXnE",
     "custom_liquid_EPxnHT",
     "custom_liquid_Ua6eYJ",
     "rich_text_j7hTyM",
     "custom_liquid_6GN8kr",
-    "slideshow_hLhqKF",
-    "custom_liquid_AAMMEi",
     "featured_product_CtQXNF",
     "custom_liquid_cQqpCw",
-    "custom_html_Wwz8yM"
+    "custom_html_Wwz8yM",
+    "slideshow_c4BT9q",
+    "custom_liquid_QGhXnE"
   ]
 }
