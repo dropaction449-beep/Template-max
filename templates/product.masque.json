@@ -242,10 +242,53 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n  * { box-sizing: border-box; margin: 0; padding: 0; }\n\n  body {\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n    background: #f7c948;\n    overflow: hidden;\n  }\n\n  .marquee-wrapper {\n    width: 100%;\n    overflow: hidden;\n    padding: 10px 0;\n    background: #f7c948;\n  }\n\n  .marquee-track {\n    display: flex;\n    width: max-content;\n    animation: scrollRight 20s linear infinite;\n  }\n\n  .marquee-group {\n    display: flex;\n    align-items: center;\n    gap: 0;\n    flex-shrink: 0;\n  }\n\n  .item {\n    display: flex;\n    align-items: center;\n    gap: 7px;\n    padding: 0 20px;\n    white-space: nowrap;\n  }\n\n  .item img {\n    width: 22px;\n    height: 22px;\n    object-fit: contain;\n  }\n\n  .item span {\n    font-size: 13px;\n    font-weight: 600;\n    color: #1a1200;\n  }\n\n  .separator {\n    width: 1px;\n    height: 16px;\n    background: rgba(0,0,0,0.15);\n    flex-shrink: 0;\n  }\n\n  @keyframes scrollRight {\n    0%   { transform: translateX(-50%); }\n    100% { transform: translateX(0%); }\n  }\n</style>\n\n\n\n<div class=\"marquee-wrapper\">\n  <div class=\"marquee-track\">\n    <!-- Group 1 -->\n    <div class=\"marquee-group\">\n      <div class=\"item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/765dcf8b-4899-4509-bf7e-909ce69494c8\" alt=\"\">\n        <span>Ohne GVO</span>\n      </div>\n      <div class=\"separator\"></div>\n      <div class=\"item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/c099624a-c3b5-4782-bfb3-85d84c4656c2\" alt=\"\">\n        <span>100% Vegan</span>\n      </div>\n      <div class=\"separator\"></div>\n      <div class=\"item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/33d11107-2c54-4c08-8e55-ed8860a06d73\" alt=\"\">\n        <span>Unabhängig Laborgeprüft</span>\n      </div>\n      <div class=\"separator\"></div>\n      <div class=\"item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/0e39896d-8afb-4c23-a3fd-1ddf4da9b457\" alt=\"\">\n        <span>Ohne Künstliche Zusätze</span>\n      </div>\n      <div class=\"separator\"></div>\n      <div class=\"item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/03e313ca-b67d-4c23-ad11-54df34b96168\" alt=\"\">\n        <span>Klinische Dosierungen</span>\n      </div>\n      <div class=\"separator\"></div>\n    </div>\n    <!-- Group 2 (duplicate for seamless loop) -->\n    <div class=\"marquee-group\">\n      <div class=\"item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/765dcf8b-4899-4509-bf7e-909ce69494c8\" alt=\"\">\n        <span>Ohne GVO</span>\n      </div>\n      <div class=\"separator\"></div>\n      <div class=\"item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/c099624a-c3b5-4782-bfb3-85d84c4656c2\" alt=\"\">\n        <span>100% Vegan</span>\n      </div>\n      <div class=\"separator\"></div>\n      <div class=\"item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/33d11107-2c54-4c08-8e55-ed8860a06d73\" alt=\"\">\n        <span>Unabhängig Laborgeprüft</span>\n      </div>\n      <div class=\"separator\"></div>\n      <div class=\"item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/0e39896d-8afb-4c23-a3fd-1ddf4da9b457\" alt=\"\">\n        <span>Ohne Künstliche Zusätze</span>\n      </div>\n      <div class=\"separator\"></div>\n      <div class=\"item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/03e313ca-b67d-4c23-ad11-54df34b96168\" alt=\"\">\n        <span>Klinische Dosierungen</span>\n      </div>\n      <div class=\"separator\"></div>\n    </div>\n  </div>\n</div>",
+        "html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n  .marquee-wrapper {\n    width: 100%;\n    overflow: hidden;\n    padding: 10px 0;\n    background: #f7c948;\n  }\n  .marquee-track {\n    display: flex;\n    width: max-content;\n    animation: scrollRight 20s linear infinite;\n  }\n  .marquee-group {\n    display: flex;\n    align-items: center;\n    flex-shrink: 0;\n  }\n  .marquee-item {\n    display: flex;\n    align-items: center;\n    gap: 7px;\n    padding: 0 20px;\n    white-space: nowrap;\n  }\n  .marquee-item img {\n    width: 22px;\n    height: 22px;\n    object-fit: contain;\n  }\n  .marquee-item span {\n    font-size: 13px;\n    font-weight: 600;\n    color: #1a1200;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n  }\n  .marquee-sep {\n    width: 1px;\n    height: 16px;\n    background: rgba(0,0,0,0.15);\n    flex-shrink: 0;\n  }\n  @keyframes scrollRight {\n    0%   { transform: translateX(-50%); }\n    100% { transform: translateX(0%); }\n  }\n</style>\n\n<div class=\"marquee-wrapper\">\n  <div class=\"marquee-track\">\n    <div class=\"marquee-group\">\n      <div class=\"marquee-item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/765dcf8b-4899-4509-bf7e-909ce69494c8\" alt=\"\">\n        <span>Ohne GVO</span>\n      </div>\n      <div class=\"marquee-sep\"></div>\n      <div class=\"marquee-item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/c099624a-c3b5-4782-bfb3-85d84c4656c2\" alt=\"\">\n        <span>100% Vegan</span>\n      </div>\n      <div class=\"marquee-sep\"></div>\n      <div class=\"marquee-item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/33d11107-2c54-4c08-8e55-ed8860a06d73\" alt=\"\">\n        <span>Unabhängig Laborgeprüft</span>\n      </div>\n      <div class=\"marquee-sep\"></div>\n      <div class=\"marquee-item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/0e39896d-8afb-4c23-a3fd-1ddf4da9b457\" alt=\"\">\n        <span>Ohne Künstliche Zusätze</span>\n      </div>\n      <div class=\"marquee-sep\"></div>\n      <div class=\"marquee-item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/03e313ca-b67d-4c23-ad11-54df34b96168\" alt=\"\">\n        <span>Klinische Dosierungen</span>\n      </div>\n      <div class=\"marquee-sep\"></div>\n    </div>\n    <div class=\"marquee-group\">\n      <div class=\"marquee-item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/765dcf8b-4899-4509-bf7e-909ce69494c8\" alt=\"\">\n        <span>Ohne GVO</span>\n      </div>\n      <div class=\"marquee-sep\"></div>\n      <div class=\"marquee-item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/c099624a-c3b5-4782-bfb3-85d84c4656c2\" alt=\"\">\n        <span>100% Vegan</span>\n      </div>\n      <div class=\"marquee-sep\"></div>\n      <div class=\"marquee-item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/33d11107-2c54-4c08-8e55-ed8860a06d73\" alt=\"\">\n        <span>Unabhängig Laborgeprüft</span>\n      </div>\n      <div class=\"marquee-sep\"></div>\n      <div class=\"marquee-item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/0e39896d-8afb-4c23-a3fd-1ddf4da9b457\" alt=\"\">\n        <span>Ohne Künstliche Zusätze</span>\n      </div>\n      <div class=\"marquee-sep\"></div>\n      <div class=\"marquee-item\">\n        <img src=\"https://assets.replocdn.com/projects/194b47ce-750c-4720-9b95-214a0b3df524/03e313ca-b67d-4c23-ad11-54df34b96168\" alt=\"\">\n        <span>Klinische Dosierungen</span>\n      </div>\n      <div class=\"marquee-sep\"></div>\n    </div>\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "slideshow_dC88ae": {
+      "type": "slideshow",
+      "blocks": {
+        "image_H4f69r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/c6634999-9cd6-4bf7-a681-88c2b205ec22.avif",
+            "mobile_image": "shopify://shop_images/c6634999-9cd6-4bf7-a681-88c2b205ec22.avif",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_H4f69r"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
       }
     },
     "custom_html_7cFR3p": {
@@ -355,6 +398,7 @@
     "main",
     "custom_liquid_3cYXhQ",
     "custom_html_QjMJJP",
+    "slideshow_dC88ae",
     "custom_html_7cFR3p",
     "custom_html_qrVMB8",
     "custom_html_LVJRrK",
