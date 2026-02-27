@@ -30,6 +30,10 @@
             "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  body { font-family: sans-serif; padding: 20px; background: white; }\n  .pills-container {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 6px;\n    justify-content: center;\n    max-width: 360px;\n  }\n  .pill {\n    display: inline-flex;\n    align-items: center;\n    padding: 4px 11px;\n    border: 1.2px solid #333;\n    border-radius: 999px;\n    font-size: 12px;\n    color: #333;\n    background: white;\n    cursor: default;\n    white-space: nowrap;\n  }\n</style>\n</head>\n<body>\n  <div class=\"pills-container\">\n    <div class=\"pill\">Sommeil</div>\n    <div class=\"pill\">Transit</div>\n    <div class=\"pill\">Fatigue</div>\n    <div class=\"pill\">Ballonnements</div>\n  </div>\n</body>\n</html>"
           }
         },
+        "separator_rcBHmE": {
+          "type": "separator",
+          "settings": {}
+        },
         "liquid_iaRbhb": {
           "type": "liquid",
           "settings": {
@@ -172,6 +176,7 @@
         "liquid_AzFhkM",
         "title",
         "liquid_4Atpnn",
+        "separator_rcBHmE",
         "liquid_iaRbhb",
         "liquid_cgD8EP",
         "badges",
