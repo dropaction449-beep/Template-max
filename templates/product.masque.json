@@ -194,7 +194,7 @@
       ],
       "settings": {
         "full_width": true,
-        "show_fixed_add_to_cart": true,
+        "show_fixed_add_to_cart": false,
         "desktop_media_width": 55,
         "desktop_media_layout": "grid_one",
         "mobile_media_size": "expanded",
@@ -475,6 +475,7 @@
     },
     "17633825979a9ac87f": {
       "type": "apps",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
