@@ -27,7 +27,7 @@
         "liquid_F7YQzA": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div data-rid=\"e8e2ef93-8551-4093-abd8-3e95c18e20e1\" class=\"r-1qyww7f alchemy-rte\">\n  <span style=\"width:100%\">\n    <p>🔬 PLOS-Studie 2024: Jeder dritte Deutsche beherbergt unbemerkt Darmparasiten – und 78 % der herkömmlichen Tests erkennen sie nicht.</p>\n  </span>\n</div>"
+            "liquid": "<div data-rid=\"e8e2ef93-8551-4093-abd8-3e95c18e20e1\" class=\"r-1qyww7f alchemy-rte\">\n  <span style=\"width:100%\">\n    <p style=\"\n      background:#ffffff;\n      border-radius:8px;\n      padding:10px 14px;\n      margin:0;\n      display:inline-block;\n      font-size:13px;\n      line-height:1.4;\n    \">\n      🔬 PLOS-Studie 2024: Jeder dritte Deutsche beherbergt unbemerkt Darmparasiten – und 78 % der herkömmlichen Tests erkennen sie nicht.\n    </p>\n\n    <p style=\"\n      margin-top:6px;\n      font-size:12.5px;\n      line-height:1.4;\n    \">\n      Lyora = die einzige Formel, die <strong>erwachsene Parasiten, Larven und Eier</strong> gezielt angreift.  \n      Genau deshalb wirkt sie dort, wo andere scheitern.\n    </p>\n  </span>\n</div>"
           }
         },
         "liquid_4Atpnn": {
