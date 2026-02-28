@@ -13,6 +13,7 @@
   "sections": {
     "custom_liquid_niQw3m": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -26,6 +27,7 @@
     },
     "custom_liquid_f8DLMw": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -39,6 +41,7 @@
     },
     "custom_liquid_Gck6qH": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -52,6 +55,7 @@
     },
     "custom_liquid_WtawWe": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -87,6 +91,7 @@
         "links",
         "links_rCff4W"
       ],
+      "disabled": true,
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,

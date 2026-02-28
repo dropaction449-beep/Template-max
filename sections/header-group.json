@@ -13,6 +13,7 @@
   "sections": {
     "custom_html_VfLx9U": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
@@ -64,6 +65,7 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "hide_on_scroll": false,
