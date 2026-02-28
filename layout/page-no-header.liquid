@@ -63,28 +63,49 @@
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
 
-       <style>
-      /* Masquer le titre de la page */
-      .main-page__title,
+    <style>
+      /* Masquer TOUS les titres possibles */
       .page-header,
-      h1.page-title {
+      .main-page__header,
+      .main-page__title,
+      h1.page-title,
+      .page__title,
+      .shopify-section h1,
+      header h1,
+      [class*="title"] h1,
+      main h1:first-of-type {
         display: none !important;
+        visibility: hidden !important;
+        height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
       }
       
-      /* Contenu en pleine largeur */
+      /* Pleine largeur TOTALE */
+      body,
+      main,
+      main#main,
       .main-page,
       .page-content,
-      .rte {
+      .page-width,
+      .shopify-section,
+      .rte,
+      [class*="container"],
+      [class*="wrapper"] {
         max-width: 100% !important;
         width: 100% !important;
         padding-left: 0 !important;
         padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
       }
       
+      /* Supprimer tous les espacements */
       main#main {
         padding: 0 !important;
+        margin: 0 !important;
       }
-    </style> 
+    </style>
   </head>
 
   <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
