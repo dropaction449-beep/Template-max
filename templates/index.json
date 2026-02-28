@@ -52,32 +52,6 @@
         "background_gradient": ""
       }
     },
-    "custom_liquid_wDwKRX": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<section class=\"vu-sur-section\">\n  <div class=\"vu-sur-track\">\n    <div class=\"vu-sur-logos\">\n      <!-- Jeu 1 -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_5.jpg?v=1771157997\" alt=\"TF1\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_5.png?v=1771158000\" alt=\"France 2\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_6.png?v=1771158001\" alt=\"BFM TV\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_7.png?v=1771158002\" alt=\"Le Monde\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_6.jpg?v=1771158004\" alt=\"20 Minutes\" class=\"vu-sur-logo\">\n      <!-- Jeu 2 -->\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_5.jpg?v=1771157997\" alt=\"TF1\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_5.png?v=1771158000\" alt=\"France 2\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_6.png?v=1771158001\" alt=\"BFM TV\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_7.png?v=1771158002\" alt=\"Le Monde\" class=\"vu-sur-logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0990/1765/4619/files/download_6.jpg?v=1771158004\" alt=\"20 Minutes\" class=\"vu-sur-logo\">\n    </div>\n  </div>\n</section>\n<style>\n.vu-sur-section {\n  padding: 12px 0;\n  background: #FFF;\n  text-align: center;\n  overflow: hidden;\n}\n.vu-sur-track {\n  width: 100%;\n  overflow: hidden;\n  position: relative;\n}\n.vu-sur-logos {\n  display: flex;\n  align-items: center;\n  gap: 40px;\n  animation: vu-scroll 20s linear infinite;\n  width: max-content;\n}\n.vu-sur-logo {\n  height: 34px;\n  width: auto;\n  opacity: 0.45;\n  filter: grayscale(100%);\n  flex-shrink: 0;\n  transition: opacity 0.3s;\n}\n.vu-sur-logo:hover {\n  opacity: 0.7;\n}\n@keyframes vu-scroll {\n  0% { transform: translateX(0); }\n  100% { transform: translateX(-50%); }\n}\n@media (max-width: 749px) {\n  .vu-sur-logo { height: 28px; }\n  .vu-sur-logos { gap: 30px; }\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_3RLnTt": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<section class=\"ds-section\">\n  <div class=\"ds-inner page-width\">\n    <p class=\"ds-title\">⚠️ La moisissure que vous voyez libère des <strong>spores invisibles</strong> que vous respirez chaque nuit.</p>\n    <div class=\"ds-stats\">\n      <div class=\"ds-stat\"><strong>93%</strong><span>sinusites chroniques</span></div>\n      <div class=\"ds-stat\"><strong>×2,5</strong><span>risque asthme enfants</span></div>\n      <div class=\"ds-stat\"><strong>24h/24</strong><span>exposition continue</span></div>\n    </div>\n  </div>\n</section>\n\n<style>\n.ds-section{padding:16px;background:#FEF2F2;border-top:2px solid #DC2626}\n.ds-inner{max-width:600px;margin:0 auto;text-align:center}\n.ds-title{font-size:14px;color:#333;line-height:1.5;margin:0 0 14px}\n.ds-title strong{color:#DC2626;font-weight:700}\n.ds-stats{display:flex;gap:8px}\n.ds-stat{flex:1;background:#FFF;border:1px solid #FECACA;border-radius:10px;padding:10px 6px;text-align:center}\n.ds-stat strong{display:block;font-size:20px;color:#DC2626;font-weight:800;margin-bottom:2px}\n.ds-stat span{font-size:11px;color:#666;line-height:1.3;display:block}\n@media(min-width:750px){\n  .ds-section{padding:24px 20px}\n  .ds-title{font-size:16px}\n  .ds-stat strong{font-size:26px}\n  .ds-stat span{font-size:12px}\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "rich_text_Karb3X": {
       "type": "rich-text",
       "blocks": {
@@ -345,8 +319,6 @@
   },
   "order": [
     "slideshow_9amCQ4",
-    "custom_liquid_wDwKRX",
-    "custom_liquid_3RLnTt",
     "rich_text_Karb3X",
     "slideshow_wQqzwa",
     "rich_text_VePYNK",
