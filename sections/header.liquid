@@ -215,10 +215,10 @@ the underlying logic of the menu.
 
       {%- if request.page_type == 'index' -%}
         <h1 class="header__logo">
-          <a href="">{{ logo_content }}</a>
+          <a href="https://lyora.store/products/3-in-1-detox-leber-magen-darm">{{ logo_content }}</a>
         </h1>
       {% else %}
-        <a href="" class="header__logo">{{ logo_content }}</a>
+        <a href="https://lyora.store/products/3-in-1-detox-leber-magen-darm" class="header__logo">{{ logo_content }}</a>
       {% endif %}
 
       {%- comment -%}
@@ -272,7 +272,7 @@ the underlying logic of the menu.
           <li>
             <a href="{{ routes.cart_url }}" data-no-instant class="relative block tap-area" {% if settings.cart_type != 'page' and request.page_type != 'cart' %}aria-controls="cart-drawer"{% endif %}>
               <span class="sr-only">{{ 'header.general.cart' | t }}</span>
-              {%- render 'icon' with 'cart' -%}
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
 
               <div class="header__cart-count">
                 <cart-count class="count-bubble {% if cart.item_count == 0 %}opacity-0{% endif %}">
