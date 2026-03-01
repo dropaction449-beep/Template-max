@@ -450,7 +450,15 @@
         "split_shipping_multiple_shipment_notice_one_time_purchase": "Kostenloser Versand fuer Ihre Bestellung",
         "split_shipping_multiple_shipment_notice": "Kostenloser Versand fuer Ihre Bestellung",
         "split_shipping_shipment_notice": "Kostenloser Versand fuer Ihre Bestellung"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Senden Sie mir Neuigkeiten und Angebote per E-Mail"
       }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "marketing_checkbox_label": "Senden Sie mir Neuigkeiten und Angebote per E-Mail"
     }
   }
 }
