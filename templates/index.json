@@ -52,6 +52,19 @@
         "background_gradient": ""
       }
     },
+    "custom_html_VWNQD6": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<style>\n  .lyora-cta-single {\n    display: block;\n    width: 100%;\n    max-width: 420px;\n    margin: 0 auto;\n    text-align: center;\n    background: #f7c948;\n    color: #111;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n    font-weight: 900;\n    font-size: 14px;\n    letter-spacing: 2px;\n    text-transform: uppercase;\n    padding: 16px 14px;\n    border-radius: 12px;\n    border: 3px solid #111;\n    box-shadow: 0 3px 0 #111;\n    text-decoration: none;\n    box-sizing: border-box;\n  }\n\n  .lyora-cta-single:active {\n    transform: translateY(1px);\n    box-shadow: 0 2px 0 #111;\n  }\n</style>\n\n<a href=\"https://lyora.store/products/3-in-1-detox-leber-magen-darm\" class=\"lyora-cta-single\">\n  Jetzt starten\n</a>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_Karb3X": {
       "type": "rich-text",
       "blocks": {
@@ -320,6 +333,7 @@
   },
   "order": [
     "slideshow_9amCQ4",
+    "custom_html_VWNQD6",
     "rich_text_Karb3X",
     "slideshow_wQqzwa",
     "rich_text_VePYNK",
