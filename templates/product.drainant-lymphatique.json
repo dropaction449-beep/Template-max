@@ -146,8 +146,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Wie erkenne ich, ob ich Parasiten habe?",
-            "content": "<p>Die häufigsten Symptome sind: unerklärliche chronische Müdigkeit, ein aufgeblähter Bauch nach den Mahlzeiten, unkontrollierbare Heißhungerattacken auf Zucker, nächtliches Aufwachen (oft zwischen 2 und 4 Uhr), Hautprobleme sowie Schwierigkeiten, trotz Diäten Gewicht zu verlieren.</p><p>Eine Studie aus dem Jahr 2024 zeigt, dass <strong>jeder dritte Mensch in Deutschland</strong> Parasiten in sich trägt, ohne es zu wissen – und <strong>78 % der herkömmlichen Tests</strong> erkennen sie nicht.</p>",
+            "title": "Wann zeigen sich die ersten Ergebnisse?",
+            "content": "<p>Die meisten unserer Kundinnen berichten von folgenden Veränderungen:</p><ul><li>Tag 5–7: Weniger geschwollene Beine und leichteres Aufwachen</li><li>Tag 10–14: Weniger aufgedunsenes Gesicht, schlankere Taille</li><li>Tag 21: Sichtbar reduzierte Wassereinlagerungen und mehr Leichtigkeit im Alltag</li></ul><p>Für vollständige und nachhaltige Ergebnisse empfehlen wir eine Kur von mindestens 60 Tagen.</p>",
             "page": ""
           }
         },
@@ -156,8 +156,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Wann zeigen sich die ersten Ergebnisse?",
-            "content": "<p>Die meisten unserer Kundinnen berichten von folgenden Veränderungen:</p><ul><li><strong>Tag 5–7:</strong> Weniger aufgeblähter Bauch<br/></li><li><strong>Tag 10–14:</strong> Mehr Energie, weniger Heißhunger<br/></li><li><strong>Tag 21:</strong> Sichtbare Veränderung (Haut, Schlaf, Gewicht)<br/></li></ul><p>Für vollständige und nachhaltige Ergebnisse empfehlen wir eine <strong>Kur von mindestens 60 Tagen</strong>.</p>",
+            "title": "Gibt es Nebenwirkungen?",
+            "content": "<p>In den ersten Tagen verspüren manche Menschen ein leichtes Völlegefühl oder häufigeren Harndrang. Das ist normal: Es zeigt, dass Ihre Lymphe beginnt, Flüssigkeiten und Giftstoffe aktiv auszuleiten. Diese Symptome verschwinden in der Regel nach 2–3 Tagen.</p><p>Tipp: Viel Wasser trinken — mindestens 1,5 l täglich — um die Entwässerung optimal zu unterstützen.</p>",
             "page": ""
           }
         },
@@ -166,18 +166,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Gibt es Nebenwirkungen?",
-            "content": "<p>In den ersten Tagen verspüren manche Menschen leichte Müdigkeit oder Kopfschmerzen. Das ist normal: Es zeigt, dass parasitäre Giftstoffe ausgeschieden werden (Herxheimer-Reaktion). Diese Symptome verschwinden in der Regel nach <strong>2–3 Tagen</strong>.<br/><br/><strong>Tipp:</strong> Viel Wasser trinken.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_text_XnbJzY": {
-          "type": "collapsible_text",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Warum Tropfen und keine Kapseln?",
-            "content": "<p>Flüssige Extrakte werden zu <strong>80–90 %</strong> vom Körper aufgenommen, Kapseln hingegen nur zu <strong>30–40 %</strong>.<br/><br/>Bei Tropfen beginnt die Aufnahme sofort. Bei Kapseln wird ein großer Teil der Wirkstoffe durch die Magensäure zerstört.</p>",
+            "title": "Warum Kapseln und keine Tropfen?",
+            "content": "<p>Lyora verwendet pflanzliche Extrakte in einer speziell entwickelten Kapselform mit verzögerter Freisetzung. So werden die Wirkstoffe gezielt im Darm freigesetzt — dort, wo die Lymphabfuhr beginnt — und nicht bereits im Magen abgebaut.</p><p>Das Ergebnis: Maximale Wirkstoffverfügbarkeit. Kein bitterer Geschmack. Einfach einzunehmen.</p>",
             "page": ""
           }
         },
@@ -219,7 +209,6 @@
         "collapsible_text_miGHdx",
         "collapsible_text_DbJmjV",
         "collapsible_text_xWaKYV",
-        "collapsible_text_XnbJzY",
         "liquid_tbLher",
         "liquid_A6Cnxx"
       ],
