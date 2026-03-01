@@ -457,7 +457,8 @@
         "accept_marketing_checkbox_label": "Senden Sie mir Neuigkeiten und Angebote per E-Mail"
       },
       "contact": {
-        "contact_method_title": "Kontakt"
+        "contact_method_title": "Kontakt",
+        "country_label": "Land/Region"
       }
     }
   },
