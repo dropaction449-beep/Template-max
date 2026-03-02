@@ -45,6 +45,7 @@
     },
     "custom_html_DCbTXA": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
