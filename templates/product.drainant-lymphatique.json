@@ -171,6 +171,13 @@
             "page": ""
           }
         },
+        "liquid_xHFkfj": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<style>\n  .lyora-videos {\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\n    background: #f5f0e8;\n    padding: 24px 16px;\n    width: 100%;\n    box-sizing: border-box;\n    overflow: hidden;\n  }\n\n  .lyora-videos__grid {\n    display: flex;\n    flex-direction: row;\n    gap: 10px;\n    overflow-x: auto;\n    scroll-snap-type: x mandatory;\n    -webkit-overflow-scrolling: touch;\n    scrollbar-width: none;\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  .lyora-videos__grid::-webkit-scrollbar {\n    display: none;\n  }\n\n  .lyora-videos__item {\n    flex: 0 0 calc(25% - 8px);\n    scroll-snap-align: start;\n    border-radius: 12px;\n    overflow: hidden;\n    background: #000;\n  }\n\n  .lyora-videos__item video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n    border-radius: 12px;\n    aspect-ratio: 9/16;\n  }\n\n  @media (max-width: 768px) {\n    .lyora-videos__item {\n      flex: 0 0 72vw;\n    }\n  }\n</style>\n\n<div class=\"lyora-videos\">\n  <div class=\"lyora-videos__grid\">\n\n    <div class=\"lyora-videos__item\">\n      <video playsinline muted loop autoplay preload=\"metadata\"\n        poster=\"//eclatis-eu.com/cdn/shop/files/preview_images/1711fb672d63444e9741feed44f6701f.thumbnail.0000000000_small.jpg?v=1772069906\">\n        <source src=\"//eclatis-eu.com/cdn/shop/videos/c/vp/1711fb672d63444e9741feed44f6701f/1711fb672d63444e9741feed44f6701f.HD-720p-1.6Mbps-76611994.mp4?v=0\" type=\"video/mp4\">\n      </video>\n    </div>\n\n    <div class=\"lyora-videos__item\">\n      <video playsinline muted loop autoplay preload=\"metadata\"\n        poster=\"//eclatis-eu.com/cdn/shop/files/preview_images/535763b2c5ff4a678fb6dba0964a8bc6.thumbnail.0000000000_small.jpg?v=1772069894\">\n        <source src=\"//eclatis-eu.com/cdn/shop/videos/c/vp/535763b2c5ff4a678fb6dba0964a8bc6/535763b2c5ff4a678fb6dba0964a8bc6.HD-720p-2.1Mbps-76611988.mp4?v=0\" type=\"video/mp4\">\n      </video>\n    </div>\n\n    <div class=\"lyora-videos__item\">\n      <video playsinline muted loop autoplay preload=\"metadata\"\n        poster=\"//eclatis-eu.com/cdn/shop/files/preview_images/ad1898a9ff864de298ec3dc236c34d66.thumbnail.0000000000_small.jpg?v=1772069462\">\n        <source src=\"//eclatis-eu.com/cdn/shop/videos/c/vp/ad1898a9ff864de298ec3dc236c34d66/ad1898a9ff864de298ec3dc236c34d66.HD-1080p-2.5Mbps-76611698.mp4?v=0\" type=\"video/mp4\">\n      </video>\n    </div>\n\n    <div class=\"lyora-videos__item\">\n      <video playsinline muted loop autoplay preload=\"metadata\"\n        poster=\"//eclatis-eu.com/cdn/shop/files/preview_images/0b9b4a10d0954663a6357f8c7b982151.thumbnail.0000000000_small.jpg?v=1772069893\">\n        <source src=\"//eclatis-eu.com/cdn/shop/videos/c/vp/0b9b4a10d0954663a6357f8c7b982151/0b9b4a10d0954663a6357f8c7b982151.HD-720p-3.0Mbps-76611985.mp4?v=0\" type=\"video/mp4\">\n      </video>\n    </div>\n\n  </div>\n</div>"
+          }
+        },
         "liquid_tbLher": {
           "type": "liquid",
           "settings": {
@@ -209,6 +216,7 @@
         "collapsible_text_miGHdx",
         "collapsible_text_DbJmjV",
         "collapsible_text_xWaKYV",
+        "liquid_xHFkfj",
         "liquid_tbLher",
         "liquid_A6Cnxx"
       ],
