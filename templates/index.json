@@ -65,6 +65,19 @@
         "text_color": ""
       }
     },
+    "custom_html_P3xe4a": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p style=\"text-align: center\">Write or copy/paste HTML code</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_Karb3X": {
       "type": "rich-text",
       "blocks": {
@@ -334,6 +347,7 @@
   "order": [
     "slideshow_9amCQ4",
     "custom_html_VWNQD6",
+    "custom_html_P3xe4a",
     "rich_text_Karb3X",
     "slideshow_wQqzwa",
     "rich_text_VePYNK",

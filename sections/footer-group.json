@@ -27,6 +27,7 @@
     },
     "custom_liquid_f8DLMw": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
